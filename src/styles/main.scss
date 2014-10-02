@@ -1,0 +1,42 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+    font: $font-stack;
+    color: $primary-color;
+}
+
+div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#header {
+    border: 2px solid green;
+    background: blue;
+}
+
+#footer {
+    border: 2px solid red;
+}
+
+#markdowntest {
+    border: 2px solid orange;
+}
+
+#mustachetest {
+    border: 2px solid purple;
+}
+
+#mapcontainer {
+    border: 2px solid brown;
+}
+
+#map {
+    height:180px;
+}
+
+#jstest {
+    border: 2px solid black;
+}
