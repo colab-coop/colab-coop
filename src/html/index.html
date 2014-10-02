@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="assets/js/bundle.js"></script>
+  </head>
+
+  @@include('../templates/_nav.tpl')
+
+  <div id="main">
+    <p>Just plain html from index.html</p>
+  </div>
+
+  <!-- the result of gulp markdown -->
+  <div id="markdowntest">
+    @@include('../../dist/markdowntest.html')
+  </div>
+
+  <!-- the result of gulp mustache -->
+  <div id="mustachetest">
+    @@include('../../dist/mustachetest.html')
+  </div>
+
+  <div id="mapcontainer">
+    <h4>leaflet map... require()'d using browserify</h4>
+    <div id="map">
+    </div>
+  </div>
+
+  <div id="jstest">
+  </div>
+
+  @@include('../templates/_footer.tpl')
+
+  <!-- browsersync connect. remove on production -->
+  <script type='text/javascript'>//<![CDATA[
+document.write("<script async src='//HOST:3000/browser-sync/browser-sync-client.1.5.1.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, location.port));
+//]]></script>
+
+</html>
