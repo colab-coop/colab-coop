@@ -3,19 +3,20 @@ colab-coop
 
 Central repository for the colab.coop website.
 
-sass requires (on linux):
+sass requires (on Debian based Linux):
 =========================
-    $sudo apt-get install ruby-dev
-    $sudo gem install compass --pre
+    $ sudo apt-get install ruby-dev
+    $ sudo gem install compass --pre
 
 install deps:
 =============
-    $npm install
+    $ git clone https://github.com/n1tr0g/colab-coop.git
+    $ npm -g install
 
 build site:
 ===========
-    $gulp
+    $ gulp
 
 build site and run browsersync, watching for changes:
 =====================================================
-    $gulp serve
+    $ gulp serve
