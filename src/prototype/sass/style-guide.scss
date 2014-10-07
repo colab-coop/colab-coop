@@ -1,0 +1,89 @@
+@import 'partials/fonts';
+@import 'partials/variables';
+@import 'vendor/prism';
+
+.sg {
+	background: #fff;
+}
+
+.sg-menu {
+	background: #000;
+	margin: 0 0 20px 0;
+	padding: 0;
+	text-align: center;
+	li {
+		display: inline-block;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		color: #fff;
+		display: inline-block;
+		font-size: .8em;
+		line-height: 2em;
+		padding: 5px 10px;
+	}
+}
+
+.sg-example {
+	background: #f5f2f0;
+	margin-bottom: $gutter;
+	padding: 40px $gutter $gutter $gutter;
+	position: relative;
+	
+	pre[class*="language-"] {
+		padding: 0;
+	}
+	
+	*:last-child {
+		margin-bottom: 0;
+	}
+	
+}
+
+.sg-example-label {
+	background: #fff;
+	color: #999;
+	font-size: .7em;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+
+.sg-swatch {
+	display: block;
+	height: 200px;
+	width: 200px;
+}
+
+.sg-swatch-small {
+	
+}
+
+.sg-swatch-primary-1 {
+	background: $swatch-primary-1;
+}
+
+.sg-swatch-primary-2 {
+	background: $swatch-primary-2;
+}
+
+.sg-swatch-primary-3 {
+	background: $swatch-primary-3;
+}
+
+.sg-swatch-secondary-1 {
+	background: $swatch-secondary-1;
+}
+
+.sg-swatch-secondary-2 {
+	background: $swatch-secondary-2;
+}
+
+.sg-swatch-secondary-3 {
+	background: $swatch-secondary-3;
+}

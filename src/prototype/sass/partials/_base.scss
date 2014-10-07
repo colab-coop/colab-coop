@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $body-bg;
+}
+
+body.style-guide {
+
+	padding-top: 50px;
+
+	.container {
+		margin: 0 auto;
+		max-width: 700px;
+		width: 90%;
+	}
+
+	.container {
+		ul.list-custom {
+			margin-left: 0;
+			li {
+				list-style-type: none;
+				&:before {
+					color: $red;
+					content: '–';
+					margin-right: 15px;
+				}
+			}
+		}
+	}
+	
+	.menu-style-guide {
+		background: #000;	
+		padding: 0;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		a {
+			color: #fff;
+		}
+	}
+	
+}

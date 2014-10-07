@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/prototype.css">
+</head>
+  
+<body>
+
+<nav class="nav nav-version-b">
+	<div class="container">
+	<a href="index.html" class="logo centered horizontal"></a>
+	<div class="right">
+		<a href="projects.html">Projects</a> <a href="culture.html">Culture</a> <a href="blog.html">Blog</a> <a href="contact.html">Contact</a> 
+	</div>
+	</div>
+</nav>
+
+<div class="container">
+
+<p><a href="culture.html" class="muted label">Back to culture</a></p>
+
+<div class="row">
+	<div class="grid-1-3 padding-right">
+		<!--<img src="../img/team/cris.jpg" style="width: 100%; height: auto;">-->
+		<canvas id="myCanvas" width="312" height="312"></canvas>
+		    <script>
+		      var pixelation = 80;
+		
+		      function focusImage(context, imageObj, sourceWidth, sourceHeight, destX, destY) {
+		        var sourceX = destX;
+		        var sourceY = destY;
+		
+		        var imageData = context.getImageData(sourceX, sourceY, sourceWidth, sourceHeight);
+		        var data = imageData.data;
+		
+		        for(var y = 0; y < sourceHeight; y += pixelation) {
+		          for(var x = 0; x < sourceWidth; x += pixelation) {
+		            var red = data[((sourceWidth * y) + x) * 4];
+		            var green = data[((sourceWidth * y) + x) * 4 + 1];
+		            var blue = data[((sourceWidth * y) + x) * 4 + 2];
+		
+		            for(var n = 0; n < pixelation; n++) {
+		              for(var m = 0; m < pixelation; m++) {
+		                if(x + m < sourceWidth) {
+		                  data[((sourceWidth * (y + n)) + (x + m)) * 4] = red;
+		                  data[((sourceWidth * (y + n)) + (x + m)) * 4 + 1] = green;
+		                  data[((sourceWidth * (y + n)) + (x + m)) * 4 + 2] = blue;
+		                }
+		              }
+		            }
+		          }
+		        }
+		
+		        // overwrite original image
+		        context.putImageData(imageData, destX, destY);
+		        pixelation -= 1;
+		      }
+		      var fps = 20;
+		      // frames / second
+		      var timeInterval = 300 / fps;
+		      // milliseconds
+		      var canvas = document.getElementById('myCanvas');
+		      var context = canvas.getContext('2d');
+		
+		      var imageObj = new Image();
+		      imageObj.onload = function() {
+		        var sourceWidth = imageObj.width;
+		        var sourceHeight = imageObj.height;
+		        var destX = canvas.width / 2 - sourceWidth / 2;
+		        var destY = canvas.height / 2 - sourceHeight / 2;
+		
+		        var intervalId = setInterval(function() {
+		          context.drawImage(imageObj, destX, destY);
+		
+		          if(pixelation < 1) {
+		            clearInterval(intervalId);
+		          }
+		          else {
+		            focusImage(context, imageObj, sourceWidth, sourceHeight, destX, destY);
+		          }
+		
+		        }, timeInterval);
+		      };
+		
+		      imageObj.src = '../img/team/cris.jpg';
+		
+		    </script>
+		    
+		<div class="well text-center text-small">
+		<p class="muted text-small text-uppercase">Contact Cris</p>
+		<p><a href="#">cris@colab.coop</a>
+		<br><a href="#">@crisnelson</a>
+		<br><a href="#">Facebook</a>
+		<br><a href="#">LinkedIn</a></p>
+		</div>
+	</div>
+	<div class="grid-2-3">
+		<h1>Cris Nelson<br><span>Project Manager</span></h1>
+		<p>Details are no match for this fantastic collaborator. Cris takes our Project Management to another level.</p>
+	</div>
+
+</div>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid-2-3 text-small muted">
+			141 The Commons 3rd FL, Ithaca, NY 14850 &#8211; (888) 426-5996
+			</div>
+			<div class="grid-1-3 text-right">
+				<a href="#" class="muted"><span class="fa fa-facebook"></span></a> &nbsp;&nbsp;
+				<a href="#" class="muted"><span class="fa fa-twitter"></span></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="../scripts/jquery.js"></script>
+<script src="../scripts/jquery.carouFredSel.js"></script>	
+<script src="../scripts/headroom.js"></script>
+<script src="../scripts/main.js"></script>
+
+</body>
+</html>

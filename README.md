@@ -10,7 +10,7 @@ sass requires (on Debian based Linux):
 
 install deps:
 =============
-    $ git clone https://github.com/n1tr0g/colab-coop.git
+    $ git clone https://github.com/colab-coop/colab-coop.git
     $ npm -g install
 
 build site:
