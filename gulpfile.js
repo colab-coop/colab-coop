@@ -113,7 +113,7 @@ gulp.task('images', function() {
 });
 
 gulp.task('clean', function(cb) {
-  del(['dist/*', 'dist/assets/css', 'dist/assets/fonts', 'dist/assets/js', 'dist/assets/img'], cb);
+  del(['dist/*', 'dist/assets/css', 'dist/assets/fonts', 'dist/assets/js', 'dist/assets/img', 'dist/prototype'], cb);
 });
 
 // default build task
