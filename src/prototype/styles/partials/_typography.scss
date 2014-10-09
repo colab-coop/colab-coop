@@ -9,6 +9,10 @@ h1, .h1 {
 	font-family: $lubalin-bold;
 }
 
+.lublin-bold {
+	font-family: $lubalin-bold;
+}
+
 h1, .h1, 
 h2, .h2, 
 h3, .h3, 
@@ -109,7 +113,6 @@ blockquote {
 		border: 0;
 		margin-left: 0;
 		margin-right: 0;
-		margin-top: 50px;
 		margin-bottom: 50px;
 		padding: 90px 0;
 		

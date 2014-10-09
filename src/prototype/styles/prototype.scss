@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-	max-width: 995px;
+	max-width: 900px;
 	
 	.sidebar {
 		float: left;
@@ -35,6 +35,7 @@ body {
 
 .nav-version-b {
 	background: #fff;
+	border-bottom: 1px solid #ddd;
 	text-align: center;
 	position: fixed;
 	overflow: hidden;
@@ -47,7 +48,7 @@ body {
 	.logo.horizontal {
 		height: 52px;
 		width: 200px;
-		background:url(../img/colab-horizontal-color.svg) top center no-repeat;
+		background:url(../img/colab-logo.svg) top center no-repeat;
 		background-size: contain;
 		float: left;
 	}
@@ -64,6 +65,44 @@ body {
 		letter-spacing: .03em;
 		margin: 8px 0 0 20px;
 		text-transform: uppercase;
+	}
+	
+}
+
+.nav-transparent {
+	background: none;
+	border-bottom: none;
+	transition: background 1s;
+	
+	.logo.horizontal {
+		background-image:url(../img/colab-logo-white.svg);
+	}
+	
+	a:not(.logo) {
+		color: #fff;
+	}
+	
+	&.slideDown {
+		background: #fff;
+		.logo.horizontal {
+			background-image:url(../img/colab-logo.svg);
+		}
+		
+		a:not(.logo) {
+			color: #222;
+		}
+	}
+	
+	&.headroom--top, 
+	&.headroom--top.slideDown {
+		background: none;
+		.logo.horizontal {
+			background-image:url(../img/colab-logo-white.svg);
+		}
+		
+		a:not(.logo) {
+			color: #fff;
+		}
 	}
 	
 }
@@ -245,10 +284,10 @@ html, #c-carousel {
 
 .label {
 	color: #999;
-	border: 1px solid #999;
+	/*border: 1px solid #999;*/
 	font-size: 13px;
 	text-transform: uppercase;
-	padding: 4px 10px;
+	/*padding: 4px 10px;*/
 }
 
 h1 span {
@@ -256,7 +295,7 @@ h1 span {
 }
 
 .well {
-	background: #dfdfdf;
+	background: #eee;
 	border-radius: 0;
 	display: block;
 	*:last-child {
@@ -333,15 +372,58 @@ blockquote.quote-full {
 	
 }
 
+.hrc {
+	background:
+		url(../img/portfolio/hrc/image01.jpg) 0 0 no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 600px;
+}
+
+.hrc2 {
+	background:
+		url(../img/portfolio/hrc/railway-station-54891.jpg) 0 0 no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 600px;
+}
+
+.uua {
+	background:
+		url(../img/portfolio/uua/uua1.jpg) 0 0 no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 600px;
+}
+
+.into1 {
+	background-color:
+		#80a710;
+	background-image:url(../img/portfolio/into/into-peach.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+.into2 {
+	background-image:url(../img/portfolio/into/into2.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+
 .callout {
 	padding: 70px 0;
 }
 
 .btn-reverse {
-	border: 2px solid #fff;
-	background: none;
+	background: darken($red, 10%);
+	color: #fff;
 	&:hover {
-		background: none;
 	}
 }
 
@@ -359,8 +441,12 @@ body.home {
 		     rgba(237, 49, 61, 0.85), 
 		     rgba(237, 49, 61, 0.85)
 		   ),
-			url(../img/ethan-colleen-at-colab-space.jpg);
+			/*url(../img/ethan-colleen-at-colab-space.jpg);*/
+			url(../img/heart-on-wall051314-2.png);
 		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top right;
 		
    display: flex;
    flex-direction: row;
@@ -434,4 +520,8 @@ a.label {
 		border-color: #222;
 		color: #222;
 	}
+}
+
+.callout-grey {
+	background: #eee;
 }
