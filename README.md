@@ -23,3 +23,7 @@ build site:
 build site and run browsersync, watching for changes:
 =====================================================
     $ gulp serve
+    
+auto-pull from github
+=====================
+    $ npm run poll
