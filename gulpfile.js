@@ -16,9 +16,6 @@ var markdown = require('gulp-markdown');
 var mustache = require('gulp-mustache');
 var source = require('vinyl-source-stream');
 var browserify = require('browserify');
-var browserSync = require('browser-sync');
-
-var reload = browserSync.reload;
 
 // command line params
 // for instance: $ gulp --type production
@@ -133,22 +130,4 @@ gulp.task('watch', ['default'], function() {
   gulp.watch('src/fonts/**/*.*', ['fonts']);
   gulp.watch('src/scripts/**/*.js', ['scripts']);
   gulp.watch('src/images/**/*', ['images']);
-});
-
-// browsersync
-gulp.task('serve', ['watch'], function() {
-  browserSync.init(
-    [
-      './dist/assets/css/*.css',
-      './dist/assets/fonts/*.*',
-      './dist/assets/img/*.*',
-      './dist/assets/js/*.js',
-      './dist/*.html'
-    ], {
-    server: {
-      baseDir: "./dist"
-    }
-  });
-
-  gulp.watch('dist/**').on('change', reload);
 });

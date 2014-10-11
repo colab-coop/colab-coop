@@ -4,10 +4,11 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "poll": "./poll.sh"
+    "poll": "./poll.sh",
+    "serve": "browser-sync start --config bs-config.js"
   },
   "dependencies": {
-    "browser-sync": "^1.5.1",
+    "browser-sync": "^1.5.7",
     "browserify": "~5.11.2",
     "del": "~0.1.3",
     "gulp": "~3.8.8",
