@@ -13,7 +13,6 @@
  |
  */
 module.exports = {
-//    "files": ["./assets/css/*.css", "./**.*.html", "./assets/js/**/*.js"],
     "files": ["dist/*.html", "dist/assets/css/*.css", "dist/assets/js/*.js"],
     "server": 'dist',
     "proxy": false,
