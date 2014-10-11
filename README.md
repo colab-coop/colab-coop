@@ -20,10 +20,14 @@ build site:
 ===========
     $ gulp
 
-build site and run browsersync, watching for changes:
-=====================================================
-    $ gulp serve
+watch source and auto re-build:
+===============================
+    $ gulp watch
+
+run browsersync (serves, watches changes, autoreloads, syncs connected browsers):
+=================================================================================
+    $ npm run serve
     
-auto-pull from github
-=====================
+auto-pull from github once every minute
+=======================================
     $ npm run poll
