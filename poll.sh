@@ -1,5 +1,5 @@
 while true;
 do
   git pull;
-  sleep 5;
+  sleep 1m;
 done
