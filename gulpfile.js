@@ -13,34 +13,78 @@ var gulpif = require('gulp-if');
 var gzip = require('gulp-gzip');
 var fileInclude = require('gulp-file-include');
 var markdown = require('gulp-markdown');
-var mustache = require('gulp-mustache');
 var source = require('vinyl-source-stream');
 var browserify = require('browserify');
+var frontMatter = require('gulp-front-matter');
+var concat = require('gulp-concat');
+var es = require('event-stream');
+var mustache = require('mustache');
+var fs = require('fs');
 
 // command line params
 // for instance: $ gulp --type production
 var isProduction = args.type === 'production';
 
-// mustache
-gulp.task('mustache', function () {
-  return gulp.src('src/mustache/**/*.mustache')
-    .pipe(mustache({
-      msg: '--==built on ' + new Date(Date.now()) + '==--'
-    }, {
-      extension: '.html'
-    }))
+// blog page pipeline
+gulp.task('blog', ['blog-posts-list'], function () {
+  return gulp.src('src/blog/blog.html')
+    .pipe(fileInclude())
     .pipe(gulp.dest('dist'));
 });
 
-// markdown
-gulp.task('markdown', function () {
-  return gulp.src('src/markdown/**/*.md')
+// blog post list for blog page
+gulp.task('blog-posts-list', ['blog-posts-html'], function () {
+  var postlist = String(fs.readFileSync('src/blog/blogposts.html'));
+
+  return gulp.src('src/blog/markdown/**/*.md')
+    .pipe(frontMatter({
+      property: 'frontMatter',
+      remove: true
+    }))
+    .pipe(es.map(function (file, cb) {
+      var html = mustache.render(postlist, {
+        post: file.frontMatter
+      });
+      file.contents = new Buffer(html);
+      cb(null, file);
+    }))
+    .pipe(concat('blogposts.html'))
+    .pipe(gulp.dest('dist'));
+});
+
+// fill out the blog post templates
+gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
+  var post = String(fs.readFileSync('src/blog/post.html'));
+  return gulp.src('src/blog/markdown/**/*.md')
+    .pipe(frontMatter({
+      property: 'frontMatter',
+      remove: true
+    }))
+    .pipe(es.map(function (file, cb) {
+      var html = mustache.render(post, {
+        include: file.frontMatter.readfullarticle
+      });
+      file.contents = new Buffer(html);
+      cb(null, file);
+    }))
+    .pipe(rename({ extname: '.html' }))
+    .pipe(fileInclude())
+    .pipe(gulp.dest('dist'));
+});
+
+// create the partials for the post template
+gulp.task('blog-posts-partials', function () {
+  return gulp.src('src/blog/markdown/**/*.md')
+    .pipe(frontMatter({
+      property: 'frontMatter',
+      remove: true
+    }))
     .pipe(markdown())
     .pipe(gulp.dest('dist'));
 });
 
 // html
-gulp.task('html', ['mustache', 'markdown'], function () {
+gulp.task('html', ['blog'], function () {
   return gulp.src('src/html/**/*.html')
     .pipe(fileInclude())
     .pipe(gulpif(isProduction, gzip()))
@@ -74,7 +118,7 @@ gulp.task('browserify', ['jshint'], function () {
     .pipe(gulp.dest('dist/assets/js'));
 });
 
-// jshint (should be an npm task)
+// jshint
 gulp.task('jshint', function() {
   return gulp.src('src/scripts/**/*.js')
     .pipe(jshint('.jshintrc'))
@@ -123,9 +167,9 @@ gulp.task('default', ['clean'], function() {
 gulp.task('watch', ['default'], function() {
   // if anything changes, rebuild
   gulp.watch('src/markdown/**/*.md', ['html']);
-  gulp.watch('src/mustache/**/*.mustache', ['html']);
   gulp.watch('src/templates/**/*.tpl', ['html']);
   gulp.watch('src/html/**/*.html', ['html']);
+  gulp.watch('src/blog/**/*.md', ['html']);
   gulp.watch('src/styles/**/*.scss', ['styles']);
   gulp.watch('src/fonts/**/*.*', ['fonts']);
   gulp.watch('src/scripts/**/*.js', ['scripts']);

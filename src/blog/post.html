@@ -5,17 +5,11 @@
     <script src="assets/js/bundle.js"></script>
   </head>
 
-  @@include('../templates/_nav.tpl')
+  @@include('../../templates/_nav.tpl')
 
-  <div id="main">
-    <p>Just plain html from index.html</p>
-    <a href="blog.html">blog test</a>
-  </div>
+  @@include('../../../dist/{{include}}.html')
 
-  <div id="jstest">
-  </div>
-
-  @@include('../templates/_footer.tpl')
+  @@include('../../templates/_footer.tpl')
 
   <script type='text/javascript'>//<![CDATA[
     document.write("<script async src='//HOST:3000/browser-sync/browser-sync-client.1.5.7.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, location.port));

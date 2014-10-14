@@ -13,7 +13,7 @@
  |
  */
 module.exports = {
-    "files": ["dist/*.html", "dist/assets/css/*.css", "dist/assets/js/*.js"],
+    "files": ["dist/*.html", "dist/blog/*.html", "dist/assets/css/*.css", "dist/assets/js/*.js"],
     "server": 'dist',
     "proxy": false,
     "port": 3000,

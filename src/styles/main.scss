@@ -12,6 +12,11 @@ div {
     border-radius: 10px;
 }
 
+.blogpostpreview {
+    border: 2px solid purple;
+    background: lightgrey;
+}
+
 #header {
     border: 2px solid green;
     background: blue;
@@ -21,20 +26,8 @@ div {
     border: 2px solid red;
 }
 
-#markdowntest {
-    border: 2px solid orange;
-}
-
-#mustachetest {
-    border: 2px solid purple;
-}
-
 #mapcontainer {
     border: 2px solid brown;
-}
-
-#map {
-    height:180px;
 }
 
 #jstest {
