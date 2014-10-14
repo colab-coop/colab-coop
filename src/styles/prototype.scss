@@ -48,7 +48,7 @@ body {
 	.logo.horizontal {
 		height: 52px;
 		width: 200px;
-		background:url(../img/colab-logo.svg) top center no-repeat;
+		background:url(/assets/img/colab-logo.svg) top center no-repeat;
 		background-size: contain;
 		float: left;
 	}
@@ -75,7 +75,7 @@ body {
 	transition: background 1s;
 	
 	.logo.horizontal {
-		background-image:url(../img/colab-logo-white.svg);
+		background-image:url(/assets/img/colab-logo-white.svg);
 	}
 	
 	a:not(.logo) {
@@ -85,7 +85,7 @@ body {
 	&.slideDown {
 		background: #fff;
 		.logo.horizontal {
-			background-image:url(../img/colab-logo.svg);
+			background-image:url(/assets/img/colab-logo.svg);
 		}
 		
 		a:not(.logo) {
@@ -97,7 +97,7 @@ body {
 	&.headroom--top.slideDown {
 		background: none;
 		.logo.horizontal {
-			background-image:url(../img/colab-logo-white.svg);
+			background-image:url(/assets/img/colab-logo-white.svg);
 		}
 		
 		a:not(.logo) {
@@ -361,7 +361,7 @@ blockquote.quote-full {
 	     rgba(188, 52, 62, 0.85), 
 	     rgba(188, 52, 62, 0.85)
 	   ),
-		url(../img/ethan-colleen-at-colab-space.jpg);
+		url(/assets/img/ethan-colleen-at-colab-space.jpg);
 	background-attachment: fixed;
 	padding: 0;
 	
@@ -374,7 +374,7 @@ blockquote.quote-full {
 
 .hrc {
 	background:
-		url(../img/portfolio/hrc/image01.jpg) 0 0 no-repeat;
+		url(/assets/img/portfolio/hrc/image01.jpg) 0 0 no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 600px;
@@ -382,7 +382,7 @@ blockquote.quote-full {
 
 .hrc2 {
 	background:
-		url(../img/portfolio/hrc/railway-station-54891.jpg) 0 0 no-repeat;
+		url(/assets/img/portfolio/hrc/railway-station-54891.jpg) 0 0 no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 600px;
@@ -390,7 +390,7 @@ blockquote.quote-full {
 
 .uua {
 	background:
-		url(../img/portfolio/uua/uua1.jpg) 0 0 no-repeat;
+		url(/assets/img/portfolio/uua/uua1.jpg) 0 0 no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 600px;
@@ -399,7 +399,7 @@ blockquote.quote-full {
 .into1 {
 	background-color:
 		#80a710;
-	background-image:url(../img/portfolio/into/into-peach.png);
+	background-image:url(/assets/img/portfolio/into/into-peach.png);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: cover;
@@ -408,7 +408,7 @@ blockquote.quote-full {
 }
 
 .into2 {
-	background-image:url(../img/portfolio/into/into2.png);
+	background-image:url(/assets/img/portfolio/into/into2.png);
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -441,8 +441,8 @@ body.home {
 		     rgba(237, 49, 61, 0.85), 
 		     rgba(237, 49, 61, 0.85)
 		   ),
-			/*url(../img/ethan-colleen-at-colab-space.jpg);*/
-			url(../img/heart-on-wall051314-2.png);
+			/*url(/assets/img/ethan-colleen-at-colab-space.jpg);*/
+			url(/assets/img/heart-on-wall051314-2.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -468,7 +468,7 @@ body.home {
 		     rgba(255,255,255, 0.85), 
 		     rgba(255,255,255, 0.85)
 		   ),
-			url(../img/about-image-wide.jpg);
+			url(/assets/img/about-image-wide.jpg);
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat: no-repeat;

@@ -33,6 +33,7 @@ gulp.task('blog', ['blog-posts-list'], function () {
   // and including it into the blog.html template
   return gulp.src('src/blog/blog.html')
     .pipe(fileInclude())
+    .pipe(rename('blog/index.html'))
     .pipe(gulp.dest('dist'));
 });
 
@@ -115,9 +116,27 @@ gulp.task('blog-posts-partials', function () {
 
 // html
 gulp.task('html', ['blog'], function () {
+  var dir = '';
   return gulp.src('src/html/**/*.html')
     .pipe(fileInclude())
     .pipe(gulpif(isProduction, gzip()))
+    // get the blog post directory name from the .md file name
+    .pipe(es.map(function (file, cb) {
+      dir = file.path.split('/');
+      dir = dir[dir.length - 1].replace('.html', '');
+      cb(null, file);
+    }))
+    // rename the destination path for the file (avoiding .html)
+    // unless it is index.html in which case just ignore it
+    .pipe(rename(function (path) {
+      if (path.basename !== 'index') {
+        path.dirname = dir;
+        path.basename = "index";
+        path.extname = ".html";
+      } else {
+        console.log('path: ', path);
+      }
+    }))
     .pipe(gulp.dest('dist'));
 });
 
