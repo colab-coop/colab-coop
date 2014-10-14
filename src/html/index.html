@@ -1,24 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <script src="assets/js/bundle.js"></script>
-  </head>
+@@include('../templates/_head.tpl')
 
-  @@include('../templates/_nav.tpl')
+<!-- a bit awkward, but body class may change, so leaving it out of tpls for now. let me know if you want this out -->
+<body class="home">
 
-  <div id="main">
-    <p>Just plain html from index.html</p>
-    <a href="blog.html">blog test</a>
+  @@include('../templates/_homenav.tpl')
+
+  <div class="home-bg">
+    <div>
+      <h1>
+        Technology solutions for social enterprise that win hearts and better lives.</h1>
+      <br>
+      <h2 class="h1">
+        <a href="culture.html" style="background: #fff; padding: 12px 40px 8px 40px; border-radius: 100px; line-height: 1;">
+          Meet us
+        </a>
+      </h2>
+    </div>
   </div>
 
-  <div id="jstest">
+  <div class="callout callout-grey text-center">
+    <div class="container">
+      <p>
+        Proud to featured on <a href="http://www.shareable.net/blog/16-worker-coops-redefining-the-cooperative-movement"><img src="../img/logo-shareable.png"></a>
+      </p>
+      <p>
+        <a href="http://www.shareable.net/blog/16-worker-coops-redefining-the-cooperative-movement">
+          16 Worker Coops Redefining the Cooperative Movement
+        </a>
+      </p>
+    </div>
   </div>
+
+  @@include('../templates/_hireus.tpl')
 
   @@include('../templates/_footer.tpl')
 
-  <script type='text/javascript'>//<![CDATA[
-    document.write("<script async src='//HOST:3000/browser-sync/browser-sync-client.1.5.7.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, location.port));
-//]]></script>
-
-</html>
+  @@include('../templates/_tail.tpl')

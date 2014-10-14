@@ -1,12 +1,32 @@
-/* global require, console, window, document */
+var myElement = document.querySelector("nav");
+var headroom = new Headroom(myElement, {
+  "offset": 50,
+  "tolerance": 5,
+  "classes": {
+    "initial": "animated",
+    "pinned": "slideDown",
+    "unpinned": "slideUp"
+  }
+});
+headroom.init();
 
-var square = require('./square');
-
-console.log('main.js is here');
-
-window.onload = function () {
-  var elm = document.getElementById('jstest');
-  var rand = Math.random();
-  elm.innerHTML = '<h3>this h3 provided by main.js, who says that Math.random() == ' + rand + ' which does a require("./square") and uses it with that random number: square(rand) == ' + square(rand) + '</h3>';
-  console.log('elm: ', elm);
-};
+$(function() {
+  $('#carousel').carouFredSel({
+    width: '100%',
+    items: {
+      visible: 3,
+      start: -1
+    },
+    scroll: {
+      items: 1,
+      duration: 1000,
+      timeoutDuration: 3000
+    },
+    prev: '#prev',
+    next: '#next',
+    pagination: {
+      container: '#pager',
+      deviation: 1
+    }
+  });
+});

@@ -20,6 +20,8 @@ var concat = require('gulp-concat');
 var es = require('event-stream');
 var mustache = require('mustache');
 var fs = require('fs');
+var sort = require('sort-stream');
+var tap = require('gulp-tap');
 
 // command line params
 // for instance: $ gulp --type production
@@ -27,6 +29,8 @@ var isProduction = args.type === 'production';
 
 // blog page pipeline
 gulp.task('blog', ['blog-posts-list'], function () {
+  // taking the blog post list from the 'blog-posts-list' step
+  // and including it into the blog.html template
   return gulp.src('src/blog/blog.html')
     .pipe(fileInclude())
     .pipe(gulp.dest('dist'));
@@ -37,10 +41,12 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
   var postlist = String(fs.readFileSync('src/blog/blogposts.html'));
 
   return gulp.src('src/blog/markdown/**/*.md')
+    // extract the frontmatter from the .md add to file attributes
     .pipe(frontMatter({
       property: 'frontMatter',
       remove: true
     }))
+    // use the frontmatter to populate a blog post list
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(postlist, {
         post: file.frontMatter
@@ -48,6 +54,13 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
       file.contents = new Buffer(html);
       cb(null, file);
     }))
+    // sort the list newest-first
+    .pipe(sort(function (a, b) {
+      if (a.frontMatter.date > b.frontMatter.date) return -1;
+      if (a.frontMatter.date < b.frontMatter.date) return 1;
+      return 0;
+    }))
+    // concat the list into a single html
     .pipe(concat('blogposts.html'))
     .pipe(gulp.dest('dist'));
 });
@@ -55,11 +68,14 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
 // fill out the blog post templates
 gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
   var post = String(fs.readFileSync('src/blog/post.html'));
+  var dir = '';
   return gulp.src('src/blog/markdown/**/*.md')
+    // extract frontmatter from markdown, append to file attributes
     .pipe(frontMatter({
       property: 'frontMatter',
       remove: true
     }))
+    // insert handlebars value from frontmatter into post template
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(post, {
         include: file.frontMatter.readfullarticle
@@ -67,14 +83,28 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
       file.contents = new Buffer(html);
       cb(null, file);
     }))
-    .pipe(rename({ extname: '.html' }))
+    // include the rendered partials into the post template
     .pipe(fileInclude())
-    .pipe(gulp.dest('dist'));
+    // get the blog post directory name from the .md file name
+    .pipe(es.map(function (file, cb) {
+      dir = file.path.split('/');
+      dir = dir[dir.length - 1].replace('.md', '');
+      cb(null, file);
+    }))
+    // rename the destination path for the file (avoiding .html)
+    .pipe(rename(function (path) {
+      path.dirname = dir;
+      path.basename = "index";
+      path.extname = ".html";
+    }))
+    .pipe(gulp.dest(('dist')));
 });
 
 // create the partials for the post template
 gulp.task('blog-posts-partials', function () {
   return gulp.src('src/blog/markdown/**/*.md')
+    // only running frontmatter here to remove the frontmatter
+    // since gulp-markdown can't handle it
     .pipe(frontMatter({
       property: 'frontMatter',
       remove: true
@@ -112,9 +142,9 @@ gulp.task('styles', function() {
 gulp.task('browserify', ['jshint'], function () {
   return browserify('./src/scripts/main.js')
     .bundle()
-  //Pass desired output filename to vinyl-source-stream
+    //Pass desired output filename to vinyl-source-stream
     .pipe(source('bundle.js'))
-  // Start piping stream to tasks!
+    // Start piping stream to tasks!
     .pipe(gulp.dest('dist/assets/js'));
 });
 
@@ -137,7 +167,7 @@ gulp.task('scripts', ['browserify'], function() {
 
 // images
 gulp.task('images', function() {
-  return gulp.src(['src/images/**/*.png', 'src/images/**/*.jpg'])
+  return gulp.src(['src/images/**/*.png', 'src/images/**/*.jpg', 'src/images/**/*.svg'])
     .pipe(
       gulpif(
         isProduction,
