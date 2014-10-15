@@ -1,9 +1,6 @@
-<div class="blogpostpreview">
-  <h3>{{post.title}}</h3>
+<article>
+  <p><a href="/{{post.readfullarticle}}">{{post.title}}</a></p>
   <p>{{post.author}}, {{post.date}}</p>
-  <hr>
-  <div style="background: grey;">
-    {{post.summary}}
-  </div>
-  <a href="/{{post.readfullarticle}}">Read full article</a>
-</div>
+  <p>{{post.summary}}</p>
+  <p><a href="/{{post.readfullarticle}}">Keep reading</a></p>
+</article>

@@ -1,8 +1,13 @@
 @@include('../../templates/_head.tpl')
-  @@include('../../templates/_nav.tpl')
+
+<body class="blog-post">
+
+  @@include('../../templates/_homenav.tpl')
 
   <div class="container">
-    @@include('../../../dist/{{include}}.html')
+  
+  @@include('../../../dist/{{include}}.html')
+  
   </div>
 
   @@include('../../templates/_footer.tpl')
