@@ -21,7 +21,6 @@ var es = require('event-stream');
 var mustache = require('mustache');
 var fs = require('fs');
 var sort = require('sort-stream');
-var tap = require('gulp-tap');
 
 // command line params
 // for instance: $ gulp --type production
@@ -133,8 +132,6 @@ gulp.task('html', ['blog'], function () {
         path.dirname = dir;
         path.basename = "index";
         path.extname = ".html";
-      } else {
-        console.log('path: ', path);
       }
     }))
     .pipe(gulp.dest('dist'));
@@ -149,7 +146,7 @@ gulp.task('fonts', function () {
 // sass
 gulp.task('styles', function() {
   return gulp.src('src/styles/**/*.scss')
-    .pipe(sass({ style: 'expanded' }))
+    .pipe(sass({ style: 'expanded', container: './tmp' }))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(gulpif(isProduction, rename({suffix: '.min'})))
     .pipe(gulpif(isProduction, minifycss()))
