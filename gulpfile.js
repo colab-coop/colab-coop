@@ -22,6 +22,8 @@ var mustache = require('mustache');
 var fs = require('fs');
 var sort = require('sort-stream');
 
+var destination = '../www';
+
 // command line params
 // for instance: $ gulp --type production
 var isProduction = args.type === 'production';
@@ -33,7 +35,7 @@ gulp.task('blog', ['blog-posts-list'], function () {
   return gulp.src('src/blog/blog.html')
     .pipe(fileInclude())
     .pipe(rename('blog/index.html'))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest(destination));
 });
 
 // blog post list for blog page
@@ -62,7 +64,7 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
     }))
     // concat the list into a single html
     .pipe(concat('blogposts.html'))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest(destination));
 });
 
 // fill out the blog post templates
@@ -97,7 +99,7 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
       path.basename = "index";
       path.extname = ".html";
     }))
-    .pipe(gulp.dest(('dist')));
+    .pipe(gulp.dest(destination));
 });
 
 // create the partials for the post template
@@ -110,7 +112,7 @@ gulp.task('blog-posts-partials', function () {
       remove: true
     }))
     .pipe(markdown())
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest(destination));
 });
 
 // html
@@ -134,24 +136,24 @@ gulp.task('html', ['blog'], function () {
         path.extname = ".html";
       }
     }))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest(destination));
 });
 
 // copy some fonts over
 gulp.task('fonts', function () {
   gulp.src('src/fonts/**/*.*', { base: './src/fonts/' })
-    .pipe(gulp.dest('dist/assets/fonts'));
+    .pipe(gulp.dest(destination + '/assets/fonts'));
 });
 
 // sass
-gulp.task('styles', function() {
+gulp.task('styles', ['fonts'], function() {
   return gulp.src('src/styles/**/*.scss')
     .pipe(sass({ style: 'expanded', container: './tmp' }))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(gulpif(isProduction, rename({suffix: '.min'})))
     .pipe(gulpif(isProduction, minifycss()))
     .pipe(gulpif(isProduction, gzip()))
-    .pipe(gulp.dest('dist/assets/css'));
+    .pipe(gulp.dest(destination + '/assets/css'));
 });
 
 // browserify
@@ -161,7 +163,7 @@ gulp.task('browserify', ['jshint'], function () {
     //Pass desired output filename to vinyl-source-stream
     .pipe(source('bundle.js'))
     // Start piping stream to tasks!
-    .pipe(gulp.dest('dist/assets/js'));
+    .pipe(gulp.dest(destination + '/assets/js'));
 });
 
 // jshint
@@ -173,12 +175,12 @@ gulp.task('jshint', function() {
 
 // js
 gulp.task('scripts', ['browserify'], function() {
-  return gulp.src('dist/assets/js/bundle.js')
+  return gulp.src(destination + '/assets/js/bundle.js')
     .pipe(gulpif(isProduction, rename({suffix: '.min'})))
     .pipe(gulpif(isProduction, uglify()))
     .pipe(gulpif(isProduction, stripDebug()))
     .pipe(gulpif(isProduction, gzip()))
-    .pipe(gulp.dest('dist/assets/js'));
+    .pipe(gulp.dest(destination + '/assets/js'));
 });
 
 // images
@@ -196,15 +198,18 @@ gulp.task('images', function() {
         )
       )
     )
-    .pipe(gulp.dest('dist/assets/img'));
+    .pipe(gulp.dest(destination + '/assets/img'));
 });
 
 gulp.task('clean', function(cb) {
-  del(['dist/*', 'dist/assets/css', 'dist/assets/fonts', 'dist/assets/js', 'dist/assets/img', 'dist/prototype'], cb);
+  // hmm can't delete directory above
+  // skip clean for now
+
+  //del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/prototype'], cb);
 });
 
 // default build task
-gulp.task('default', ['clean'], function() {
+gulp.task('default', /*['clean'],*/ function() {
   // clean first, then these
   gulp.start('html', 'styles', 'scripts', 'images');
 });
