@@ -1,3 +1,7 @@
+---
+title: testing frontmatter addition in the raw
+---
+
 Markdown Section
 ================
 
