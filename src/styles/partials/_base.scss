@@ -3,8 +3,8 @@
 }
 
 body {
-  background-color: $body-bg;
-	color: $body-font-color;
+  background-color: $gray-lighter;
+	color: $gray-dark;
 	font-family: $primary-font;
 	font-size: $body-font-size;
 	line-height: $body-line-height;
@@ -12,8 +12,8 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-h1, .h1 {
-	font-family: $lubalin-bold;
+p, ul, ol {
+	margin-bottom: 20px;
 }
 
 a {
@@ -25,21 +25,14 @@ a {
 }
 
 .container {
+	max-width: 1000px;
 	margin: 0 auto;
-	max-width: 900px;
 	width: 90%;
 }
 
-.text-right {
-	text-align: right;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
+.container--text {
+	margin: 0 auto;
+	max-width: 700px;
 }
 
 nav {
@@ -51,7 +44,7 @@ nav {
 	left: 0;
 	top: 0;
 	padding: 20px 0;
-	
+
 	.logo {
 		height: 52px;
 		width: 200px;
@@ -59,10 +52,10 @@ nav {
 		background-size: contain;
 		float: left;
 	}
-	
+
 	a:not(.logo) {
 		display: inline-block;
-		color: $body-font-color;
+		color: $gray-dark;
 		font-family: $lubalin-bold;
 		font-size: 16px;
 		margin: 8px 0 0 20px;
@@ -71,5 +64,5 @@ nav {
 		  color: $red;
 		}
 	}
-	
+
 }
