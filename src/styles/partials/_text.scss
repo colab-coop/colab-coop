@@ -42,9 +42,19 @@ ul {
 	line-height: 1.8em; /*36px*/
 }
 
+@mixin text--normal {
+	font-size: 20px;
+	line-height: 1.8em; /*36px*/	
+}
+
 .text--small, %text--small {
 	font-size: 16px;
 	line-height: 1.8em; /*29px*/
+}
+
+@mixin text--small {
+	font-size: 16px;
+	line-height: 1.8em; /*36px*/	
 }
 
 .text--extra-small, %text--extra-small {

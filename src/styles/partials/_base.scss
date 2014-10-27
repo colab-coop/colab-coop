@@ -39,7 +39,7 @@ a {
 	max-width: 700px;
 }
 
-nav {
+.nav {
 	background: #fff;
 	text-align: center;
 	position: fixed;
@@ -47,92 +47,30 @@ nav {
 	right: 0;
 	left: 0;
 	top: 0;
-	padding: 20px 0;
+	padding: $base-spacing 0;
 	@extend %clearfix;
 
 	.logo {
-		height: 52px;
-		width: 200px;
+		height: 32px;
+		width: 120px;
 		background:url(../img/colab-logo.svg) top center no-repeat;
 		background-size: contain;
 		float: left;
 	}
 }
 
-/*.nav-menu-trigger {
+.nav-menu-trigger {
 	font-family: $lubalin-bold;	
 	@extend %text--extra-small;
 	text-align: right;
 	cursor: pointer;
-}*/
-
-.nav-icon {
-	&:before, &:after {
-		cursor: pointer;
-		border-radius: 1px;
-		height: 2px;
-		width: 20px;
-		background: $gray-darkest;
-		position: absolute;
-		top: 10px;
-		display: block;
-		content: '';
-	}
+	position: fixed;
+	right: $base-spacing-lg + 40;
 }
-
-.nav-icon span:before {
-  top: -8px;
-}
-
-.nav-icon span:after {
-  bottom: -8px; 
-}
-
-.nav-icon span, .nav-icon span:before, .nav-icon span:after {
-  -webkit-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
-}
-
-.nav-icon.nav-icon-active span {
-  background-color: transparent;
-}
-.nav-icon.nav-icon-active span:before, .nav-icon.nav-icon-active span:after {
-  top: 0;
-}
-
-.nav-icon.nav-icon-active span:before {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.nav-icon.nav-icon-active span:after {
-   -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.nav-icon.nav-icon-active span {
-	background: transparent;
-}
-
-
-$nav-menu-width: 150px;
 
 .nav-menu {
 	float: right;
-	background: $gray-darkest;
-    
-    padding: $base-spacing $base-spacing-sm;
-    position: fixed;
-    top: 45px;
-    bottom: 0;
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    width: $nav-menu-width;
-    right: -$nav-menu-width;
-    transition: all 0.2s ease-in;
-
-
+	
 	a {
 		display: block;
 		color: #fff;
@@ -148,7 +86,7 @@ $nav-menu-width: 150px;
 	}
 }
 
-.nav-menu-open {
+.nav-menu.nav-menu-open {
 	right: 0;
     transition: all 0.2s ease-in;
 }

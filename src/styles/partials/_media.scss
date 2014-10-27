@@ -1,9 +1,41 @@
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 699px) {
 	.nav-menu {
+	    padding: $base-spacing $base-spacing-sm;
+		background: $gray-darkest;
+	    position: fixed;
+	    top: 45px;
+	    bottom: 0;
+	    height: 100%;
+	    overflow-y: auto;
+	    overflow-x: hidden;
+	    width: $nav-menu-width;
+	    right: -$nav-menu-width;
+	    transition: all 0.2s ease-in;
+	}
+
+}
+
+@media screen and (min-width: 700px) {
+	.nav {
+		padding: $base-spacing-lg 0;
+
+		.logo {
+			height: 52px;
+			width: 200px;
+		}
+	}
+
+	.nav-menu-trigger {
+		display: none;
+	}
+
+	.nav-menu {
+		display: block;
+
 		a {
 			display: inline-block;
 			color: $gray-darkest;
-			font-size: 110%;
+			@include text--small;
 		}
 	}
 
