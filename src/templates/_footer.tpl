@@ -5,19 +5,26 @@
 			<div class="footer-connect">
 				<h2 class="h2">HIRE US</h2>
 				<div>We're easy to talk to.</div>
-				<br>
-				<div class="button--brand-outline">Tell us about your project</div>
+
+				<div class="spacing--sm"></div>
+
+				<a href="" class="button--brand-outline">Tell us about your project</a>
 			</div>
 			
 			<div class="footer-connect">
+				<h2 class="h2">JOIN US</h2>
+				<div>Love what you do? So do we.</div>
+
+				<div class="spacing--sm"></div>
+
+				<a href="" class="button--brand-outline">Introduce yourself</a>
 				
 			</div>
-
 		</div> <!-- /footer-info -->
 
 
 
-	    <div class="spacing-sm">
+	    <div class="">
 			141 The Commons 3rd FL, Ithaca, NY 14850 &#8211; (888) 426-5996
 		</div>
 		<div class="right">
