@@ -1,3 +1,7 @@
+//autoprefixer: is it working?
+//do we need the entire font awesome off the cdn?
+
+
 * {
 	box-sizing: border-box;
 }
@@ -64,5 +68,14 @@ nav {
 		  color: $red;
 		}
 	}
+}
 
+.footer {
+	background: $gray-dark;
+	color: #fff;
+	padding-top: 50px;
+
+	a {
+		color: $gray-medium;
+	}
 }

@@ -1,4 +1,27 @@
 // ------------------------------------------------
+// Clearing
+.clear {
+	clear: both;
+}
+
+.clearfix, %clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+
+// ------------------------------------------------
+// Grid
+.col-50-flt {
+	width: 50%;
+
+}
+
+
+// ------------------------------------------------
 // Text Helpers
 
 .text--align-left {
@@ -16,3 +39,42 @@
 .lubalin {
 	font-family: 'Lublin';
 }
+
+// ------------------------------------------------
+// Spacing Divs
+.spacing--sm {
+	padding: 10px;
+	width: 100%;
+}
+
+.spacing--mid {
+	padding: 20px;
+	width: 100%;
+}
+
+.spacing--lg {
+	padding: 40px;
+	width: 100%;
+}
+
+// ------------------------------------------------
+// Spacing
+
+
+// ------------------------------------------------
+// Buttons
+
+.button, %button {
+	text-align: center;
+	display: inline-block;
+}
+
+.button--brand-outline {
+	@extend %button;
+	text-transform: uppercase;
+	padding: 20px;
+	line-height: 1;
+	color: #fff;
+	border: 1px solid;
+}
+
