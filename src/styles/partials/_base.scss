@@ -28,6 +28,11 @@ a {
   }
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -113,4 +118,24 @@ a {
 
 .footer-info {
 	@extend %center-text;
+}
+
+.grid-thumb-info {
+	position: relative;
+}
+
+.grid-thumb-tagline {
+	font-family: $lubalin;
+}
+
+.grid-thumb-content {
+	position: absolute;
+	@include vertical-center;
+
+}
+
+.work-block {
+	.grid-thumb-info {
+		color: #fff;
+	}
 }
