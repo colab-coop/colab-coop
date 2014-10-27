@@ -5,4 +5,6 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/global.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/assets/js/bundle.js"></script>
+    <script src="/assets/js/close-pixelate.js"></script>
+    <script src="/assets/js/main.js"></script>
   </head>
