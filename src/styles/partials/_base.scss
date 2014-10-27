@@ -8,7 +8,7 @@
 
 body {
   background-color: $gray-lighter;
-	color: $gray-dark;
+	color: $gray-darkest;
 	font-family: $primary-font;
 	font-size: $body-font-size;
 	line-height: $body-line-height;
@@ -57,9 +57,9 @@ nav {
 		float: left;
 	}
 
-	a:not(.logo) {
+/*	a:not(.logo) {
 		display: inline-block;
-		color: $gray-dark;
+		color: $gray-darkest;
 		font-family: $lubalin-bold;
 		font-size: 16px;
 		margin: 8px 0 0 20px;
@@ -67,15 +67,25 @@ nav {
 		&:hover {
 		  color: $red;
 		}
-	}
+	}*/
 }
 
 .footer {
-	background: $gray-dark;
+	background: $gray-darkest;
 	color: #fff;
 	padding-top: 50px;
 
 	a {
 		color: $gray-medium;
 	}
+
+	.h2 {
+		border-color: $gray-dark;
+		padding-bottom: $base-spacing-sm;
+		margin-bottom: $base-spacing-lg;
+	}
+}
+
+.footer-info {
+	@extend %center-text;
 }

@@ -7,9 +7,12 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	border-bottom: 2px solid rgba(0,0,0,.1);
 	font-size: 16px;
 	line-height: 1.5em; /*24px*/
+}
+
+.h2 {
+	border-bottom: 2px solid;	
 }
 
 // ------------------------------------------------

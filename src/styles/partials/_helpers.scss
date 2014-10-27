@@ -41,6 +41,13 @@
 }
 
 // ------------------------------------------------
+// Center
+.center-text, %center-text {
+	text-align: center;
+}
+
+
+// ------------------------------------------------
 // Spacing Divs
 .spacing--sm {
 	padding: 10px;
@@ -67,14 +74,16 @@
 .button, %button {
 	text-align: center;
 	display: inline-block;
+	font-size: 80%;
 }
 
 .button--brand-outline {
 	@extend %button;
 	text-transform: uppercase;
-	padding: 20px;
+	padding: 15px;
 	line-height: 1;
 	color: #fff;
-	border: 1px solid;
+	border: 2px solid;
+	border-radius: 3px;
 }
 
