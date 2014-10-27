@@ -172,8 +172,28 @@ $(document).ready(function(){
         $('.nav-menu').toggleClass('nav-menu-open');
     });
 
+
+ /*   var closePixelates = [];
+    $(".img-pixelate").each(function(){
+    	var that = this;
+		closePixelates.push(new ClosePixelation(that, [
+		    { shape: 'square', resolution: 0, size: 30, offset: 0, alpha: 0.991 }
+		]));
+    });
+
+    $('.grid-each').on("mouseover", "canvas", function(e) {
+    	var pixelateObj = closePixelates[$(this).index()];
+    	pixelateObj.render({
+    		{ shape: 'square', resolution: 33, size: 30, offset: 0, alpha: 0.991 }
+    	});
+    });
+*/
+
+
 });
 
+
+/*
 function init() {
   document.getElementById('portrait-image').closePixelate([
     { resolution : 24 },
@@ -181,3 +201,4 @@ function init() {
   ]);
 };
 window.addEventListener( 'load', init, false);
+*/

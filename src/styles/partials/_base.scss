@@ -120,11 +120,23 @@ img {
 	@extend %center-text;
 }
 
+.grid-parent {
+	@extend %clearfix;
+}
+
+.grid-each {
+	padding-top: $base-spacing-lg*1.5;
+}
+
 .grid-thumb {
 	canvas {
 		max-width: 100%;
 		height: auto;
 	}
+}
+
+.grid-thumb-img {
+	display: block;
 }
 
 .grid-thumb-info {

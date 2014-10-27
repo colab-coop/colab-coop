@@ -15,8 +15,31 @@
 
 // ------------------------------------------------
 // Grid
+.grid-parent, %grid-parent {
+	margin-left: -$grid-padding;
+	margin-right: -$grid-padding;
+}
+
+@mixin grid-parent {
+	margin-left: -$grid-padding;
+	margin-right: -$grid-padding;	
+}
+
+.grid-child, %grid-child {
+	margin-left: $grid-padding;
+	margin-right: $grid-padding;
+}
+
+@mixin grid-child {
+	padding-left: $grid-padding;
+	padding-right: $grid-padding;	
+}
+
 .col-50-flt {
 	width: 50%;
+	float: left;
+	padding-left: $grid-padding;
+	padding-right: $grid-padding;
 
 }
 

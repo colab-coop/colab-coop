@@ -39,6 +39,32 @@
 		}
 	}
 
+	.grid-each {
+		width: 50%;
+		float: left;
+		@include grid-child;
+
+		&:nth-of-type(2n+1) {
+			clear: both;
+		}
+	}
+
 	.footer-connect {
 	}
+}
+
+@media screen and (min-width: 900px) {
+	.grid-each {
+		width: 33.33%;
+		@include grid-child;
+
+		&:nth-of-type(2n+1) {
+			clear: none;
+		}
+
+		&:nth-of-type(3n+1) {
+			clear: both;
+		}
+	}
+
 }
