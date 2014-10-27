@@ -120,6 +120,13 @@ img {
 	@extend %center-text;
 }
 
+.grid-thumb {
+	canvas {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
 .grid-thumb-info {
 	position: relative;
 }
