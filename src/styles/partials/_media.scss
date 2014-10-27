@@ -1,6 +1,10 @@
 @media screen and (min-width: 700px) {
+	.nav-menu {
+		a {
+			display: inline-block;
+		}
+	}
+
 	.footer-connect {
-	//	width: 50%;
-	//	float: left;
 	}
 }

@@ -37,17 +37,17 @@ ul {
 	}
 }
 
-.text--normal {
+.text--normal, %text--normal {
 	font-size: 20px;
 	line-height: 1.8em; /*36px*/
 }
 
-.text--small {
+.text--small, %text--small {
 	font-size: 16px;
 	line-height: 1.8em; /*29px*/
 }
 
-.text--extra-small {
+.text--extra-small, %text--extra-small {
 	font-size: 14px;
 	line-height: 1.8em; /*25px*/
 }

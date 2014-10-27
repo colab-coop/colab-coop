@@ -48,6 +48,7 @@ nav {
 	left: 0;
 	top: 0;
 	padding: 20px 0;
+	@extend %clearfix;
 
 	.logo {
 		height: 52px;
@@ -56,19 +57,32 @@ nav {
 		background-size: contain;
 		float: left;
 	}
+}
 
-/*	a:not(.logo) {
-		display: inline-block;
+.nav-menu-trigger {
+	font-family: $lubalin-bold;	
+	@extend %text--extra-small;
+	text-align: right;
+	cursor: pointer;
+}
+
+.nav-menu {
+	float: right;
+	
+	a {
+		display: block;
 		color: $gray-darkest;
 		font-family: $lubalin-bold;
 		font-size: 16px;
-		margin: 8px 0 0 20px;
+		padding: 8px 0 0 20px;
 		text-transform: uppercase;
+
 		&:hover {
 		  color: $red;
 		}
-	}*/
+	}
 }
+
 
 .footer {
 	background: $gray-darkest;
