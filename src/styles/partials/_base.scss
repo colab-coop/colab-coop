@@ -247,8 +247,15 @@ img {
 	}
 }
 
-.panel-bg {
+.panel-bg-pattern {
 	background-image: url('../img/bg-pixel@2x.png');
 	background-repeat: repeat;
 	background-size: 10%;
+}
+
+.panel-bg-solo {
+	background-image: url('../img/dummy/c.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 60px 0; //TODO: modularise later;
 }
