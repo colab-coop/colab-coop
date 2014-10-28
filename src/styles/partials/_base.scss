@@ -61,12 +61,28 @@ img {
 	padding: $base-spacing 0;
 	@extend %clearfix;
 
-	.logo {
+	.logo-svg {
 		height: 32px;
 		width: 120px;
-		background:url(../img/colab-logo.svg) top center no-repeat;
-		background-size: contain;
 		float: left;
+		//background:url(../img/colab-logo.svg) top center no-repeat;
+		//background-size: contain;
+	}
+}
+
+.project {
+	.nav {
+		background: none;
+	}
+
+	.nav-menu a {
+		color: #fff;
+	}
+
+	.logo-svg {
+		polygon, path {
+			fill: #fff;
+		}
 	}
 }
 
