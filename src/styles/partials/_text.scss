@@ -1,7 +1,7 @@
 // ------------------------------------------------
 // Headings
 
-h1, .h1 {
+h1, .h1, %h1 {
 	font-size: 30px;
 	line-height: 1.5em; /*45px*/
 }
@@ -13,6 +13,13 @@ h2, .h2 {
 
 .h2 {
 	border-bottom: 2px solid;	
+}
+
+.heading-primary {
+	text-align: center;
+	font-family: $lubalin;
+	font-size: 34px;
+	line-height: 1.3;
 }
 
 // ------------------------------------------------
