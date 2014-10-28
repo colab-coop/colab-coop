@@ -35,8 +35,8 @@
 }
 
 .grid-child, %grid-child {
-	margin-left: $grid-padding;
-	margin-right: $grid-padding;
+	padding-left: $grid-padding;
+	padding-right: $grid-padding;
 }
 
 @mixin grid-child {
@@ -44,12 +44,18 @@
 	padding-right: $grid-padding;	
 }
 
-.col-50-flt {
+.col-50-flt, %col-50-flt {
 	width: 50%;
 	float: left;
 	padding-left: $grid-padding;
 	padding-right: $grid-padding;
+}
 
+@mixin col-50-flt {
+	width: 50%;
+	float: left;
+	padding-left: $grid-padding;
+	padding-right: $grid-padding;
 }
 
 
@@ -106,6 +112,11 @@
 
 // ------------------------------------------------
 // Spacing Divs
+.spacing--sm-x {
+	padding: 6px;
+	width: 100%;
+}
+
 .spacing--sm {
 	padding: 12px;
 	width: 100%;
