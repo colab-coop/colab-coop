@@ -143,6 +143,7 @@
 	color: #fff;
 	border: 2px solid;
 	border-radius: 3px;
+	min-width: 180px; //TODO: knock off later if useless;
 }
 
 a.button--brand-outline, .button--brand-outline {
@@ -155,3 +156,6 @@ a.button--brand-outline, .button--brand-outline {
 	color: #fff;
 }
 
+.color-red {
+	color: $red;
+}
