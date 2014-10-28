@@ -78,6 +78,16 @@
 	text-align: center;
 }
 
+.vertical-center, %vertical-center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 @mixin vertical-center {
   position: absolute;
   top: 50%;
@@ -133,3 +143,10 @@
 a.button--brand-outline, .button--brand-outline {
 	color: #fff;	
 }
+
+// ------------------------------------------------
+// Colors
+.color-white {
+	color: #fff;
+}
+

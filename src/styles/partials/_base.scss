@@ -71,6 +71,8 @@ img {
 }
 
 .project {
+	padding-top: 0;
+
 	.nav {
 		background: none;
 	}
@@ -234,6 +236,15 @@ img {
 // Panel
 .panel-full {
 	width: 100%;
+	position: relative;
+
+	.heading-primary {
+		margin: 0.2em 0;
+	}
+
+	h2 {
+		margin: 0.2em 0;
+	}
 }
 
 /*.panel-full--bg {
