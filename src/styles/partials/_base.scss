@@ -197,7 +197,15 @@ img {
 	@extend %grid-child;
 }
 
+.work-tech-block {
+	text-align: center;
 
+	> img {
+		display: inline-block;
+		vertical-align: middle;
+		padding: $grid-padding;
+	}
+}
 
 // ------------------------------------------------
 // Culture
