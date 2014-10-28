@@ -189,6 +189,14 @@ img {
 	}
 }
 
+.work-additional-block {
+	@extend %clearfix;	
+}
+
+.work-additional {
+	@extend %grid-child;
+}
+
 
 
 // ------------------------------------------------
