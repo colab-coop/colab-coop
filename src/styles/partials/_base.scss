@@ -164,11 +164,27 @@ img {
 	}
 }
 
+
+
+// ------------------------------------------------
+// Culture
+.team-block ul {
+	padding: 0;
+}
+
+.team-each {
+	padding-top: $base-spacing-lg*1.5;
+
+	>img {
+		display: block;
+	}
+}
+
+
 // ------------------------------------------------
 // Panel
 .panel-full {
 	width: 100%;
-
 }
 
 /*.panel-full--bg {

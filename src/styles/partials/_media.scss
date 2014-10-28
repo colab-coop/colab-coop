@@ -15,6 +15,15 @@
 
 }
 
+@media screen and (min-width: 600px) {
+	.team-each {
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+		@include grid-child;
+	}
+}
+
 @media screen and (min-width: 700px) {
 	.nav {
 		padding: $base-spacing-lg 0;
@@ -53,6 +62,12 @@
 	}
 }
 
+@media screen and (min-width: 800px) {
+	.team-each {
+		width: 33.33%;
+	}
+}
+
 @media screen and (min-width: 900px) {
 	.grid-each {
 		width: 33.33%;
@@ -66,5 +81,10 @@
 			clear: both;
 		}
 	}
+}
 
+@media screen and (min-width: 1100px) {
+	.team-each {
+		width: 25%;
+	}
 }
