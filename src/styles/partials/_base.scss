@@ -33,6 +33,11 @@ img {
 	height: auto;
 }
 
+.img-fullwidth {
+	width: 100%;
+	display: block;
+}
+
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -158,3 +163,19 @@ img {
 		color: #fff;
 	}
 }
+
+// ------------------------------------------------
+// Panel
+.panel-full {
+	width: 100%;
+
+}
+
+/*.panel-full--bg {
+	background-image: url('../img/dummy/panel-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+
+}*/
