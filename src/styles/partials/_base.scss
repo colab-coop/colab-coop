@@ -184,8 +184,10 @@ img {
 // ------------------------------------------------
 // Blog: List
 
-.blog-post-summary {
-	border-bottom: 2px solid $gray-medium;
+.blog-list-block {
+	border-bottom: 2px solid $gray-light;
+	margin-bottom: 80px;
+	padding-bottom: 60px; //TODO: see if these are reusable later
 
 	.heading-primary {
 		font-family: $lubalin-bold;
