@@ -1,18 +1,20 @@
 @@include('../../templates/_head.tpl')
 
 <body class="blog-post">
+	<main>
+	  @@include('../../templates/_homenav.tpl')
 
-  @@include('../../templates/_homenav.tpl')
+	  <div class="container">
+	  	<div class="button--brand-outline text--gray-medium"><span class="fa fa-angle-left text--normal"> </span> Back to the Blog</div>
 
-  <div class="container">
-  	<div class="button--brand-outline text--gray-medium"><span class="fa fa-angle-left text--normal"> </span> Back to the Blog</div>
+	  	<div class="styling-markdown container--text">
+		  @@include('../../../../www/{{include}}.html')  		
+	  	</div><span class="icon-decorative-cube">@@include('../../templates/pixel.tpl')</span>
 
-  @@include('../../../../www/{{include}}.html')
+	  @@include('../../templates/_disqus.tpl')
 
-  @@include('../../templates/_disqus.tpl')
-
-  </div>
-
+	  </div>		
+	</main>
   @@include('../../templates/_footer.tpl')
 
 @@include('../../templates/_tail.tpl')

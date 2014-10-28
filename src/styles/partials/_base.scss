@@ -203,6 +203,18 @@ img {
 }
 
 // ------------------------------------------------
+// Blog: Post
+
+.styling-markdown {
+	h1:first-of-type {
+		@extend %heading-primary;
+	}
+}
+
+.icon-decorative-cube {
+}
+
+// ------------------------------------------------
 // Panel
 .panel-full {
 	width: 100%;
