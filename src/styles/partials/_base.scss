@@ -1,5 +1,6 @@
 //autoprefixer: is it working?
 //do we need the entire font awesome off the cdn?
+//some headings like blog posts, not sure if it's lubalin or +bold
 
 
 * {
@@ -180,6 +181,20 @@ img {
 	}
 }
 
+// ------------------------------------------------
+// Blog: List
+
+.blog-post-summary {
+	border-bottom: 2px solid $gray-medium;
+
+	.heading-primary {
+		font-family: $lubalin-bold;
+
+		a {
+			color: inherit;
+		}
+	}
+}
 
 // ------------------------------------------------
 // Panel
