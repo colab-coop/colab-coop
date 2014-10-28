@@ -2,6 +2,7 @@
 //do we need the entire font awesome off the cdn?
 //some headings like blog posts, not sure if it's lubalin or +bold
 //add utf-8
+//pixel cube bug: appears after all last elements heh heh: perhaps js
 
 
 * {
@@ -49,6 +50,11 @@ img {
 .container--text {
 	margin: 0 auto;
 	max-width: 700px;
+}
+
+.container--sm {
+	margin: 0 auto;
+	max-width: 300px;
 }
 
 .nav {
@@ -245,7 +251,14 @@ img {
 	}
 }
 
-.icon-decorative-cube {
+.blog-post-info {
+	position: relative;
+
+	*:last-child:after {
+		content: url(../img/pixel.svg);
+		display: inline-block;
+		padding-left: $base-spacing;
+	} // code for red pixel decorative cube at end of blog post text
 }
 
 // ------------------------------------------------

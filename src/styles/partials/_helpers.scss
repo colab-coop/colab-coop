@@ -75,7 +75,11 @@
 }
 
 .lubalin {
-	font-family: 'Lublin';
+	font-family: 'LubalinGraphStd-Book';
+}
+
+.lubalin-bold {
+	font-family: 'LubalinGraphStd-Demi';
 }
 
 // ------------------------------------------------
@@ -169,4 +173,8 @@ a.button--brand-outline, .button--brand-outline {
 
 .color-red {
 	color: $red;
+}
+
+.color-graylight-bg {
+	background: $gray-light;
 }
