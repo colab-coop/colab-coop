@@ -78,6 +78,11 @@
 	text-align: center;
 }
 
+.center-element, %center-element {
+	display: block;
+	margin: 0 auto;
+}
+
 .vertical-center, %vertical-center {
   position: absolute;
   top: 50%;
