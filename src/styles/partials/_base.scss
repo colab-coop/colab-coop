@@ -257,5 +257,22 @@ img {
 	background-image: url('../img/dummy/c.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 60px 0; //TODO: modularise later;
+}
+
+.panel-bio {
+	color: #fff;
+	text-align: center;
+	@extend %text--small;
+}
+
+.overlap-top-block {
+	position: absolute;
+	top: -45px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.panel-overlap-content {
+	padding-top: 60px;
 }
