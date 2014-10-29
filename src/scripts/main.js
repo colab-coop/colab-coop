@@ -173,6 +173,8 @@ $(document).ready(function(){
     });
 
 
+//$(".blog-post-info").after("<span class='icon-decorative-pixel'></span>");
+
  /*   var closePixelates = [];
     $(".img-pixelate").each(function(){
     	var that = this;

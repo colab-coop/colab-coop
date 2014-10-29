@@ -77,7 +77,7 @@ img {
 	}
 }
 
-.project {
+.project, .team-profile {
 	padding-top: 0;
 
 	.nav {
@@ -266,6 +266,13 @@ img {
 		@extend %heading-primary;
 	}
 }
+
+/*.icon-decorative-pixel:after {
+	content: url(../img/pixel.svg);
+	display: inline-block;
+	padding-left: $base-spacing;
+}*/ 
+
 
 .blog-post-info {
 	position: relative;
