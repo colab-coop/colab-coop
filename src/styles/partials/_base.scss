@@ -223,7 +223,16 @@ img {
 
 
 // ------------------------------------------------
-// Project: Profile
+// Team: Profile
+
+.team-profile-heading {
+	padding: 100px 0 50px 0;
+	color: #fff;
+
+	>h1 {
+		margin: 0;
+	}
+}
 
 .team-profile-social {
 	@extend %text--larger;
