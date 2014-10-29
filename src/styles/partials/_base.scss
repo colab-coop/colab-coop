@@ -234,6 +234,10 @@ img {
 	}
 }
 
+.team-profile-meta, .team-profile-bio {
+	@include grid-child;
+}
+
 .team-profile-meta {
 	margin-top: $base-spacing-lg * 2;
 }
