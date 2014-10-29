@@ -221,6 +221,21 @@ img {
 	}
 }
 
+
+// ------------------------------------------------
+// Project: Profile
+
+.team-profile-social {
+	@extend %text--larger;
+
+	> a {
+		color: $gray-medium;
+		padding-right: $base-spacing;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
 // ------------------------------------------------
 // Project: Profile
 .project-info {
