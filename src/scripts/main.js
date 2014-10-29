@@ -29,10 +29,18 @@ $(document).ready(function(){
     //menu: off canvas
     $('.nav-menu-trigger').click(function(event){
         event.stopPropagation();
-        $(this).children(".nav-icon").html("&#xf00d");
+        $(this).toggleClass('nav-menu-triggered');
         $('.nav-menu').toggleClass('nav-menu-open');
+        $('main').toggleClass('main-offcanvas');
     });
 
+    $(window).click(function(){
+    	$('.nav-menu-trigger').removeClass('nav-menu-triggered');
+        $('.nav-menu').removeClass('nav-menu-open');
+        $('main').removeClass('main-offcanvas');
+    });
+
+    //red pixel cube at end of blog post
     $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
 
     /*$(window).scroll(function(){

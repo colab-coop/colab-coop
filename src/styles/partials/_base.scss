@@ -2,7 +2,7 @@
 //do we need the entire font awesome off the cdn?
 //some headings like blog posts, not sure if it's lubalin or +bold
 //add utf-8
-//pixel cube bug: appears after all last elements heh heh: perhaps js
+//smoother transition on off canvas on main
 //adjust hover of nav against red background on /team-profile
 
 
@@ -66,15 +66,16 @@ img {
 	right: 0;
 	left: 0;
 	top: 0;
-	padding: $base-spacing 0;
+	padding: $base-spacing 0 0 0;
 	@extend %clearfix;
+
+	.logo {
+		float: left;
+	}
 
 	.logo-svg {
 		height: 32px;
 		width: 120px;
-		float: left;
-		//background:url(../img/colab-logo.svg) top center no-repeat;
-		//background-size: contain;
 	}
 }
 
@@ -85,7 +86,7 @@ img {
 		background: none;
 	}
 
-	.nav-menu a {
+	.nav-menu-trigger, .nav-menu a {
 		color: #fff;
 	}
 
@@ -102,7 +103,22 @@ img {
 	text-align: right;
 	cursor: pointer;
 	position: fixed;
-	right: $base-spacing-lg + 40;
+	top: 13px;
+	right: 20px;
+
+	&:after {
+		content: "\f0c9"; //icon - hamburger;
+		font-family: 'FontAwesome';
+		margin-left: 4px;
+	}
+
+	&.nav-menu-triggered {
+		color: inherit;
+
+		&:after {
+			content: "\f00d"; //icon - close
+		}
+	}
 }
 
 .nav-menu {
@@ -126,6 +142,16 @@ img {
 .nav-menu.nav-menu-open {
 	right: 0;
     transition: all 0.2s ease-in;
+}
+
+main {
+    transition: all 0.2s ease-in; //modularise later
+}
+
+.main-offcanvas {
+	position: relative;
+	right: $nav-menu-width + 50;
+    transition: all 0.6s ease-in; //modularise later
 }
 
 .footer {

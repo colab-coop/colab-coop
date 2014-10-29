@@ -66,11 +66,9 @@
 			72.803,36.102 72.803,18.088 54.791,18.088 54.791,0.074 18.76,0.074 18.76,18.088 0.747,18.088 0.747,72.132 18.76,72.132 
 			18.76,90.146 36.773,90.146 36.773,108.16 54.791,108.16 54.791,126.173 "/>
 		</svg>
-  		
-
   	</a>
 
-  	<div class="nav-menu-trigger"><span>MENU </span><span class="nav-icon fa">&#xf0c9;</span></div>
+  	<div class="nav-menu-trigger"><span>MENU </span></div>
   	<div class="nav-menu">
   		<a href="/work">Work</a> <a href="/culture">Culture</a> <a href="/blog">Blog</a> <a href="/contact">Contact</a>
   	</div>
