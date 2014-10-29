@@ -225,10 +225,16 @@ img {
 // ------------------------------------------------
 // Team: Profile
 
-.team-profile-heading {
+.team-profile-intro-block {
 	padding: 100px 0 50px 0;
-	color: #fff;
+	color: #fff;	
+}
 
+.team-profile-heading, .team-profile-badges {
+	@include grid-child;
+}
+
+.team-profile-heading {
 	>h1 {
 		margin: 0;
 	}
