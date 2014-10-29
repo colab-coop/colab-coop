@@ -104,6 +104,11 @@ img {
   transition: all 0.3s linear;
 } *///animation for sticky header
 
+.animated {
+	animation-duration: .5s;
+	animation-fill-mode: both;
+}
+
 @keyframes slideDown {
   0% {
     transform: translateY(-100%);
