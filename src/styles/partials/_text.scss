@@ -76,9 +76,14 @@ h2, .h2 {
 	line-height: 1.8em; /*36px*/	
 }
 
-.text--extra-small, %text--extra-small {
+.text--smaller, %text--smaller {
 	font-size: 75%;
 	line-height: 1.8em; /*25px*/
+}
+
+@mixin text--smaller {
+	font-size: 75%;
+	line-height: 1.8em; /*25px*/	
 }
 
 .text--large, %text--large {

@@ -98,7 +98,7 @@ img {
 
 .nav-menu-trigger {
 	font-family: $lubalin-bold;	
-	@extend %text--extra-small;
+	@extend %text--smaller;
 	text-align: right;
 	cursor: pointer;
 	position: fixed;
@@ -113,7 +113,7 @@ img {
 		color: #fff;
 		text-align: left;
 		font-family: $lubalin-bold;
-		@extend %text--extra-small;
+		@extend %text--smaller;
 		padding: 8px 0 0 20px;
 		text-transform: uppercase;
 
@@ -153,6 +153,15 @@ img {
 
 .footer-connect {
 	@extend %grid-child;
+}
+
+.footer-content {
+	@extend %text--smaller;
+
+	.fa-twitter {
+		font-size: 220%;
+		vertical-align: middle;
+	}
 }
 
 .grid-parent {

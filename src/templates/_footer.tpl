@@ -19,15 +19,16 @@
 				<a href="#" class="button--brand-outline">Introduce yourself</a>
 			</div>
 		</div> <!-- /footer-info -->
-
-	    <div class="text--small">
+		
+	    <div class="footer-content">
+	    	<div class="spacing--lg"></div>
 			<a href="#"><span class="fa fa-twitter"></span> colabcoop:</a>
 			<span>RT <a href="#">@brandomoore@sales_hub.</a></span>
 			<span>Sound and Simple Advice: 7 Things Your <a href="#">#Website </a>Should Have</span>
 			<br>
 			<a href="#">http://ow.ly/CmELZ #webcontent #webdesign</a>
 		</div>
-		<div class="text--small">
+		<div class="">
 			141 The Commons Suite 300, Ithaca, NY 14850 . (888) 426-5996 . <a href="mailto:core@colab.coop">core@colab.coop</a>
 
 			<a href="#"><span class="fa fa-facebook"></span></a>
