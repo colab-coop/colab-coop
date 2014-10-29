@@ -67,6 +67,19 @@
 		float: left;		
 	}
 
+	.team-profile-meta, .team-profile-bio {
+		float: left;
+		@include grid-child;
+	}
+
+	.team-profile-meta {
+		width: 30%;
+	}
+
+	.team-profile-bio {
+		width: 70%;
+	}
+
 	.footer-connect {
 	}
 }

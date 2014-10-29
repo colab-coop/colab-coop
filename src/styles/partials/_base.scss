@@ -234,8 +234,12 @@ img {
 	}
 }
 
-.team-profile-meta, .team-profile-bio {
+.team-profile-meta {
 	margin-top: $base-spacing-lg * 2;
+}
+
+.team-profile-bio {
+	margin-top: $base-spacing-lg;	
 }
 
 .team-profile-social {
