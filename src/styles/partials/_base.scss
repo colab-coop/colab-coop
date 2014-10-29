@@ -226,12 +226,23 @@ img {
 // Team: Profile
 
 .team-profile-intro-block {
-	padding: 100px 0 50px 0;
+	padding: 120px 0 50px 0;
 	color: #fff;	
+	@extend %clearfix;
 }
 
 .team-profile-heading, .team-profile-badges {
 	@include grid-child;
+}
+
+.team-profile-badges {
+	> img {
+		margin-right: $base-spacing;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
 }
 
 .team-profile-heading {

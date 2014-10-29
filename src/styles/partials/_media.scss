@@ -67,24 +67,23 @@
 		float: left;		
 	}
 
+	.team-profile-intro-block {
+		float: right;
+		width: 70%;
+	}
+
 	.team-profile-meta, .team-profile-bio {
 		float: left;
 	}
 
 	.team-profile-meta {
 		width: 30%;
+		position: relative;
+		top: -160px;
 	}
 
 	.team-profile-bio {
 		width: 70%;
-	}
-
-	.team-profile-heading {
-		float: left;
-	}
-
-	.team-profile-badges {
-		float: right;
 	}
 
 	.footer-connect {
@@ -110,6 +109,15 @@
 			clear: both;
 		}
 	}
+
+	.team-profile-heading {
+		float: left;
+	}
+
+	.team-profile-badges {
+		float: right;
+	}
+
 }
 
 @media screen and (min-width: 1100px) {
