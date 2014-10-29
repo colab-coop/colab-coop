@@ -195,7 +195,13 @@ a.button--brand-outline, .button--brand-outline {
 // ------------------------------------------------
 // Borders
   //Rainbow
-.border-gradient {
+.border-rainbow, %border-rainbow {
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, #D6D6D6 46%, #ED313D 46%, #ED313D 47.5%, #27B0E5 47.5%, #27B0E5 49%, #FEDC00 49%, #FEDC00 50.5%, #F9A61C 50.5%, #F9A61C 52%, #8CC541 52%, #8CC541 53.5%, #D6D6D6 54%, #D6D6D6 55%);
+}
+
+@mixin border-rainbow {
 	width: 100%;
 	height: 2px;
 	background: linear-gradient(to right, #D6D6D6 46%, #ED313D 46%, #ED313D 47.5%, #27B0E5 47.5%, #27B0E5 49%, #FEDC00 49%, #FEDC00 50.5%, #F9A61C 50.5%, #F9A61C 52%, #8CC541 52%, #8CC541 53.5%, #D6D6D6 54%, #D6D6D6 55%);

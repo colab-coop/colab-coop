@@ -17,6 +17,16 @@ h2, .h2 {
 	font-weight: normal;
 }
 
+.h2-border-rainbow {
+	border-bottom: none;
+
+	&:after {
+		content:"";
+		display: block;
+		@extend %border-rainbow;
+	}
+}
+
 .heading-primary, %heading-primary {
 	text-align: center;
 	font-family: $lubalin;
