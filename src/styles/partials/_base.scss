@@ -334,22 +334,12 @@ img {
 	}
 }
 
-/*.icon-decorative-pixel:after {
+.icon-decorative-pixel:after {
 	content: url(../img/pixel.svg);
 	display: inline-block;
 	padding-left: $base-spacing;
-}*/ 
+} 
 
-
-.blog-post-info {
-	position: relative;
-
-	*:last-child:after {
-		content: url(../img/pixel.svg);
-		display: inline-block;
-		padding-left: $base-spacing;
-	} // code for red pixel decorative cube at end of blog post text
-}
 
 // ------------------------------------------------
 // Panel

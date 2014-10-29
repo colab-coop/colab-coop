@@ -33,6 +33,8 @@ $(document).ready(function(){
         $('.nav-menu').toggleClass('nav-menu-open');
     });
 
+    $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
+
     /*$(window).scroll(function(){
     	$(".img-pixelate").pixelate()
     });*/
