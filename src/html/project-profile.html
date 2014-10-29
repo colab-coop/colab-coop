@@ -5,8 +5,15 @@
   @@include('../templates/_homenav.tpl')
 
   <main>
+  <style>
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+  </style>
     <section class="panel-full">
-      <img class="img-fullwidth img-pixelate" src="/assets/img/dummy/panel-bg.jpg" alt="" > 
+      <!-- <img class="img-fullwidth img-pixelate" src="/assets/img/dummy/panel-bg.jpg" alt="" > -->
+      <canvas id="demo" class="pixelate-canvas" width="1276" height="528"></canvas>
       <div class="vertical-center color-white">
         <h2 class="text--normal">Some baz</h2>
         <h1 class="heading-primary">Some foo</h1>
