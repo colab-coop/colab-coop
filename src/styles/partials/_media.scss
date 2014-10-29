@@ -1,4 +1,4 @@
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 799px) {
 	.nav-menu {
 	    padding: $base-spacing $base-spacing-sm;
 		background: $gray-darkest;
@@ -29,29 +29,6 @@
 }
 
 @media screen and (min-width: 700px) {
-	.nav {
-		padding: $base-spacing-lg 0;
-
-		.logo-svg {
-			height: 52px;
-			width: 200px;
-		}
-	}
-
-	.nav-menu-trigger {
-		display: none;
-	}
-
-	.nav-menu {
-		display: block;
-
-		a {
-			display: inline-block;
-			color: $gray-darkest;
-			@include text--small;
-		}
-	}
-
 	.grid-each {
 		width: 50%;
 		float: left;
@@ -93,6 +70,30 @@
 }
 
 @media screen and (min-width: 800px) {
+	.nav {
+		padding: $base-spacing-lg 0 $base-spacing 0;
+
+		.logo-svg {
+			height: 52px;
+			width: 200px;
+		}
+	}
+
+	.nav-menu-trigger {
+		display: none;
+	}
+
+	.nav-menu {
+		display: block;
+		margin-top: $base-spacing-sm;
+
+		a {
+			display: inline-block;
+			color: $gray-darkest;
+			@include text--small;
+		}
+	}
+
 	.team-each {
 		width: 33.33%;
 	}

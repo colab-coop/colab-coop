@@ -67,6 +67,7 @@ img {
 	left: 0;
 	top: 0;
 	padding: $base-spacing 0 0 0;
+	transition: all 0.2s linear;
 	@extend %clearfix;
 
 	.logo {
@@ -95,6 +96,40 @@ img {
 			fill: #fff;
 		}
 	}
+}
+
+/*.nav-slideup {
+  animation-name: slideUp;
+  transform: translateY(-100%);
+  transition: all 0.3s linear;
+} *///animation for sticky header
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated.slideDown {
+  animation-name: slideDown;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animated.slideUp {
+  animation-name: slideUp;
 }
 
 .nav-menu-trigger {
