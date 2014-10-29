@@ -87,6 +87,8 @@
 	}
 
 	.footer-connect {
+		width: 50%;
+		float: left;
 	}
 }
 
@@ -123,5 +125,9 @@
 @media screen and (min-width: 1100px) {
 	.team-each {
 		width: 25%;
+	}
+	
+	.footer-connect {
+		padding: 0 90px;
 	}
 }

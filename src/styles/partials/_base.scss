@@ -151,6 +151,10 @@ img {
 	@extend %center-text;
 }
 
+.footer-connect {
+	@extend %grid-child;
+}
+
 .grid-parent {
 	@extend %clearfix;
 }
@@ -233,7 +237,7 @@ img {
 }
 
 .team-profile-heading, .team-profile-badges {
-	@include grid-child;
+	@extend %grid-child;
 }
 
 .team-profile-badges {

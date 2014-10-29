@@ -1,7 +1,7 @@
 <footer class="footer">
 	<div class="container">
-
-		<div class="footer-info">
+		
+		<div class="footer-info grid-parent">
 			<div class="footer-connect">
 				<h2 class="h2">HIRE US</h2>
 				<div>We're easy to talk to.</div>
@@ -16,13 +16,9 @@
 				<div>Love what you do? So do we.</div>
 
 				<div class="spacing--sm"></div>
-
 				<a href="#" class="button--brand-outline">Introduce yourself</a>
-				
 			</div>
 		</div> <!-- /footer-info -->
-
-
 
 	    <div class="text--small">
 			<a href="#"><span class="fa fa-twitter"></span> colabcoop:</a>
