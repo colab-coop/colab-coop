@@ -5,6 +5,7 @@
 //adjust hover of nav against red background on /team-profile
 //SANwhy is active menu js not working????
 //SANheadroom only on larger screens, else too much recalculation
+//ideally we need a max height for hero images to calculate scroll stuff: tell Jenn
 
 
 * {
@@ -62,6 +63,10 @@ img {
 	.ul-default {
 		margin-bottom: 0;
 	}
+}
+
+.panel-fullwidth-content {
+	transition: all 1s ease-in;
 }
 
 .panel-bg-pattern {
@@ -154,43 +159,6 @@ img {
   transform: translateY(-100%);
   transition: all 0.3s linear;
 } *///animation for sticky header
-
-/* nav styles for sticky scroll header */
-
-.animated {
-	animation-duration: .5s;
-	animation-fill-mode: both;
-}
-
-@keyframes slideDown {
-  0% {
-    transform: translateY(-100%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.animated.slideDown {
-  animation-name: slideDown;
-}
-
-@keyframes slideUp {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-.animated.slideUp {
-  animation-name: slideUp;
-}
-
-/* end nav styles for sticky scroll header */
 
 
 /* nav menu icon on small screens */
@@ -326,6 +294,12 @@ main {
 }
 
 /* end hero pixelating image on scroll */
+
+.panel-fullwidth-img-text {
+	transition: all 1.5s ease-in;
+	opacity: 0;
+}
+
 
 // ------------------------------------------------
 // Work: Page
