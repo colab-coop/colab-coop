@@ -4,6 +4,7 @@
 //add utf-8
 //smoother transition on off canvas on main
 //adjust hover of nav against red background on /team-profile
+// why is active menu js not working????
 
 
 * {
@@ -51,6 +52,11 @@ img {
 .container--text {
 	margin: 0 auto;
 	max-width: 700px;
+}
+
+.container--mid {
+	margin: 0 auto;
+	max-width: 450px;
 }
 
 .container--sm {
@@ -450,6 +456,27 @@ main {
 
 	h2 {
 		margin: 0.2em 0;
+	}
+
+	ul {
+		list-style-type: none;
+		list-style-position: outside;
+		text-indent: -0.4em;
+		margin-bottom: 0;
+
+		li {
+			padding-bottom: $base-spacing-sm;
+
+			&:before {
+				content: '\2022';
+				color: red;
+				display: inline-block;
+				padding-right: 5px;
+				color: $gray-medium;
+				font-size: 90%;
+
+			}
+		}
 	}
 }
 

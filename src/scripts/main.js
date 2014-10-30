@@ -1,3 +1,5 @@
+//PIXELATE ON SCROLL CODE
+
 $(document).ready(function() {
 	var ctx = jsPixelateCanvas.getContext('2d'),
 	    img = new Image;
@@ -181,9 +183,17 @@ $(document).ready(function(){
         $('main').removeClass('main-offcanvas');
     });
 
+    //menu: current link styling
+    $(".nav-menu a").each(function() {   
+       if (this.href == window.location.href) {
+           $(this).addClass("nav-link-selected");
+       }
+    });
+
     //red pixel cube at end of blog post
     $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
 
+    //header: sticky
     $(".nav").headroom({
 	  	"offset": 205,
 	  	"tolerance": 5,
