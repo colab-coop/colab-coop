@@ -19,6 +19,7 @@ h2, .h2 {
 
 .h2-border-rainbow {
 	border-bottom: none;
+	font-weight: normal;
 
 	&:after {
 		content:"";
@@ -36,6 +37,11 @@ h2, .h2 {
 
 // ------------------------------------------------
 // Lists
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
 
 .ul-default, %ul-default {
 	list-style-type: none;
@@ -59,6 +65,10 @@ h2, .h2 {
 
 // ------------------------------------------------
 // Text Variations
+
+.text--color-default, %text--color-default {
+	color: $gray-darkest;
+} 
 
 .text--gray-medium, %text--gray-medium {
 	color: $gray-medium;

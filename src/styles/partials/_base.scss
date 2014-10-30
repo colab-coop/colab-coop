@@ -273,7 +273,7 @@ main {
 }
 
 .grid-each {
-	padding-top: $base-spacing-lg*1.5;
+	padding: 0 $grid-padding $base-spacing-lg*1.5 $grid-padding;
 }
 
 .grid-thumb {
@@ -328,7 +328,8 @@ main {
 }
 
 .grid-thumb-tagline {
-	font-family: $lubalin;
+	font-family: $lubalin-bold;
+	@extend %text--large;
 	line-height: 1.5;
 }
 
@@ -339,6 +340,7 @@ main {
 	@include vertical-center;
 
 	.button--brand-outline {
+		margin-top: $base-spacing-sm;
 		visibility: hidden;
 		transform: translateY(50%);
 	}
@@ -349,6 +351,9 @@ main {
 }
 
 .work-block {
+	text-align: center;
+	margin-bottom: $base-spacing-lg;
+
 	.grid-thumb-info {
 		color: #fff;
 		overflow: hidden;
@@ -375,8 +380,16 @@ main {
 
 // ------------------------------------------------
 // Culture
-.team-block ul {
-	padding: 0;
+.team-block {
+
+	>ul {
+		padding: 0;
+		text-align: center;
+	}
+
+	>a {
+		display: block;
+	}
 }
 
 .team-each {
