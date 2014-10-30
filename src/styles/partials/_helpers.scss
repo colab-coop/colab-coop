@@ -60,6 +60,13 @@
 
 
 // ------------------------------------------------
+//Alignment: Middle
+.vertical-inline-middle, %vertical-inline-middle {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+// ------------------------------------------------
 // Text Helpers
 
 .text--align-left {
@@ -151,6 +158,11 @@
 	width: 100%;
 }
 
+.spacing--lg-xx, %spacing--lg-xx {
+	padding: 60px 0;
+	width: 100%;
+}
+
 // ------------------------------------------------
 // Spacing
 
@@ -174,10 +186,19 @@
 	border: 2px solid;
 	border-radius: 3px;
 	min-width: 180px; //TODO: knock off later if useless;
+
+	&:hover {
+		opacity: 0.8;
+		transition: all 0.2s linear;
+	}
 }
 
 a.button--brand-outline, .button--brand-outline {
 	color: #fff;	
+}
+
+a.button--brand-outline.text--gray-medium, .button--brand-outline.text--gray-medium {
+	color: $gray-medium;
 }
 
 // ------------------------------------------------

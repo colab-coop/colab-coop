@@ -12,7 +12,7 @@ h2, .h2 {
 }
 
 .h2 {
-	border-bottom: 2px solid $gray-border-light;	
+	border-bottom: 2px solid $border-default-light;
 	padding-bottom: $base-spacing-sm;
 	font-weight: normal;
 }
@@ -49,69 +49,69 @@ h2, .h2 {
 // ------------------------------------------------
 // Text Variations
 
-.text--gray-medium {
+.text--gray-medium, %text--gray-medium {
 	color: $gray-medium;
 	a {
-		text-decoration: underline;
+		border-bottom: 1px solid;
 	}
 }
 
 .text--normal, %text--normal {
 	font-size: $body-font-size;
-	line-height: 1.8em; /*36px*/
+//	line-height: 1.8em; /*36px*/
 }
 
 @mixin text--normal {
 	font-size: $body-font-size;
-	line-height: 1.8em; /*36px*/	
+//	line-height: 1.8em; /*36px*/	
 }
 
 .text--small, %text--small {
 	font-size: 85%;
-	line-height: 1.8em; /*29px*/
+//	line-height: 1.8em; /*29px*/
 }
 
 @mixin text--small {
 	font-size: 85%;
-	line-height: 1.8em; /*36px*/	
+//	line-height: 1.8em; /*36px*/	
 }
 
 .text--smaller, %text--smaller {
 	font-size: 80%;
-	line-height: 1.8em; /*25px*/
+//	line-height: 1.8em; /*25px*/
 }
 
 @mixin text--smaller {
 	font-size: 80%;
-	line-height: 1.8em; /*25px*/	
+//	line-height: 1.8em; /*25px*/	
 }
 
 .text--large, %text--large {
 	font-size: 110%;
-	line-height: 1.8em; /*36px*/
+//	line-height: 1.8em; /*36px*/
 }
 
 @mixin text--large {
 	font-size: 110%;
-	line-height: 1.8em; /*36px*/	
+//	line-height: 1.8em; /*36px*/	
 }
 
 .text--larger, %text--larger {
 	font-size: 120%;
-	line-height: 1.8em; /*36px*/
+//	line-height: 1.8em; /*36px*/
 }
 
 @mixin text--larger {
 	font-size: 120%;
-	line-height: 1.8em; /*36px*/	
+//	line-height: 1.8em; /*36px*/	
 }
 
 .text--larger, %text--largest {
 	font-size: 130%;
-	line-height: 1.8em; /*36px*/
+//	line-height: 1.8em; /*36px*/
 }
 
 @mixin text--larger {
 	font-size: 130%;
-	line-height: 1.8em; /*36px*/	
+//	line-height: 1.8em; /*36px*/	
 }

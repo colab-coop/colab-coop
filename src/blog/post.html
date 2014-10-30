@@ -4,14 +4,25 @@
 	<main>
 	  @@include('../../templates/_homenav.tpl')
 
-	  <div class="container">
-	  	<div class="button--brand-outline text--gray-medium"><span class="fa fa-angle-left text--normal"> </span> Back to the Blog</div>
+	  <div class="container--text">
+	  	<div class="spacing--mid-x"></div>
+	  	<a href="/blog" class="button--brand-outline text--gray-medium"><span class="fa fa-angle-left text--normal"> </span> Back to the Blog</a>
 
-	  	<div class="styling-markdown container--text blog-post-info">
+	  	<div class="styling-markdown blog-post-info">
 		  @@include('../../../../www/{{include}}.html')  		
 	  	</div>
 
-	  	<div>By {{post.author}}</div>
+	  	<div class="blog-post-meta-block">
+	  	  <div class="blog-post-meta">
+	  	    By<img src="http://placehold.it/45x45" alt="" class="blog-post-img-credit"><a href="#">Static Code</a> and<img src="http://placehold.it/45x45" alt="" class="blog-post-img-credit"><a href="">Person.Name</a>
+	  	   </div>
+		  <p>September 29, 2014 Static Date</p>
+	  	</div>
+
+	  	<div class="blog-post-social">
+	  		Some social stuff to come here: FB type things
+	  	</div>
+	  	  
 
 	  @@include('../../templates/_disqus.tpl')
 

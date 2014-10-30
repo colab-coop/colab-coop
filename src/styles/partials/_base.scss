@@ -1,10 +1,12 @@
-//autoprefixer: is it working?
 //do we need the entire font awesome off the cdn?
 //some headings like blog posts, not sure if it's lubalin or +bold
 //add utf-8
 //smoother transition on off canvas on main
 //adjust hover of nav against red background on /team-profile
-// why is active menu js not working????
+//reduce general body padding on small screens after testing on all pages
+//SANwhy is active menu js not working????
+//SANheadroom only on larger screens, else too much recalculation
+//SANpixelate img only on the page
 
 
 * {
@@ -45,23 +47,25 @@ img {
 
 .container {
 	max-width: 1000px;
-	margin: 0 auto;
 	width: 90%;
 }
 
 .container--text {
-	margin: 0 auto;
 	max-width: 700px;
 }
 
 .container--mid {
-	margin: 0 auto;
 	max-width: 450px;
 }
 
 .container--sm {
-	margin: 0 auto;
 	max-width: 300px;
+}
+
+.container, .container--text, .container--mid, .container--sm {
+	margin: 0 auto;
+	padding-left: $grid-padding;
+	padding-right: $grid-padding;
 }
 
 .nav {
@@ -433,6 +437,7 @@ main {
 .styling-markdown {
 	h1:first-of-type {
 		@extend %heading-primary;
+		margin-top: $base-spacing-lg * 2.5;
 	}
 }
 
@@ -442,6 +447,29 @@ main {
 	padding-left: $base-spacing;
 } 
 
+.blog-post-meta-block {
+	text-align: center;
+	@extend %text--gray-medium;
+	@extend %spacing--lg;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-color: $border-default-light;
+}
+
+.blog-post-meta {
+	line-height: 2.5; //large line-height to avoid overlap of images on small screens
+}
+
+.blog-post-img-credit {
+	@extend %vertical-inline-middle;
+	padding: 0 $base-spacing;
+}
+
+.blog-post-social {
+	padding: $base-spacing-lg 0 $base-spacing-lg*2;
+	text-align: center;
+}
+
 
 // ------------------------------------------------
 // Panel
@@ -449,6 +477,8 @@ main {
 	width: 100%;
 	position: relative;
 	line-height: 1.5;
+//	padding-left: $base-spacing-lg;
+//	padding-right: $base-spacing-lg;
 
 	.heading-primary {
 		margin: 0.2em 0;
@@ -480,6 +510,11 @@ main {
 	}
 }
 
+.panel-fullwidth-img {
+//	padding: 0;
+}
+
+
 .panel-bg-pattern {
 	background-image: url('../img/bg-pixel@2x.png');
 	background-repeat: repeat;
@@ -492,9 +527,14 @@ main {
 	background-size: cover;
 }
 
+.panel-overlap {
+	margin-top: $base-spacing-lg * 2;
+}
+
 .panel-bio {
 	text-align: center;
 	@extend %text--small;
+	margin: $base-spacing 0 $base-spacing-lg * 1.5;
 }
 
 .overlap-top-block {
