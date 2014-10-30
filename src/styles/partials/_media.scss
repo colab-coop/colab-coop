@@ -70,6 +70,10 @@
 }
 
 @media screen and (min-width: 800px) {
+	body {
+		padding-top: 110px;
+	}
+
 	.nav {
 		padding: $base-spacing-lg 0 $base-spacing 0;
 

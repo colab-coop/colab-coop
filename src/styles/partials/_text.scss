@@ -37,14 +37,25 @@ h2, .h2 {
 // ------------------------------------------------
 // Lists
 
-/*ul {
+.ul-default, %ul-default {
+	list-style-type: none;
+	list-style-position: outside;
+	text-indent: -0.4em;
+
 	li {
+		padding-bottom: $base-spacing-sm;
+
 		&:before {
-			content: '· ';
+			content: '\2022';
+			color: red;
+			display: inline-block;
+			padding-right: 5px;
 			color: $gray-medium;
+			font-size: 90%;
+
 		}
 	}
-}*/
+}
 
 // ------------------------------------------------
 // Text Variations

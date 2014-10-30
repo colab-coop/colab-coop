@@ -3,7 +3,6 @@
 //add utf-8
 //smoother transition on off canvas on main
 //adjust hover of nav against red background on /team-profile
-//reduce general body padding on small screens after testing on all pages
 //SANwhy is active menu js not working????
 //SANheadroom only on larger screens, else too much recalculation
 //SANpixelate img only on the page
@@ -19,7 +18,7 @@ body {
 	font-family: $primary-font;
 	font-size: $body-font-size;
 	line-height: $body-line-height;
-	padding-top: 110px;
+	padding-top: 80px;
 	text-rendering: optimizeLegibility;
 }
 
@@ -46,20 +45,19 @@ img {
 }
 
 .container {
-	max-width: 1000px;
-	width: 90%;
+	max-width: 1010px;
 }
 
 .container--text {
-	max-width: 700px;
+	max-width: 710px;
 }
 
 .container--mid {
-	max-width: 450px;
+	max-width: 460px;
 }
 
 .container--sm {
-	max-width: 300px;
+	max-width: 320px;
 }
 
 .container, .container--text, .container--mid, .container--sm {
@@ -279,11 +277,18 @@ main {
 }
 
 .grid-thumb {
-	canvas {
+	/*canvas {
 		max-width: 100%;
 		height: auto;
-	}
+	}*/
 }
+
+.grid-thumb-pixelate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+} //remove later if not using
 
 .grid-thumb-img {
 	display: block;
@@ -291,21 +296,62 @@ main {
 
 .grid-thumb-info {
 	position: relative;
+
+	.grid-thumb-content, .grid-thumb-meta {
+		transition: all 0.2s ease-in-out;
+	}
+
+	&:hover {
+		.grid-thumb-content {
+			margin-top: 0;
+			transition: all 0.3s ease-in;
+		}
+
+		.button--brand-outline {
+			visibility: visible;
+			transform: translateY(0%);
+			transition: all 0.45s ease-in;
+		}
+
+		.grid-thumb-meta {
+			visibility: visible;
+			transform: translateY(-5%);
+			transition: all 0.25s ease-in;
+		}
+
+		.grid-thumb-pixelate {
+			opacity: 1;
+			transform: scale(1.2);
+			transition: all 0.3s linear;
+		}
+	}
 }
 
 .grid-thumb-tagline {
 	font-family: $lubalin;
+	line-height: 1.5;
 }
 
 .grid-thumb-content {
 	position: absolute;
+	margin-top: 25px;
+	transition: all 0.2s ease-in;
 	@include vertical-center;
 
+	.button--brand-outline {
+		visibility: hidden;
+		transform: translateY(50%);
+	}
+}
+
+.grid-thumb-meta {
+	padding: 0 $base-spacing;
 }
 
 .work-block {
 	.grid-thumb-info {
 		color: #fff;
+		overflow: hidden;
 	}
 }
 
@@ -477,8 +523,6 @@ main {
 	width: 100%;
 	position: relative;
 	line-height: 1.5;
-//	padding-left: $base-spacing-lg;
-//	padding-right: $base-spacing-lg;
 
 	.heading-primary {
 		margin: 0.2em 0;
@@ -488,32 +532,10 @@ main {
 		margin: 0.2em 0;
 	}
 
-	ul {
-		list-style-type: none;
-		list-style-position: outside;
-		text-indent: -0.4em;
+	.ul-default {
 		margin-bottom: 0;
-
-		li {
-			padding-bottom: $base-spacing-sm;
-
-			&:before {
-				content: '\2022';
-				color: red;
-				display: inline-block;
-				padding-right: 5px;
-				color: $gray-medium;
-				font-size: 90%;
-
-			}
-		}
 	}
 }
-
-.panel-fullwidth-img {
-//	padding: 0;
-}
-
 
 .panel-bg-pattern {
 	background-image: url('../img/bg-pixel@2x.png');
@@ -546,5 +568,5 @@ main {
 }
 
 .panel-overlap-content {
-	padding-top: 60px;
+	padding: 60px 0 30px;
 }
