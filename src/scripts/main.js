@@ -214,7 +214,7 @@ $(document).ready(function(){
     });
     $(window).resize();
 
-//	$('.img-pixelate-hover').pixelate();
+	$('.grid-thumb-pixelate').pixelate();
 
     //sticky header
     /*$(window).scroll(function() {
