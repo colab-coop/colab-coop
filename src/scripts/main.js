@@ -1,50 +1,52 @@
 //PIXELATE ON SCROLL CODE
 
 $(document).ready(function() {
-	var ctx = jsPixelateCanvas.getContext('2d'),
-	    img = new Image;
-	    //value = factor.value;
+	var imgPixelate = $('#js-pixelate-scroll');
 
-	img.onload = function() {
-		pixelate(0);
-	};
+	if (imgPixelate.length > 0) {
 
-	var imgPixelateId = $('#js-pixelate-scroll').attr('src');
-	img.src = imgPixelateId;
+		var ctx = jsPixelateCanvas.getContext('2d'),
+		    img = new Image;
+		    //value = factor.value;
 
-	//img.src = '/assets/img/dummy/panel-bg.jpg';
+		img.onload = function() {
+			pixelate(0);
+		};
 
+		var imgPixelateId = imgPixelate.attr('src');
+		img.src = imgPixelateId;
 
-	function pixelate(value) {
+		function pixelate(value) {
 
-		if (value === 0) {
-			value = 1;
+			if (value === 0) {
+				value = 1;
+			}
+		    /// calculate the factor
+		    var fw = (img.width / value)|0,
+		        fh = (img.height / value)|0;
+		    
+		    /// turn off image smoothing (prefixed in some browsers)
+		    ctx.imageSmoothingEnabled =
+		    ctx.mozImageSmoothingEnabled =
+		    ctx.msImageSmoothingEnabled =
+		    ctx.webkitImageSmoothingEnabled = false;
+		    
+		    /// draw mini-version of image
+		    ctx.drawImage(img, 0, 0, fw, fh);
+		    
+		    /// draw the mini-version back up, voila, pixelated
+		    ctx.drawImage(jsPixelateCanvas, 0, 0, fw, fh, 0, 0, img.width, img.height);
 		}
-	    /// calculate the factor
-	    var fw = (img.width / value)|0,
-	        fh = (img.height / value)|0;
-	    
-	    /// turn off image smoothing (prefixed in some browsers)
-	    ctx.imageSmoothingEnabled =
-	    ctx.mozImageSmoothingEnabled =
-	    ctx.msImageSmoothingEnabled =
-	    ctx.webkitImageSmoothingEnabled = false;
-	    
-	    /// draw mini-version of image
-	    ctx.drawImage(img, 0, 0, fw, fh);
-	    
-	    /// draw the mini-version back up, voila, pixelated
-	    ctx.drawImage(jsPixelateCanvas, 0, 0, fw, fh, 0, 0, img.width, img.height);
+
+		$(document).scroll(function() {
+			var scrollTop = $(window).scrollTop();
+			if (scrollTop > 450) {
+				return;
+			}
+			var pixelateValue = parseInt(scrollTop / 12); 
+			pixelate(pixelateValue);
+		});
 	}
-
-	$(document).scroll(function() {
-		var scrollTop = $(window).scrollTop();
-		if (scrollTop > 450) {
-			return;
-		}
-		var pixelateValue = parseInt(scrollTop / 12); 
-		pixelate(pixelateValue);
-	});
 });
 
 /*
