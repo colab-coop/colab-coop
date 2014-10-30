@@ -196,15 +196,23 @@ $(document).ready(function(){
     $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
 
     //header: sticky
-    $(".nav").headroom({
-	  	"offset": 205,
-	  	"tolerance": 5,
-	  	"classes": {
-	    	"initial": "animated",
-	    	"pinned": "slideDown",
-	    	"unpinned": "slideUp"
-	  	}
-	});
+    $(window).resize(function(){
+	    if($(window).width() > 799) {
+		    $(".nav").headroom({
+			  	"offset": 205,
+			  	"tolerance": 5,
+			  	"classes": {
+			    	"initial": "animated",
+			    	"pinned": "slideDown",
+			    	"unpinned": "slideUp"
+			  	}
+			});
+	    }
+	    // else {
+	    // 	headroom.destroy();
+	    // }
+    });
+    $(window).resize();
 
 //	$('.img-pixelate-hover').pixelate();
 
