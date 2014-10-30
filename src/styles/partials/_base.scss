@@ -230,6 +230,14 @@ main {
 	}
 }
 
+/* hero pixelating image on scroll */
+
+.img-pixelate-scroll {
+	display: none;
+}
+
+/* end hero pixelating image on scroll */
+
 .grid-parent {
 	@extend %clearfix;
 }
