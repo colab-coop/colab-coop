@@ -21,20 +21,30 @@
 		</div> <!-- /footer-info -->
 		
 	    <div class="footer-content">
-	    	<div class="spacing--lg"></div>
-			<a href="#"><span class="fa fa-twitter"></span> colabcoop:</a>
-			<span>RT <a href="#">@brandomoore@sales_hub.</a></span>
-			<span>Sound and Simple Advice: 7 Things Your <a href="#">#Website </a>Should Have</span>
-			<br>
-			<a href="#">http://ow.ly/CmELZ #webcontent #webdesign</a>
-		</div>
-		<div class="">
-			141 The Commons Suite 300, Ithaca, NY 14850 . (888) 426-5996 . <a href="mailto:core@colab.coop">core@colab.coop</a>
+	    	<div class="grid-parent">
+		    	<div class="footer-twitter">
+					<a href="#"><span class="fa fa-twitter"></span> colabcoop:</a>    		
+		    	</div>
+		    	<div class="footer-hash">
+					<span>RT <a href="#">@brandomoore@sales_hub.</a></span>
+					<span>Sound and Simple Advice: 7 Things Your <a href="#">#Website </a>Should Have</span>
+					<br>
+					<a href="#">http://ow.ly/CmELZ #webcontent #webdesign</a>		    		
+		    	</div>	    		
+	    	</div> <!-- /grid-parent -->
 
-			<a href="#"><span class="fa fa-facebook"></span></a>
-			<a href="#"><span class="fa fa-twitter"></span></a>	
-			<a href="#"><span class="fa fa-google-plus"></span></a>	
-			<a href="#"><span class="fa fa-github"></span></a>	
-		</div>
+			<div class="grid-parent">
+		    	<div class="spacing--lg"></div>
+				<div class="footer-address">
+					<span class="icon-dot">141 The Commons Suite 300, Ithaca, NY 14850</span><span class="icon-dot">(888) 426-5996</span><a href="mailto:core@colab.coop">core@colab.coop</a>
+				</div>
+				<div class="footer-social">
+					<a href="#"><span class="fa fa-facebook"></span></a>
+					<a href="#"><span class="fa fa-twitter"></span></a>	
+					<a href="#"><span class="fa fa-google-plus"></span></a>	
+					<a href="#"><span class="fa fa-github"></span></a>	
+				</div> <!-- /footer-social -->				
+			</div> <!-- /grid-parent -->
+		</div> <!-- /footer-content -->
 	</div> <!-- /container -->
 </footer>

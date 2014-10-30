@@ -197,7 +197,7 @@ main {
 .footer {
 	background: $gray-darkest;
 	color: #fff;
-	padding-top: 50px;
+	padding: 50px 0 $base-spacing 0;
 
 	a {
 		color: $gray-medium;
@@ -219,14 +219,36 @@ main {
 
 .footer-connect {
 	@extend %grid-child;
+	margin-bottom: $base-spacing-lg * 4;
 }
 
 .footer-content {
 	@extend %text--smaller;
 
+}
+
+.footer-twitter, .footer-hash, .footer-address, .footer-social {
+	@extend %grid-child;
+}
+
+.footer-twitter, .footer-hash, .footer-address {
+	float: left;	
+}
+
+.footer-social {
+	float: right;
+	> a {
+		color: #fff;
+		@extend %text--largest;
+		display: inline-block;
+		padding: 0 0 0 $base-spacing;
+	}
+}
+
+.footer-twitter {
 	.fa-twitter {
 		font-size: 220%;
-		vertical-align: middle;
+		vertical-align: top;
 	}
 }
 

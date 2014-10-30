@@ -77,12 +77,12 @@ h2, .h2 {
 }
 
 .text--smaller, %text--smaller {
-	font-size: 75%;
+	font-size: 80%;
 	line-height: 1.8em; /*25px*/
 }
 
 @mixin text--smaller {
-	font-size: 75%;
+	font-size: 80%;
 	line-height: 1.8em; /*25px*/	
 }
 
@@ -103,5 +103,15 @@ h2, .h2 {
 
 @mixin text--larger {
 	font-size: 120%;
+	line-height: 1.8em; /*36px*/	
+}
+
+.text--larger, %text--largest {
+	font-size: 130%;
+	line-height: 1.8em; /*36px*/
+}
+
+@mixin text--larger {
+	font-size: 130%;
 	line-height: 1.8em; /*36px*/	
 }
