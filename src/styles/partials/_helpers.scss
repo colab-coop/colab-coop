@@ -12,6 +12,14 @@
 	}
 }
 
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}	
+}
+
 // ------------------------------------------------
 // Floats
 .float-left {
@@ -27,11 +35,13 @@
 .grid-parent, %grid-parent {
 	margin-left: -$grid-padding;
 	margin-right: -$grid-padding;
+	@include clearfix;
 }
 
 @mixin grid-parent {
 	margin-left: -$grid-padding;
 	margin-right: -$grid-padding;	
+	@include clearfix;
 }
 
 .grid-child, %grid-child {
@@ -252,3 +262,30 @@ a.button--brand-outline.text--gray-medium, .button--brand-outline.text--gray-med
 		top: -$base-spacing-sm;
 	}
 }
+
+// ------------------------------------------------
+// Containers for main layout
+
+.container {
+	max-width: 1010px;
+}
+
+.container--text {
+	max-width: 710px;
+}
+
+.container--mid {
+	max-width: 460px;
+}
+
+.container--sm {
+	max-width: 320px;
+}
+
+.container, .container--text, .container--mid, .container--sm {
+	margin: 0 auto;
+	padding-left: $grid-padding;
+	padding-right: $grid-padding;
+}
+
+

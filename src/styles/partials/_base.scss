@@ -14,23 +14,24 @@
 
 body {
   background-color: $gray-lighter;
-	color: $gray-darkest;
-	font-family: $primary-font;
-	font-size: $body-font-size;
-	line-height: $body-line-height;
-	padding-top: 80px;
-	text-rendering: optimizeLegibility;
+  color: $gray-darkest;
+  font-family: $primary-font;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  padding-top: 80px;
+  text-rendering: optimizeLegibility;
 }
 
 p, ul, ol {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 a {
   color: $red;
   text-decoration: none;
+  
   &:hover {
-    color: darken($red, 10%);
+      color: darken($red, 10%);
   }
 }
 
@@ -44,27 +45,62 @@ img {
 	display: block;
 }
 
-.container {
-	max-width: 1010px;
+// ------------------------------------------------
+// Panel: Module
+.panel-full {
+	width: 100%;
+	position: relative;
+	line-height: 1.5;
+
+	.heading-primary {
+		margin: 0.2em 0;
+	}
+
+	h2 {
+		margin: 0.2em 0;
+	}
+
+	.ul-default {
+		margin-bottom: 0;
+	}
 }
 
-.container--text {
-	max-width: 710px;
+.panel-bg-pattern {
+	background-image: url('../img/bg-pixel@2x.png');
+	background-repeat: repeat;
+	background-size: 10%;
 }
 
-.container--mid {
-	max-width: 460px;
+.panel-bg-solo {
+	background-image: url('../img/dummy/c.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.container--sm {
-	max-width: 320px;
+.panel-overlap {
+	margin-top: $base-spacing-lg * 2;
 }
 
-.container, .container--text, .container--mid, .container--sm {
+.panel-bio {
+	text-align: center;
+	@extend %text--small;
+	margin: $base-spacing 0 $base-spacing-lg * 1.5;
+}
+
+.overlap-top-block {
+	position: absolute;
+	top: -45px;
+	left: 0;
+	right: 0;
 	margin: 0 auto;
-	padding-left: $grid-padding;
-	padding-right: $grid-padding;
 }
+
+.panel-overlap-content {
+	padding: 60px 0 30px;
+}
+
+// ------------------------------------------------
+// LAYOUT: HEADER
 
 .nav {
 	background: #fff;
@@ -88,6 +124,8 @@ img {
 	}
 }
 
+/* nav styles for pages with hero image */
+
 .project, .team-profile {
 	padding-top: 0;
 
@@ -106,11 +144,15 @@ img {
 	}
 }
 
+/* end nav styles for pages with hero image */
+
 /*.nav-slideup {
   animation-name: slideUp;
   transform: translateY(-100%);
   transition: all 0.3s linear;
 } *///animation for sticky header
+
+/* nav styles for sticky scroll header */
 
 .animated {
 	animation-duration: .5s;
@@ -145,6 +187,11 @@ img {
   animation-name: slideUp;
 }
 
+/* end nav styles for sticky scroll header */
+
+
+/* nav menu icon on small screens */
+
 .nav-menu-trigger {
 	font-family: $lubalin-bold;	
 	@extend %text--smaller;
@@ -169,6 +216,8 @@ img {
 	}
 }
 
+/* end nav menu icon on small screens */
+
 .nav-menu {
 	float: right;
 	
@@ -192,6 +241,10 @@ img {
     transition: all 0.2s ease-in;
 }
 
+
+// ------------------------------------------------
+// LAYOUT: MAIN
+
 main {
     transition: all 0.2s ease-in; //modularise later
 }
@@ -201,6 +254,10 @@ main {
 	right: $nav-menu-width + 50;
     transition: all 0.6s ease-in; //modularise later
 }
+
+
+// ------------------------------------------------
+// LAYOUT: FOOTER
 
 .footer {
 	background: $gray-darkest;
@@ -232,7 +289,6 @@ main {
 
 .footer-content {
 	@extend %text--smaller;
-
 }
 
 .footer-twitter, .footer-hash, .footer-address, .footer-social {
@@ -268,9 +324,9 @@ main {
 
 /* end hero pixelating image on scroll */
 
-.grid-parent {
-	@extend %clearfix;
-}
+// ------------------------------------------------
+// Work: Page
+
 
 .grid-each {
 	padding: 0 $grid-padding $base-spacing-lg*1.5 $grid-padding;
@@ -379,8 +435,9 @@ main {
 }
 
 // ------------------------------------------------
-// Culture
+// Culture: Page
 .team-block {
+	padding-bottom: $base-spacing-lg *2;
 
 	>ul {
 		padding: 0;
@@ -394,6 +451,7 @@ main {
 
 .team-each {
 	padding-top: $base-spacing-lg*1.5;
+	@extend %grid-child;
 
 	>img {
 		display: block;
@@ -402,7 +460,7 @@ main {
 
 
 // ------------------------------------------------
-// Team: Profile
+// Team-Profile: Page
 
 .team-profile-intro-block {
 	padding: 120px 0 50px 0;
@@ -453,8 +511,9 @@ main {
 	}
 }
 
+
 // ------------------------------------------------
-// Project: Profile
+// Project-Profile: Page
 .project-info {
 	> .h2 {
 		border-color: $gray-light;
@@ -470,7 +529,7 @@ main {
 
 
 // ------------------------------------------------
-// Blog: List
+// Blog-List: Page
 
 .blog-list-block {
 	border-bottom: 2px solid $gray-light;
@@ -491,7 +550,7 @@ main {
 }
 
 // ------------------------------------------------
-// Blog: Post
+// Blog-Post: Page
 
 .styling-markdown {
 	h1:first-of-type {
@@ -527,59 +586,4 @@ main {
 .blog-post-social {
 	padding: $base-spacing-lg 0 $base-spacing-lg*2;
 	text-align: center;
-}
-
-
-// ------------------------------------------------
-// Panel
-.panel-full {
-	width: 100%;
-	position: relative;
-	line-height: 1.5;
-
-	.heading-primary {
-		margin: 0.2em 0;
-	}
-
-	h2 {
-		margin: 0.2em 0;
-	}
-
-	.ul-default {
-		margin-bottom: 0;
-	}
-}
-
-.panel-bg-pattern {
-	background-image: url('../img/bg-pixel@2x.png');
-	background-repeat: repeat;
-	background-size: 10%;
-}
-
-.panel-bg-solo {
-	background-image: url('../img/dummy/c.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.panel-overlap {
-	margin-top: $base-spacing-lg * 2;
-}
-
-.panel-bio {
-	text-align: center;
-	@extend %text--small;
-	margin: $base-spacing 0 $base-spacing-lg * 1.5;
-}
-
-.overlap-top-block {
-	position: absolute;
-	top: -45px;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-}
-
-.panel-overlap-content {
-	padding: 60px 0 30px;
 }
