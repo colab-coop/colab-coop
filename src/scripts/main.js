@@ -200,19 +200,29 @@ $(document).ready(function(){
         $('main').removeClass('main-offcanvas');
     });
 
-    //menu: current link styling
-    $(".nav-menu a").each(function() {   
-       if (this.href == window.location.href) {
-           $(this).addClass("nav-link-selected");
-       }
-    });
+    //menu: current link styling   	
+	  function stripTrailingSlash(str) {
+	    if(str.substr(-1) == '/') {
+	      return str.substr(0, str.length - 1);
+	    }
+	    return str;
+	  }
+
+	  var url = window.location.pathname;  
+	  var activePage = stripTrailingSlash(url);
+
+	  $('.nav-menu a').each(function(){  
+	    var currentPage = stripTrailingSlash($(this).attr('href'));
+
+	    if (activePage == currentPage) {
+	      $(this).addClass('nav-active'); 
+	    } 
+	  });
 
     //red pixel cube at end of blog post
     $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
 
-
     //header: sticky
-
     $(".nav").headroom({
 	  	"offset": 205,
 	  	"tolerance": 5,
@@ -223,52 +233,6 @@ $(document).ready(function(){
 	  	}
 	});
 
+    //pixelate image on hover
 	$('.grid-thumb-pixelate').pixelate();
-
-    //sticky header
-    /*$(window).scroll(function() {
-		if ($(this).scrollTop() > 1){  
-		    $('.nav').addClass('nav-slideup');
-		  }
-		  else{
-		    $('.nav').removeClass('nav-slideup');
-		  }
-	});*/
-
-    /*$(window).scroll(function(){
-    	$(".img-pixelate").pixelate()
-    });*/
-
-
-//$(".blog-post-info").after("<span class='icon-decorative-pixel'></span>");
-
- /*   var closePixelates = [];
-    $(".img-pixelate").each(function(){
-    	var that = this;
-		closePixelates.push(new ClosePixelation(that, [
-		    { shape: 'square', resolution: 0, size: 30, offset: 0, alpha: 0.991 }
-		]));
-    });
-
-    $('.grid-each').on("mouseover", "canvas", function(e) {
-    	var pixelateObj = closePixelates[$(this).index()];
-    	pixelateObj.render({
-    		{ shape: 'square', resolution: 33, size: 30, offset: 0, alpha: 0.991 }
-    	});
-    });
-*/
-
-
-
-
 });
-
-/*
-function init() {
-  document.getElementById('portrait-image').closePixelate([
-    { resolution : 24 },
-    { shape: 'square', resolution: 22, size: 30, offset: 0, alpha: 0.991 }
-  ]);
-};
-window.addEventListener( 'load', init, false);
-*/
