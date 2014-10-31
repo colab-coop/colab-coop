@@ -77,46 +77,69 @@
 
 /* nav styles for sticky scroll header */
 
-.main-offcanvas {
-	right: 0;
-}
+	.main-offcanvas {
+		right: 0;
+	}
 
-.animated {
-	animation-duration: .5s;
-	animation-fill-mode: both;
-}
+	.animated {
+		animation-duration: .5s;
+		animation-fill-mode: both;
+	}
 
-@keyframes slideDown {
-  0% {
-    transform: translateY(-100%);
-  }
+	@keyframes slideDown {
+	  0% {
+	    transform: translateY(-100%);
+	  }
 
-  100% {
-    transform: translateY(0);
-  }
-}
+	  100% {
+	    transform: translateY(0);
+	  }
+	}
 
-.animated.slideDown {
-  animation-name: slideDown;
-}
+	.animated.slideDown {
+	  animation-name: slideDown;
+	}
 
-@keyframes slideUp {
-  0% {
-    transform: translateY(0);
-  }
+	@keyframes slideUp {
+	  0% {
+	    transform: translateY(0);
+	  }
 
-  100% {
-    transform: translateY(-100%);
-  }
-}
+	  100% {
+	    transform: translateY(-100%);
+	  } 
+	}
 
-.animated.slideUp {
-  animation-name: slideUp;
-}
+	.animated.slideUp {
+	  animation-name: slideUp;
+	}
+
+	.project, .team-profile {
+		.animated.headroom--not-top.slideDown {
+			background-color: #fff;
+
+			.logo-svg polygon {
+				fill: $red;
+			}
+
+			.logo-svg path {
+				fill: $gray-medium;
+			}
+
+			.nav-menu-trigger, .nav-menu a {
+				color: inherit;
+
+				&:hover, &.nav-active {
+					color: $red;
+					opacity: 1;
+				}
+			}
+		}
+	}
 
 /* end nav styles for sticky scroll header */
 
-
+	
 	.nav {
 		padding: $base-spacing-lg 0 $base-spacing 0;
 

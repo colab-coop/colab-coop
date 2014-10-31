@@ -224,7 +224,7 @@ $(document).ready(function(){
 
     //header: sticky
     $(".nav").headroom({
-	  	"offset": 205,
+	  	"offset": 100,
 	  	"tolerance": 5,
 	  	"classes": {
 	    	"initial": "animated",
