@@ -111,7 +111,7 @@ img {
 // MODULE: PIXELATE ON HOVER
 
 .img-pixelate-hover {
-  display: block !important;
+  display: block !important; //important required to override js plugin, unfortunately
 }
 
 .img-pixelate-content {
