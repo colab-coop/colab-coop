@@ -24,16 +24,16 @@ $(document).ready(function() {
 		    /// calculate the factor
 		    var fw = (img.width / value)|0,
 		        fh = (img.height / value)|0;
-		    
+
 		    /// turn off image smoothing (prefixed in some browsers)
 		    ctx.imageSmoothingEnabled =
 		    ctx.mozImageSmoothingEnabled =
 		    ctx.msImageSmoothingEnabled =
 		    ctx.webkitImageSmoothingEnabled = false;
-		    
+
 		    /// draw mini-version of image
 		    ctx.drawImage(img, 0, 0, fw, fh);
-		    
+
 		    /// draw the mini-version back up, voila, pixelated
 		    ctx.drawImage(jsPixelateCanvas, 0, 0, fw, fh, 0, 0, img.width, img.height);
 		}
@@ -57,7 +57,7 @@ $(document).ready(function() {
 		if (scrollTop > 450) {
 			return;
 		}
-		var pixelateValue = parseInt(scrollTop / 12); 
+		var pixelateValue = parseInt(scrollTop / 12);
 		pixelate(pixelateValue);
 
 	});
@@ -200,7 +200,7 @@ $(document).ready(function(){
         $('main').removeClass('main-offcanvas');
     });
 
-    //menu: current link styling   	
+    //menu: current link styling
 	  function stripTrailingSlash(str) {
 	    if(str.substr(-1) == '/') {
 	      return str.substr(0, str.length - 1);
@@ -208,15 +208,15 @@ $(document).ready(function(){
 	    return str;
 	  }
 
-	  var url = window.location.pathname;  
+	  var url = window.location.pathname;
 	  var activePage = stripTrailingSlash(url);
 
-	  $('.nav-menu a').each(function(){  
+	  $('.nav-menu a').each(function(){
 	    var currentPage = stripTrailingSlash($(this).attr('href'));
 
 	    if (activePage == currentPage) {
-	      $(this).addClass('nav-active'); 
-	    } 
+	      $(this).addClass('nav-active');
+	    }
 	  });
 
     //red pixel cube at end of blog post
@@ -224,7 +224,7 @@ $(document).ready(function(){
 
     //header: sticky
     $(".nav").headroom({
-	  	"offset": 205,
+	  	"offset": 100,
 	  	"tolerance": 5,
 	  	"classes": {
 	    	"initial": "animated",
