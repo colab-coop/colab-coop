@@ -1,6 +1,5 @@
 //do we need the entire font awesome off the cdn?
 //smoother transition on off canvas on main
-//add a panel class for pattern with no repeat like last section on project profile
 
 * {
   box-sizing: border-box;
@@ -70,6 +69,13 @@ img {
 }
 
 .panel-bg-solo {
+  background-color: #f0274e;
+  background-image: url('http://placehold.it/250x250');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.panel-bg-solo-full {
   background-image: url('../img/dummy/c.jpg');
   background-repeat: no-repeat;
   background-size: cover;
