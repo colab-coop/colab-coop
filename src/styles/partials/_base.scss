@@ -284,14 +284,12 @@ img {
 
 main {
   transition: all 0.2s ease-in;
-  //modularise later;
 }
 
 .main-offcanvas {
   position: relative;
   right: $nav-menu-width + 50;
   transition: all 0.6s ease-in;
-  //modularise later;
 }
 
 
@@ -356,8 +354,8 @@ main {
 .footer-twitter {
   .fa-twitter {
 		font-size: 220%;
-  vertical-align: top;
-}
+    vertical-align: top;
+  }
 }
 
 /* hero pixelating image on scroll */
@@ -373,10 +371,8 @@ main {
   opacity: 0;
 }
 
-
 //------------------------------------------------
 // Work: Page
-
 
 .grid-each {
   padding: 0 $grid-padding $base-spacing-lg*1.5 $grid-padding;
@@ -397,34 +393,36 @@ main {
 
 .work-tech-block {
   text-align: center;
+
   > img {
 		display: inline-block;
-  vertical-align: middle;
-  padding: $grid-padding;
-}
+    vertical-align: middle;
+    padding: $grid-padding;
+  }
 }
 
 //------------------------------------------------
 // Culture: Page
 .team-block {
   padding-bottom: $base-spacing-lg *2;
+ 
   >ul {
 		padding: 0;
-  text-align: center;
-}
+    text-align: center;
+  }
 
-	>a {
-  display: block;
-}
+	> a {
+    display: block;
+  }
 }
 
 .team-each {
   padding-top: $base-spacing-lg*1.5;
   @extend %grid-child;
 
-	>img {
+	> img {
 		display: block;
-}
+  }
 }
 
 
@@ -475,10 +473,10 @@ main {
 
 	> a {
 		color: $gray-medium;
-  padding-right: $base-spacing;
-  display: inline-block;
-  vertical-align: middle;
-}
+    padding-right: $base-spacing;
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 
 
@@ -487,12 +485,13 @@ main {
 .project-info {
   > .h2 {
 		border-color: $gray-light;
-  font-weight: normal;
-}
+    font-weight: normal;
+  }
 }
 
 .members-team {
-  >img {
+  
+  > img {
 		padding: $grid-padding / 2;
   }
 }
@@ -505,7 +504,6 @@ main {
   border-bottom: 2px solid $gray-light;
   margin-bottom: 80px;
   padding-bottom: 60px;
-  //TODO: see if these are reusable later
 
 	.heading-primary {
 		font-family: $lubalin-bold;
@@ -518,13 +516,13 @@ main {
 
 .blog-list-pagination {
   margin-bottom: 80px;
-  //TODO: see if these are reusable later;
 }
 
 //------------------------------------------------
 // Blog-Post: Page
 
 .styling-markdown {
+
   h1:first-of-type {
 		@extend %heading-primary;
     margin-top: $base-spacing-lg * 2.5;
@@ -544,6 +542,7 @@ main {
 	border-top: 2px solid;
   border-bottom: 2px solid;
   border-color: $border-default-light;
+
   a {
 		@extend %text--gray-medium;
   }

@@ -53,8 +53,10 @@ ul {
   list-style-position: outside;
   text-indent: -0.4em;
   padding-left: $grid-padding;
+
   li {
 		padding-bottom: $base-spacing-sm;
+  
     &:before {
 			content: '\2022';
       color: red;
@@ -77,71 +79,53 @@ ul {
   color: $gray-medium;
   a {
 		border-bottom: 1px solid;
-}
+  }
 }
 
 .text--normal, %text--normal {
   font-size: $body-font-size;
-  //	line-height: 1.8em;
- /*36px*/;
 }
 
 @mixin text--normal {
   font-size: $body-font-size;
-//	line-height: 1.8em; /*36px*/;
 }
 
 .text--small, %text--small {
   font-size: 85%;
-  //	line-height: 1.8em;
- /*29px*/;
 }
 
 @mixin text--small {
   font-size: 85%;
-//	line-height: 1.8em; /*36px*/;
 }
 
 .text--smaller, %text--smaller {
   font-size: 80%;
-  //	line-height: 1.8em;
- /*25px*/;
 }
 
 @mixin text--smaller {
   font-size: 80%;
-//	line-height: 1.8em; /*25px*/;
 }
 
 .text--large, %text--large {
   font-size: 110%;
-  //	line-height: 1.8em;
- /*36px*/;
 }
 
 @mixin text--large {
   font-size: 110%;
-//	line-height: 1.8em; /*36px*/;
 }
 
 .text--larger, %text--larger {
   font-size: 120%;
-  //	line-height: 1.8em;
- /*36px*/;
 }
 
 @mixin text--larger {
   font-size: 120%;
-//	line-height: 1.8em; /*36px*/;
 }
 
 .text--larger, %text--largest {
   font-size: 130%;
-  //	line-height: 1.8em;
- /*36px*/;
 }
 
 @mixin text--larger {
   font-size: 130%;
-//	line-height: 1.8em; /*36px*/;
 }
