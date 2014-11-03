@@ -233,6 +233,7 @@ $(document).ready(function(){
 	  	}
 	});
 
+    //thumbnails which pixelate on hover
 	$('.img-pixelate-hover').load(function(){
 		$(this).pixelate({
 			value : 0.7
