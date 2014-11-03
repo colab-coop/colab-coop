@@ -22,9 +22,6 @@
 
 	    <div class="footer-content">
 	    	<div class="grid-parent">
-		    	<div class="footer-twitter">
-					<a href="http://twitter.com/colabcoop"><span class="fa fa-twitter"></span> colabcoop:</a>
-		    	</div>
 		    	<div class="footer-hash">
 						<a class="twitter-timeline" href="https://twitter.com/CoLabCoOp" data-theme="dark" data-chrome="noheader nofooter noborders transparent" data-link-color="#A8A9AD" data-tweet-limit="1" width="900" data-widget-id="528261480190181376">Tweets by @CoLabCoOp</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -32,7 +29,6 @@
 	    	</div> <!-- /grid-parent -->
 
 			<div class="grid-parent">
-		    	<div class="spacing--mid"></div>
 				<div class="footer-address">
 					<span class="icon-dot">141 The Commons Suite 300, Ithaca, NY 14850</span><span class="icon-dot">(888) 426-5996</span><a href="mailto:core@colab.coop">core@colab.coop</a>
 				</div>

@@ -332,11 +332,11 @@ main {
   @extend %text--smaller;
 }
 
-.footer-twitter, .footer-hash, .footer-address, .footer-social {
+.footer-address, .footer-social {
   @extend %grid-child;
 }
 
-.footer-twitter, .footer-hash, .footer-address {
+.footer-address {
   float: left;
 }
 
@@ -355,11 +355,13 @@ main {
   }
 }
 
-.footer-twitter {
-  .fa-twitter {
-		font-size: 220%;
-    vertical-align: top;
-  }
+.footer-hash {
+  text-align: center;
+}
+
+.twitter-timeline {
+  height: auto !important;
+  width: 80% !important;
 }
 
 /* hero pixelating image on scroll */

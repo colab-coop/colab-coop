@@ -184,6 +184,43 @@ $(document).ready(function() {
 
 !function(a){a&&(a.fn.headroom=function(b){return this.each(function(){var c=a(this),d=c.data("headroom"),e="object"==typeof b&&b;e=a.extend(!0,{},Headroom.options,e),d||(d=new Headroom(this,e),d.init(),c.data("headroom",d)),"string"==typeof b&&d[b]()})},a("[data-headroom]").each(function(){var b=a(this);b.headroom(b.data())}))}(window.Zepto||window.jQuery);
 
+//customize twitter feed
+var hideTwitterAttempts = 0;
+function hideTwitterBoxElements() {
+		setTimeout( function() {
+				if ( $('[id*=twitter]').length ) {
+				$('[id*=twitter]').each( function(){
+						var ibody = $(this).contents().find( 'body' );
+
+						if ( ibody.find( '.timeline .stream .h-feed li.tweet' ).length ) {
+
+						ibody.find( '.timeline .stream .h-feed li.tweet' ).css( 'padding-left', '68px' );
+
+						ibody.find( '.header .avatar' ).css( 'left', '-67px' );
+
+						ibody.find( '.timeline .stream .h-feed li.tweet .p-name' ).css( 'color', '#fff' );
+						ibody.find( '.timeline .stream .h-feed li.tweet .p-name' ).css( 'font-family', 'Muli, Helvetica, sans-serif' );
+						ibody.find( '.timeline .stream .h-feed li.tweet .p-name' ).css( 'font-size', '16px' );
+
+						ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'color', '#fff' );
+						ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'font-family', 'Muli, Helvetica, sans-serif' );
+						ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'font-size', '16px' );
+						ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'line-height', '1.6' );
+						ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'margin-top', '10px' );
+
+						ibody.find( '.timeline .stream .h-feed li.tweet .p-nickname' ).css( 'display', 'none' );
+						}
+						else {
+								$(this).hide();
+						}
+				});
+				}
+				hideTwitterAttempts++;
+				if ( hideTwitterAttempts < 3 ) {
+						hideTwitterBoxElements();
+				}
+		}, 1500);
+}
 
 $(document).ready(function(){
     //menu: off canvas
@@ -239,4 +276,8 @@ $(document).ready(function(){
 			value : 0.7
 		});
 	});
+
+	//customize twitter feed
+	hideTwitterBoxElements();
+
 });
