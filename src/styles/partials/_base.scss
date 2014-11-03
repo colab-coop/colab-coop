@@ -44,7 +44,7 @@ img {
   width: 100%;
   position: relative;
   line-height: 1.5;
-  
+
   .heading-primary {
 	 margin: 0.2em 0;
   }
@@ -162,6 +162,10 @@ img {
     opacity: 0;
   }
 
+  a {
+    color: #fff;
+  }
+
   &:hover {
     .img-pixelate-content {
       padding-top: 12%;
@@ -183,8 +187,8 @@ img {
     .button--brand-outline {
       visibility: visible;
       transform: translateY(0%);
-      transition: all 0.45s ease-in;
-      
+      transition: all 0.25s ease-in;
+
       &:hover {
         opacity: 0.6;
         color: inherit;
@@ -205,7 +209,7 @@ img {
   left: 0;
   top: 0;
   padding: $base-spacing 0 0 0;
-  transition: all 0.2s linear;
+  transition: all 0.4s linear;
   @extend %clearfix;
 
 	.logo {
@@ -225,7 +229,7 @@ img {
 }
 
 /* end nav styles for pages with hero image */
-    
+
 
 /* nav menu icon on small screens */
 
@@ -237,7 +241,7 @@ img {
   position: fixed;
   top: 13px;
   right: 20px;
-  
+
   &:after {
 		content: "\f0c9"; //icon - hamburger
 		font-family: 'FontAwesome';
@@ -246,7 +250,7 @@ img {
 
 	&.nav-menu-triggered {
   color: inherit;
-  
+
     &:after {
     	content: "\f00d"; //icon - close
     }
@@ -300,7 +304,7 @@ main {
   background: $gray-darkest;
   color: #fff;
   padding: 50px 0 $base-spacing 0;
-  
+
   a {
 		color: $gray-medium;
   }
@@ -338,7 +342,7 @@ main {
 
 .footer-social {
   float: right;
-  
+
   > a {
 		color: #fff;
     @extend %text--largest;
@@ -405,7 +409,7 @@ main {
 // Culture: Page
 .team-block {
   padding-bottom: $base-spacing-lg *2;
- 
+
   >ul {
 		padding: 0;
     text-align: center;
@@ -440,10 +444,10 @@ main {
 }
 
 .team-profile-badges {
-  
+
   > img {
 		margin-right: $base-spacing;
-  
+
     &:last-of-type {
   		margin-right: 0;
     }
@@ -490,7 +494,7 @@ main {
 }
 
 .members-team {
-  
+
   > img {
 		padding: $grid-padding / 2;
   }
@@ -507,7 +511,7 @@ main {
 
 	.heading-primary {
 		font-family: $lubalin-bold;
-    
+
     a {
 			color: inherit;
     }
