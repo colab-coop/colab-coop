@@ -42,7 +42,7 @@ img {
 }
 
 // ------------------------------------------------
-// Panel: Module
+// MODULE: PANEL
 .panel-full {
 	width: 100%;
 	position: relative;
@@ -104,6 +104,92 @@ img {
 }
 
 // ------------------------------------------------
+// MODULE: PIXELATE ON HOVER
+
+.img-pixelate-hover {
+	display: block !important;
+}
+
+.img-pixelate-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	transition: all 0.2s ease-in;
+	padding: 10px;
+	padding-top: 18%;
+
+	.button--brand-outline {
+		margin-top: $base-spacing-sm;
+		visibility: hidden;
+		transform: translateY(50%);
+		font-weight: 700;
+	}
+}
+
+.img-pixelate-tagline {
+	font-family: $lubalin-bold;
+	@extend %text--large;
+	line-height: 1.5;
+}
+
+.img-pixelate-meta {
+	padding: 0 $base-spacing;
+}
+
+.img-pixelate-parent {
+	position: relative;	
+	overflow: hidden;
+	color: #fff;
+
+	.img-pixelate-content, .img-pixelate-meta {
+		transition: all 0.2s ease-in-out;
+	}
+
+	canvas {
+		max-width: 100%;
+		height: auto;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		opacity: 0;
+	}
+
+	&:hover {
+		canvas {
+			opacity: 1;
+			transform: scale(1.2);
+			transition: all 0.3s linear;
+		}
+
+		.img-pixelate-content {
+			padding-top: 12%;
+			transition: all 0.3s ease-in;
+		}
+
+		.img-pixelate-meta {
+			visibility: visible;
+			transform: translateY(-5%);
+			transition: all 0.25s ease-in;
+		}
+
+		.button--brand-outline {
+			visibility: visible;
+			transform: translateY(0%);
+			transition: all 0.45s ease-in;
+
+			&:hover {
+				opacity: 0.6;
+				color: inherit;
+			}
+		}
+	}
+}
+
+// ------------------------------------------------
 // LAYOUT: HEADER
 
 .nav {
@@ -149,13 +235,6 @@ img {
 }
 
 /* end nav styles for pages with hero image */
-
-/*.nav-slideup {
-  animation-name: slideUp;
-  transform: translateY(-100%);
-  transition: all 0.3s linear;
-} *///animation for sticky header
-
 
 /* nav menu icon on small screens */
 
@@ -305,99 +384,9 @@ main {
 	padding: 0 $grid-padding $base-spacing-lg*1.5 $grid-padding;
 }
 
-.grid-thumb {
-	/*canvas {
-		max-width: 100%;
-		height: auto;
-	}*/
-}
-
-/*.grid-thumb-pixelate {
-	position: absolute;
-	left: 0;
-	top: 0;
-	opacity: 0;
-} */ //remove later if not using
-
-.grid-thumb-img {
-	display: block;
-}
-
-.grid-thumb-info {
-	position: relative;
-
-	canvas {
-		max-width: 100%;
-		height: auto;
-		position: absolute;
-		left: 0;
-		top: 0;
-		opacity: 0;
-
-	}
-
-	.grid-thumb-content, .grid-thumb-meta {
-		transition: all 0.2s ease-in-out;
-	}
-
-	&:hover {
-		.grid-thumb-content {
-			margin-top: 0;
-			transition: all 0.3s ease-in;
-		}
-
-		.button--brand-outline {
-			visibility: visible;
-			transform: translateY(0%);
-			transition: all 0.45s ease-in;
-		}
-
-		.grid-thumb-meta {
-			visibility: visible;
-			transform: translateY(-5%);
-			transition: all 0.25s ease-in;
-		}
-
-		.grid-thumb-pixelate, canvas {
-			opacity: 1;
-			transform: scale(1.2);
-			transition: all 0.3s linear;
-		}
-	}
-}
-
-.grid-thumb-tagline {
-	font-family: $lubalin-bold;
-	@extend %text--large;
-	line-height: 1.5;
-}
-
-.grid-thumb-content {
-	position: absolute;
-	margin-top: 25px;
-	transition: all 0.2s ease-in;
-	@include vertical-center;
-
-	.button--brand-outline {
-		margin-top: $base-spacing-sm;
-		visibility: hidden;
-		transform: translateY(50%);
-		font-weight: 700;
-	}
-}
-
-.grid-thumb-meta {
-	padding: 0 $base-spacing;
-}
-
 .work-block {
 	text-align: center;
 	margin-bottom: $base-spacing-lg;
-
-	.grid-thumb-info {
-		color: #fff;
-		overflow: hidden;
-	}
 }
 
 .work-additional-block {

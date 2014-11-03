@@ -38,29 +38,29 @@ $(document).ready(function() {
 		    ctx.drawImage(jsPixelateCanvas, 0, 0, fw, fh, 0, 0, img.width, img.height);
 		}
 
-(function () {
-    var previousScroll = 0;
+	(function () {
+	    var previousScroll = 0;
 
-    $(window).scroll(function(){
-       var currentScroll = $(this).scrollTop();
-       if (currentScroll > previousScroll){
-			$('#js-panel-fullwidth .panel-fullwidth-content').addClass('panel-fullwidth-img-text');
-       } else {
-				$('#js-panel-fullwidth .panel-fullwidth-content').removeClass('panel-fullwidth-img-text');
-       }
-       previousScroll = currentScroll;
-    });
-}());
+	    $(window).scroll(function(){
+	       var currentScroll = $(this).scrollTop();
+	       if (currentScroll > previousScroll){
+				$('#js-panel-fullwidth .panel-fullwidth-content').addClass('panel-fullwidth-img-text');
+	       } else {
+					$('#js-panel-fullwidth .panel-fullwidth-content').removeClass('panel-fullwidth-img-text');
+	       }
+	       previousScroll = currentScroll;
+	    });
+	}());
 
-		$(document).scroll(function() {
-			var scrollTop = $(window).scrollTop();
-			if (scrollTop > 450) {
-				return;
-			}
-			var pixelateValue = parseInt(scrollTop / 12); 
-			pixelate(pixelateValue);
+	$(document).scroll(function() {
+		var scrollTop = $(window).scrollTop();
+		if (scrollTop > 450) {
+			return;
+		}
+		var pixelateValue = parseInt(scrollTop / 12); 
+		pixelate(pixelateValue);
 
-		});
+	});
 	}
 });
 
@@ -233,6 +233,9 @@ $(document).ready(function(){
 	  	}
 	});
 
-    //pixelate image on hover
-	$('.grid-thumb-pixelate').pixelate();
+	$('.img-pixelate-hover').load(function(){
+		$(this).pixelate({
+			value : 0.7
+		});
+	});
 });
