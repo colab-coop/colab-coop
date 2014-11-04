@@ -410,8 +410,7 @@ main {
 
   > img {
 		display: inline-block;
-    vertical-align: middle;
-    padding: $grid-padding;
+    padding: $grid-padding/2;
   }
 }
 
