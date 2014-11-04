@@ -125,6 +125,10 @@
 
     .nav-menu-trigger, .nav-menu a {
       color: #fff;
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
 
     .logo-svg {

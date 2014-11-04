@@ -272,6 +272,11 @@ img {
     margin-left: 4px;
   }
 
+  &:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease-in;
+  }
+
 	&.nav-menu-triggered {
   color: inherit;
 
