@@ -132,6 +132,13 @@ img {
   }
 }
 
+.img-pixelate-heading {
+  @extend %text--small;
+  letter-spacing: -1px;  
+  line-height: 1.5;
+  margin-bottom: $base-spacing-sm;
+}
+
 .img-pixelate-tagline {
   font-family: $lubalin-bold;
   @extend %text--large;
@@ -164,6 +171,7 @@ img {
 
   a {
     color: #fff;
+    display: block;
   }
 
   &:hover {
