@@ -203,8 +203,14 @@ a.button--brand-outline, .button--brand-outline {
   color: #fff;
 }
 
+//grey buttons with border
 a.button--brand-outline.text--gray-medium, .button--brand-outline.text--gray-medium {
   color: $gray-medium;
+}
+
+//red buttons with border
+a.button--brand-outline.color-red, .button--brand-outline.color-red {
+  color: $red;
 }
 
 //------------------------------------------------

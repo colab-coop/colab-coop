@@ -1,5 +1,6 @@
 //do we need the entire font awesome off the cdn?
 //smoother transition on off canvas on main
+//ask david for help with urls routing for work projects and bundling the js
 
 * {
   box-sizing: border-box;
@@ -55,6 +56,10 @@ img {
 
   .ul-default {
     margin-bottom: 0;
+
+    li {
+      padding-bottom: $base-spacing * 1.5;
+    }
   }
 }
 
@@ -76,7 +81,7 @@ img {
 }
 
 .panel-bg-solo-full {
-  background-image: url('../img/dummy/c.jpg');
+//  background-image: url(''); //add background image via an additional class
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -106,6 +111,17 @@ img {
 .panel-content-section {
   @extend %grid-child;
 }
+
+
+/* Module: Panel: Project specific images */
+
+.project-into {
+  .project-device-panel {
+    background-image: url("../img/projects/into/into-panel1-bg@2x.jpg");
+  }
+}
+
+/* End Module: Panel: Project specific images */
 
 //------------------------------------------------
 // MODULE: PIXELATE ON HOVER
@@ -507,6 +523,11 @@ main {
   > img {
 		padding: $grid-padding / 2;
   }
+}
+
+.project-collaboration {
+  padding: $base-spacing-lg;
+  @extend %center-element;
 }
 
 
