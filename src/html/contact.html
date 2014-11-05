@@ -7,22 +7,69 @@
   <main>
     <div class="container">
 
-    <h1>Contact</h1>
+      <h1>Contact</h1>
 
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" name="name" id="name" placeholder="Enter your name">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
 
-      <label for="name">Email:</label>
-      <input type="email" name="email" id="email" placeholder="Enter your email address">
+        <label for="name">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email address">
 
-      <label for="message">Message:</label>
-      <textarea cols="40" rows="8" name="message" id="message" placeholder="Enter your message"></textarea>
+        <label for="message">Message:</label>
+        <textarea cols="40" rows="8" name="message" id="message" placeholder="Enter your message"></textarea>
 
-      <input type="submit" value="Submit">
-    </form>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+    </div>
   </main>
-  </div>
+
+  <div id="success" hidden>Success!</div>
+  <div id="error" hidden>Error: <span id="errorMsg"></span></div>
+
+  <script>
+    $('#submit').click(function (e) {
+      e.preventDefault();
+
+      function clearform () {
+        $('#email').val('');
+        $('#name').val('');
+        $('#message').val('');
+      }
+
+      $.ajax({
+        type: 'POST',
+        datatype: 'jsonp',
+        headers: {
+          'Accept': 'application/json'
+        },
+        url: window.location.protocol + '//' + window.location.hostname + ':3001/form', 
+        data: JSON.stringify({
+          email: $('#email').val(),
+          name: $('#name').val(),
+          msg: $('#message').val()
+        }),
+        processData: false,
+        contentType: 'application/json',
+        success: function (response) {
+          console.log('got success: ', response);
+          clearform();
+          $('#success').fadeIn();
+          window.setTimeout(function () {
+            $('#success').fadeOut();
+          }, 3000);
+        },
+        error: function (jqXHR, status, errorThrown) {
+          console.log('got error: ', jqXHR);
+          $('#errorMsg').innerText(jqXHR);
+          $('#error').fadeIn();
+          window.setTimeout(function () {
+            $('#error').fadeOut();
+          }, 3000);
+        }
+      })
+    });
+  </script>
 
   @@include('../templates/_footer.tpl')
 
