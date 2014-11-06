@@ -202,10 +202,9 @@ img {
   position: absolute;
   left: 0;
   right: 0;
-  top: 0;
-  bottom: 0;
-  padding: 10px;
-  padding-top: 18%;
+  padding: $base-spacing;
+  @extend %vertical-center;
+  margin-top: 29px;
   transition: all 0.2s ease-in;
 
   .button--brand-outline {
@@ -253,16 +252,19 @@ img {
     top: 0;
     bottom: 0;
     opacity: 0;
+    pointer-events: none;
   }
 
   a {
     color: #fff;
     display: block;
+    position: relative;
+    min-height: 100%;
   }
 
   &:hover {
     .img-pixelate-content {
-      padding-top: 12%;
+      margin-top: - $base-spacing-sm;
       transition: all 0.3s ease-in;
     }
 
@@ -274,7 +276,6 @@ img {
 
     .img-pixelate-meta {
       visibility: visible;
-      transform: translateY(-5%);
       transition: all 0.25s ease-in;
     }
 
