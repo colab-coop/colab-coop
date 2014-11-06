@@ -65,6 +65,7 @@ img {
 
 .panel-fullwidth-content {
   transition: all 1s ease-in;
+  padding: 0 $base-spacing;
 }
 
 .panel-bg-pattern {
@@ -130,6 +131,19 @@ img {
     background-image: url("../img/projects/valuate/valuate-testimonial-bg@2x.png");   
     background-repeat: no-repeat;
     background-size: 100% auto; 
+  }
+}
+
+.project-stp {
+  .panel-overlap-stp {
+    background-color: #61bb8a;
+  }
+
+  .panel-overlap-stp-bg {
+    background-image: url("../img/projects/stp/stp-testimonial-bg@2x.png");   
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    background-position: center; 
   }
 }
 
