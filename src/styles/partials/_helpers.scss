@@ -203,11 +203,14 @@
   padding: 15px;
   line-height: 1;
   color: #fff;
-  border: 2px solid;
+  border: 2px solid #fff;
   border-radius: 3px;
   min-width: 180px;
 
   &:hover {
+    background: #fff;
+    border-color: #fff;
+    color: $gray-darkest;
     transition: all 0.2s linear;
   }
 }
@@ -223,7 +226,13 @@ a.button--brand-outline.text--gray-medium, .button--brand-outline.text--gray-med
 
 //red buttons with border
 a.button--brand-outline.color-red, .button--brand-outline.color-red {
+  border-color: $red;
   color: $red;
+
+  &:hover {
+    background: $red;
+    color: #fff;
+  }
 }
 
 //------------------------------------------------

@@ -287,10 +287,6 @@ img {
       opacity: 1;
       transform: translateY(0%);
       transition: all 0.25s ease-in;
-
-      &:hover {
-        color: inherit;
-      }
     }
   }
 }
@@ -408,14 +404,6 @@ main {
   color: #fff;
   padding: 50px 0 $base-spacing 0;
 
-  a {
-		color: $gray-medium;
-  }
-
-  .button--brand-outline {
-    color: inherit;
-  }
-
   .h2 {
     border-color: $gray-dark;
     margin-bottom: $base-spacing-lg;
@@ -441,6 +429,13 @@ main {
 
 .footer-address {
   float: left;
+
+  a {
+    color: $gray-medium;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .footer-social {
