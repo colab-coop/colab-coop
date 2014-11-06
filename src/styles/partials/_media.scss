@@ -13,6 +13,10 @@
     transition: all 0.2s ease-in;
   }
 
+  .nav-menu, .nav-menu.nav-menu-open {
+    top: 55px;
+  }
+
   .panel-fullwidth-content {
     font-size: 80%;
   }
