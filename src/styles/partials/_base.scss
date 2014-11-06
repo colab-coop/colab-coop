@@ -128,9 +128,9 @@ img {
   }
 
   .panel-overlap-valuate-bg {
-    background-image: url("../img/projects/valuate/valuate-testimonial-bg@2x.png");   
+    background-image: url("../img/projects/valuate/valuate-testimonial-bg@2x.png");
     background-repeat: no-repeat;
-    background-size: 100% auto; 
+    background-size: 100% auto;
   }
 }
 
@@ -140,16 +140,16 @@ img {
   }
 
   .panel-overlap-stp-bg {
-    background-image: url("../img/projects/stp/stp-testimonial-bg@2x.png");   
+    background-image: url("../img/projects/stp/stp-testimonial-bg@2x.png");
     background-repeat: no-repeat;
     background-size: 30% auto;
-    background-position: center; 
+    background-position: center;
   }
 }
 
 .project-pivot {
   .project-panel-each {
-    
+
     p:first-of-type {
       margin-top: 0;
     }
@@ -160,9 +160,9 @@ img {
   }
 
   .panel-overlap-pivot-bg {
-    background-image: url("../img/projects/pivot/pivot-testimonial-bg@2x.png");   
+    background-image: url("../img/projects/pivot/pivot-testimonial-bg@2x.png");
     background-repeat: no-repeat;
-    background-size: 100% auto; 
+    background-size: 100% auto;
   }
 }
 
@@ -176,10 +176,10 @@ img {
   }
 
   .panel-overlap-uua-bg {
-    background-image: url("../img/projects/uua/uua-testimonial-bg@2x.png");   
+    background-image: url("../img/projects/uua/uua-testimonial-bg@2x.png");
     background-repeat: no-repeat;
     background-size: 25% auto;
-    background-position: center; 
+    background-position: center;
   }
 }
 
@@ -202,13 +202,13 @@ img {
   position: absolute;
   left: 0;
   right: 0;
-  padding: $base-spacing;
+  padding: $base-spacing 0;
   @extend %vertical-center;
   margin-top: 29px;
   transition: all 0.2s ease-in;
 
   .button--brand-outline {
-		margin-top: $base-spacing-sm;
+		margin-top: $base-spacing-lg;
     visibility: hidden;
     transform: translateY(50%);
     font-weight: 700;
@@ -219,7 +219,7 @@ img {
 
 .img-pixelate-heading {
   @extend %text--small;
-  letter-spacing: -1px;  
+  letter-spacing: -1px;
   line-height: 1.5;
   margin-bottom: $base-spacing-sm;
 }
@@ -227,7 +227,7 @@ img {
 .img-pixelate-tagline {
   font-family: $lubalin-bold;
   @extend %text--large;
-	line-height: 1.5;
+	line-height: 1.3;
 }
 
 .img-pixelate-meta {
@@ -264,6 +264,8 @@ img {
   }
 
   &:hover {
+    cursor: pointer;
+
     .img-pixelate-content {
       margin-top: - $base-spacing-sm;
       transition: all 0.3s ease-in;
@@ -287,7 +289,6 @@ img {
       transition: all 0.25s ease-in;
 
       &:hover {
-        opacity: 0.6;
         color: inherit;
       }
     }
