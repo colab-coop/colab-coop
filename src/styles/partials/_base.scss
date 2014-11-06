@@ -131,12 +131,12 @@ img {
 
   .panel-overlap-pivot {
     background-color: #61a028;
+  }
 
-    .panel-overlap-pivot-bg {
-      background-image: url("../img/projects/pivot/pivot-testimonial-bg@2x.png");   
-      background-repeat: no-repeat;
-      background-size: 100% auto 
-    }
+  .panel-overlap-pivot-bg {
+    background-image: url("../img/projects/pivot/pivot-testimonial-bg@2x.png");   
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
   }
 }
 
@@ -144,7 +144,19 @@ img {
   .project-device-panel {
     background-image: url("../img/projects/uua/uua-panel1-bg@2x.jpg");
   }
+
+  .panel-overlap-uua {
+    background-color: #f0274e;
+  }
+
+  .panel-overlap-uua-bg {
+    background-image: url("../img/projects/uua/uua-testimonial-bg@2x.png");   
+    background-repeat: no-repeat;
+    background-size: 25% auto;
+    background-position: center; 
+  }
 }
+
 
 /* End Module: Panel: Project specific images */
 
