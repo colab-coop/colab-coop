@@ -204,15 +204,17 @@ img {
   right: 0;
   top: 0;
   bottom: 0;
-  transition: all 0.2s ease-in;
   padding: 10px;
   padding-top: 18%;
+  transition: all 0.2s ease-in;
 
   .button--brand-outline {
 		margin-top: $base-spacing-sm;
     visibility: hidden;
     transform: translateY(50%);
     font-weight: 700;
+    opacity: 0;
+    transition: all 0.45s ease-in-out;
   }
 }
 
@@ -278,6 +280,7 @@ img {
 
     .button--brand-outline {
       visibility: visible;
+      opacity: 1;
       transform: translateY(0%);
       transition: all 0.25s ease-in;
 
