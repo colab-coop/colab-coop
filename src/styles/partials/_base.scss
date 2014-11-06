@@ -121,6 +121,24 @@ img {
   }
 }
 
+.project-pivot {
+  .project-panel-each {
+    
+    p:first-of-type {
+      margin-top: 0;
+    }
+  }
+  .panel-overlap-pivot {
+    background-color: #61a028;
+
+    .panel-overlap-pivot-bg {
+      background-image: url("../img/projects/pivot/pivot-testimonial-bg@2x.png");   
+      background-repeat: no-repeat;
+      background-size: 100% auto 
+    }
+  }
+}
+
 /* End Module: Panel: Project specific images */
 
 //------------------------------------------------
