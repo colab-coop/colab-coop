@@ -128,6 +128,7 @@ img {
       margin-top: 0;
     }
   }
+
   .panel-overlap-pivot {
     background-color: #61a028;
 
@@ -136,6 +137,12 @@ img {
       background-repeat: no-repeat;
       background-size: 100% auto 
     }
+  }
+}
+
+.project-uua {
+  .project-device-panel {
+    background-image: url("../img/projects/uua/uua-panel1-bg@2x.jpg");
   }
 }
 
