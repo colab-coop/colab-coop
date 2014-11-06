@@ -1,4 +1,4 @@
-var jsPixelateCanvas = require('./pixelate.js');
+var jsPixelateHover = require('./pixelate.js');
 var headroom = require('./headroom.min.js');
 
 //PIXELATE ON SCROLL CODE
