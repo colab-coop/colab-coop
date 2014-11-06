@@ -1,22 +1,22 @@
 @@include('../templates/_head.tpl')
 
-<body class="project project-into">
+<body class="project project-hrc">
 
   @@include('../templates/_homenav.tpl')
 
   <main>
     <section id="js-panel-fullwidth" class="panel-full panel-fullwidth-img">
-      <img id="js-pixelate-scroll" class="img-pixelate-scroll img-fullwidth" src="/assets/img/projects/into/into-cover-image@2x.jpg" alt="into-image-cover">
+      <img id="js-pixelate-scroll" class="img-pixelate-scroll img-fullwidth" src="/assets/img/projects/hrc/hrc-cover-image@2x.jpg" alt="hrc-image-cover">
       <canvas id="jsPixelateCanvas" class="img-fullwidth" width="1200" height="600"></canvas>
       <div class="panel-fullwidth-content vertical-center color-white">
-        <h2 class="text--normal">INTO</h2>
-        <h1 class="heading-primary">Storytelling for the green economy</h1>
+        <h2 class="text--normal">Human Rights Campaign</h2>
+        <h1 class="heading-primary">Workplace equality</h1>
       </div>     
     </section> <!-- /panel -->
   
     <section class="panel-full spacing--lg-xx">
-      <div class="container">
-        <img class="center-element" src="/assets/img/projects/into/into-devices@2x.png" alt="into-image-devices">
+      <div class="container--text">
+        <img class="center-element" src="/assets/img/projects/hrc/hrc-devices@2x.png" alt="hrc-image-devices">
       </div>
     </section>
 
@@ -25,82 +25,68 @@
         <div class="h2 center-text">KEY POINTS</div>
         <div class="spacing--sm-x"></div>
         <ul class="ul-default text--small">
-          <li>Native iOS mobile application and web platform</li>
-          <li>Mobile and web UX</li>
-          <li>Business development support with a sales MVP</li>
-          <li>Custom code scanning technology to replace QR codes</li>
-          <li>Content focused design process</li>
+          <li>Integrate their existing database with location data from a 3rd party Places API</li>
+          <li>Expand their reach from iPhone only to the full range of Android and iOS devices with a hybrid app</li>
+          <li>Allow HRC to update the listing on the phone without releasing a new app</li>
         </ul>
       </div>
     </section>
 
     <section>
       <div class="container--text spacing--mid-xx">
-        <p>Humans are curious by nature. We want to know. We want to know where a thing comes from - who made it and how? For a long time consumers have been buying blind. Imagine knowing the full story behind the goods you choose - including the faces behind the people who made them.</p>
+        <p>The Human Rights Commission had a wealth of data about where people could shop to vote with their dollars, but their iOS-only app was outdated and had no API integration, requiring a full rebuild every time they updated their database of 7000 companies’ records on workplace equality.</p>
       </div>
     </section>
 
     <section class="panel-full panel-bg-solo-full project-device-panel">
-      <div class="container--text spacing--lg-xx clearfix">
-        <div class="col-50-flt">
-          <img src="/assets/img/projects/into/into-panel1-device1@2x.png" alt="into-panel1-device" class="center-element"> 
+      <div class="container spacing--lg-xx clearfix">
+        <div class="col-33-flt">
+          <img src="/assets/img/projects/hrc/hrc-panel1-device1@2x.png" alt="hrc-panel1-device" class="center-element"> 
           
         </div>
 
-        <div class="col-50-flt">
-          <img src="/assets/img/projects/into/into-panel1-device2@2x.png" alt="into-panel2-device" class="center-element">
+        <div class="col-33-flt">
+          <img src="/assets/img/projects/hrc/hrc-panel1-device2@2x.png" alt="hrc-panel2-device" class="center-element">
         </div>
+
+        <div class="col-33-flt">
+          <img src="/assets/img/projects/hrc/hrc-panel1-device3@2x.png" alt="hrc-panel3-device" class="center-element">
+        </div>
+
       </div>
     </section>
 
     <section>
       <div class="container--text spacing--mid-xx">
-        <p>CoLab was thrilled to be approached with an opportunity to support consumer rights. We firmly believe that informed consumers makes better decisions, and from there a better world is not far behind. We signed on as designers, developers, and strategic consultants. It's not every day a visionary company like INTO finds a technical support team who can share their vision with passion and excitement.</p>
-        <p>INTO's ambitions were set high. Their intention was to become the preeminent storytelling platform for the green economy through partnerships with companies like Whole Foods, Fair Trade USA, and Sambazon. We were excited to help INTOget traction from their MVP product while building an enterprise-grade application, CMS and API.</p>
-        <p>In order to provide the best possible opportunity for success, CoLab brought together a cross-disciplinary team that included:</p>
-        <ul class="ul-default">
-          <li>Cross-platform UX and UI design</li>
-          <li>Native iOS application development</li>
-          <li>API development</li>
-          <li>Strategic business consulting, calling on our management team's experience in venture capital</li>
-        </ul>
-        <p>Success came quickly for INTO once CoLab jumped on board.</p>
-        <p>Using a modular server running NodeJS, we built a REST API to serve both iOS and web applications. The custom AngularJS CMS uses Amazon S3 to store all of INTO’s high-definition photos and videos.</p>
-        <p>Our business development strategy team helped the visionaries come up with a marketing and sales plan. The first step was entering trade-shows, giving INTO exposure to potential clients. Soon one-on-one meetings were being held with the top green companies. Before long, INTO was securing pre-sales commitments to a product that was still under development.</p>
-        <p>Through our strategic efforts, CoLab helped INTO successfully raise additional capital right from the beginning. This enabled them to further invest in their product development and market roll-out strategy.
-CoLab's success with INTO culminated in our ability to approach a vision with incredible technical and business complexity and distill it into an elegant solution.</p>
-        <p>Through a combination of INTO's ecologically, socially, and economically compelling vision and CoLab's technical and strategic expertise, INTO is truly tracked for success.</p>
-
+        <p>We worked with them to redesign and reimplement their application as a cross-platform, Phonegap and Backbone-based mobile application. The final project mashed-up places data from the Google Places API with the HRC’s own brands database to help users find brands and retailers whose values aligned with their own. We developed both the front-end application, using Backbone Marionette and Bootstrap, along with a backend API server to expose the HRC’s database and merge it with Google’s location data. The final application works on web, iOS and Android, and HRC saw their app users more than double within weeks of the new app's launch.</p>
       </div>
     </section>
 
     <section>
-      <div class="container--text spacing--lg-x">
-        <div class="center-text">
-          <a href="http://lookin.to" class="button--brand-outline color-red">Visit Site</a>
-          <div class="spacing--mid-x"></div>
+      <div class="container--text spacing--sm project-site-links">
+        <a href="https://play.google.com/store/apps/details?id=org.hrc.guide&hl=en" class="button--brand-outline color-red">Download from Google Play</a>
+        <a href="https://itunes.apple.com/BM/app/id345618414?mt=8&ign-mpt=uo%3D4" class="button--brand-outline color-red">Download from Apple</a>                  
+      </div> <!--  /project-site-links -->
+    </section>
 
+    <section>
+        <div class="center-text container--text">  
+          <div class="spacing--mid-x"></div>
           <div class="grid-parent">
-            <div class="project-info grid-child project-info-50">
+            <div class="project-info grid-child">
               <h2 class="h2">TEAM MEMBERS</h2>
               <div class="members-team">
+                <img src="http://placehold.it/80x80" alt="Sanjay Bhangar">
                 <img src="http://placehold.it/80x80" alt="Inder Brar">
                 <img src="http://placehold.it/80x80" alt="Tomaž Korenika">
                 <img src="http://placehold.it/80x80" alt="Cris Nelson">
-                <img src="http://placehold.it/80x80" alt="Rylan Peery">
+                <img src="http://placehold.it/80x80" alt="Amandeep Sapra">
                 <img src="http://placehold.it/80x80" alt="Jenn Schlick">
                 <img src="http://placehold.it/80x80" alt="Ethan Winn">                
               </div> <!-- /members-team -->
+              <div class="spacing--lg"></div>
             </div> <!-- /project-info -->
-
-            <div class="project-info grid-child project-info-50">
-              <h2 class="h2">IN COLLABORATION WITH</h2>
-                <div class="spacing--sm-x"></div>
-                <img src="/assets/img/projects/into/into-partner@2x.png" alt="brierwood-design-cooperative" class="project-collaboration">
-          </div>
-
-        </div> <!-- /center-text -->
-        
+        </div> <!-- /grid-parent -->        
       </div> <!-- /container--text -->
     </section>
 
@@ -109,12 +95,12 @@ CoLab's success with INTO culminated in our ability to approach a vision with in
         <h2 class="h2">NEXT</h2>
         <div class="spacing--mid"></div>
         <div class="img-pixelate-parent">
-          <a href="/pivot">
-            <img src="/assets/img/projects/pivot/pivot-preview-image.jpg" class="img-pixelate-hover" alt="pivot-preview-image">
+          <a href="/valuate">
+            <img src="/assets/img/projects/valuate/valuate-preview-image.jpg" class="img-pixelate-hover" alt="pivot-preview-image">
             <div class="img-pixelate-content">
               <div class="img-pixelate-meta">
-                <div class="text--small"><strong>PIVOT</strong></div>
-                <div class="img-pixelate-tagline">Promoting renewable fuel</div>
+                <div class="text--small"><strong>Valuate</strong></div>
+                <div class="img-pixelate-tagline">Financial modeling</div>
               </div>
               <span class="button--brand-outline">View Project</span>
             </a>

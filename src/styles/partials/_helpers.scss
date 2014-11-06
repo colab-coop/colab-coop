@@ -54,6 +54,20 @@
 	padding-right: $grid-padding;
 }
 
+.col-33-flt, %col-33-flt {
+  width: 33.33%;
+  float: left;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
+@mixin col-33-flt {
+  width: 33%;
+  float: left;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
 .col-50-flt, %col-50-flt {
   width: 50%;
   float: left;

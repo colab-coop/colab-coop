@@ -157,6 +157,11 @@ img {
   }
 }
 
+.project-hrc {
+  .project-device-panel {
+    background-image: url("../img/projects/hrc/hrc-panel1-bg@2x.jpg");
+  }
+}
 
 /* End Module: Panel: Project specific images */
 
@@ -570,6 +575,14 @@ main {
 .project-collaboration {
   padding: $base-spacing-lg;
   @extend %center-element;
+}
+
+.project-site-links {
+  text-align: center;
+  
+  .button--brand-outline {
+    margin: 0 $base-spacing $base-spacing;
+  }
 }
 
 
