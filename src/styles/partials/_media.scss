@@ -12,6 +12,10 @@
     right: -$nav-menu-width;
     transition: all 0.2s ease-in;
   }
+
+  .panel-fullwidth-content {
+    font-size: 80%;
+  }
 }
 
 @media screen and (min-width: 600px) {
