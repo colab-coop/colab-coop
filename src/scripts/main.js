@@ -77,6 +77,10 @@ $(document).ready(function(){
         $('main').toggleClass('main-offcanvas');
     });
 
+    $('.nav-menu').click(function(event){
+        event.stopPropagation();
+    });
+
     $(window).click(function(){
     	$('.nav-menu-trigger').removeClass('nav-menu-triggered');
         $('.nav-menu').removeClass('nav-menu-open');

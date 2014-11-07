@@ -1,4 +1,8 @@
 @media screen and (max-width: 799px) {
+  .nav {
+    overflow: visible;
+  }
+
   .nav-menu {
     padding: $base-spacing $base-spacing-sm;
     background: $gray-darkest;
@@ -11,9 +15,6 @@
     width: $nav-menu-width;
     right: -$nav-menu-width;
     transition: all 0.2s ease-in;
-  }
-
-  .nav-menu, .nav-menu.nav-menu-open {
     top: 55px;
   }
 
