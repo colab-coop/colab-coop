@@ -21,8 +21,8 @@ $gray-lighter:          #f9f9f9;
 $border-default-light:     #e0e0e0;
 
 $base-spacing: 10px;
-$base-spacing-sm: 5px;
-$base-spacing-lg: 20px;
+$base-spacing-sm: $base-spacing / 2;
+$base-spacing-lg: $base-spacing * 2;
 
 $nav-menu-width: 150px;
 
