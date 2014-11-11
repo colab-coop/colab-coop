@@ -226,6 +226,7 @@ a.button--brand-outline.text--gray-medium, .button--brand-outline.text--gray-med
 
 //red buttons with border
 a.button--brand-outline.color-red, .button--brand-outline.color-red {
+  background: transparent;
   border-color: $red;
   color: $red;
 

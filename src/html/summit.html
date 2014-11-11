@@ -1,0 +1,120 @@
+@@include('../templates/_head.tpl')
+
+<body class="contact">
+
+  @@include('../templates/_homenav.tpl')
+
+  <main>
+    <div class="container">
+
+      <div class="spacing--lg-xx">
+        <h1 class="heading-primary">Q4 Summit Working Session:<br>What do you do here?</h1>
+      </div>
+
+      <div class="border-rainbow"></div>
+
+      <form class="form form--summit text--align-center">
+
+        <div class="spacing--lg-xx">
+          <div class="form-row">
+            <p>Hi, my name is</p>
+            <p><input type="text" name="name" id="name"><span class="period">.</span></p>
+          </div>
+          <div class="form-row">
+            <p>I'm CoLab's
+            <p><input type="text" name="title" id="title"><span class="period">.</span></p>
+          </div>
+          <div class="form-row">
+            <p>At CoLab, I do these things:</p>
+            <textarea cols="40" rows="4" name="textarea1" id="textarea1"></textarea>
+          </div>
+
+          <div class="form-row">
+            <p>People also come to me for:</p>
+            <textarea cols="40" rows="4" name="textarea2" id="textarea2"></textarea>
+          </div>
+
+          <div class="form-row">
+            <p>Of these things...</p>
+
+            <div class="grid-parent">
+              <div class="col-50-flt">
+                <p>I enjoy:</p>
+                <textarea cols="40" rows="4" name="textarea3" id="textarea3"></textarea>
+              </div>
+              <div class="col-50-flt">
+                <p>I'm not good at:</p>
+                <textarea cols="40" rows="4" name="textarea4" id="textarea4"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <p>I'm also good at these things,<br>but I don't do them at CoLab right now.</p>
+            <textarea cols="40" rows="4" name="textarea5" id="textarea5"></textarea>
+          </div>
+
+          <input type="submit" value="Send" id="submit" class="button--brand-outline color-red">
+        </div>
+
+      </form>
+    </div>
+  </main>
+
+  <div id="success" hidden>Success!</div>
+  <div id="error" hidden>Error: <span id="errorMsg"></span></div>
+
+  <script>
+    $('#submit').click(function (e) {
+      e.preventDefault();
+
+      function clearform () {
+        $('#name').val('');
+        $('#title').val('');
+        $('#textarea1').val('');
+        $('#textarea2').val('');
+        $('#textarea3').val('');
+        $('#textarea4').val('');
+        $('#textarea5').val('');
+      }
+
+      $.ajax({
+        type: 'POST',
+        datatype: 'jsonp',
+        headers: {
+          'Accept': 'application/json'
+        },
+        url: window.location.protocol + '//' + window.location.hostname + ':8113/form',
+        data: JSON.stringify({
+          name: $('#name').val(),
+          title: $('#title').val(),
+          textarea1: $('#textarea1').val(),
+          textarea2: $('#textarea2').val(),
+          textarea3: $('#textarea3').val(),
+          textarea4: $('#textarea4').val(),
+          textarea5: $('#textarea5').val()
+        }),
+        processData: false,
+        contentType: 'application/json',
+        success: function (response) {
+          console.log('got success: ', response);
+          clearform();
+          $('#success').fadeIn();
+          window.setTimeout(function () {
+            $('#success').fadeOut();
+          }, 3000);
+        },
+        error: function (jqXHR, status, errorThrown) {
+          console.log('got error: ', jqXHR);
+          $('#errorMsg').innerText(jqXHR);
+          $('#error').fadeIn();
+          window.setTimeout(function () {
+            $('#error').fadeOut();
+          }, 3000);
+        }
+      })
+    });
+  </script>
+
+  @@include('../templates/_footer.tpl')
+
+  @@include('../templates/_tail.tpl')
