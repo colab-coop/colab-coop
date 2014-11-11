@@ -1,4 +1,4 @@
-<div id="disqus_thread"></div>
+<div id="disqus_thread" class="blog-post-disqus"></div>
 <script type="text/javascript">
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'colabcoop'; // required: replace example with your forum shortname
