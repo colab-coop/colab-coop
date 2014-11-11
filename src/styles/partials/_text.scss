@@ -130,3 +130,11 @@ ul {
 @mixin text--larger {
   font-size: 130%;
 }
+
+.text--uppercase, %text--uppercase {
+  text-transform: uppercase;
+}
+
+@mixin text--uppercase {
+  text-transform: uppercase;
+}
