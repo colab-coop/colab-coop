@@ -235,6 +235,16 @@ a.button--brand-outline.color-red, .button--brand-outline.color-red {
   }
 }
 
+//add spacing when a link contains a left or right arrow
+a {
+  .fa-angle-left {
+    margin-right: 10px;
+  }
+  .fa-angle-right {
+    margin-left: 10px;
+  }
+}
+
 //------------------------------------------------
 // Colors
 .color-white {
