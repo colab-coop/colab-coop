@@ -17,6 +17,7 @@ body {
 }
 
 p, ul, ol {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -642,11 +643,17 @@ main {
 // Blog-Post: Page
 
 .styling-markdown {
+  padding-bottom: $base-spacing-lg * 2.5;
 
   h1:first-of-type {
 		@extend %heading-primary;
     margin-top: $base-spacing-lg * 2.5;
   }
+
+  ul {
+    @extend %ul-default;
+  }
+
 }
 
 .icon-decorative-pixel:after {
@@ -680,4 +687,8 @@ main {
 .blog-post-social {
   padding: $base-spacing-lg 0 $base-spacing-lg*2;
   text-align: center;
+}
+
+.blog-post-disqus {
+  @extend %spacing--lg;
 }

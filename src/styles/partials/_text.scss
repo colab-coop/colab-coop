@@ -5,6 +5,16 @@ strong, b {
 //------------------------------------------------
 // Headings
 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+
 h1, .h1, %h1 {
   font-size: 170%;
   line-height: 1.5em;
@@ -20,17 +30,39 @@ h2, .h2 {
 .h2 {
   border-bottom: 2px solid $border-default-light;
   padding-bottom: $base-spacing-sm;
-  font-weight: normal;
 }
 
 .h2-border-rainbow {
   border-bottom: none;
-  font-weight: normal;
   &:after {
 		content:"";
     display: block;
     @extend %border-rainbow;
   }
+}
+
+h3, .h3 {
+  font-size: 1em;
+  line-height: 1.5em;
+ /*24px*/;
+}
+
+h4, .h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+ /*24px*/;
+}
+
+h5, .h5 {
+  font-size: 1em;
+  line-height: 1.5em;
+ /*24px*/;
+}
+
+h6, .h6 {
+  font-size: 1em;
+  line-height: 1.5em;
+ /*24px*/;
 }
 
 .heading-primary, %heading-primary {
@@ -52,21 +84,46 @@ ul {
 .ul-default, %ul-default {
   list-style-type: none;
   list-style-position: outside;
-  text-indent: -0.4em;
+  text-indent: -0.6em;
+  margin-left: .4em;
   padding-left: $grid-padding;
 
   li {
-		padding-bottom: $base-spacing-sm;
 
     &:before {
 			content: '\2022';
-      color: red;
-      display: inline-block;
-      padding-right: 5px;
       color: $gray-medium;
+      display: inline-block;
+      padding-right: 10px;
       font-size: 90%;
     }
 	}
+}
+
+ol, %ol-default {
+  padding-left: 30px;
+}
+
+ul, ol {
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+//------------------------------------------------
+// Code
+
+code {
+  font-size: 80%;
+}
+
+//------------------------------------------------
+// Blockquotes
+
+blockquote {
+  border-left: 2px solid $border-default-light;
+  margin: $base-spacing*4 0 $base-spacing*4 $base-spacing*4;
+  padding: $base-spacing-lg 0 $base-spacing-lg $base-spacing-lg*2;
 }
 
 //------------------------------------------------
