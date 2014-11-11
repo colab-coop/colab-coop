@@ -626,6 +626,10 @@ main {
 
     a {
 			color: inherit;
+
+      &:hover {
+        color: $red;
+      }
     }
 	}
 }
