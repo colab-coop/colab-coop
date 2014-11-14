@@ -57,3 +57,7 @@ Images:
 
 ![Alt text](/assets/img/projects/into/into-cover-image@2x.jpg)
 <p class="text--small text--align-center text--gray-medium">Photo credit: [Name](http://colab.coop/)</p>
+
+***
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et risus sed purus ultrices blandit sed vitae augue. Phasellus mi lacus, condimentum a vestibulum eget, pharetra dapibus erat. Phasellus fringilla finibus felis ac posuere. Proin iaculis sem non euismod eleifend. Aenean mollis dignissim leo, at efficitur mi congue in.

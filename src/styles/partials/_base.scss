@@ -44,6 +44,15 @@ img {
   display: block;
 }
 
+hr {
+  background: $border-default-light;
+  border: 0px;
+  display: block;
+  clear: both;
+  height: 2px;
+  margin: 40px 0;
+}
+
 //------------------------------------------------
 // MODULE: PANEL
 .panel-full {
