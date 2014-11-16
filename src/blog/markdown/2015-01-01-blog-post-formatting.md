@@ -56,7 +56,7 @@ Here is an example of AppleScript:
 Images:
 
 ![Alt text](/assets/img/projects/into/into-cover-image@2x.jpg)
-<p class="text--small text--align-center text--gray-medium">Photo credit: [Name](http://colab.coop/)</p>
+<span class="caption">Photo credit: [Name](http://colab.coop/)</span>
 
 ***
 
