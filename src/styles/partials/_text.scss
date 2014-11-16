@@ -3,6 +3,15 @@ strong, b {
 }
 
 //------------------------------------------------
+// Text container
+
+.container--text {
+  > *:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+//------------------------------------------------
 // Headings
 
 h1, .h1,
@@ -12,24 +21,22 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   font-weight: normal;
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
 }
 
 h1, .h1, %h1 {
+  font-family: $lubalin-bold;
   font-size: 170%;
-  line-height: 1.5em;
+  line-height: 1.3;
  /*45px*/;
 }
 
 h2, .h2 {
+  border-bottom: 2px solid $border-default-light;
+  padding-bottom: $base-spacing-sm;
   font-size: 85%;
   line-height: 1.5em;
  /*24px*/;
-}
-
-.h2 {
-  border-bottom: 2px solid $border-default-light;
-  padding-bottom: $base-spacing-sm;
 }
 
 .h2-border-rainbow {
@@ -105,7 +112,8 @@ ol, %ol-default {
 }
 
 ul, ol {
-  *:last-child {
+  li ul:last-child,
+  li ol:last-child {
     margin-bottom: 0;
   }
 }
@@ -124,6 +132,19 @@ blockquote {
   border-left: 2px solid $border-default-light;
   margin: $base-spacing*4 0 $base-spacing*4 $base-spacing*4;
   padding: $base-spacing-lg 0 $base-spacing-lg $base-spacing-lg*2;
+}
+
+//------------------------------------------------
+// Image captions
+
+.caption {
+  @extend %text--small;
+  color: $gray-medium;
+  display: block;
+  a {
+    border-bottom: 1px solid;
+    color: $gray-medium;
+  }
 }
 
 //------------------------------------------------
