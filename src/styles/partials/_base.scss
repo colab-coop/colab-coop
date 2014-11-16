@@ -22,7 +22,7 @@ body {
 
 p, ul, ol {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 a {
@@ -80,6 +80,12 @@ hr {
 .panel-fullwidth-content {
   transition: all 1s ease-in;
   padding: 0 $base-spacing;
+
+  h2 {
+    border-bottom: 0;
+    padding: 0;
+  }
+
 }
 
 .panel-bg-pattern {
@@ -661,6 +667,7 @@ main {
   h1:first-of-type {
 		@extend %heading-primary;
     margin-top: $base-spacing-lg * 2.5;
+    margin-bottom: $base-spacing-lg * 2.5;
   }
 
   ul {
