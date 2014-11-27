@@ -40,7 +40,7 @@
     @include col-50-flt;
   }
 
-  .form-contact {
+  .form-contact, .form-project-checkin {
     .grid-parent {
       > .form-field-wrap {
         @include col-50-flt;
