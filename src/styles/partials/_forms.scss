@@ -27,7 +27,7 @@ label {
 }
 
 .form-field-wrap {
-	padding: $base-spacing 0;
+	padding: $base-spacing-mid 0;
 }
 
 .form-base {
@@ -59,6 +59,7 @@ label {
 
   .checkbox-custom-label, .radio-custom-label {
     position: relative;
+    padding: 0;
   }
 
   .checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
@@ -67,8 +68,8 @@ label {
     border: 2px solid #eee;
     display: inline-block;
     vertical-align: middle;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     padding: 2px;
     margin-right: 10px;
     text-align: center;
@@ -83,7 +84,7 @@ label {
   }
 
   .radio-custom:checked + .radio-custom-label:before {
-    box-shadow: inset 0px 0px 0px 6px $red;
+    box-shadow: inset 0px 0px 0px 5px $red;
     border: 1px solid $red;
   }
 }

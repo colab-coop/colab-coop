@@ -39,6 +39,14 @@
   .panel-content-section {
     @include col-50-flt;
   }
+
+  .form-contact {
+    .grid-parent {
+      > .form-field-wrap {
+        @include col-50-flt;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 700px) {

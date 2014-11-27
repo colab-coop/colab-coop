@@ -712,3 +712,12 @@ main {
 .blog-post-disqus {
   @extend %spacing--lg;
 }
+
+//------------------------------------------------
+// Contact: Page
+
+.address-colab-block {
+  @extend %spacing--lg;
+  @extend %center-text;
+  border-top: 2px solid $border-default-light;
+}
