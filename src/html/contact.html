@@ -40,7 +40,9 @@
 
         <div class="form-field-wrap center-text">
           <div class="spacing--sm">
-            <input type="submit" value="Send" id="submit" class="button--brand-outline color-red">          
+            <input type="submit" value="Send" id="submit" class="button--brand-outline color-red"><div id="success" hidden>Thanks for your message. We'll be in touch.</div>
+            <div id="error" hidden>Error: <span id="errorMsg"></span></div>
+    
           </div>
         </div>
       </form>
@@ -92,9 +94,6 @@
       </div> <!-- /address-map-block -->
     </section>
   </main>
-
-  <div id="success" hidden>Success!</div>
-  <div id="error" hidden>Error: <span id="errorMsg"></span></div>
 
   <script>
     $('#submit').click(function (e) {
