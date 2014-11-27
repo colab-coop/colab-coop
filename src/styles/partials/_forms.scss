@@ -1,6 +1,35 @@
 //------------------------------------------------
 // Forms
 
+input[type="submit"], button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+textarea, select, input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
+  padding: $base-spacing;
+
+  &:focus {
+    outline: 0;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+  }
+}
+
+label {
+  padding-bottom: $base-spacing-mid;
+}
+
+.form-field-wrap {
+	padding: $base-spacing 0;
+}
+
 .form {
 
 }
