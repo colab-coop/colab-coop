@@ -1,6 +1,7 @@
 //do we need the entire font awesome off the cdn?
 //smoother transition on off canvas on main
-//ask david for help with urls routing for work projects and bundling the js
+//ask david for help with urls routing for work projects
+//add google maps custom script in a better place :)
 
 * {
   box-sizing: border-box;
@@ -717,7 +718,12 @@ main {
 // Contact: Page
 
 .address-colab-block {
-  @extend %spacing--lg;
+  @extend %spacing--lg-x;
   @extend %center-text;
   border-top: 2px solid $border-default-light;
 }
+
+#map-canvas {
+  height: 400px;
+}
+
