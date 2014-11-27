@@ -111,3 +111,11 @@ label {
 		color: $gray-medium;
 	}
 }
+
+#success, #error {
+	padding: $base-spacing-sm;
+	color: $gray-medium;
+	@extend %text--small;
+	background: $gray-light;
+	margin: $base-spacing-lg 0 0 0;
+}

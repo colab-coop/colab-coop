@@ -152,14 +152,14 @@
 
         <div class="form-field-wrap center-text">
           <input type="submit" value="Send" id="submit" class="button--brand-outline color-red">
+          <div id="success" hidden>Thanks for telling us about your project. We'll be in touch.</div>
+          <div id="error" hidden>Error: <span id="errorMsg"></span></div>
           <div class="spacing--mid-x"></div>
         </div>
       </form>
     </div> <!-- /container--text -->
   </main>
 
-  <div id="success" hidden>Success!</div>
-  <div id="error" hidden>Error: <span id="errorMsg"></span></div>
 
   <script>
     $('#submit').click(function (e) {
