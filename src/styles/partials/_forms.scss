@@ -29,6 +29,10 @@ label {
 .form-field-wrap {
 	padding-top: $base-spacing-mid;
 	padding-bottom: $base-spacing-mid;
+
+	> .h2 {
+		margin-bottom: 30px;
+	}
 }
 
 .form-field-desc {
