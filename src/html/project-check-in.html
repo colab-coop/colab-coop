@@ -43,20 +43,20 @@
           <div class="form-field-wrap grid-child">
             <label>How did you hear about us?</label>
             <div>
-              <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked>
-              <label for="radio-1" class="radio-custom-label">A client</label>            
+              <input id="radio-client" class="radio-custom" name="radio-group" type="radio" checked>
+              <label for="radio-client" class="radio-custom-label">A client</label>            
             </div>
             <div>
-              <input id="radio-2" class="radio-custom"name="radio-group" type="radio">
-              <label for="radio-2" class="radio-custom-label">A member-owner</label>
+              <input id="radio-member" class="radio-custom"name="radio-group" type="radio">
+              <label for="radio-member" class="radio-custom-label">A member-owner</label>
             </div>
             <div>
-              <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
-              <label for="radio-3" class="radio-custom-label">A collaborator</label>
+              <input id="radio-collaborator" class="radio-custom" name="radio-group" type="radio">
+              <label for="radio-collaborator" class="radio-custom-label">A collaborator</label>
             </div>
             <div>
-              <input id="radio-4" class="radio-custom" name="radio-group" type="radio">
-              <label for="radio-4" class="radio-custom-label">Other:</label>
+              <input id="radio-other" class="radio-custom" name="radio-group" type="radio">
+              <label for="radio-other" class="radio-custom-label">Other:</label>
             </div>
             <div>
               <input type="text">
@@ -64,15 +64,54 @@
           </div>
         </div> <!-- /grid-parent -->
 
-        <div class="form-field-wrap">
+        <div class="form-field-wrap form-field-section">
           <label for="impact" class="h2 center-text">IMPACT</label>
           <div class="form-field-desc">Briefly describe the benefit your organization, product or service creates for the world</div>
           <textarea cols="40" rows="4" name="impact" id="impact"></textarea>
         </div>
 
         <div class="form-field-wrap">
-          <label for="message" class="required-label">Message</label>
-          <textarea cols="40" rows="4" name="message" id="message"></textarea>
+          <label class="h2 center-text">TECH NEEDS</label>
+          <div>
+            <input id="radio-website" class="radio-custom" name="radio-group" type="radio" checked>
+            <label for="radio-website" class="radio-custom-label">Website</label>            
+          </div>
+          <div>
+            <input id="radio-lean" class="radio-custom"name="radio-group" type="radio">
+            <label for="radio-lean" class="radio-custom-label">Lean prototype</label>
+          </div>
+          <div>
+            <input id="radio-ecommerce" class="radio-custom" name="radio-group" type="radio">
+            <label for="radio-ecommerce" class="radio-custom-label">Ecommerce integration</label>
+          </div>
+          <div>
+            <input id="radio-mobileapp" class="radio-custom" name="radio-group" type="radio">
+            <label for="radio-mobileapp" class="radio-custom-label">Mobile app</label>
+          </div>
+          <div>
+            <input id="radio-customapp" class="radio-custom" name="radio-group" type="radio">
+            <label for="radio-customapp" class="radio-custom-label">Custom app</label>
+          </div>
+          <div>
+            <input id="radio-seo" class="radio-custom" name="radio-group" type="radio">
+            <label for="radio-seo" class="radio-custom-label">SEO</label>
+          </div>
+          <div>
+            <input id="radio-tech-strategy" class="radio-custom" name="radio-group" type="radio">
+            <label for="radio-tech-strategy" class="radio-custom-label">Tech strategy</label>
+          </div>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="impact" class="h2 center-text">PROJECT DESCRIPTION</label>
+          <div class="form-field-desc">1-2 sentence description of your project.</div>
+          <textarea cols="40" rows="4" name="impact" id="impact"></textarea>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="impact" class="h2 center-text">STAGE</label>
+          <div class="form-field-desc">What is the stage of your project? Assessing feasibility, proof of concept, scaling up, or scaling across?</div>
+          <textarea cols="40" rows="4" name="impact" id="impact"></textarea>
         </div>
 
         <div class="form-field-wrap center-text">

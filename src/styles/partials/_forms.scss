@@ -33,6 +33,11 @@ label {
 
 .form-field-desc {
 	line-height: 1.4;
+	padding-bottom: $base-spacing-lg * 1.5;
+}
+
+.form-field-section {
+	margin-bottom: $base-spacing-lg;
 }
 
 .form-base {
@@ -70,12 +75,11 @@ label {
     content: '';
     background: #fff;
     border: 2px solid #eee;
-    display: inline-block;
-    vertical-align: middle;
+    @extend %vertical-inline-middle;
     width: 18px;
     height: 18px;
     padding: 2px;
-    margin-right: 10px;
+    margin-right: $base-spacing;
     text-align: center;
   }
 
@@ -89,7 +93,7 @@ label {
 
   .radio-custom:checked + .radio-custom-label:before {
     box-shadow: inset 0px 0px 0px 5px $red;
-    border: 1px solid $red;
+    border-color: $red;
   }
 }
 
