@@ -56,6 +56,9 @@ label {
 
   input[type="submit"] {
   	display: inline-block;
+  }
+
+  input[type="submit"], input[type="radio"], input[type="checkbox"] {
   	width: auto;
   }
 
