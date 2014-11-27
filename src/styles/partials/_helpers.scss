@@ -239,10 +239,10 @@ a.button--brand-outline.color-red, .button--brand-outline.color-red {
 //add spacing when a link contains a left or right arrow
 a {
   .fa-angle-left {
-    margin-right: 10px;
+    margin-right: $base-spacing;
   }
   .fa-angle-right {
-    margin-left: 10px;
+    margin-left: $base-spacing;
   }
 }
 
@@ -301,6 +301,15 @@ a {
     top: -$base-spacing-sm;
   }
 }
+
+//------------------------------------------------
+// Callout
+.callout {
+  padding: $base-spacing-mid;
+  background: $gray-light;
+  @extend %center-text;
+}
+
 
 //------------------------------------------------
 // Containers for main layout
