@@ -7,17 +7,17 @@
   <main>
     <div class="container--text">
       <h1 class="heading-primary">Project Check-In</h1>
-      <p>The following questions are intended to help you clarify your project and help us learn about how we can best collaborate with you.</p>
+      <div>The following questions are intended to help you clarify your project and help us learn about how we can best collaborate with you.</div>
       <div class="spacing--mid-x"></div>
       <form class="form-base form-contact">
         <div class="grid-parent">
           <div class="form-field-wrap grid-child">
-            <label for="name" class="required-label">Name</label>
+            <label for="name" class="required-label">Your name</label>
             <input type="text" name="name" id="name">          
           </div>
 
           <div class="form-field-wrap grid-child">
-            <label for="company">Organization or Company</label>
+            <label for="company">Company</label>
             <input type="text" name="company" id="company">          
           </div>          
         </div> <!-- /grid-parent -->
@@ -33,6 +33,42 @@
             <input type="tel" name="tel" id="tel">          
           </div>
         </div> <!-- /grid-parent -->
+
+        <div class="grid-parent">
+          <div class="form-field-wrap grid-child">
+            <label for="website" class="required-label">Website</label>
+            <input type="url" name="website" id="website">          
+          </div>
+
+          <div class="form-field-wrap grid-child">
+            <label>How did you hear about us?</label>
+            <div>
+              <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked>
+              <label for="radio-1" class="radio-custom-label">A client</label>            
+            </div>
+            <div>
+              <input id="radio-2" class="radio-custom"name="radio-group" type="radio">
+              <label for="radio-2" class="radio-custom-label">A member-owner</label>
+            </div>
+            <div>
+              <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
+              <label for="radio-3" class="radio-custom-label">A collaborator</label>
+            </div>
+            <div>
+              <input id="radio-4" class="radio-custom" name="radio-group" type="radio">
+              <label for="radio-4" class="radio-custom-label">Other:</label>
+            </div>
+            <div>
+              <input type="text">
+            </div>
+          </div>
+        </div> <!-- /grid-parent -->
+
+        <div class="form-field-wrap">
+          <label for="impact" class="h2 center-text">IMPACT</label>
+          <div class="form-field-desc">Briefly describe the benefit your organization, product or service creates for the world</div>
+          <textarea cols="40" rows="4" name="impact" id="impact"></textarea>
+        </div>
 
         <div class="form-field-wrap">
           <label for="message" class="required-label">Message</label>
@@ -62,36 +98,6 @@
         </div> <!-- /address-colab-block -->
       </section>  
     </div> <!-- /container--text -->
-
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var myLatLng = new google.maps.LatLng(42.4422877, -76.4983749)
-        var mapOptions = {
-          center: new google.maps.LatLng(42.4422877, -76.4983749),
-          zoom: 15,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-
-      var iconBase = '/assets/img/';
-        var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: iconBase + 'google-maps-marker.png'
-      });
-
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-
-
-    </script>
-    <section>
-      <div class="address-map-block">
-        <div id="map-canvas"></div>
-      </div> <!-- /address-map-block -->
-    </section>
   </main>
 
   <div id="success" hidden>Success!</div>

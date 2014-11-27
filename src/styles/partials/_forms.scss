@@ -12,7 +12,7 @@ textarea {
   vertical-align: top;
 }
 
-textarea, select, input[type="text"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"] {
+textarea, select, input[type="text"], input[type="url"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"] {
   padding: $base-spacing;
 
   &:focus {
@@ -31,8 +31,12 @@ label {
 	padding-bottom: $base-spacing-mid;
 }
 
+.form-field-desc {
+	line-height: 1.4;
+}
+
 .form-base {
-  textarea, input[type="text"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"] {
+  textarea, input[type="text"], input[type="url"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"] {
     border: none;
   }
 
@@ -54,7 +58,6 @@ label {
   .checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
     display: inline-block;
     vertical-align: middle;
-    margin: 5px;
     cursor: pointer;
   }
 
