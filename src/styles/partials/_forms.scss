@@ -6,30 +6,51 @@ input[type="submit"], button {
   -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
-  border: none;
 }
 
 textarea {
   vertical-align: top;
 }
 
-textarea, select, input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
+textarea, select, input[type="text"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"] {
   padding: $base-spacing;
 
   &:focus {
     outline: 0;
-    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
   }
 }
 
 label {
   padding-bottom: $base-spacing-mid;
+  display: block;
 }
 
 .form-field-wrap {
 	padding: $base-spacing 0;
 }
 
-.form {
+.form-base {
+  textarea, input[type="text"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"] {
+    border: none;
+  }
 
+  textarea, select, input {
+  	display: block;
+  	width: 100%;
+  }
+
+  input[type="submit"] {
+  	display: inline-block;
+  	width: auto;
+  }
+
+}
+
+.required-label {
+	&:after {
+		content: "*";
+		padding-left: $base-spacing-sm;
+		color: $gray-medium;
+	}
 }

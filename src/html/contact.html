@@ -7,17 +7,35 @@
   <main>
     <div class="container--text">
       <section class="callout">Tell us about your project with the <a href="#">Project Check-In</a></section>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" placeholder="Enter your name">
+      <form class="form-base form-contact">
+        <div class="form-field-wrap">
+          <label for="name" class="required-label">Name</label>
+          <input type="text" name="name" id="name">          
+        </div>
 
-        <label for="name">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Enter your email address">
+        <div class="form-field-wrap">
+          <label for="company" class="required-label">Organization or Company</label>
+          <input type="text" name="compaby" id="company">          
+        </div>
 
-        <label for="message">Message:</label>
-        <textarea cols="40" rows="8" name="message" id="message" placeholder="Enter your message"></textarea>
+        <div class="form-field-wrap">
+          <label for="name" class="required-label">Email</label>
+          <input type="email" name="email" id="email">          
+        </div>
 
-        <input type="submit" value="Submit" id="submit">
+        <div class="form-field-wrap">
+          <label for="name" class="required-label">Phone</label>
+          <input type="tel" name="email" id="email">          
+        </div>
+
+        <div class="form-field-wrap">
+          <label for="message" class="required-label">Message</label>
+          <textarea cols="40" rows="4" name="message" id="message"></textarea>
+        </div>
+
+        <div class="form-field-wrap center-text">
+          <input type="submit" value="Send" id="submit" class="button--brand-outline color-red">        
+        </div>
       </form>
     </div> <!-- /container--text -->
   </main>
