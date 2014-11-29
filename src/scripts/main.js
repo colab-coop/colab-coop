@@ -106,6 +106,22 @@ $(document).ready(function(){
 	    }
 	  });
 
+	//tabs
+	$(".tab-content").hide();
+	$(".tabs li:first").addClass("active-tab").show();
+	$(".tab-content:first").show();
+
+	//On Click Event
+	$(".tabs li").click(function() {
+	  $(".tabs li").removeClass("active-tab");
+	  $(this).addClass("active-tab");
+	  $(".tab-content").hide();
+
+	  var activeTab = $(this).find("a").attr("href");
+	  $(activeTab).fadeIn();
+	  return false;
+	});
+	 
     //red pixel cube at end of blog post
     $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
 

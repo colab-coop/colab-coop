@@ -335,3 +335,48 @@ a {
   padding-left: $grid-padding;
   padding-right: $grid-padding;
 }
+
+
+
+
+//------------------------------------------------
+// Tabs
+
+.tabs {
+  list-style: none;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  @extend %clearfix;
+  @extend %grid-parent;
+  
+  li {
+    @extend %grid-child;
+    overflow: hidden;
+    position: relative;
+    @extend %center-text;
+
+    a {
+      color: $gray-medium;
+      display: block;
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: $gray-darkest;
+        transition: all 0.2s linear;
+      }
+    }
+
+    a:hover, &.active-tab a {
+      color: $gray-darkest;
+    }
+  }
+}
+
+.tab-container {
+  overflow: hidden;
+  @extend %grid-parent;
+}
+
+.tab-content {
+  @extend %grid-child;
+}
