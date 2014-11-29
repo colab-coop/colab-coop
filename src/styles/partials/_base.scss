@@ -68,7 +68,7 @@ hr {
   }
 
   h2 {
-    margin: 0.2em 0;
+  //  margin: 0.2em 0;
   }
 
   .ul-default {
@@ -87,6 +87,7 @@ hr {
   h2 {
     border-bottom: 0;
     padding: 0;
+    margin: 0 0 0.2em 0;
   }
 
 }
@@ -716,6 +717,7 @@ main {
   @extend %spacing--lg;
 }
 
+
 //------------------------------------------------
 // Contact: Page
 
@@ -727,5 +729,18 @@ main {
 
 #map-canvas {
   height: 400px;
+}
+
+
+//------------------------------------------------
+// About: Page
+
+.services-list-each {
+  margin-top: $base-spacing-mid;
+
+  li {
+    margin-bottom: $base-spacing;
+    line-height: 1.3;
+  }
 }
 

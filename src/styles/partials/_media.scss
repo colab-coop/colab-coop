@@ -47,6 +47,11 @@
       }
     }
   }
+
+  .services-list-each {
+    width: 50%;
+    float: left;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -84,6 +89,11 @@
   .footer-connect {
     width: 50%;
     float: left;
+  }
+
+
+  .services-list-each {
+    width: 33.33%;
   }
 }
 
