@@ -39,10 +39,16 @@
   .banner-home-button {
     margin-top: $base-spacing-lg * 2;
   }
-  
+
   .panel-home {
     .heading-primary {
       max-width: 500px;
+    }
+  }
+
+  .recent-work-block {
+    > img {
+      max-width: none;
     }
   }
 

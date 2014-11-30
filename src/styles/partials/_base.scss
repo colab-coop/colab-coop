@@ -759,5 +759,6 @@ main {
 .recent-work-block {
   > img {
     @extend %vertical-inline-middle;
+    max-width: 40%;
   }
 }
