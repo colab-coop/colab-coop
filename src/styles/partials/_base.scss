@@ -228,7 +228,7 @@ hr {
   left: 0;
   right: 0;
   padding: $base-spacing 0;
-  @extend %vertical-center;
+  @extend %dead-center;
   margin-top: 29px;
   transition: all 0.2s ease-in;
 
@@ -343,7 +343,7 @@ hr {
 
 /* nav styles for pages with hero image */
 
-.project, .team-profile {
+.home, .project, .team-profile {
   padding-top: 56px; //i.e. header height + 1px on mobile
 }
 
@@ -749,3 +749,9 @@ main {
   }
 }
 
+//------------------------------------------------
+// Home: Page
+
+.banner-home-button {
+  @extend %center-text;
+}

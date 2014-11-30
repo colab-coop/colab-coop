@@ -32,6 +32,20 @@
     }
   }
 
+  .banner-home-button, .panel-home .heading-primary {
+    text-align: left;
+  }
+
+  .banner-home-button {
+    margin-top: $base-spacing-lg * 2;
+  }
+  
+  .panel-home {
+    .heading-primary {
+      max-width: 500px;
+    }
+  }
+
   .team-each {
     width: 50%;
     display: inline-block;
@@ -149,7 +163,7 @@
 
 /* nav styles for pages with hero image */
 
-  .project, .team-profile {
+  .home, .project, .team-profile {
     padding-top: 0;
 
     .nav {
@@ -173,7 +187,7 @@
 
 /* end nav styles for pages with hero image */
 
-  .project, .team-profile {
+  .home, .project, .team-profile {
     .animated.headroom--not-top.slideDown {
       background-color: #fff;
 

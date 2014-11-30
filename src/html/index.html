@@ -5,23 +5,18 @@
   @@include('../templates/_homenav.tpl')
 
   <main>
-    <div class="container">
-
-    <h1>Home</h1>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit! Pellentesque rutrum, orci quis molestie vehicula, felis diam convallis orci, ut ultrices quam sem sed dui. Ut a nibh mi. In a lacus eu quam pellentesque malesuada. Maecenas vitae elementum dui. Aliquam erat volutpat. Fusce fringilla posuere posuere. Aenean pellentesque ultrices ipsum nec iaculis. Curabitur sit amet lacus rutrum, aliquam risus quis, iaculis odio. Phasellus at fringilla ligula, eget tempor felis.</p>
-    
-    <p>Vivamus vel leo interdum, hendrerit sem vitae, consequat lectus. Pellentesque mollis leo nec nisi molestie, eu tempus lectus viverra. Nunc blandit sollicitudin auctor. Morbi ut adipiscing magna, quis tempus nisl. Etiam sapien ligula, bibendum sit amet metus eu, fringilla rhoncus nibh. Proin dictum imperdiet leo, a porttitor dolor dapibus sit amet. Vestibulum diam enim, auctor ac dictum a, tincidunt sed magna. Maecenas vel lectus arcu. Praesent dictum nunc sapien, sed fermentum tortor vestibulum nec.</p>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rutrum, orci quis molestie vehicula, felis diam convallis orci, ut ultrices quam sem sed dui. Ut a nibh mi. In a lacus eu quam pellentesque malesuada. Maecenas vitae elementum dui. Aliquam erat volutpat. Fusce fringilla posuere posuere. Aenean pellentesque ultrices ipsum nec iaculis. Curabitur sit amet lacus rutrum, aliquam risus quis, iaculis odio. Phasellus at fringilla ligula, eget tempor felis.</p>
-    
-    <p>Vivamus vel leo interdum, hendrerit sem vitae, consequat lectus. Pellentesque mollis leo nec nisi molestie, eu tempus lectus viverra. Nunc blandit sollicitudin auctor. Morbi ut adipiscing magna, quis tempus nisl. Etiam sapien ligula, bibendum sit amet metus eu, fringilla rhoncus nibh. Proin dictum imperdiet leo, a porttitor dolor dapibus sit amet. Vestibulum diam enim, auctor ac dictum a, tincidunt sed magna. Maecenas vel lectus arcu. Praesent dictum nunc sapien, sed fermentum tortor vestibulum nec.</p>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rutrum, orci quis molestie vehicula, felis diam convallis orci, ut ultrices quam sem sed dui. Ut a nibh mi. In a lacus eu quam pellentesque malesuada. Maecenas vitae elementum dui. Aliquam erat volutpat. Fusce fringilla posuere posuere. Aenean pellentesque ultrices ipsum nec iaculis. Curabitur sit amet lacus rutrum, aliquam risus quis, iaculis odio. Phasellus at fringilla ligula, eget tempor felis.</p>
-    
-    <p>Vivamus vel leo interdum, hendrerit sem vitae, consequat lectus. Pellentesque mollis leo nec nisi molestie, eu tempus lectus viverra. Nunc blandit sollicitudin auctor. Morbi ut adipiscing magna, quis tempus nisl. Etiam sapien ligula, bibendum sit amet metus eu, fringilla rhoncus nibh. Proin dictum imperdiet leo, a porttitor dolor dapibus sit amet. Vestibulum diam enim, auctor ac dictum a, tincidunt sed magna. Maecenas vel lectus arcu. Praesent dictum nunc sapien, sed fermentum tortor vestibulum nec.</p>
-    
-    </div>
+    <section id="js-panel-fullwidth" class="panel-full panel-fullwidth-img panel-home">
+      <img id="js-pixelate-scroll" class="img-pixelate-scroll img-fullwidth" src="/assets/img/bg-heart@2x.jpg" alt="colab-home">
+      <canvas id="jsPixelateCanvas" class="img-fullwidth" width="2400" height="1344"></canvas>
+      <div class="container">
+        <div class="panel-fullwidth-content vertical-center color-white">
+          <h1 class="heading-primary">Technology solutions that win hearts and better lives.</h1>          
+          <div class="banner-home-button">
+            <a href="/team" class="button--brand-outline text--uppercase">Meet us</a>          
+          </div>          
+        </div>
+      </div>
+    </section> <!-- /panel -->
   </main>
 
   @@include('../templates/_footer.tpl')

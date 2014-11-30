@@ -71,7 +71,7 @@
   	<div class="nav-menu-trigger"><span>MENU </span></div>
   	<div class="nav-menu">
   		<a href="/work">Work</a> 
-  		<a href="/culture">Culture</a> 
+  		<a href="/team">Culture</a> 
   		<a href="/blog">Blog</a> 
   		<a href="/contact">Contact</a>
   	</div>
