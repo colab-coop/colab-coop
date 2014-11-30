@@ -755,3 +755,9 @@ main {
 .banner-home-button {
   @extend %center-text;
 }
+
+.recent-work-block {
+  > img {
+    @extend %vertical-inline-middle;
+  }
+}
