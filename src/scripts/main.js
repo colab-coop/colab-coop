@@ -1,10 +1,10 @@
 var jsPixelateHover = require('./pixelate.js');
 var headroom = require('./headroom.min.js');
 var headroomJQuery = require('./jQuery.headroom.min.js');
-
-//PIXELATE ON SCROLL CODE
+var headroomJQuery = require('./owl.carousel.min.js');
 
 $(document).ready(function() {
+	//PIXELATE ON SCROLL CODE
 	var imgPixelate = $('#js-pixelate-scroll');
 
 	if (imgPixelate.length > 0) {
@@ -106,21 +106,30 @@ $(document).ready(function(){
 	    }
 	  });
 
-	//tabs
-	$(".tab-content").hide();
-	$(".tabs li:first").addClass("active-tab").show();
-	$(".tab-content:first").show();
+		//slider
+		$("#slider-testimonial").owlCarousel({
+		  navigation : true,
+     	navigationText : false,
+			pagination : false,
+		  slideSpeed : 300,
+		  singleItem:true
+		 });
 
-	//On Click Event
-	$(".tabs li").click(function() {
-	  $(".tabs li").removeClass("active-tab");
-	  $(this).addClass("active-tab");
-	  $(".tab-content").hide();
+		//tabs
+		$(".tab-content").hide();
+		$(".tabs li:first").addClass("active-tab").show();
+		$(".tab-content:first").show();
 
-	  var activeTab = $(this).find("a").attr("href");
-	  $(activeTab).fadeIn();
-	  return false;
-	});
+		//On Click Event
+		$(".tabs li").click(function() {
+		  $(".tabs li").removeClass("active-tab");
+		  $(this).addClass("active-tab");
+		  $(".tab-content").hide();
+
+		  var activeTab = $(this).find("a").attr("href");
+		  $(activeTab).fadeIn();
+		  return false;
+		});
 	 
     //red pixel cube at end of blog post
     $(".blog-post-info").children().last().addClass('icon-decorative-pixel');

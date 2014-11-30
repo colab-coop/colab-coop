@@ -762,3 +762,51 @@ main {
     max-width: 40%;
   }
 }
+
+.slider-testimonial-meta {
+  @extend %text--smaller;
+  line-height: 1.6;
+}
+
+.slider-testimonial {
+  .item {
+    padding: 0 $base-spacing-lg;
+  }
+
+  .owl-buttons {
+        position: absolute;
+        top: 15%;
+        display: block;
+        width: 100%;
+    }
+
+  .owl-prev, .owl-next {
+      position: absolute;
+
+      &:before {
+        font-size: 40px;
+        font-family: "FontAwesome";
+        padding: 3px 5px;
+      }
+  }
+
+  .owl-prev {
+      left: -10px;
+      &:before {
+        content: "\f104";
+      }
+  }
+
+  .owl-next {
+      right: -10px;
+      &:before {
+        content: "\f105";
+      }
+   }
+
+  .owl-controls .owl-buttons div {
+    background: none;
+    color: lighten($gray-medium, 15%);
+    padding: 3px 5px;
+  }  
+}
