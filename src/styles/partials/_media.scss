@@ -47,11 +47,22 @@
   }
 
   .recent-work-block {
-    > img {
-      max-width: none;
+    > a {
+      display: inline-block;
+
+      img {
+        max-width: none;
+      }
     }
   }
 
+  .featured-home {
+    > a  {
+      span {
+        display: inline-block;
+      }
+    }
+  }
   .team-each {
     width: 50%;
     display: inline-block;

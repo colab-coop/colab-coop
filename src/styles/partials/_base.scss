@@ -757,9 +757,18 @@ main {
 }
 
 .recent-work-block {
-  > img {
-    @extend %vertical-inline-middle;
-    max-width: 40%;
+  > a {
+    img {
+      @extend %vertical-inline-middle;
+      max-width: 40%;
+    }
+
+    &:hover {
+      img {
+        opacity: 0.5;
+        transition: all 0.2s ease-in;
+      }
+    }
   }
 }
 
@@ -809,4 +818,18 @@ main {
     color: lighten($gray-medium, 15%);
     padding: 3px 5px;
   }  
+}
+
+.featured-home {
+  @extend %spacing--sm;
+
+  > a  {
+    img {
+      margin-right: $base-spacing-lg;
+    }
+
+    span {
+      display: block;
+    }
+  }
 }
