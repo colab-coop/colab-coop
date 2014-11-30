@@ -77,7 +77,7 @@
             <label for="radio-website" class="radio-custom-label">Website</label>            
           </div>
           <div>
-            <input id="radio-lean" class="radio-custom"name="radio-techneeds" type="radio">
+            <input id="radio-lean" class="radio-custom" name="radio-techneeds" type="radio">
             <label for="radio-lean" class="radio-custom-label">Lean prototype</label>
           </div>
           <div>
@@ -109,7 +109,7 @@
         </div>
 
         <div class="form-field-wrap form-field-section">
-          <label for="impact" class="h2 center-text">STAGE</label>
+          <label for="stage" class="h2 center-text">STAGE</label>
           <div class="form-field-desc">What is the stage of your project? Assessing feasibility, proof of concept, scaling up, or scaling across?</div>
           <textarea cols="40" rows="4" name="stage" id="stage"></textarea>
         </div>
@@ -121,9 +121,9 @@
         </div>
 
         <div class="form-field-wrap form-field-section">
-          <label for="impact" class="h2 center-text">COMPETITORS</label>
+          <label for="competitors" class="h2 center-text">COMPETITORS</label>
           <div class="form-field-desc">Who else is doing something similar to you?</div>
-          <textarea cols="40" rows="4" name="stage" id="stage"></textarea>
+          <textarea cols="40" rows="4" name="competitors" id="competitors"></textarea>
         </div>
 
         <div class="form-field-wrap form-field-section">
@@ -153,7 +153,8 @@
         <div class="form-field-wrap center-text">
           <input type="submit" value="Send" id="submit" class="button--brand-outline color-red">
           <div id="success" hidden>Thanks for telling us about your project. We'll be in touch.</div>
-          <div id="error" hidden>Error: <span id="errorMsg"></span></div>
+          <div id="error" hidden>Errors were found. Please rectify and re-submit the form.
+          <span id="errorMsg"></span></div>
           <div class="spacing--mid-x"></div>
         </div>
       </form>

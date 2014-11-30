@@ -40,9 +40,9 @@
 
         <div class="form-field-wrap center-text">
           <div class="spacing--sm">
-            <input type="submit" value="Send" id="submit" class="button--brand-outline color-red"><div id="success" hidden>Thanks for your message. We'll be in touch.</div>
-            <div id="error" hidden>Error: <span id="errorMsg"></span></div>
-    
+            <input type="submit" value="Send" id="submit" class="button--brand-outline color-red">
+            <div id="success" hidden>Thanks for your message. We'll be in touch.</div>
+            <div id="error" hidden>Errors were found. Please rectify and re-submit the form. <span id="errorMsg"></span></div>
           </div>
         </div>
       </form>
@@ -85,8 +85,6 @@
 
       }
       google.maps.event.addDomListener(window, 'load', initialize);
-
-
     </script>
     <section>
       <div class="address-map-block">
