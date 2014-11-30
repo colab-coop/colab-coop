@@ -54,8 +54,9 @@ label {
   	width: 100%;
   }
 
-  input[type="submit"] {
+  input[type="submit"], button {
   	display: inline-block;
+    min-width: 140px;
   }
 
   input[type="submit"], input[type="radio"], input[type="checkbox"] {

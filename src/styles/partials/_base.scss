@@ -728,6 +728,10 @@ main {
   border-top: 2px solid $border-default-light;
 }
 
+.address-colab {
+  @extend %text--small;
+}
+
 #map-canvas {
   height: 400px;
 }
