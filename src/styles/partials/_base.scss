@@ -761,12 +761,13 @@ main {
     img {
       @extend %vertical-inline-middle;
       max-width: 40%;
+      filter: grayscale(1);
     }
 
     &:hover {
       img {
-        opacity: 0.5;
-        transition: all 0.2s ease-in;
+        filter: grayscale(0);
+        transition: all 0.2s linear;
       }
     }
   }
