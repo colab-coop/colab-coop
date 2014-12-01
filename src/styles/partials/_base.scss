@@ -548,7 +548,7 @@ main {
 
 	a {
     > img {
-		  display: block;
+      @extend %center-element;
       filter: grayscale(1);
     }
 
