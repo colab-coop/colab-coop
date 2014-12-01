@@ -578,7 +578,8 @@ main {
 .team-profile-badges {
 
   > img {
-		margin-right: $base-spacing;
+		  margin-right: $base-spacing;
+      max-width: 55px;
 
     &:last-of-type {
   		margin-right: 0;
@@ -598,6 +599,21 @@ main {
 
 .team-profile-meta {
   margin-top: $base-spacing-lg * 2;
+  
+  h2 {
+    margin-bottom: $base-spacing;
+  }
+}
+
+.team-profile-each {
+  @extend %spacing--mid;
+  line-height: 1.4;
+
+  a {
+    display: block;
+    margin-bottom: $base-spacing;
+    //@extend %text--small;
+  }
 }
 
 .team-profile-bio {
@@ -605,7 +621,7 @@ main {
 }
 
 .team-profile-social {
-  @extend %text--larger;
+  font-size: 140%;
 
 	> a {
 		color: $gray-medium;
