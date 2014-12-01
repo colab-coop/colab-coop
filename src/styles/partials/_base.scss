@@ -576,10 +576,16 @@ main {
 }
 
 .team-profile-badges {
+  line-height: 1;
 
-  > img {
+  > .badge {
+      display: inline-block;
 		  margin-right: $base-spacing;
       max-width: 55px;
+
+      img {
+        display: inline-block;
+      }
 
     &:last-of-type {
   		margin-right: 0;
@@ -857,4 +863,58 @@ main {
       display: block;
     }
   }
+}
+
+//------------------------------------------------
+// Tooltips
+
+[data-tooltip] {
+  position: relative;
+  z-index: 4;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  background: $gray-darkest;
+  border-radius: 3px;
+  content: attr(data-tooltip);
+  font-size: 60%;
+  padding: 10px 15px;
+  position: absolute; top: 50%; right: 115%;
+  text-align: center;
+  -webkit-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  white-space: nowrap;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  border-style: solid;
+  border-width: 7.5px 0 7.5px 7.5px;
+  border-color: transparent transparent transparent $gray-darkest;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+  position: absolute; top: 50%; right: 105%;
+  -webkit-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  width: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }
