@@ -328,7 +328,7 @@ hr {
   left: 0;
   top: 0;
   padding: $base-spacing 0 0 0;
-  transition: all 0.4s linear;
+  transition: all .1s linear;
   @extend %clearfix;
 
 	.logo {
@@ -555,9 +555,9 @@ main {
     &:hover {
       > img {
         filter: grayscale(0);
-        transition: all 0.2s linear;  
+        transition: all 0.2s linear;
       }
-    }    
+    }
   }
 }
 
@@ -599,7 +599,7 @@ main {
 
 .team-profile-meta {
   margin-top: $base-spacing-lg * 2;
-  
+
   h2 {
     margin-bottom: $base-spacing;
   }
@@ -842,7 +842,7 @@ main {
     background: none;
     color: lighten($gray-medium, 15%);
     padding: 3px 5px;
-  }  
+  }
 }
 
 .featured-home {

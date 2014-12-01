@@ -130,13 +130,13 @@ $(document).ready(function(){
 		  $(activeTab).fadeIn();
 		  return false;
 		});
-	 
+
     //red pixel cube at end of blog post
     $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
 
     //header: sticky
     $(".nav").headroom({
-	  	"offset": 100,
+	  	"offset": 10,
 	  	"tolerance": 5,
 	  	"classes": {
 	    	"initial": "animated",
