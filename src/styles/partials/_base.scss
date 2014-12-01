@@ -532,7 +532,6 @@ main {
 //------------------------------------------------
 // Culture: Page
 .team-block {
-  padding-bottom: $base-spacing-lg *2;
 
   >ul {
 		padding: 0;
@@ -545,11 +544,20 @@ main {
 }
 
 .team-each {
-  padding-top: $base-spacing-lg*1.5;
-  @extend %grid-child;
+  padding-bottom: $base-spacing-lg*1.5;
 
-	> img {
-		display: block;
+	a {
+    > img {
+		  display: block;
+      filter: grayscale(1);
+    }
+
+    &:hover {
+      > img {
+        filter: grayscale(0);
+        transition: all 0.2s linear;  
+      }
+    }    
   }
 }
 
