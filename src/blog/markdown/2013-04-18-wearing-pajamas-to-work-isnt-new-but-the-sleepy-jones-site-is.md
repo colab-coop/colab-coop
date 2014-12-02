@@ -2,7 +2,7 @@
 title: "Wearing Pajamas To Work Isn't New, But The Sleepy Jones Site Is"
 summary: "Recently, our friends at Hugo + Marie returned to us with a new collaboration project to build a custom ecommerce solution for a new clothing label."
 date: 2013-04-18
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2013-04-18-wearing-pajamas-to-work-isnt-new-but-the-sleepy-jones-site-is
 ---
 

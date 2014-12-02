@@ -2,7 +2,7 @@
 title: "CoLab For Storied: Helping Meaningful Stories Live Forever"
 summary: "Forever is a strong word, and yeah, perhaps a tad exaggerated. Though the stories you can create, store and share on the CoLab supported Storied app can live on a lot longer than those faded, torn photographs our Mothers have stuck in a shoe box collecting dust in the closet. Or are they under the bed? One thing that definitely does not live forever is a Kickstarter campaign. Thankfully, with the help of more than 150 backers, we reached our goal of $35,000 within the 30 day timed challenge. This will be a major boost towards the final execution of the product before launching publicly."
 date: 2012-10-25
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2012-10-25-colab-for-storied-helping-meaningful-stories-live-forever
 ---
 

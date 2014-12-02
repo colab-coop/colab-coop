@@ -2,7 +2,7 @@
 title: "Mindful Business"
 summary: "This passage was written a short time ago during CoLab’s strategic planning session for 2014 (we call them summits). A longer form, collaboratively written piece is in draft, but we felt eager to share this moment in potent realization with you, transparently."
 date: 2014-03-11
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2014-03-11-mindful-business
 ---
 

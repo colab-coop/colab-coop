@@ -2,7 +2,7 @@
 title: "Hacking for Good"
 summary: "Though we are not officially participating in the official National Day of Civic Hacking, we are marching forward in a kindred spirit of improving lives and serving others with our 1st ever CoLab Hackathon."
 date: 2014-05-31
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2014-05-31-hacking-for-good
 ---
 

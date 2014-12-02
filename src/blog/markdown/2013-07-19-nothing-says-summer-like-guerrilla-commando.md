@@ -2,7 +2,7 @@
 title: "Nothing says Summer like 'Guerrilla Commando'"
 summary: "It’s summer and as much as we like to design, code, and create ... we also like to play. Ralph cutler doing 80’s flavor better than B-Fine."
 date: 2013-07-19
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2013-07-19-nothing-says-summer-like-guerrilla-commando
 ---
 

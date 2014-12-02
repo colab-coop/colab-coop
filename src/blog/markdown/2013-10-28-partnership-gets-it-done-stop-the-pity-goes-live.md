@@ -2,7 +2,7 @@
 title: "Partnership Gets it Done; Stop The Pity Goes Live"
 summary: "A second site launched this week, StopThePity.org, bringing together a great CoLab team. The project came to us by way of ReAllocate.org and we jumped at the chance to fulfill the giveback opportunity. The site was nearing completion when we got it, but needed a strong team to close it out and give it some needed mobile optimization love."
 date: 2013-10-28
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2013-10-28-partnership-gets-it-done-stop-the-pity-goes-live
 ---
 

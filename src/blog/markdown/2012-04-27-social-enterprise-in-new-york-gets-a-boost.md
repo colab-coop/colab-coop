@@ -2,7 +2,7 @@
 title: "Social Enterprise in New York Gets a Boost"
 summary: "A new bill recently signed into law by NY State Governor will enable corporations to legally structure themselves as Benefit Corporations or B-Corps. B-Corps are for-profit entities that have a specific social mission."
 date: 2012-04-27
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2012-04-27-social-enterprise-in-new-york-gets-a-boost
 ---
 

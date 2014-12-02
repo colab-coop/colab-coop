@@ -2,7 +2,7 @@
 title: "Ode to Wine (and Ecommerce Winery Websites, of course)"
 summary: "Wine, a transformative liquid of love, celebration and ceremony. Winemaking, a craft dating back to the Neolithic Age. Ecommerce winery websites, a growing part of the CoLab portfolio."
 date: 2011-10-13
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2011-10-13-ode-to-wine-and-ecommerce-winery-websites
 ---
 

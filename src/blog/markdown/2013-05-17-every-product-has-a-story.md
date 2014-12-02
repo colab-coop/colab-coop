@@ -2,7 +2,7 @@
 title: "Every product has a story"
 summary: "It's starting to sink in. Sustainability in business isn't simply an economic issue or an environmental issue. Sustainability is a people issue!"
 date: 2013-05-17
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2013-05-17-every-product-has-a-story
 ---
 

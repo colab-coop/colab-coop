@@ -2,7 +2,7 @@
 title: "Warning, You Might Adopt a Great Habit After Reading"
 summary: "At CoLab we work a lot on giving. Giving is fundamental to our culture and our mission. At our best, we personally ask ourselves everyday: Who did I give to? What did I give? At minimum, we regularly ask CoLab as a business: When was our last pro bono design? What percentage of new contracts can we donate?"
 date: 2012-12-06
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2012-12-06-warning-you-might-adopt-a-great-habit-after-reading
 ---
 

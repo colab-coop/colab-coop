@@ -2,7 +2,7 @@
 title: "Embracing Where You're At: 10 Ways CoLab Gets It Right"
 summary: "A business has a life of its own. Like a child it must be fostered toward continuous growth and improvement. Those who shape it need to maintain an awareness of strengths to be encouraged and weaknesses to attend to. But, careful! It is surprisingly easy to fall into the trap of focusing heavily on weaknesses while forgetting to celebrate successes."
 date: 2014-10-24
-author: [Colleen]
+authors: [Colleen]
 readfullarticle: 2014-10-24-embracing-where-youre-at-10-ways-colab-gets-it-right
 ---
 

@@ -2,7 +2,7 @@
 title: "Updates: Performing Sites for Performing Arts"
 summary: "We are pleased to be serving the arts in our recent work with HowlRound, a Center for the Theater Commons at Emerson College."
 date: 2014-06-27
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2014-06-27-updates-performing-sites-for-performing-arts
 ---
 

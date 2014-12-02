@@ -2,7 +2,7 @@
 title: "Love The Youth"
 summary: "CoLab hearts children. We should know. We only have like a bazillion of them amongst our members and collaborators. So what better way to spend a Saturday than putting our creative talents to good use?"
 date: 2012-05-22
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2012-05-22-love-the-youth
 ---
 

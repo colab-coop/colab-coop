@@ -2,7 +2,7 @@
 title: "Just Launched: Shiny New Finlo Solar Website"
 summary: "Finlo Solar’s new site is up, powered by sunshine and collaboration."
 date: 2013-02-08
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2013-02-08-shiny-new-finlo-solar-website
 ---
 

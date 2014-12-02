@@ -2,7 +2,7 @@
 title: "New Website For Good, Launched: Lotus Yoga!"
 summary: "We are excited to announce the launch of Lotus Yoga's new website."
 date: 2011-05-19
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2011-05-19-new-website-for-good-launched-lotus-yoga
 ---
 

@@ -2,7 +2,7 @@
 title: "Web App Shipped! Valuate 1.0 Starts Up"
 summary: "If you are one of our dedicated few CoLab blog readers, then you know that we have been hard at work for the past year readying the Valuate Web App for this very moment: the launch of Valuate 1.0 into the world!"
 date: 2013-11-15
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2013-11-15-web-app-shipped-valuate-1.0-starts-up
 ---
 

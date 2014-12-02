@@ -2,7 +2,7 @@
 title: "Modern Web Approach To Ancient Yoga Studies"
 summary: "The Yoga Studies Institute (YSI) is a school that teaches how to achieve the ultimate goal of yoga: a life of love, wisdom, authenticity, fulfillment and purpose. It teaches yoga as a lifestyle in a modern sense. Helping to connect the ultimate or enlightened self with your everyday self."
 date: 2011-12-13
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2011-12-13-modern-web-approach-to-ancient-yoga-studies
 ---
 

@@ -2,7 +2,7 @@
 title: "Think that the collaborative economy will never take shape?"
 summary: "With openness comes innovation. This is core to our value system at CoLab. It's why we work with a host of partners across our project portfolio and generally why we choose to collaborate over compete at every opportunity. While this philosophy is clearly a shot across the bow of the old consumer capitalist paradigm believing that success only comes at the expense of others; it is not without supporters from some of the old economic guard."
 date: 2012-12-13
-author: [Ralph]
+authors: [Ralph]
 readfullarticle: 2012-12-13-think-that-the-collaborative-economy-will-never-take-shape
 ---
 
