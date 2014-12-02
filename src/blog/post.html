@@ -13,8 +13,9 @@
 
 	  	<div class="blog-post-meta-block">
 	  	  <div class="blog-post-meta">
-	  	    By <img src="http://placehold.it/45x45" alt="" class="blog-post-img-credit">
+	  	    By
 	  	    {{#authors}}
+	  	    	<img src="/assets/img/team/{{.}}.jpg" alt="" class="blog-post-img-credit" style="width:45px">
 	  	    	<a href="/{{.}}">{{.}}</a>
 	  	    {{/authors}}
 	  	   </div>
