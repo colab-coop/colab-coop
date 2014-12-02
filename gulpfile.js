@@ -53,7 +53,7 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(postlist, {
         post: file.frontMatter,
-        date: moment(file.frontMatter.date).format('MMMM d, YYYY'),
+        date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
         authors: file.frontMatter.authors
       });
       file.contents = new Buffer(html);
@@ -84,7 +84,7 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(post, {
         include: file.frontMatter.readfullarticle,
-        date: moment(file.frontMatter.date).format('MMMM d, YYYY'),
+        date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
         authors: file.frontMatter.authors
       });
       file.contents = new Buffer(html);
