@@ -5,8 +5,8 @@ title: testing frontmatter addition in the raw
 Markdown Section
 ================
 
-This section is made from markdown...
--------------------------------------
+This section is made from markdown... testing yadda yadda
+---------------------------------------------------------
 
 Markdown has [links] [l]. This is an example of **bold**
 
