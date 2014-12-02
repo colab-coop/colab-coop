@@ -2,7 +2,7 @@
 title: "Good Design Dieter Rams!"
 summary: "Good design doesn’t just look good. It needs to perform, convert, inspire, and possess a purpose. It is often innovative but can also just get the job done with simple elegance. Below is are the principles of good design, set forth by Dieter Rams."
 date: 2012-06-15
-author: Ralph
+author: [Ralph]
 readfullarticle: 2012-06-15-good-design-dieter-rams
 ---
 

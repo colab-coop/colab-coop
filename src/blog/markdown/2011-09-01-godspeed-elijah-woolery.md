@@ -2,7 +2,7 @@
 title: "Godspeed Elijah Woolery"
 summary: "The only constant, is change, and a big change has come for our partner, collaborator and friend Elijah Woolery."
 date: 2011-09-01
-author: Ralph
+author: [Ralph]
 readfullarticle: 2011-09-01-godspeed-elijah-woolery
 ---
 

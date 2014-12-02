@@ -2,7 +2,7 @@
 title: "A Good Story Of Living With Less"
 summary: "Seems like every time I click on the NYT these days, I'm inspired or at least reassured that momentum is shifting, people are waking up and choosing a path with less greed, ego and blind consumption involved."
 date: 2013-03-12
-author: Ralph
+author: [Ralph]
 readfullarticle: 2013-03-12-a-good-story-of-living-with-less
 ---
 

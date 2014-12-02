@@ -2,7 +2,7 @@
 title: "The Case for Technology Worker Coops from a Former Freelancer"
 summary: "Some of our esteemed tech co-workers have proposed a discussion of the value of tech coops at SXSW in 2012 which got me thinking about just this question."
 date: 2011-09-19
-author: Rylan
+author: [Rylan]
 readfullarticle: 2011-09-19-the-case-for-technology-worker-coops-from-a-former-freelancer
 ---
 

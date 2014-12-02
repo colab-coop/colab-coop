@@ -2,7 +2,7 @@
 title: "When Life Gives You Waste..."
 summary: "CoLab is proud to announce the launch of the newly redesigned Pivot Works website."
 date: 2014-09-25
-author: Ralph
+author: [Ralph]
 readfullarticle: 2014-09-25-when-life-gives-you-waste
 ---
 

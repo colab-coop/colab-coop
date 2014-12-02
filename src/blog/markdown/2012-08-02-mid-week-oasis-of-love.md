@@ -2,7 +2,7 @@
 title: "Mid-Week Oasis of Love!"
 summary: "This week we celebrated in honor of our visiting West Coast member Yaniv and his lovely newlywed partner Sara, with a little mid week soirée.. It was also an opportunity to share the work of artist Joshua Sperling, who has helped deck out the CoLab Hive Coworking space in recent months.  Lastly, it was also an excuse to give out Free Hugs to some peers, lovers, collaborators and supporters of cooperative economy, as Tuesdays can get be pretty hectic."
 date: 2012-08-02
-author: Ralph
+author: [Ralph]
 readfullarticle: 2012-08-02-mid-week-oasis-of-love
 ---
 

@@ -2,7 +2,7 @@
 title: "Design For Impact"
 summary: "We often ask ourselves, how can we help? How can we do more to contribute to community development, sustainable energy or the alleviation of suffering? Finding answers is getting a lot easier."
 date: 2012-01-12
-author: Ralph
+author: [Ralph]
 readfullarticle: 2012-01-12-design-for-impact
 ---
 

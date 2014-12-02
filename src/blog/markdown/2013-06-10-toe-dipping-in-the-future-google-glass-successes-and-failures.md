@@ -2,7 +2,7 @@
 title: "Toe Dipping in the Future, Google Glass Successes and Failures"
 summary: "One of our developers, Peter, arrived this morning fresh from the future (Google's idea of it at least). Having just acquired a pair of Google Glass, Peter wasted no time breaking the seal and digging into experimentation."
 date: 2013-06-10
-author: Ralph
+author: [Ralph]
 readfullarticle: 2013-06-10-toe-dipping-in-the-future-google-glass-successes-and-failures
 ---
 
