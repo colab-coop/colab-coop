@@ -635,6 +635,11 @@ main {
     padding-right: $base-spacing;
     display: inline-block;
     vertical-align: middle;
+
+    &:hover {
+      color: darken($gray-medium, 10%);
+      transition: all 0.2s linear;
+    }
   }
 }
 
