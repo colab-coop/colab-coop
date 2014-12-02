@@ -152,6 +152,13 @@ $(document).ready(function(){
 		});
 	});
 
+	$('#load-more').on('click', function(e) {
+		e.preventDefault();
+		$('.blog-list-block:hidden').slice(0, 5).fadeIn();
+	});
+
+	$('.blog-list-block').slice(0, 5).show();
+
 	//customize twitter feed
 	hideTwitterBoxElements();
 
