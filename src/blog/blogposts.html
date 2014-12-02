@@ -1,5 +1,8 @@
 <article class="blog-list-block">
   <p class="heading-primary"><a class="" href="/{{post.readfullarticle}}">{{post.title}}</a></p>
   <p>{{post.summary}}</p>
-  <p class="text--gray-medium">By <a href="/{{post.author}}" class="text--gray-medium">{{post.author}}</a>, on {{post.date}}</p>
+  <p class="text--gray-medium">By 
+  {{#authors}}
+  	<a href="/{{.}}" class="text--gray-medium">{{.}}</a>
+  {{/authors}}, on {{date}}</p>
 </article>

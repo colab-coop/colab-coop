@@ -13,10 +13,13 @@
 
 	  	<div class="blog-post-meta-block">
 	  	  <div class="blog-post-meta">
-	  	    By<img src="http://placehold.it/45x45" alt="" class="blog-post-img-credit"><a href="#">Static Code</a> and<img src="http://placehold.it/45x45" alt="" class="blog-post-img-credit"><a href="">Person.Name</a>
+	  	    By <img src="http://placehold.it/45x45" alt="" class="blog-post-img-credit">
+	  	    {{#authors}}
+	  	    	<a href="/{{.}}">{{.}}</a>
+	  	    {{/authors}}
 	  	   </div>
 	  	   <div class="spacing--sm"></div>
-		  <div>September 29, 2014 Static Date</div>
+		  <div>{{date}}</div>
 	  	</div>
 
 	  	<div class="blog-post-social">

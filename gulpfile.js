@@ -21,6 +21,7 @@ var es = require('event-stream');
 var mustache = require('mustache');
 var fs = require('fs');
 var sort = require('sort-stream');
+var moment = require('moment');
 
 var destination = '../www';
 
@@ -51,7 +52,9 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
     // use the frontmatter to populate a blog post list
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(postlist, {
-        post: file.frontMatter
+        post: file.frontMatter,
+        date: moment(file.frontMatter.date).format('MMMM d, YYYY'),
+        authors: file.frontMatter.authors
       });
       file.contents = new Buffer(html);
       cb(null, file);
@@ -80,7 +83,9 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
     // insert handlebars value from frontmatter into post template
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(post, {
-        include: file.frontMatter.readfullarticle
+        include: file.frontMatter.readfullarticle,
+        date: moment(file.frontMatter.date).format('MMMM d, YYYY'),
+        authors: file.frontMatter.authors
       });
       file.contents = new Buffer(html);
       cb(null, file);

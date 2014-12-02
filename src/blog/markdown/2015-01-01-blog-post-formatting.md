@@ -2,7 +2,7 @@
 title: "Blog Post Formatting"
 summary: This is a showcase of the different formatting options supported in the blog.
 date: 2015-01-01
-author: Jenn Schlick
+authors: [Jenn, Tomaz]
 readfullarticle: 2015-01-01-blog-post-formatting
 ---
 
