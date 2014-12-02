@@ -104,7 +104,7 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
       path.basename = "index";
       path.extname = ".html";
     }))
-    .pipe(gulp.dest(destination));
+    .pipe(gulp.dest(destination + '/blog'));
 });
 
 // create the partials for the post template
