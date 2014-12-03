@@ -37,6 +37,10 @@ a {
   &:hover {
     color: darken($red, 10%);
   }
+
+  &.link--no-border {
+    border-bottom: 0px;
+  }
 }
 
 img {
@@ -742,6 +746,8 @@ main {
 .blog-post-img-credit {
   @extend %vertical-inline-middle;
 	padding: 0 $base-spacing;
+  height: auto;
+  width: 60px;
 }
 
 .blog-post-social {
