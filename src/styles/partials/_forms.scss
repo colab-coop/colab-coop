@@ -57,6 +57,10 @@ label {
   input[type="submit"], button {
   	display: inline-block;
     min-width: 140px;
+		&.busy{
+			color: transparent !important;
+			background: url("/assets/img/submit-spinner.gif") no-repeat scroll 50% center #ee3d36 !important;
+		}
   }
 
   input[type="submit"], input[type="radio"], input[type="checkbox"] {
@@ -65,7 +69,7 @@ label {
 
   .checkbox-custom, .radio-custom {
     opacity: 0;
-    position: absolute;   
+    position: absolute;
   }
 
   .checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
