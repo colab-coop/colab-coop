@@ -59,7 +59,8 @@ label {
     min-width: 140px;
 		&.busy{
 			color: transparent !important;
-			background: url("/assets/img/submit-spinner.gif") no-repeat scroll 50% center #ee3d36 !important;
+      background-color: $red;
+			background-image: url("/assets/img/submit-spinner.gif");
 		}
   }
 
