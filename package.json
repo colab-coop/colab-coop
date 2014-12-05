@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "poll": "./poll.sh",
+    "watch": "./watch.sh",
     "serve": "browser-sync start --config bs-config.js",
     "dev": "npm run poll & npm run serve"
   },

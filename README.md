@@ -22,7 +22,7 @@ build site:
 
 watch source and auto re-build:
 ===============================
-    $ gulp watch
+    $ npm run watch
 
 run browsersync (serves, watches changes, autoreloads, syncs connected browsers):
 =================================================================================
