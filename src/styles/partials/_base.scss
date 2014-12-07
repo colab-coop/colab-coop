@@ -25,7 +25,7 @@ body {
   padding-top: 80px;
 }
 
-p, ul, ol {
+p, ul, ol, table {
   margin-top: 0;
   margin-bottom: 40px;
 }
@@ -658,8 +658,15 @@ main {
 
 .members-team {
 
-  > img {
+  img {
+    filter: grayscale(1);
+    height: 80px;
+    width: 80px;
 		padding: $grid-padding / 2;
+    &:hover {
+      filter: grayscale(0);
+      transition: all 0.2s linear;
+    }
   }
 }
 
@@ -757,6 +764,23 @@ main {
 
 .blog-post-disqus {
   @extend %spacing--lg;
+}
+
+.styling-markdown {
+
+  table {
+    td {
+      padding: 5px 10px;
+    }
+    thead {
+      border-bottom: 2px solid $border-default-light;
+    }
+  }
+
+  h2 {
+    @extend %heading-secondary;
+  }
+
 }
 
 
