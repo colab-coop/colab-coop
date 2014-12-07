@@ -8,6 +8,8 @@ readfullarticle: vision-quest
 
 # Vision Quest
 
+<img src="/assets/img/blog/2014-09-29.jpg" class="center-element">
+
 There is a ripple effect. When one person gains a firmer footing in their life’s purpose, the uplifting effect echoes through whatever they are a part of, including a company.
 
 It goes beyond the company, into the lives of clients and coworkers, their businesses and goals, and into their personal lives. Then beyond that, into local communities. And beyond that...

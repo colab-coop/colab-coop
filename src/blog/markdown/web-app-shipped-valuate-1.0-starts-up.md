@@ -16,7 +16,7 @@ Built atop an ultra-modern, lightning fast - and yes, collaborative - node and  
 
 See the product in action below:
 
-<iframe src="//player.vimeo.com/video/67144430" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/67144430" class="margin-bottom" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 On a lighter note, the vibe in the developer chat room in the final few hours prior to launch could be summed up like this dance. Yes, there were some tense moments but the digital boogie was in full effect as the month-long Beta came to an end and a massive behind the scenes effort by our international team was pushed live and 1.0 of the incredible web app Valuate by REFM was officially made public.
 

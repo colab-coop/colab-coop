@@ -6,7 +6,7 @@ authors: [Ralph]
 readfullarticle: labor-day-high-fives-to-global-cooperatives-including-self-five
 ---
 
-# Take Notice of Oddly Shaped Objects
+# Labor Day High Fives to Global Cooperatives (including self-five)
 
 This Labor Day, CoLab is celebrating the burgeoning cooperative economy and our place in it. We are proud to be included in Shareable’s article highlighting worker-owned cooperatives who are “redefining the cooperative movement!”
 

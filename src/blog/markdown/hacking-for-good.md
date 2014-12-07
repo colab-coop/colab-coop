@@ -8,6 +8,8 @@ readfullarticle: hacking-for-good
 
 # Hacking for Good
 
+<img src="/assets/img/blog/2014-05-31.jpg" class="center-element">
+
 Though we are not officially participating in the official [National Day of Civic Hacking](http://www.hackforchange.org/), we are marching forward in a kindred spirit of improving lives and serving others with our 1st ever CoLab Hackathon.
 
 It’s a unique Hackathon because we are doing it remotely from across the Globe; Slovenia, Canada, NYC, and a 16hr train across India to New Delhi.  HipChat and Hangouts are our glue.
