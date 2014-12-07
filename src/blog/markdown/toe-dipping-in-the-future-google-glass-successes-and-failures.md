@@ -6,9 +6,11 @@ authors: [Ralph]
 readfullarticle: toe-dipping-in-the-future-google-glass-successes-and-failures
 ---
 
-Toe Dipping in the Future, Google Glass Successes and Failures
+# Toe Dipping in the Future, Google Glass Successes and Failures
 
-One of our developers, [Peter](), arrived this morning fresh from the future (Google’s idea of it at least). Having just acquired a pair of [Google Glass](http://www.google.com/glass/start/what-it-does/), Peter wasted no time breaking the seal and digging into experimentation. The results have been a mix of success and total FAIL thus far, but has certainly made for novel and entertaining experience with the most regular of tasks and interactions. Having about 72 hours with the device so far, here is Peter’s list of Google Glass successes and failures. Mowing the lawn will never be the same!
+<img src="/assets/img/blog/2013-06-10.jpg" class="center-element">
+
+One of our developers, [Peter](http://colab.coop/team), arrived this morning fresh from the future (Google’s idea of it at least). Having just acquired a pair of [Google Glass](http://www.google.com/glass/start/what-it-does/), Peter wasted no time breaking the seal and digging into experimentation. The results have been a mix of success and total FAIL thus far, but has certainly made for novel and entertaining experience with the most regular of tasks and interactions. Having about 72 hours with the device so far, here is Peter’s list of Google Glass successes and failures. Mowing the lawn will never be the same!
 
 1. Successfully navigated to a party by car.
 2. Unsuccessfully took a picture of a friends father doing a keg stand.

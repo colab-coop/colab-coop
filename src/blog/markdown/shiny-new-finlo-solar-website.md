@@ -8,7 +8,9 @@ readfullarticle: shiny-new-finlo-solar-website
 
 # Just Launched: Shiny New Finlo Solar Website
 
-Finlo Solar’s new site is up, powered by sunshine and collaboration.
+<a href="http://www.finlosolar.com/"><img src="/assets/img/blog/2013-02-08.png" class="center-element"></a>
+
+[Finlo Solar’s new site](http://www.finlosolar.com/) is up, powered by sunshine and collaboration.
 
 For Finlo, solar power is about possibilities. It’s about changing the way we think about energy.
 

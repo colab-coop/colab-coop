@@ -8,6 +8,8 @@ readfullarticle: refm-enters-closed-beta
 
 # App Launch: REFM Enters Closed Beta
 
+<a href="http://www.getrefm.com/"><img src="/assets/img/blog/2013-09-27.png" class="center-element"></a>
+
 A massive and exciting project we have been working on this year came out from behind the curtain this week. Entrepreneur, partner and collaborator [Bruce Kirsch](http://www.getrefm.com/about-real-estate-financial-modeling-page-4) has launched [Valuate by REFM](http://www.getrefm.com/), a next-generation commercial real estate financial analysis and property marketing software platform. Read the full announcement for this game changing app below, posted via the REFM blog:
 
 > Valuate by REFM, the next-generation commercial real estate financial analysis and property marketing software platform, officially entered closed Beta testing today. The much-anticipated web browser- and cloud-based application has nearly 700 eager testers signed up for the open Beta, which is scheduled to commence on Monday, October 14th.

@@ -8,6 +8,8 @@ readfullarticle: design-for-impact
 
 # Design For Impact
 
+<a href="http://www.missionmarkets.com/"><img src="/assets/img/blog/2012-01-12.png" class="center-element"></a>
+
 We often ask ourselves, how can we help? How can we do more to contribute to community development, sustainable energy or the alleviation of suffering? Finding answers is getting a lot easier. Amazing platforms like [Catchafire.org](http://www.catchafire.org/) enable skilled professionals to find and link up with pro-bono [service opportunities](http://blog.catchafire.org/2011/08/18/find-your-cause-mission-markets/).
 
 That opportunity was for a design project with [Mission Markets](http://www.missionmarkets.com/), a professional firm and social enterprise providing services around [impact investing](http://en.wikipedia.org/wiki/Impact_investing).

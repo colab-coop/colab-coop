@@ -8,7 +8,8 @@ readfullarticle: ode-to-wine-and-ecommerce-winery-websites
 
 # Ode to Wine (and Ecommerce Winery Websites, of course)
 
-Photo credit: [Elijah Woolery](http://www.innovationendeavors.com/runway)
+<img src="/assets/img/blog/2011-10-13.jpg" class="center-element">
+<p class="caption center-text">Photo credit: [Elijah Woolery](http://www.innovationendeavors.com/runway)</p>
 
 Wine, a transformative liquid of love, celebration and ceremony. Winemaking, a craft dating back to the Neolithic Age. Ecommerce winery websites, a growing part of the CoLab portfolio.
 
@@ -20,4 +21,4 @@ We’ve also forged a new relationship with a wine specific start up technology 
 
 Our wineries thus far are not cooperatives or social enterprises, but they are small businesses who farm the land and have admirable knowledge and respect for nature. They produce amazing and award winning wines that help uplift our spirits. To sum in much more poetic and eloquent fashion, will leave it to an expert, Karen MacNeil, 2006 European Wine Councils Wine Educator of the Year :
 
-“[In] a world where innocuous emails all exude infuriatingly false urgency–in this world, wine remains utterly unrushed. Still (thankfully) mysterious. The silent music of nature. For seven thousand years, vines clutching the earth have thrust themselves upward toward the sun and given us a transformative liquid in return. And so it is that wine ineluctably connects us to that earth. We don’t have to do anything. We drink… and the bond is there. Wine matters because of this connection. Wine (and food) cradle us in our own humanity. Drinking wine–small as that action may seem–is an affirmation. It reminds us of other things that matter: love, friendship, generosity.”
+“[In] a world where innocuous emails all exude infuriatingly false urgency–in this world, wine remains utterly unrushed. Still (thankfully) mysterious. The silent music of nature. For seven thousand years, vines clutching the earth have thrust themselves upward toward the sun and given us a transformative liquid in return. And so it is that wine ineluctably connects us to that earth. We don’t have to do anything. We drink… and the bond is there. Wine matters because of this connection. Wine (and food) cradle us in our own humanity. Drinking wine &mdash; small as that action may seem &mdash; is an affirmation. It reminds us of other things that matter: love, friendship, generosity.”

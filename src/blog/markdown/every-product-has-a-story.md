@@ -8,7 +8,9 @@ readfullarticle: every-product-has-a-story
 
 # Every product has a story
 
-It’s starting to sink in. Sustainability in business isn’t simply an economic issue or an environmental issue… Sustainability is a people issue!
+<a href="http://ricefield.co/"><img src="/assets/img/blog/2013-05-17.jpg" class="center-element"></a>
+
+It’s starting to sink in. Sustainability in business isn’t simply an economic issue or an environmental issue. Sustainability is a people issue!
 
 In the fashion world for example, the price tag on that fresh new t-shirt from Nordstroms, doesn’t reflect the price paid by the planet: the farmer who grew the cotton under duress of heavy handed world trade negotiations, the worker who sewed the seams after 14 hours at work in a stifling garment factory or the carbon gas emitted in carrying the garment overseas for delivery to US consumers.
 
@@ -24,11 +26,11 @@ For social entrepreneurs a values driven approach to business goes further than 
 
 > Goods embodying progressive values as part of their brand story are rewarded in the marketplace by customers who both spend money freely and spread goodwill joyfully as brand ambassadors.
 
-As the market begins to further reward social enterprises, more entrepreneurs are emboldened to take the plunge into unique expressions of their higher purpose.  One such company is [Rice Field Collective](http://soon.ricefield.co/).
+As the market begins to further reward social enterprises, more entrepreneurs are emboldened to take the plunge into unique expressions of their higher purpose.  One such company is [Rice Field Collective](http://ricefield.co/).
 
 > Rice Field Collective is a collaboration between knitting teachers and designers based in the U.S. and Europe, with indigenous people from the Ifugao region of the Philippines. Our goal is to use handknitting as a way of generating income for those in danger of being forced out of their ancestral land due to poverty.
 
-CoLab Cooperative is honored to be working with RFC to develop a custom Shopify / Wordpress e-commerce integration that allows the collective to weave the story of its mission seamlessly around the products they sell.  The time has come for goods and their stories to live as one - in service to all people, the earth, and to economic sustainability for all. CoLab is proud to be helping to lead the way in establishing this standard.
+CoLab Cooperative is honored to be working with RFC to develop a custom Shopify / Wordpress e-commerce integration that allows the collective to weave the story of its mission seamlessly around the products they sell.  The time has come for goods and their stories to live as one &mdash; in service to all people, the earth, and to economic sustainability for all. CoLab is proud to be helping to lead the way in establishing this standard.
 
 Sound compelling? It is and we encourage you to go hear more about it from the founder of RFC herself.
 
