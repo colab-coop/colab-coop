@@ -8,6 +8,8 @@ readfullarticle: drupal-7-meet-a-movement
 
 # Drupal 7, Meet A Movement
 
+<a href="http://prisonradio.org/"><img src="/assets/img/blog/2011-12-10.png" class="center-element"></a>
+
 30 years ago, Mumia Abu-Jamal’s life turned upside down. A police officer in Philadelphia was shot and killed. Mumia was charged, then convicted and sentenced to death for the murder. Since his conviction, serious doubts have been raised over the legitimacy of the evidence.
 
 Mumia has been fighting hard for his innocence from behind bars. He has inspire a movement against injustice and in the process, become a cultural icon and celebrated journalist. He has published several books, and with the help of Prison Radio, [broadcast thousands of commentaries weekly to the world](http://www.prisonradio.org/media/audio/Mumia).

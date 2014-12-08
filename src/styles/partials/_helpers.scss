@@ -203,6 +203,32 @@
 }
 
 // ------------------------------------------------
+// Margins
+
+.margin-top, %margin-top {
+  margin-top: $base-spacing * 4;
+}
+
+.margin-right, %margin-right {
+  margin-right: $base-spacing * 4;
+}
+
+.margin-bottom, %margin-bottom {
+  margin-bottom: $base-spacing * 4;
+}
+
+.margin-left, %margin-left {
+  margin-left: $base-spacing * 4;
+}
+
+// ------------------------------------------------
+// Borders
+
+.border-all {
+  border: 2px solid $border-default-light;
+}
+
+// ------------------------------------------------
 // Buttons
 
 .button, %button {

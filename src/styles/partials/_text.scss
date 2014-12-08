@@ -81,7 +81,7 @@ h6, .h6 {
 }
 
 .heading-secondary, %heading-secondary {
-  font-family: $lubalin-bold;  
+  font-family: $lubalin-bold;
   font-size: 120%;
 }
 
@@ -137,6 +137,11 @@ blockquote {
   border-left: 2px solid $border-default-light;
   margin: $base-spacing*4 0 $base-spacing*4 $base-spacing*4;
   padding: $base-spacing-lg 0 $base-spacing-lg $base-spacing-lg*2;
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
 }
 
 //------------------------------------------------
