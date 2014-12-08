@@ -2,6 +2,7 @@ var jsPixelateHover = require('./pixelate.js');
 var headroom = require('./headroom.min.js');
 var headroomJQuery = require('./jQuery.headroom.min.js');
 var headroomJQuery = require('./owl.carousel.min.js');
+var formApi = require('./form.api.js');
 
 $(document).ready(function() {
 	//PIXELATE ON SCROLL CODE

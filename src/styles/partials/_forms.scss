@@ -47,6 +47,9 @@ label {
 .form-base {
   textarea, input[type="text"], input[type="url"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"] {
     border: none;
+		&.error, &.error-empty{
+			box-shadow: 0 0 2px 1px red;
+		}
   }
 
   textarea, select, input {
@@ -124,4 +127,9 @@ label {
 	@extend %text--small;
 	background: $gray-light;
 	margin: $base-spacing-lg 0 0 0;
+}
+
+#errorMsg{
+	color: $red;
+	white-space: pre;
 }

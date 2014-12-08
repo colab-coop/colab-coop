@@ -8,7 +8,7 @@
     <div class="container--text">
       <section class="callout">Tell us about your project with the <a href="/project-check-in">Project Check-In</a>.</section>
       <div class="spacing--mid-x"></div>
-      <form class="form-base form-contact" id="form-contact">
+      <form class="form-base form-contact form-api" id="form-contact">
         <div class="grid-parent">
           <div class="form-field-wrap grid-child">
             <label for="name" class="required-label">Name</label>
@@ -41,7 +41,7 @@
         <div class="form-field-wrap center-text">
           <div class="spacing--sm">
             <input type="submit" value="Send" id="submit" class="button--brand-outline color-red" />
-            <input type="reset" value="Reset" id="reset" style="display:none;" />
+            <!-- input type="reset" value="Reset" id="reset" style="display:none;" /--->
             <div id="success" hidden>Thanks for your message. We'll be in touch.</div>
             <div id="error" hidden>Errors were found. Please rectify and re-submit the form. <span id="errorMsg"></span></div>
           </div>
@@ -95,82 +95,7 @@
     </section>
   </main>
 
-  <script>
-    $('#form-contact').submit(function (e) {
-      e.preventDefault();
 
-      function clearform () {
-        //$('#email, #name, #message')[0].reset(); //.val('');
-        //$('#name').val('');
-        //$('#message').val('');
-        $('#reset').trigger('click');
-
-      }
-
-      // Simple Validation.
-      $validated = 'true';
-      $(this).find('.required').each( function(){
-        if ($(this).val().trim() == '') {
-          $(this).addClass('error-empty');
-          $validated = 'false';
-        }
-        else{
-          $(this).removeClass('error-empty');
-        }
-      });
-
-      if ($validated == 'false') {
-        $('#errorMsg').text('Please include all required fields');
-        $('#error').fadeIn();
-          window.setTimeout(function () {
-            $('#error').fadeOut();
-          }, 3000);
-      }
-      else {
-        //disable submit button
-        $(this).find('input[type="submit"]').each( function(){
-          $(this).attr('disabled', 'disabled').addClass('busy');
-        });
-
-
-        $.ajax({
-          type: 'POST',
-          datatype: 'jsonp',
-          headers: {
-            'Accept': 'application/json'
-          },
-          url: window.location.protocol + '//' + window.location.hostname + ':8113/form',
-          data: JSON.stringify({
-            email: $('#email').val(),
-            name: $('#name').val(),
-            msg: $('#message').val()
-          }),
-          processData: false,
-          contentType: 'application/json',
-          success: function (response) {
-            console.log('got success: ', response);
-            clearform();
-            $('#success').fadeIn();
-            $('input[type="submit"].busy').removeAttr('disabled').removeClass('busy');
-            /*
-            window.setTimeout(function () {
-              $('#success').fadeOut();
-            }, 3000);
-            */
-          },
-          error: function (jqXHR, status, errorThrown) {
-            console.log('got error: ', jqXHR);
-            $('#errorMsg').innerText(errorThrown);
-            $('#error').fadeIn();
-            window.setTimeout(function () {
-              $('#error').fadeOut();
-            }, 3000);
-          }
-        })
-
-      }
-    });
-  </script>
 
   @@include('../templates/_footer.tpl')
 
