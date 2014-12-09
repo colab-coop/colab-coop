@@ -4,6 +4,8 @@ var headroomJQuery = require('./jQuery.headroom.min.js');
 var headroomJQuery = require('./owl.carousel.min.js');
 var formApi = require('./form.api.js');
 
+$('html').removeClass('no-js');
+
 $(document).ready(function() {
 	//PIXELATE ON SCROLL CODE
 	var imgPixelate = $('#js-pixelate-scroll');

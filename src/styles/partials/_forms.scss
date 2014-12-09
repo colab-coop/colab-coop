@@ -1,6 +1,24 @@
 //------------------------------------------------
 // Forms
 
+// No-js form styles
+.no-js form.form-api{
+	& > div{
+		display:none;
+	}
+	&:before{
+		content: 'This form requires Javascript. \A Please turn Javascript on in your browser.';
+		color: $gray-dark;
+		background-color: $gray-light;
+		box-shaddow:active 2px 2px 1px 2px $gray-lighter;
+		display: block;
+		text-align: center;
+		margin:30px 40px;
+		padding: 75px 0;
+		white-space: pre;
+	}
+}
+
 input[type="submit"], button {
   -moz-appearance: none;
   -webkit-appearance: none;
