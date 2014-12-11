@@ -1,4 +1,5 @@
-until gulp watch;
+while true;
 do
-  sleep 2
+  gulp
+  sleep 5m;
 done
