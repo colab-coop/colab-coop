@@ -1,5 +1,5 @@
 while true;
 do
-  gulp
+  gulp 2>> gulperr.log
   sleep 5m;
 done
