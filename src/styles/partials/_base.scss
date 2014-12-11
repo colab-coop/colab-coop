@@ -63,6 +63,8 @@ hr {
 }
 
 //------------------------------------------------
+//------------------------------------------------
+//------------------------------------------------
 // MODULE: PANEL
 .panel-full {
   width: 100%;
@@ -410,6 +412,43 @@ hr {
   right: 0;
   transition: all 0.2s ease-in;
 }
+
+//headroom code for animation of header on scroll
+
+  .animated {
+    animation-duration: .4s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animated.slideDown {
+    animation-name: noneIE1; //hack for IE bug: keyframe animations dont work inside @media 
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  .animated.slideUp {
+    animation-name: noneIE2; //hack for IE bug: keyframe animations dont work inside @media
+  }
+
+
 
 
 //------------------------------------------------
