@@ -190,7 +190,7 @@ gulp.task('scripts', ['browserify'], function() {
 
 // images
 gulp.task('images', function() {
-  return gulp.src(['src/images/**/*.png', 'src/images/**/*.jpg', 'src/images/**/*.svg', 'src/images/**/*.gif'])
+  return gulp.src(['src/images/**/*.png', 'src/images/**/*.jpg', 'src/images/**/*.svg', 'src/images/**/*.gif', 'src/images/**/*.ico'])
     .pipe(
       gulpif(
         isProduction,
