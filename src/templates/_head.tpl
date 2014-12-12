@@ -12,23 +12,23 @@
   <script src="/assets/js/bundle.js"></script>
 
   <!-- Schema.org data -->
-  <meta itemprop="name" content="TITLE">
-  <meta itemprop="description" content="DESCRIPTION">
+  <meta itemprop="name" content="{{title}}">
+  <meta itemprop="description" content="{{summary}}">
   <meta itemprop="image" content="/assets/img/colab-logo-social-share.png">
 
   <!-- Twitter Card data -->
-  <meta name="twitter:title" content="TITLE">
-  <meta property="twitter:url" content="URL">
-  <meta name="twitter:description" content="DESCRIPTION">
+  <meta name="twitter:title" content="{{title}}">
+  <meta property="twitter:url" content="{{{base}}}/blog/{{include}}">
+  <meta name="twitter:description" content="{{summary}}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@colabcoop">
   <meta name="twitter:creator" content="@colabcoop">
   <meta name="twitter:image" content="/assets/img/colab-logo-social-share.png">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="TITLE" />
-  <meta property="og:url" content="URL" />
-  <meta property="og:description" content="DESCRIPTION" />
+  <meta property="og:title" content="{{title}}" />
+  <meta property="og:url" content="{{{base}}}/blog/{{include}}" />
+  <meta property="og:description" content="{{summary}}" />
   <meta property="og:image" content="/assets/img/colab-logo-social-share.png" />
   <meta property="og:site_name" content="CoLab" />
   <meta property="article:publisher" content="http://www.facebook.com/colab.coop" />

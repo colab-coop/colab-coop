@@ -98,6 +98,18 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
       dir = dir[dir.length - 1].replace('.md', '');
       cb(null, file);
     }))
+    // insert handlebars values from frontmatter into head template
+    .pipe(es.map(function (file, cb) {
+      file.contents = new Buffer(
+        mustache.render(
+          String(file.contents), {
+            title: file.frontMatter.title,
+            base: 'http://colabcoop.dev.colab.coop',
+            include: file.frontMatter.readfullarticle,
+            summary: file.frontMatter.summary
+          }));
+      cb(null, file);
+    }))
     // rename the destination path for the file (avoiding .html)
     .pipe(rename(function (path) {
       path.dirname = dir;
