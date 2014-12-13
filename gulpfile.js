@@ -35,6 +35,14 @@ gulp.task('blog', ['blog-posts-list'], function () {
   // and including it into the blog.html template
   return gulp.src('src/blog/blog.html')
     .pipe(fileInclude())
+    .pipe(es.map(function (file, cb) {
+      var html = mustache.render(
+        String(file.contents), {
+          title: 'Blog'
+        });
+      file.contents = new Buffer(html);
+      cb(null, file);
+    }))
     .pipe(rename('blog/index.html'))
     .pipe(gulp.dest(destination));
 });
@@ -136,7 +144,19 @@ gulp.task('blog-posts-partials', function () {
 gulp.task('html', ['blog'], function () {
   var dir = '';
   return gulp.src('src/html/**/*.html')
+    .pipe(frontMatter({
+      property: 'frontMatter',
+      remove: true
+    }))
     .pipe(fileInclude())
+    .pipe(es.map(function (file, cb) {
+      var html = mustache.render(
+        String(file.contents), {
+          title: file.frontMatter.title
+        });
+      file.contents = new Buffer(html);
+      cb(null, file);
+    }))
     .pipe(gulpif(isProduction, gzip()))
     // get the blog post directory name from the .md file name
     .pipe(es.map(function (file, cb) {

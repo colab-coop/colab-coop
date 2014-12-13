@@ -2,6 +2,7 @@
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
+  <title>{{title}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
   <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-precomposed.png">
