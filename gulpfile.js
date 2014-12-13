@@ -168,7 +168,7 @@ gulp.task('html', ['blog'], function () {
     // unless it is index.html in which case just ignore it
     .pipe(rename(function (path) {
       if (path.basename !== 'index') {
-        path.dirname = dir;
+        path.dirname = path.dirname + '/' + dir;
         path.basename = "index";
         path.extname = ".html";
       }
