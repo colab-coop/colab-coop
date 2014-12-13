@@ -2,6 +2,7 @@
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
+  <meta name="robots" content="nofollow, noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{title}} | CoLab Coop</title>
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
