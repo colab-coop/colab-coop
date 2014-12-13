@@ -2,9 +2,8 @@
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
-  <title>{{title}}</title>
+  <title>{{title}} | CoLab Coop</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CoLab Coop</title>
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
   <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-precomposed.png">
   <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -14,18 +13,18 @@
   <script src="/assets/js/bundle.js"></script>
 
   <!-- Schema.org data -->
-  <meta itemprop="name" content="CoLab Coop">
+  <meta itemprop="name" content="{{title}}">
   <meta itemprop="image" content="/assets/img/colab-logo-social-share.png">
 
   <!-- Twitter Card data -->
-  <meta name="twitter:title" content="CoLab Coop">
+  <meta name="twitter:title" content="{{title}}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@colabcoop">
   <meta name="twitter:creator" content="@colabcoop">
   <meta name="twitter:image" content="/assets/img/colab-logo-social-share.png">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="CoLab Coop" />
+  <meta property="og:title" content="{{title}}" />
   <meta property="og:image" content="/assets/img/colab-logo-social-share.png" />
   <meta property="og:site_name" content="CoLab" />
   <meta property="article:publisher" content="http://www.facebook.com/colab.coop" />

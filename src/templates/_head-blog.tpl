@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CoLab Coop</title>
+  <title>{{title}} | CoLab Coop</title>
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
   <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-precomposed.png">
   <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
