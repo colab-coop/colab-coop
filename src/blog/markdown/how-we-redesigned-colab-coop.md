@@ -1,5 +1,5 @@
 ---
-title: "How We Redesigned CoLab.coop!"
+title: "How We Redesigned CoLab.coop"
 summary: We put it off. We focused on client projects. We did a refresh. We weren't satisfied. Here's how we went ahead with a full redesign of our site, and how we finally got it done.
 date: 2014-12-20
 authors: [Ralph, Jenn]
