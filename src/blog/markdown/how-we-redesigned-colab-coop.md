@@ -1,6 +1,6 @@
 ---
 title: "How We Redesigned CoLab.coop"
-summary: We put it off. We focused on client projects. We did a refresh. We weren't satisfied. Here's how we finally went ahead with a full redesign our site, and how we got it done.
+summary: We put it off. We focused on client projects. We did a refresh. We weren't satisfied. Here's how we went ahead with a full redesign of our site, and how we finally got it done.
 date: 2014-12-20
 authors: [Ralph, Jenn]
 readfullarticle: how-we-redesigned-colab-coop
@@ -25,7 +25,7 @@ Plenty of client service shops go for a simple, no-frills website in favor of fo
   </div>
 </div>
 
-By the start of 2014, we were ready to change.
+By the start of 2014, we were ready for a change.
 
 ## Don't call it a redesign
 
@@ -37,7 +37,7 @@ In early January, [Rylan](http://colab.coop/team) sent an e-mail to [Ralph](http
 >
 > &ndash; Rylan
 
-Ralph had been noodling with ideas and shared a sketch with Jenn. We were off to the races. Strapped for time, we called it a refresh.
+Ralph had been noodling with ideas and shared a sketch with Jenn. We were off to the races, but strapped for time, so we called it a refresh.
 
 <div class="grid-parent">
   <div class="col-50-flt">
@@ -50,31 +50,29 @@ Ralph had been noodling with ideas and shared a sketch with Jenn. We were off to
   </div>
 </div>
 
-After a series of discussions over the next four days, we built a simple HTML prototype of the homepage and put it up on [Heroku](http://www.herokuapp.com/). We iterated on the prototype until we had a version that was ready to release into the wild.
+After a series of discussions over the next four days, we built a simple HTML prototype of the homepage and put it up. We iterated on the prototype until we had a version that was ready to release into the wild.
 
-Our new homepage was great, but rest of the site was still on a fixed-width layout. We wanted the entire site to be responsive.
+Feedback from collaborators and clients on the new homepage was great, but rest of the site was still on this old school thing called a fixed-width layout. Meaning, it wasn't responsive.
 
-We poked around and concluded that retrofitting our legacy templates was not worth the investment &mdash; we couldn't carry these templates over to the full redesign and migration from [ExpressionEngine](https://ellislab.com/expressionengine) we planned for late 2014. As a compromise, we swapped the fixed-width containers for percentage-based containers. That got us most of the way to responsive in time for a March launch of the redesign... er, refresh.
+We poked around and concluded that retrofitting our legacy templates was not worth the investment - and we needed to focus on a full redesign before end of year. We did what we could and left the rest. That got us most of the way to responsive in time for a March launch of the redesign... er, refresh.
 
 ## It's complicated
 
-By October, we were stuck in [analysis paralysis](http://en.wikipedia.org/wiki/Analysis_paralysis) &mdash; a nice way to say we were totally overwhelmed by the options.
+By October, we were stuck in [analysis paralysis](http://en.wikipedia.org/wiki/Analysis_paralysis) &mdash; a fancy way to say we were totally overwhelmed by the options.
 
 The dev team was evaluating technical approaches: Jekyll? Docpad? Gulp or Grunt? Mustache or Handlebars?
 
-The design team was debating layout decisions: Menu on the top or side? Fancy animations or subtle transitions?
+The design team was debating layout decisions: menu on the top or side? Fancy animations or subtle transitions?
 
 Jenn had a chunk of availability coming up and told the team to make their decisions. We would finish this thing. We decided two months was enough time to commit to a drop-dead launch in mid-December.
 
 ## Setting goals
 
-Content strategist [Jess Sand](http://jessicasand.com/) came in to conduct a landscape analysis, content audits, and client interviews.
+We were working with content strategist [Jess Sand](http://jessicasand.com/) on another project so we asked her to conduct a landscape analysis, content audits, and client interviews.
 
 This was a critical step in helping us focus.
 
-Now we had data. We knew we needed to improve our content to more effectively communicate CoLab's what, why, and how. Helpfully, previous clients agreed that our portfolio and team profiles were major factors in their decision-making process.
-
-We set goals:
+Now we had data. We knew we needed to improve our content to more effectively communicate CoLab's what, why, and how.
 
 1. Move to a custom, minimal content management system
 2. Re-design portfolio with more project details
@@ -99,15 +97,13 @@ In a typical design workflow, Photoshop was used for quick mockups to start disc
 
 ## Making time
 
-We treated this like a client project with deliverables, capacity planning, and deadlines. But we still had real client projects. We still had to make time &mdash; between meetings, on weekends, and on the edges of other client work.
+While all of this was going on, we still had client projects. We had to make time &mdash; between meetings, on weekends, and on the edges of other client work.
 
 All of CoLab was involved in the process &mdash; the staging site was open to any CoLabr and updates were included in our weekly internal digest. Everyone wanted to see it launch, so everyone made time to pitch in.
 
 There were rough spots. Some weeks, some of us were more invested than others. Sometimes we questioned the investment and the value.
 
-It came down to this: clients want to see our real-life professionalism reflected on our site. As a distributed team, it's important for us to be united in the image we portray to clients and the online community.
-
-Take the pixelation effect we use across the site. That took a good chunk of time. ROI? Probably none. Worth the learning experience and teamwork? Completely.
+It came down to this: clients want to see our real-life professionalism reflected on our site. As a distributed team, keeping everyone united and connected is a priority and we wanted to portray that sense of togetherness to clients and the online community.
 
 ## Lessons learned
 
