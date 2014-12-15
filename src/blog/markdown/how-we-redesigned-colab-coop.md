@@ -2,7 +2,7 @@
 title: "How We Redesigned CoLab.coop"
 summary: We put it off. We focused on client projects. We did a refresh. We weren't satisfied. Here's how we went ahead with a full redesign of our site, and how we finally got it done.
 date: 2014-12-20
-authors: [Ralph, Jenn]
+authors: [ralph, jenn]
 readfullarticle: how-we-redesigned-colab-coop
 ---
 
@@ -29,15 +29,15 @@ By the start of 2014, we were ready for a change.
 
 ## Don't call it a redesign
 
-In early January, [Rylan](http://colab.coop/team) sent an e-mail to [Ralph](http://colab.coop/team) and [Jenn](http://colab.coop/team):
+In early January, [rylan](http://colab.coop/team) sent an e-mail to [ralph](http://colab.coop/team) and [jenn](http://colab.coop/team):
 
 > Hey Friends,
 >
 > Can we discuss some low hanging fruit to uplift the CoLab website for 2014?
 >
-> &ndash; Rylan
+> &ndash; rylan
 
-Ralph had been noodling with ideas and shared a sketch with Jenn. We were off to the races, but strapped for time, so we called it a refresh.
+ralph had been noodling with ideas and shared a sketch with jenn. We were off to the races, but strapped for time, so we called it a refresh.
 
 <div class="grid-parent">
   <div class="col-50-flt">
@@ -64,7 +64,7 @@ The dev team was evaluating technical approaches: Jekyll? Docpad? Gulp or Grunt?
 
 The design team was debating layout decisions: menu on the top or side? Fancy animations or subtle transitions?
 
-Jenn had a chunk of availability coming up and told the team to make their decisions. We would finish this thing. We decided two months was enough time to commit to a drop-dead launch in mid-December.
+jenn had a chunk of availability coming up and told the team to make their decisions. We would finish this thing. We decided two months was enough time to commit to a drop-dead launch in mid-December.
 
 ## Setting goals
 

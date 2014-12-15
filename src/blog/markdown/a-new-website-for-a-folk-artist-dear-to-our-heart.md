@@ -2,7 +2,7 @@
 title: "A New Website For A Folk Artist Dear To Our Heart"
 summary: "Through the community that is blossoming from our co-work space in Ithaca (CoLab Hive), we connected with a tremendously talented opera turned folk singer name Anna Coogan."
 date: 2012-02-22
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: a-new-website-for-a-folk-artist-dear-to-our-heart
 ---
 

@@ -2,7 +2,7 @@
 title: "New Website For Good, Launched: Tea Gallerie!"
 summary: "There is a new tea boutique on the block. Tea Gallerie is officially online and on the rise."
 date: 2011-06-15
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: new-website-for-good-launched-tea-gallerie
 ---
 
