@@ -226,3 +226,11 @@ blockquote {
 @mixin text--uppercase {
   text-transform: uppercase;
 }
+
+.text--capitalize, %text--capitalize {
+  text-transform: capitalize;
+}
+
+@mixin text--capitalize {
+  text-transform: capitalize;
+}
