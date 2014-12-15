@@ -2,7 +2,7 @@
 title: "Site Launched: Wordpress & Shopify Integration in Breathtaking Beauty"
 summary: "If you are looking to be inspired, look no further. Artist Si Scott’s new redesigned portfolio plus online shop and the artwork it holds are truely stunning."
 date: 2013-10-02
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: site-launched-wordpress-shopify-integration-in-breathtaking-beauty
 ---
 

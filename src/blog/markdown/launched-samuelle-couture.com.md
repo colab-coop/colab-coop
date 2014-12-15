@@ -2,7 +2,7 @@
 title: "Launched! Samuelle Couture"
 summary: "The artistry and integrity of Sam Walls Beasley’s work is uncanny, she is a masterful seamstress. We are thrilled to have developed her website with our in-house CMS."
 date: 2011-10-20
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: launched-samuelle-couture.com
 ---
 

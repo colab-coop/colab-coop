@@ -2,7 +2,7 @@
 title: "Building a Sustainable, Mission-Driven Company"
 summary: "When we founded the CoLab Cooperative in January of this year, we were putting legal structure to a mission to serve the earth and its inhabitants via a cooperative business entity building Internet technology."
 date: 2011-04-12
-authors: [Rylan]
+authors: [rylan]
 readfullarticle: building-a-sustainable-mission-driven-company
 ---
 

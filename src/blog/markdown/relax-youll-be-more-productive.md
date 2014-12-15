@@ -2,7 +2,7 @@
 title: "Relax, You’ll Be More Productive"
 summary: "I wish we could collectively learn to pause more often &mdash; to stop for a minute, to breathe, rest and recharge together. You know, like the '5 min stretch breaks' they announce over the PA at the supermarket for employees, but where we actually all do it together, all the time, and we do it joyfully."
 date: 2013-03-11
-authors: [Rylan]
+authors: [rylan]
 readfullarticle: relax-youll-be-more-productive
 ---
 
@@ -30,10 +30,10 @@ In the NYTimes article I referenced above, Tony Schwartz talks about how he has 
 
 This is the kind of mindful culture we are embracing at Colab.
 
-Starting yesterday, my fellow coop member [Ralph](http://colab.coop/team) (the one who shared this lovely article), began a new weekly "renewal break" of leaving the office for an hour or so to go for a hike with me, his co-worker (and co-owner).
+Starting yesterday, my fellow coop member [ralph](http://colab.coop/team) (the one who shared this lovely article), began a new weekly "renewal break" of leaving the office for an hour or so to go for a hike with me, his co-worker (and co-owner).
 
 [CoLab’s headquarters](http://colabhive.com/) is (somewhat on purpose) striking distance from beautiful gorge trails and waterfall parks. We wandered and talk along the way, in a mix of venting, visioning, and quiet contemplation of our surroundings. Though we don’t completely detach from work per say, we come away with the feeling a big collective breathe of fresh air. A bit of a lift to kick off the week and a fresh perspective on the work at hand.  This rocks.
 
-And of course when CoLabrs like [Yaniv](http://colab.coop/team) from (LA) and [Jenn](http://colab.coop/team) (NYC) come to visit, you know where we go to catch up wink
+And of course when CoLabrs like [Yaniv](http://colab.coop/team) from (LA) and [jenn](http://colab.coop/team) (NYC) come to visit, you know where we go to catch up wink
 
 Want to go for a walk and talk business? [Hit us up](http://colab.coop/team).

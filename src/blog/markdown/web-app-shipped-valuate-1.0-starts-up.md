@@ -2,7 +2,7 @@
 title: "Web App Shipped! Valuate 1.0 Starts Up"
 summary: "If you are one of our dedicated few CoLab blog readers, then you know that we have been hard at work for the past year readying the Valuate Web App for this very moment: the launch of Valuate 1.0 into the world!"
 date: 2013-11-15
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: web-app-shipped-valuate-1.0-starts-up
 ---
 
@@ -22,7 +22,7 @@ See the product in action below:
 
 On a lighter note, the vibe in the developer chat room in the final few hours prior to launch could be summed up like this dance. Yes, there were some tense moments but the digital boogie was in full effect as the month-long Beta came to an end and a massive behind the scenes effort by our international team was pushed live and 1.0 of the incredible web app Valuate by REFM was officially made public.
 
-It would not have been possible without the talent, perseverance and sheer will of team members [Ethan](http://colab.coop/team), [Aman](http://colab.coop/team), [Rylan](http://colab.coop/team), [Cris](http://colab.coop/team), [Tomaž](http://colab.coop/team), [Jenn](http://colab.coop/team), [Brian](http://colab.coop/team), [Jed](http://colab.coop/team), [Karen](http://colab.coop/team) and [Eli](http://colab.coop/team). A special shout out as well to our mad genius of a partner in this project, Bruce Kirsch, whose financial modeling wizardry challenged even the most hardcore coders amongst us.
+It would not have been possible without the talent, perseverance and sheer will of team members [ethan](http://colab.coop/team), [Aman](http://colab.coop/team), [rylan](http://colab.coop/team), [Cris](http://colab.coop/team), [Tomaž](http://colab.coop/team), [jenn](http://colab.coop/team), [Brian](http://colab.coop/team), [Jed](http://colab.coop/team), [Karen](http://colab.coop/team) and [Eli](http://colab.coop/team). A special shout out as well to our mad genius of a partner in this project, Bruce Kirsch, whose financial modeling wizardry challenged even the most hardcore coders amongst us.
 
 Truth be told it is one craziest and most ambitious projects CoLab has taken on &mdash; an immensely powerful online tool that brings the complex financial modeling previously only found in the custom excel worksheets of the world’s most successful commercial real estate analysts to the web.
 
@@ -32,4 +32,4 @@ From this project, a purpose driven partnership is developing.
 
 CoLab is excited about Valuate’s emerging analytics partnership with a leading &mdash; soon to be announced &mdash; real estate crowd-funding platform. We firmly believe that the future of community and commercial real estate investment is in the hands of the people &mdash; the 99% &mdash; and we are grateful for the opportunity to contribute to the technology supporting these efforts.
 
-What is more a portion of the proceeds from this project are funding on the ground work in India to address [serious issues of eviction](http://india.blogs.nytimes.com/2013/11/05/a-slum-spends-sleepless-nights-in-fear-of-eviction/?src=rechp&_r=1) facing some of India’s poorest residents.  We look forward to sharing more information about this important work being spearheaded by Ethan Winn in the coming weeks.
+What is more a portion of the proceeds from this project are funding on the ground work in India to address [serious issues of eviction](http://india.blogs.nytimes.com/2013/11/05/a-slum-spends-sleepless-nights-in-fear-of-eviction/?src=rechp&_r=1) facing some of India’s poorest residents.  We look forward to sharing more information about this important work being spearheaded by ethan Winn in the coming weeks.

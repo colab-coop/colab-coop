@@ -2,7 +2,7 @@
 title: "Mindful Business"
 summary: "This passage was written a short time ago during CoLab’s strategic planning session for 2014 (we call them summits). A longer form, collaboratively written piece is in draft, but we felt eager to share this moment in potent realization with you, transparently."
 date: 2014-03-11
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: mindful-business
 ---
 
@@ -16,7 +16,7 @@ The work social enterprises and purpose driven organizations do with our help is
 
 We’re deep in our collaboration summit: sitting 5 minutes before and after each session, reviewing the successes and challenges of the past year, and revisiting our work’s alignment with our personal aspirations and visions of what CoLab can be.
 
-In the middle of it all, Rylan says “it’s as if our business has a mindfulness practice.”
+In the middle of it all, rylan says “it’s as if our business has a mindfulness practice.”
 
 Our business has a mindfulness practice.
 

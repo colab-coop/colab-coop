@@ -2,7 +2,7 @@
 title: "App Launch: REFM Enters Closed Beta"
 summary: "A massive and exciting project we have been working on this year came out from behind the curtain this week. Entrepreneur, partner and collaborator Bruce Kirsch has launched Valuate by REFM, a next-generation commercial real estate financial analysis and property marketing software platform."
 date: 2013-09-27
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: refm-enters-closed-beta
 ---
 
