@@ -10,7 +10,7 @@ readfullarticle: partnership-gets-it-done-stop-the-pity-goes-live
 
 <a href="http://www.stopthepity.org/"><img src="/assets/img/blog/2013-10-28.png" class="center-element"></a>
 
-A second site launched this week, [StopThePity.org](http://www.stopthepity.org/), bringing together a great CoLab team; [David](http://colab.coop/team), [jenn](http://colab.coop/team), [rylan](http://colab.coop/team), [ethan](http://colab.coop/team), [Suman](http://colab.coop/team) and [Peter](http://colab.coop/team).
+A second site launched this week, [StopThePity.org](http://www.stopthepity.org/), bringing together a great CoLab team; [David](http://colab.coop/team), [Jenn](http://colab.coop/team), [Rylan](http://colab.coop/team), [Ethan](http://colab.coop/team), [Suman](http://colab.coop/team) and [Peter](http://colab.coop/team).
 
 The project came to us by way of [ReAllocate.org](http://reallocate.org/) and we jumped at the chance to fulfill the giveback opportunity. The site was nearing completion when we got it, but needed a strong team to close it out and give it some needed mobile optimization love.
 
