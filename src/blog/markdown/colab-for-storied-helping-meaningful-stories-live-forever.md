@@ -22,6 +22,6 @@ Eli’s sister-in-law, Kathy, was amazed by how, even when he struggled to remem
 
 Eli, being a young entrepreneur, saw this as an opportunity to use his tech background to make this process easier and contribute something of true, heartfelt value to the world.
 
-Elijah then joined forces with CoLab co-founder [rylan Peery](http://colab.coop/team) to bring Storied out into the world. CoLab as a cooperative is also contributing heavy in it’s technical development.
+Elijah then joined forces with CoLab co-founder [Rylan Peery](http://colab.coop/team) to bring Storied out into the world. CoLab as a cooperative is also contributing heavy in it’s technical development.
 
 Stay tuned for more as this amazing project blossoms and evolves!

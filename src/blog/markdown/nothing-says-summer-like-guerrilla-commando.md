@@ -10,7 +10,7 @@ readfullarticle: nothing-says-summer-like-guerrilla-commando
 
 <img src="/assets/img/blog/2013-07-19.png" class="center-element">
 
-It’s summer and as much as we like to design, code, and create ... we also like to play. ralph Cutler doing 80’s flavor better than [B-Fine](http://en.wikipedia.org/wiki/Full_Force).
+It’s summer and as much as we like to design, code, and create ... we also like to play. Ralph Cutler doing 80’s flavor better than [B-Fine](http://en.wikipedia.org/wiki/Full_Force).
 
 Shout out to our neighbor, [Petrune](http://petrune.annehj.com/), for playing host to our b-boy antics and for always having the freshest in local fashion.
 

@@ -17,5 +17,5 @@ This week we celebrated in honor of our visiting West Coast member Yaniv and his
 Thanks to some off the charts snacks from Ithaca local [Serendipity Catering](http://serendipitycatering.biz/) and a collection of true and remarkable peeps in attendance, we CoLabrs came away feeling thrilled and inspired. Seems like the sentiment was felt by all.
 
 So with out further adieu, a few shout-outs. In no particular order:
-ethan and Anaar, NYC’s finest Colleen Clark, Jason with
-[Art & Anthropolgy](http://www.artandanthropology.com/), Joshua Sperling, Leon of Singlebrook fame, in house developer Jayme Peck and his family, Tim Cole, who if you dont know, is kind of a big deal... Karen, my little man Gus, Jessica, [Anna Coogan](http://www.annacoogan.com/), our latest Hive member [Valentin](http://www.knowded.com/), ‘The Clojure’ Travis Vachon, and all the folks who alllmost showed up.
+Ethan and Anaar, NYC’s finest Colleen Clark, Jason with
+[Art & Anthropolgy](http://www.artandanthropology.com/), Joshua Sperling, Leon of Singlebrook fame, in-house developer Jayme Peck and his family, Tim Cole, who if you don't know, is kind of a big deal... Karen, my little man Gus, Jessica, [Anna Coogan](http://www.annacoogan.com/), our latest Hive member [Valentin](http://www.knowded.com/), ‘The Clojure’ Travis Vachon, and all the folks who alllmost showed up.

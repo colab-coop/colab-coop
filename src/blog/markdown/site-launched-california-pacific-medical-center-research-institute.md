@@ -16,4 +16,4 @@ CPMCRI came to CoLab for a modern communications platform that could free them f
 
 Side note: we love that the word collaboration is part of their primary navigation!
 
-[See it live](http://www.cpmcri-currents.org/). Big hearts to the team of [Douglas](http://colab.coop/team), [Yaniv](http://colab.coop/team), [Aaron](http://colab.coop/team), [Jayme](http://colab.coop/team), [Suman](http://colab.coop/team), [Jess](http://colab.coop/team), [rylan](http://colab.coop/team), [ethan](http://colab.coop/team), [Dejan](http://colab.coop/team) and [ralph](http://colab.coop/team) for the design, delivery and support.
+[See it live](http://www.cpmcri-currents.org/). Big hearts to the team of [Douglas](http://colab.coop/team), [Yaniv](http://colab.coop/team), [Aaron](http://colab.coop/team), [Jayme](http://colab.coop/team), [Suman](http://colab.coop/team), [Jess](http://colab.coop/team), [Rylan](http://colab.coop/team), [Ethan](http://colab.coop/team), [Dejan](http://colab.coop/team) and [Ralph](http://colab.coop/team) for the design, delivery and support.

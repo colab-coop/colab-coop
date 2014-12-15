@@ -24,4 +24,4 @@ There are a few simple rules, it takes next to no time to do each day and it cos
 
 If you’ve gotten this far in the article, it’s kind of a sign that you should join the great give. Go ahead [here](http://greatgive.us/).
 
-Shout outs to some extra special guest appearances by [ethan Winn](http://colab.coop/team) and [jenn Schlick](http://colab.coop/team), and from CoLab [rylan Peery](http://colab.coop/team) and [Jessica Peery](http://colab.coop/team), who helped design and built and make the app a reality.
+Shout outs to some extra special guest appearances by [Ethan](http://colab.coop/team) and [Jenn](http://colab.coop/team), and from CoLab [Rylan](http://colab.coop/team) and [Jessica](http://colab.coop/team), who helped design and built and make the app a reality.
