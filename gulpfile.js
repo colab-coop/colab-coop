@@ -99,6 +99,7 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
     // insert handlebars value from frontmatter into post template
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(post, {
+        buildDest: config.buildDest,
         include: file.frontMatter.readfullarticle,
         date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
         authors: file.frontMatter.authors
