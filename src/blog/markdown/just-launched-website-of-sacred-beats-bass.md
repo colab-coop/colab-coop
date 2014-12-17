@@ -2,7 +2,7 @@
 title: "Just Launched: Website of Sacred Beats & Bass"
 summary: "Dub Kirtan All-Stars new site is live and chock full of sonic and social sharing goodness. It’s the latest of CoLab’s prono projects supporting music and art."
 date: 2013-02-28
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: just-launched-website-of-sacred-beats-bass
 ---
 

@@ -2,7 +2,7 @@
 title: "5 Tips for Ecommerce Split Testing"
 summary: Last week, CoLab’s content and SEO expert, Jess Spate, co-hosted a webinar with Jirafe's CEO Amit Shahon on ecommerce customer acquisition.
 date: 2014-11-24
-authors: [Jenn]
+authors: [jenn]
 readfullarticle: 5-tips-for-ecommerce-split-testing
 ---
 

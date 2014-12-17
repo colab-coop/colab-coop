@@ -2,7 +2,7 @@
 title: "Site Launched! California Pacific Medical Center Research Institute"
 summary: "CPMCRI is creating impact through important scientific research in the fight against global medical challenges like breast cancer and age-related diseases. They are part of the large non-profit health care organization Sutter Health."
 date: 2014-05-23
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: site-launched-california-pacific-medical-center-research-institute
 ---
 

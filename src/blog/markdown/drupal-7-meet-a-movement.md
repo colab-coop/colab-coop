@@ -2,7 +2,7 @@
 title: "Drupal 7, Meet A Movement"
 summary: "30 years ago, Mumia Abu-Jamal's life turned upside down. A police officer in Philadelphia was shot and killed. Mumia was charged, then convicted and sentenced to death for the murder. Since his conviction, serious doubts have been raised over the legitimacy of the evidence."
 date: 2011-12-10
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: drupal-7-meet-a-movement
 ---
 

@@ -14,7 +14,7 @@ sass requires (on Debian based Linux):
 
 install deps (requires npm):
 ============================
-    $ npm -g install
+    $ npm install
 
 build site:
 ===========

@@ -2,7 +2,7 @@
 title: "Doing Good, Bears Fruit"
 summary: "It feels so damn good, to serve organizations like Prison Radio. On January 30th Mumia Abu-Jamal hugged his wife for the first time in nearly thirty years. Incredible. Hearing of this news, truly warmed our hearts and reminded us once again, why we do all this technology and design for our clients and partners."
 date: 2012-02-02
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: doing-good-bears-fruit
 ---
 

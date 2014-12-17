@@ -2,7 +2,7 @@
 title: "Web App Shipped! Valuate 1.0 Starts Up"
 summary: "If you are one of our dedicated few CoLab blog readers, then you know that we have been hard at work for the past year readying the Valuate Web App for this very moment: the launch of Valuate 1.0 into the world!"
 date: 2013-11-15
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: web-app-shipped-valuate-1.0-starts-up
 ---
 
@@ -32,4 +32,4 @@ From this project, a purpose driven partnership is developing.
 
 CoLab is excited about Valuate’s emerging analytics partnership with a leading &mdash; soon to be announced &mdash; real estate crowd-funding platform. We firmly believe that the future of community and commercial real estate investment is in the hands of the people &mdash; the 99% &mdash; and we are grateful for the opportunity to contribute to the technology supporting these efforts.
 
-What is more a portion of the proceeds from this project are funding on the ground work in India to address [serious issues of eviction](http://india.blogs.nytimes.com/2013/11/05/a-slum-spends-sleepless-nights-in-fear-of-eviction/?src=rechp&_r=1) facing some of India’s poorest residents.  We look forward to sharing more information about this important work being spearheaded by Ethan Winn in the coming weeks.
+What is more a portion of the proceeds from this project are funding on the ground work in India to address [serious issues of eviction](http://india.blogs.nytimes.com/2013/11/05/a-slum-spends-sleepless-nights-in-fear-of-eviction/?src=rechp&_r=1) facing some of India’s poorest residents.  We look forward to sharing more information about this important work being spearheaded by ethan Winn in the coming weeks.

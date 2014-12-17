@@ -2,7 +2,7 @@
 title: "Labor Day High Fives to Global Cooperatives (including self-five)"
 summary: "This Labor Day, CoLab is celebrating the burgeoning cooperative economy and our place in it. We are proud to be included in Shareable’s article highlighting worker-owned cooperatives who are redefining the cooperative movement!"
 date: 2014-09-01
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: labor-day-high-fives-to-global-cooperatives-including-self-five
 ---
 

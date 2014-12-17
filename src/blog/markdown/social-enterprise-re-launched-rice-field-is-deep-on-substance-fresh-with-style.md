@@ -2,7 +2,7 @@
 title: "Social Enterprise Re-Launched: Rice Field is Deep on Substance, Fresh with Style"
 summary: "After a hugely successful Kickstarter campaign this past Spring, Rice Field Collective has launched their freshly redesigned storytelling e-commerce shop. This launch marks another leap forward in their ascent as a modern, eco-friendly and socially conscious knitwear brand. The site features the ability to showcase not only the beautiful hand-knit products but also the makers, designers, and other collaborators who all play a role in the story of each product."
 date: 2013-11-14
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: social-enterprise-re-launched-rice-field-is-deep-on-substance-fresh-with-style
 ---
 

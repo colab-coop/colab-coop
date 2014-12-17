@@ -2,7 +2,7 @@
 title: "A Special Congratulations to TechSpring Winner Alissa Johnson!"
 summary: "Collaboration being the very heart and soul of our company. CoLab is proud to be participating in the innovative TechSpring program with the Unreasonable Institute and Singlebrook Technology."
 date: 2011-08-03
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: congratulations-to-techspring-winner-alissa-johnson
 ---
 

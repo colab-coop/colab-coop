@@ -2,7 +2,7 @@
 title: "Take Notice of Oddly Shaped Objects"
 summary: "CoLab has launched a new version of James Huang’s website featuring his one-of-a-kind sculptural masterpieces."
 date: 2014-08-18
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: take-notice-of-oddly-shaped-objects
 ---
 

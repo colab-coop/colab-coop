@@ -2,7 +2,7 @@
 title: "Relax, You’ll Be More Productive"
 summary: "I wish we could collectively learn to pause more often &mdash; to stop for a minute, to breathe, rest and recharge together. You know, like the '5 min stretch breaks' they announce over the PA at the supermarket for employees, but where we actually all do it together, all the time, and we do it joyfully."
 date: 2013-03-11
-authors: [Rylan]
+authors: [rylan]
 readfullarticle: relax-youll-be-more-productive
 ---
 

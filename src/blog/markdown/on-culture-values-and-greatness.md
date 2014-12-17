@@ -2,7 +2,7 @@
 title: "On Culture, Values and Greatness"
 summary: "As the promise and potential of a new year begins to take shape, it is a natural time for reflections on why we do what we do and in addition, the values we seek to uphold at CoLab and with the projects we collaborate on."
 date: 2014-01-10
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: on-culture-values-and-greatness
 ---
 

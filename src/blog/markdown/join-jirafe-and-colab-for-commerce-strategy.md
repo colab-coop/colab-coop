@@ -2,7 +2,7 @@
 title: "Join Jirafe and CoLab for Commerce Strategy"
 summary: Join Jirafe and Colab on November 18th at 11 AM EST to learn how you can turn your online store into an irresistible shopping destination.
 date: 2014-11-17
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: join-jirafe-and-colab-for-commerce-strategy
 ---
 

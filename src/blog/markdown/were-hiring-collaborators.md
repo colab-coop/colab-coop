@@ -2,7 +2,7 @@
 title: "We're Hiring Collaborators"
 summary: "Are you looking for work in a positive collaborative environment where cooperation and heart-centered actions take precedence? Are you inspired to participate in a progressive economy business?  Would you like to be able to work flexible hours and from any location?"
 date: 2013-03-03
-authors: [Ralph]
+authors: [ralph]
 readfullarticle: were-hiring-collaborators
 ---
 
