@@ -22,8 +22,9 @@ var mustache = require('mustache');
 var fs = require('fs');
 var sort = require('sort-stream');
 var moment = require('moment');
+var config = require('./config').config;
 
-var destination = '../www';
+var destination = config.buildDest;
 
 // command line params
 // for instance: $ gulp --type production
