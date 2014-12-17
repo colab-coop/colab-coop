@@ -35,6 +35,13 @@ gulp.task('blog', ['blog-posts-list'], function () {
   // taking the blog post list from the 'blog-posts-list' step
   // and including it into the blog.html template
   return gulp.src('src/blog/blog.html')
+    .pipe(es.map(function (file, cb) {
+      var html = mustache.render(String(file.contents), {
+        buildDest: config.buildDest
+      });
+      file.contents = new Buffer(html);
+      cb(null, file);
+    }))
     .pipe(fileInclude())
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(
