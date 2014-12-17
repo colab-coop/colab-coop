@@ -55,6 +55,10 @@ gulp.task('blog', ['blog-posts-list'], function () {
     .pipe(gulp.dest(destination));
 });
 
+function capitalize (string) {
+  return string[0].toUpperCase() + string.substr(1);
+}
+
 // blog post list for blog page
 gulp.task('blog-posts-list', ['blog-posts-html'], function () {
   var postlist = String(fs.readFileSync('src/blog/blogposts.html'));
@@ -70,7 +74,10 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
       var html = mustache.render(postlist, {
         post: file.frontMatter,
         date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
-        authors: file.frontMatter.authors
+        authors: file.frontMatter.authors.map(function(a){return {
+          lowercase: a,
+          capital: capitalize(a)
+        };})
       });
       file.contents = new Buffer(html);
       cb(null, file);
