@@ -1,5 +1,10 @@
-<article class="blog-list-block">
-  <p class="heading-primary"><a class="" href="/{{post.readfullarticle}}">{{post.title}}</a></p>
+<article class="blog-list-block" style="display:none">
+  <p class="heading-primary"><a class="" href="/blog/{{post.readfullarticle}}">{{post.title}}</a></p>
   <p>{{post.summary}}</p>
-  <p class="text--gray-medium">By <a href="" class="text--gray-medium">{{post.author}}</a>, on {{post.date}}</p>
+  <p class="text--gray-medium">By
+    {{#authors}}
+    <a href="/{{lowercase}}" class="link--no-border"><img src="/assets/img/team/{{capital}}.jpg" alt="" class="blog-post-img-credit"></a>
+    <a href="/{{lowercase}}" class="text--gray-medium text--capitalize">{{capital}}</a>
+    {{/authors}}
+  on {{date}}</p>
 </article>

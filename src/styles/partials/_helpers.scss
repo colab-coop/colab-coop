@@ -127,14 +127,20 @@
 .vertical-center, %vertical-center {
   position: absolute;
   top: 50%;
-  width: 100%;
-  text-align: center;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 @mixin vertical-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.dead-center, %dead-center {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -144,6 +150,15 @@
   transform: translateY(-50%);
 }
 
+@mixin dead-center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 //------------------------------------------------
 // Spacing Divs
@@ -188,6 +203,32 @@
 }
 
 // ------------------------------------------------
+// Margins
+
+.margin-top, %margin-top {
+  margin-top: $base-spacing * 4;
+}
+
+.margin-right, %margin-right {
+  margin-right: $base-spacing * 4;
+}
+
+.margin-bottom, %margin-bottom {
+  margin-bottom: $base-spacing * 4;
+}
+
+.margin-left, %margin-left {
+  margin-left: $base-spacing * 4;
+}
+
+// ------------------------------------------------
+// Borders
+
+.border-all {
+  border: 2px solid $border-default-light;
+}
+
+// ------------------------------------------------
 // Buttons
 
 .button, %button {
@@ -226,12 +267,16 @@ a.button--brand-outline.text--gray-medium, .button--brand-outline.text--gray-med
 
 //red buttons with border
 a.button--brand-outline.color-red, .button--brand-outline.color-red {
-  background: transparent;
+  background-color: transparent;
+  background-size: 17px 17px;
+  background-position: 50% center;
+  background-repeat: no-repeat;
   border-color: $red;
   color: $red;
 
   &:hover {
-    background: $red;
+    background-image: none;
+    background-color: $red;
     color: #fff;
   }
 }
@@ -239,10 +284,10 @@ a.button--brand-outline.color-red, .button--brand-outline.color-red {
 //add spacing when a link contains a left or right arrow
 a {
   .fa-angle-left {
-    margin-right: 10px;
+    margin-right: $base-spacing;
   }
   .fa-angle-right {
-    margin-left: 10px;
+    margin-left: $base-spacing;
   }
 }
 
@@ -303,6 +348,15 @@ a {
 }
 
 //------------------------------------------------
+// Callout
+.callout {
+  padding: $base-spacing-mid;
+  background: $gray-light;
+  @extend %center-text;
+}
+
+
+//------------------------------------------------
 // Containers for main layout
 
 .container {
@@ -325,4 +379,49 @@ a {
   margin: 0 auto;
   padding-left: $grid-padding;
   padding-right: $grid-padding;
+}
+
+
+
+
+//------------------------------------------------
+// Tabs
+
+.tabs {
+  list-style: none;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  @extend %clearfix;
+  @extend %grid-parent;
+
+  li {
+    @extend %grid-child;
+    overflow: hidden;
+    position: relative;
+    @extend %center-text;
+
+    a {
+      color: $gray-medium;
+      display: block;
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: $gray-darkest;
+        transition: all 0.2s linear;
+      }
+    }
+
+    a:hover, &.active-tab a {
+      color: $gray-darkest;
+    }
+  }
+}
+
+.tab-container {
+  overflow: hidden;
+  @extend %grid-parent;
+}
+
+.tab-content {
+  @extend %grid-child;
 }

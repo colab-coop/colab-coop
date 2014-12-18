@@ -1,4 +1,4 @@
-@@include('../../templates/_head.tpl')
+@@include('../../templates/_head-blog.tpl')
 
 <body class="blog-post">
 	<main>
@@ -8,15 +8,19 @@
 	  	<a href="/blog" class="text--gray-medium text--small text--uppercase"><span class="fa fa-angle-left text--normal"> </span> Back to the blog</a>
 
 	  	<div class="styling-markdown blog-post-info">
-		  @@include('../../../../www/{{include}}.html')
+		  @@include('{{{buildDest}}}{{include}}.html')
 	  	</div>
 
 	  	<div class="blog-post-meta-block">
 	  	  <div class="blog-post-meta">
-	  	    By<img src="http://placehold.it/45x45" alt="" class="blog-post-img-credit"><a href="#">Static Code</a> and<img src="http://placehold.it/45x45" alt="" class="blog-post-img-credit"><a href="">Person.Name</a>
+	  	    By
+	  	    {{#authors}}
+					<a href="/{{.}}" class="link--no-border"><img src="/assets/img/team/{{.}}.jpg" alt="" class="blog-post-img-credit"></a>
+					<a href="/{{.}}" class="text--capitalize">{{.}}</a>
+	  	    {{/authors}}
 	  	   </div>
 	  	   <div class="spacing--sm"></div>
-		  <div>September 29, 2014 Static Date</div>
+		  <div>{{date}}</div>
 	  	</div>
 
 	  	<div class="blog-post-social">
@@ -27,7 +31,7 @@
 				<span class='st_email_large' displayText='Email'></span>
 				<script type="text/javascript">var switchTo5x=true;</script>
 				<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-				<script type="text/javascript">stLight.options({publisher: "efb62702-a4f7-4fe3-918a-65ddbff5fed6", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+				<script type="text/javascript">stLight.options({publisher: "03f50e57-5f4f-483a-a8a1-e953ff81afa6", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 	  	</div>
 
 	  @@include('../../templates/_disqus.tpl')

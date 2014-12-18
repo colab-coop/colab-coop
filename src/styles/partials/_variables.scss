@@ -1,5 +1,5 @@
 $body-font-size:				20px;
-$body-line-height:      1.8em;
+$body-line-height:      		1.8em;
 
 $primary-font:     			'Muli', Helvetica, sans-serif;
 
@@ -21,8 +21,9 @@ $gray-lighter:          #f9f9f9;
 $border-default-light:     #e0e0e0;
 
 $base-spacing: 10px;
-$base-spacing-sm: $base-spacing / 2;
-$base-spacing-lg: $base-spacing * 2;
+$base-spacing-mid: $base-spacing * 1.5;
+$base-spacing-sm:  $base-spacing / 2;
+$base-spacing-lg:  $base-spacing * 2;
 
 $nav-menu-width: 150px;
 

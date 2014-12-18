@@ -21,8 +21,10 @@ var es = require('event-stream');
 var mustache = require('mustache');
 var fs = require('fs');
 var sort = require('sort-stream');
+var moment = require('moment');
+var config = require('./config').config;
 
-var destination = '../www';
+var destination = config.buildDest;
 
 // command line params
 // for instance: $ gulp --type production
@@ -33,10 +35,29 @@ gulp.task('blog', ['blog-posts-list'], function () {
   // taking the blog post list from the 'blog-posts-list' step
   // and including it into the blog.html template
   return gulp.src('src/blog/blog.html')
+    .pipe(es.map(function (file, cb) {
+      var html = mustache.render(String(file.contents), {
+        buildDest: config.buildDest
+      });
+      file.contents = new Buffer(html);
+      cb(null, file);
+    }))
     .pipe(fileInclude())
+    .pipe(es.map(function (file, cb) {
+      var html = mustache.render(
+        String(file.contents), {
+          title: 'Blog'
+        });
+      file.contents = new Buffer(html);
+      cb(null, file);
+    }))
     .pipe(rename('blog/index.html'))
     .pipe(gulp.dest(destination));
 });
+
+function capitalize (string) {
+  return string[0].toUpperCase() + string.substr(1);
+}
 
 // blog post list for blog page
 gulp.task('blog-posts-list', ['blog-posts-html'], function () {
@@ -51,7 +72,12 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
     // use the frontmatter to populate a blog post list
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(postlist, {
-        post: file.frontMatter
+        post: file.frontMatter,
+        date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
+        authors: file.frontMatter.authors.map(function(a){return {
+          lowercase: a,
+          capital: capitalize(a)
+        };})
       });
       file.contents = new Buffer(html);
       cb(null, file);
@@ -80,7 +106,10 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
     // insert handlebars value from frontmatter into post template
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(post, {
-        include: file.frontMatter.readfullarticle
+        buildDest: config.buildDest,
+        include: file.frontMatter.readfullarticle,
+        date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
+        authors: file.frontMatter.authors
       });
       file.contents = new Buffer(html);
       cb(null, file);
@@ -93,13 +122,25 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
       dir = dir[dir.length - 1].replace('.md', '');
       cb(null, file);
     }))
+    // insert handlebars values from frontmatter into head template
+    .pipe(es.map(function (file, cb) {
+      file.contents = new Buffer(
+        mustache.render(
+          String(file.contents), {
+            title: file.frontMatter.title,
+            base: 'http://colabcoop.dev.colab.coop',
+            include: file.frontMatter.readfullarticle,
+            summary: file.frontMatter.summary
+          }));
+      cb(null, file);
+    }))
     // rename the destination path for the file (avoiding .html)
     .pipe(rename(function (path) {
       path.dirname = dir;
       path.basename = "index";
       path.extname = ".html";
     }))
-    .pipe(gulp.dest(destination));
+    .pipe(gulp.dest(destination + '/blog'));
 });
 
 // create the partials for the post template
@@ -119,7 +160,19 @@ gulp.task('blog-posts-partials', function () {
 gulp.task('html', ['blog'], function () {
   var dir = '';
   return gulp.src('src/html/**/*.html')
+    .pipe(frontMatter({
+      property: 'frontMatter',
+      remove: true
+    }))
     .pipe(fileInclude())
+    .pipe(es.map(function (file, cb) {
+      var html = mustache.render(
+        String(file.contents), {
+          title: file.frontMatter.title
+        });
+      file.contents = new Buffer(html);
+      cb(null, file);
+    }))
     .pipe(gulpif(isProduction, gzip()))
     // get the blog post directory name from the .md file name
     .pipe(es.map(function (file, cb) {
@@ -131,7 +184,7 @@ gulp.task('html', ['blog'], function () {
     // unless it is index.html in which case just ignore it
     .pipe(rename(function (path) {
       if (path.basename !== 'index') {
-        path.dirname = dir;
+        path.dirname = path.dirname + '/' + dir;
         path.basename = "index";
         path.extname = ".html";
       }
@@ -185,7 +238,7 @@ gulp.task('scripts', ['browserify'], function() {
 
 // images
 gulp.task('images', function() {
-  return gulp.src(['src/images/**/*.png', 'src/images/**/*.jpg', 'src/images/**/*.svg'])
+  return gulp.src(['src/images/**/*.png', 'src/images/**/*.jpg', 'src/images/**/*.svg', 'src/images/**/*.gif', 'src/images/**/*.ico'])
     .pipe(
       gulpif(
         isProduction,

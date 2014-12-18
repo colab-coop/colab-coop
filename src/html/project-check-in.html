@@ -1,0 +1,169 @@
+@@include('../templates/_head.tpl')
+
+<body class="contact">
+
+  @@include('../templates/_homenav.tpl')
+
+  <main>
+    <div class="container--text">
+      <h1 class="heading-primary">Project Check-In</h1>
+      <div>The following questions are intended to help you clarify your project and help us learn about how we can best collaborate with you.</div>
+      <div class="spacing--mid-x"></div>
+      <form class="form-base form-project-checkin form-api">
+        <div class="grid-parent">
+          <div class="form-field-wrap grid-child">
+            <label for="name" class="required-label">Name</label>
+            <input type="text" name="name" class="required" id="name" required>
+          </div>
+
+          <div class="form-field-wrap grid-child">
+            <label for="company">Company</label>
+            <input type="text" name="company" id="company">
+          </div>
+        </div> <!-- /grid-parent -->
+
+        <div class="grid-parent">
+          <div class="form-field-wrap grid-child">
+            <label for="email" class="required-label">Email</label>
+            <input type="email" name="email" class="required" id="email" required>
+          </div>
+
+          <div class="form-field-wrap grid-child">
+            <label for="tel">Phone</label>
+            <input type="tel" name="tel" id="tel">
+          </div>
+        </div> <!-- /grid-parent -->
+
+        <div class="grid-parent">
+          <div class="form-field-wrap grid-child">
+            <label for="website">Website</label>
+            <input type="url" name="website" id="website">
+          </div>
+
+          <div class="form-field-wrap grid-child">
+            <label>How did you hear about us?</label>
+            <div>
+              <input id="radio-client" class="radio-custom" name="radio-group" type="radio" checked>
+              <label for="radio-client" class="radio-custom-label">A client</label>
+            </div>
+            <div>
+              <input id="radio-member" class="radio-custom" name="radio-group" type="radio">
+              <label for="radio-member" class="radio-custom-label">A member-owner</label>
+            </div>
+            <div>
+              <input id="radio-collaborator" class="radio-custom" name="radio-group" type="radio">
+              <label for="radio-collaborator" class="radio-custom-label">A collaborator</label>
+            </div>
+            <div>
+              <input id="radio-other" class="radio-custom" name="radio-group" type="radio">
+              <label for="radio-other" class="radio-custom-label">Other:</label>
+            </div>
+            <div class="spacing--sm">
+              <input type="text">
+            </div>
+          </div>
+        </div> <!-- /grid-parent -->
+
+        <div class="form-field-wrap form-field-section">
+          <label for="impact" class="h2 center-text required-label">IMPACT</label>
+          <div class="form-field-desc">Briefly describe the benefit your organization, product or service creates for the world</div>
+          <textarea cols="40" rows="4" name="impact" class="required" id="impact" required></textarea>
+        </div>
+
+        <div class="form-field-wrap">
+          <label class="h2 center-text required-label">TECH NEEDS</label>
+          <div>
+            <input id="radio-website" class="radio-custom" name="radio-techneeds" type="radio" checked>
+            <label for="radio-website" class="radio-custom-label">Website</label>
+          </div>
+          <div>
+            <input id="radio-lean" class="radio-custom" name="radio-techneeds" type="radio">
+            <label for="radio-lean" class="radio-custom-label">Lean prototype</label>
+          </div>
+          <div>
+            <input id="radio-ecommerce" class="radio-custom" name="radio-techneeds" type="radio">
+            <label for="radio-ecommerce" class="radio-custom-label">Ecommerce integration</label>
+          </div>
+          <div>
+            <input id="radio-mobileapp" class="radio-custom" name="radio-techneeds" type="radio">
+            <label for="radio-mobileapp" class="radio-custom-label">Mobile app</label>
+          </div>
+          <div>
+            <input id="radio-customapp" class="radio-custom" name="radio-techneeds" type="radio">
+            <label for="radio-customapp" class="radio-custom-label">Custom app</label>
+          </div>
+          <div>
+            <input id="radio-seo" class="radio-custom" name="radio-techneeds" type="radio">
+            <label for="radio-seo" class="radio-custom-label">SEO</label>
+          </div>
+          <div>
+            <input id="radio-tech-strategy" class="radio-custom" name="radio-techneeds" type="radio">
+            <label for="radio-tech-strategy" class="radio-custom-label">Tech strategy</label>
+          </div>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="project-desc" class="h2 center-text required-label">PROJECT DESCRIPTION</label>
+          <div class="form-field-desc">1-2 sentence description of your project.</div>
+          <textarea cols="40" rows="4" name="project-desc" class="required" id="project-desc" required></textarea>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="stage" class="h2 center-text required-label">STAGE</label>
+          <div class="form-field-desc">What is the stage of your project? Assessing feasibility, proof of concept, scaling up, or scaling across?</div>
+          <textarea cols="40" rows="4" name="stage" class="required" id="stage" required></textarea>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="value-proposition" class="h2 center-text required-label">VALUE PROPOSITION</label>
+          <div class="form-field-desc">Who do you serve and what do they need? What benefit will your project create for the population you serve?</div>
+          <textarea cols="40" rows="4" name="value-proposition" class="required" id="value-proposition" required></textarea>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="competitors" class="h2 center-text required-label">COMPETITORS</label>
+          <div class="form-field-desc">Who else is doing something similar to you?</div>
+          <textarea cols="40" rows="4" name="competitors" class="required" id="competitors" required></textarea>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="heart" class="h2 center-text required-label">HEART</label>
+          <div class="form-field-desc">Tell us something or someone that really moves you.</div>
+          <textarea cols="40" rows="4" name="heart" class="required" id="heart" required></textarea>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="resources" class="h2 center-text required-label">RESOURCES</label>
+          <div class="form-field-desc">Have you allocated resources for this project? Do you need to raise capital?</div>
+          <textarea cols="40" rows="4" name="resources" class="required" id="resources" required></textarea>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="timeline" class="h2 center-text required-label">TIMELINE</label>
+          <div class="form-field-desc">Have you allocated resources for this project? Do you need to raise capital?</div>
+          <textarea cols="40" rows="4" name="timeline" class="required" id="timeline" required></textarea>
+        </div>
+
+        <div class="form-field-wrap form-field-section">
+          <label for="team" class="h2 center-text required-label">TEAM</label>
+          <div class="form-field-desc">Do you have a team we would collaborate with? Examples: In-house design team or outside PR firm.</div>
+          <textarea cols="40" rows="4" name="team" class="required" id="team" required></textarea>
+        </div>
+
+        <div class="form-field-wrap center-text">
+          <input type="submit" value="Send" id="submit" class="button--brand-outline color-red">
+          <div id="success" hidden>Thanks for telling us about your project. We'll be in touch.</div>
+          <div id="error" hidden>Errors were found. Please rectify and re-submit the form.
+          <span id="errorMsg"></span></div>
+          <div class="spacing--mid-x"></div>
+        </div>
+      </form>
+    </div> <!-- /container--text -->
+  </main>
+
+
+
+
+  @@include('../templates/_footer.tpl')
+
+  @@include('../templates/_tail.tpl')

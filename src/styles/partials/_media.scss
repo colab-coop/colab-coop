@@ -25,11 +25,48 @@
 
 @media screen and (min-width: 600px) {
 
+  .tabs {
+    li {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  .banner-home-button, .panel-home .heading-primary {
+    text-align: left;
+  }
+
+  .banner-home-button {
+    margin-top: $base-spacing-lg * 2;
+  }
+
+  .panel-home {
+    .heading-primary {
+      max-width: 500px;
+    }
+  }
+
+  .recent-work-block {
+    > a {
+      display: inline-block;
+
+      img {
+        max-width: none;
+      }
+    }
+  }
+
+  .featured-home {
+    > a  {
+      span {
+        display: inline-block;
+      }
+    }
+  }
   .team-each {
     width: 50%;
     display: inline-block;
     vertical-align: top;
-    @include grid-child;
   }
 
   .project-info-50 {
@@ -38,6 +75,23 @@
 
   .panel-content-section {
     @include col-50-flt;
+  }
+
+  .form-contact, .form-project-checkin {
+    .grid-parent {
+      > .form-field-wrap {
+        @include col-50-flt;
+      }
+    }
+  }
+
+  .address-colab {
+    font-size: $body-font-size;
+  }
+
+  .services-list-each {
+    width: 33.33%;
+    float: left;
   }
 }
 
@@ -71,6 +125,7 @@
 
   .team-profile-bio {
     width: 70%;
+    padding-left: 38px;
   }
 
   .footer-connect {
@@ -91,7 +146,7 @@
   }
 
   .animated {
-    animation-duration: .5s;
+    animation-duration: .4s;
     animation-fill-mode: both;
   }
 
@@ -125,7 +180,7 @@
 
 /* nav styles for pages with hero image */
 
-  .project, .team-profile {
+  .home, .project, .team-profile {
     padding-top: 0;
 
     .nav {
@@ -149,7 +204,7 @@
 
 /* end nav styles for pages with hero image */
 
-  .project, .team-profile {
+  .home, .project, .team-profile {
     .animated.headroom--not-top.slideDown {
       background-color: #fff;
 
@@ -213,6 +268,19 @@
 
   .team-profile-badges {
     float: right;
+  }
+
+  .slider-testimonial {
+    .item {
+      padding: 0 $base-spacing;
+    }
+    .owl-prev {
+      left: -100px;
+    }
+
+    .owl-next {
+      right: -100px;
+    }
   }
 }
 

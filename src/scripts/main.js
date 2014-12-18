@@ -1,10 +1,13 @@
 var jsPixelateHover = require('./pixelate.js');
 var headroom = require('./headroom.min.js');
 var headroomJQuery = require('./jQuery.headroom.min.js');
+var headroomJQuery = require('./owl.carousel.min.js');
+var formApi = require('./form.api.js');
 
-//PIXELATE ON SCROLL CODE
+$('html').removeClass('no-js');
 
 $(document).ready(function() {
+	//PIXELATE ON SCROLL CODE
 	var imgPixelate = $('#js-pixelate-scroll');
 
 	if (imgPixelate.length > 0) {
@@ -106,12 +109,37 @@ $(document).ready(function(){
 	    }
 	  });
 
+		//slider
+		$("#slider-testimonial").owlCarousel({
+		  navigation : true,
+     	navigationText : false,
+			pagination : false,
+		  slideSpeed : 300,
+		  singleItem:true
+		 });
+
+		//tabs
+		$(".tab-content").hide();
+		$(".tabs li:first").addClass("active-tab").show();
+		$(".tab-content:first").show();
+
+		//On Click Event
+		$(".tabs li").click(function() {
+		  $(".tabs li").removeClass("active-tab");
+		  $(this).addClass("active-tab");
+		  $(".tab-content").hide();
+
+		  var activeTab = $(this).find("a").attr("href");
+		  $(activeTab).fadeIn();
+		  return false;
+		});
+
     //red pixel cube at end of blog post
     $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
 
     //header: sticky
     $(".nav").headroom({
-	  	"offset": 100,
+	  	"offset": 10,
 	  	"tolerance": 5,
 	  	"classes": {
 	    	"initial": "animated",
@@ -126,6 +154,13 @@ $(document).ready(function(){
 			value : 0.7
 		});
 	});
+
+	$('#load-more').on('click', function(e) {
+		e.preventDefault();
+		$('.blog-list-block:hidden').slice(0, 5).fadeIn();
+	});
+
+	$('.blog-list-block').slice(0, 5).show();
 
 	//customize twitter feed
 	hideTwitterBoxElements();

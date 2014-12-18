@@ -23,8 +23,8 @@
 	    <div class="footer-content">
 	    	<div class="grid-parent">
 		    	<div class="footer-hash">
-						<a class="twitter-timeline" href="https://twitter.com/CoLabCoOp" data-theme="dark" data-chrome="noheader nofooter noborders transparent" data-link-color="#A8A9AD" data-tweet-limit="1" width="900" data-widget-id="528261480190181376">Tweets by @CoLabCoOp</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						<a class="twitter-timeline" href="https://twitter.com/CoLabCoOp" data-theme="dark" data-chrome="noheader nofooter noborders transparent" data-tweet-limit="1" width="900" data-widget-id="539634487433261056">Tweets by @CoLabCoOp</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		    	</div>
 	    	</div> <!-- /grid-parent -->
 
