@@ -82,6 +82,19 @@
 	padding-right: $grid-padding;
 }
 
+.col-66-flt, %col-66-flt {
+  width: 66.66%;
+  float: left;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
+@mixin col-66-flt {
+  width: 66%;
+  float: left;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
 
 //------------------------------------------------
 //Alignment: Middle

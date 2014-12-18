@@ -2,7 +2,7 @@
 title: "The Signs Are All Around Us: Would We Notice Them in Neon?"
 summary: CoLabr Brian Toomey attended the largest climate march in history on September 21, 2014. He was one of 400,000 people who gathered in New York City, unleashing a unified cry to protect our planet. Did it make a difference?
 date: 2014-11-19
-authors: [Colleen]
+authors: [colleen]
 readfullarticle: the-signs-are-all-around-us
 ---
 
