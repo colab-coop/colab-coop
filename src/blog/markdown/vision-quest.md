@@ -2,7 +2,7 @@
 title: "Vision Quest"
 summary: "There is a ripple effect. When one person gains a firmer footing in their life’s purpose, the uplifting effect echoes through whatever they are a part of, including a company."
 date: 2014-09-29
-authors: [Colleen]
+authors: [colleen]
 readfullarticle: vision-quest
 ---
 
