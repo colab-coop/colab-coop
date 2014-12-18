@@ -271,6 +271,70 @@ title: Team
 
     </section>
 
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var teamCoords = [
+                          // Keene
+                          [42.952108,-72.2998369],
+                          // Montclair
+                          [40.825085,-74.2101645],
+                          // Hercules
+                          [38.0087575,-122.2524107],
+                          // Gurgaon
+                          [28.4248366,76.9897817],
+                          // Izola
+                          [45.531221,13.6702065],
+                          // Troy
+                          [42.7447823,-73.6771721],
+                          // Las Cruces
+                          [32.3440134,-106.8113814],
+                          // Huntsville
+                          [34.7014286,-86.6597495],
+                          // Taichung
+                          [24.2201031,120.9558744],
+                          // Chandigarh
+                          [42.4422877, -76.4983749],
+                          // Ithaca
+                          [30.7263962, 76.7664144],
+                          // Mumbai
+                          [19.0822508,72.8812041],
+                          // Los Altos
+                          [37.3679399,-122.095873],
+                          // Caerphilly
+                          [51.5768733,-3.2160731]
+        ];
+        var mapCanvas = document.getElementById('map-canvas');
+        var teamLatLngs = teamCoords.map(function(c){return new google.maps.LatLng(c[0],c[1]);});
+        var mapOptions = {
+          center: new google.maps.LatLng(42.4422877, -76.4983749),
+          zoom: 2,
+          scrollwheel: false,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#eeeeee"}]},{"featureType":"water","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]}]
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+
+        var iconBase = '/assets/img/';
+
+        teamLatLngs.forEach(function (ll) {
+          new google.maps.Marker({
+            position: ll,
+            map: map,
+            icon: iconBase + 'google-maps-marker.png'
+          });
+        });
+
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <section>
+      <div class="address-map-block">
+        <div id="map-canvas"></div>
+      </div> <!-- /address-map-block -->
+    </section>
+
   </main>
 
   @@include('../templates/_footer.tpl')
