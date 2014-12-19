@@ -128,7 +128,7 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
         mustache.render(
           String(file.contents), {
             title: file.frontMatter.title,
-            base: 'http://colabcoop.dev.colab.coop',
+            base: config.baseURL,
             include: file.frontMatter.readfullarticle,
             summary: file.frontMatter.summary
           }));
