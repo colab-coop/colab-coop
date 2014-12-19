@@ -4,5 +4,6 @@ var root = 'ROOTDIR';
 var src = root + 'colab-coop/src/';
 
 exports.config = {
-  buildDest: root + 'www/'
+  buildDest: root + 'www/',
+  baseURL: 'http://colab.coop'
 };
