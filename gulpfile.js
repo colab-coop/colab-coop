@@ -261,7 +261,7 @@ gulp.task('images', function() {
 });
 
 gulp.task('clean', function(cb) {
-  del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/prototype'], {force:true}, cb);
+  del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/prototype', '!'+destination+'/editor'], {force:true}, cb);
 });
 
 // default build task
