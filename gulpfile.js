@@ -265,7 +265,7 @@ gulp.task('clean', function(cb) {
 });
 
 // default build task
-gulp.task('default', ['clean'], function(cb) {
+gulp.task('default', ['clean'], function() {
   // clean first, then these
   gulp.start('html', 'styles', 'scripts', 'images');
 });
