@@ -30,6 +30,12 @@ var destination = config.buildDest;
 // for instance: $ gulp --type production
 var isProduction = args.type === 'production';
 
+// blog cleanup pipeline
+gulp.task('cleanblog', ['blog'], function (cb) {
+  // clean unwanted html from /blog
+  del([destination + '/blog/*.html', '!'+destination+'/blog/index.html'], {force:true}, cb);
+});
+
 // blog page pipeline
 gulp.task('blog', ['blog-posts-list'], function () {
   // taking the blog post list from the 'blog-posts-list' step
@@ -153,11 +159,11 @@ gulp.task('blog-posts-partials', function () {
       remove: true
     }))
     .pipe(markdown())
-    .pipe(gulp.dest(destination));
+    .pipe(gulp.dest(destination + '/blog'));
 });
 
 // html
-gulp.task('html', ['blog'], function () {
+gulp.task('html', ['cleanblog'], function () {
   var dir = '';
   return gulp.src('src/html/**/*.html')
     .pipe(frontMatter({
@@ -255,14 +261,11 @@ gulp.task('images', function() {
 });
 
 gulp.task('clean', function(cb) {
-  // hmm can't delete directory above
-  // skip clean for now
-
-  //del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/prototype'], cb);
+  del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/prototype'], {force:true}, cb);
 });
 
 // default build task
-gulp.task('default', /*['clean'],*/ function() {
+gulp.task('default', ['clean'], function(cb) {
   // clean first, then these
   gulp.start('html', 'styles', 'scripts', 'images');
 });
