@@ -6,7 +6,7 @@ authors: [jenn]
 readfullarticle: 5-tips-for-ecommerce-split-testing
 ---
 
-# 5 Tips for Ecommerce Split Testing!
+# 5 Tips for Ecommerce Split Testing
 
 <a href="https://jirafe.com/article-ecommerce-customer-acquisition-decoded"><img src="/assets/img/blog/2014-11-24.png" class="center-element"></a>
 
