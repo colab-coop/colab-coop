@@ -6,7 +6,7 @@ authors: [ralph, jenn]
 readfullarticle: how-we-redesigned-colab-coop
 ---
 
-# How We Redesigned CoLab.coop!
+# How We Redesigned CoLab.coop
 
 Plenty of client service shops go for a simple, no-frills website in favor of focusing on client work. We were no exception. This approach served us well through the years:
 
