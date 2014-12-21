@@ -19,7 +19,7 @@
 
   <!-- Twitter Card data -->
   <meta name="twitter:title" content="{{title}}">
-  <meta property="twitter:url" content="{{{base}}}/blog/{{include}}">
+  <meta name="twitter:url" content="http://colab.coop/blog/{{include}}">
   <meta name="twitter:description" content="{{summary}}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@colabcoop">
@@ -28,7 +28,7 @@
 
   <!-- Open Graph data -->
   <meta property="og:title" content="{{title}}" />
-  <meta property="og:url" content="{{{base}}}/blog/{{include}}" />
+  <meta property="og:url" content="http://colab.coop/blog/{{include}}" />
   <meta property="og:description" content="{{summary}}" />
   <meta property="og:image" content="http://colab.coop/assets/img/colab-logo-social-share.png" />
   <meta property="og:site_name" content="CoLab" />
