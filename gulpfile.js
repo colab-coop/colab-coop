@@ -30,25 +30,23 @@ var destination = config.buildDest;
 // for instance: $ gulp --type production
 var isProduction = args.type === 'production';
 
-// blog cleanup pipeline
-gulp.task('cleanblog', ['blog'], function (cb) {
-  // clean unwanted html from /blog
-  del([destination + '/blog/*.html', '!'+destination+'/blog/index.html'], {force:true}, cb);
-});
-
 // blog page pipeline
 gulp.task('blog', ['blog-posts-list'], function () {
   // taking the blog post list from the 'blog-posts-list' step
   // and including it into the blog.html template
   return gulp.src('src/blog/blog.html')
     .pipe(es.map(function (file, cb) {
-      var html = mustache.render(String(file.contents), {
-        buildDest: config.buildDest
-      });
+      // first inject the build destination so include knows where to go
+      var html = mustache.render(
+        String(file.contents), {
+          buildDest: config.buildDest
+        });
       file.contents = new Buffer(html);
       cb(null, file);
     }))
+    // then actually include the headers, navs, blogposts, footer and tail
     .pipe(fileInclude())
+    // then set the title
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(
         String(file.contents), {
@@ -57,6 +55,7 @@ gulp.task('blog', ['blog-posts-list'], function () {
       file.contents = new Buffer(html);
       cb(null, file);
     }))
+    // now we have /blog tada
     .pipe(rename('blog/index.html'))
     .pipe(gulp.dest(destination));
 });
@@ -100,7 +99,7 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
 });
 
 // fill out the blog post templates
-gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
+gulp.task('blog-posts-html', function () {
   var post = String(fs.readFileSync('src/blog/post.html'));
   var dir = '';
   return gulp.src('src/blog/markdown/**/*.md')
@@ -109,18 +108,21 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
       property: 'frontMatter',
       remove: true
     }))
-    // insert handlebars value from frontmatter into post template
+    // render the partial
+    .pipe(markdown())
+    // insert frontmatter and partial as mustache vars into post template
     .pipe(es.map(function (file, cb) {
       var html = mustache.render(post, {
         buildDest: config.buildDest,
         include: file.frontMatter.readfullarticle,
         date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
-        authors: file.frontMatter.authors
+        authors: file.frontMatter.authors,
+        rendered: file.contents
       });
       file.contents = new Buffer(html);
       cb(null, file);
     }))
-    // include the rendered partials into the post template
+    // include stuff
     .pipe(fileInclude())
     // get the blog post directory name from the .md file name
     .pipe(es.map(function (file, cb) {
@@ -142,28 +144,15 @@ gulp.task('blog-posts-html', ['blog-posts-partials'], function () {
     }))
     // rename the destination path for the file (avoiding .html)
     .pipe(rename(function (path) {
-      path.dirname = dir;
+      path.dirname = dir.split('.')[0];
       path.basename = "index";
       path.extname = ".html";
     }))
     .pipe(gulp.dest(destination + '/blog'));
 });
 
-// create the partials for the post template
-gulp.task('blog-posts-partials', function () {
-  return gulp.src('src/blog/markdown/**/*.md')
-    // only running frontmatter here to remove the frontmatter
-    // since gulp-markdown can't handle it
-    .pipe(frontMatter({
-      property: 'frontMatter',
-      remove: true
-    }))
-    .pipe(markdown())
-    .pipe(gulp.dest(destination + '/blog'));
-});
-
 // html
-gulp.task('html', ['cleanblog'], function () {
+gulp.task('html', ['blog'], function () {
   var dir = '';
   return gulp.src('src/html/**/*.html')
     .pipe(frontMatter({
@@ -180,7 +169,7 @@ gulp.task('html', ['cleanblog'], function () {
       cb(null, file);
     }))
     .pipe(gulpif(isProduction, gzip()))
-    // get the blog post directory name from the .md file name
+    // get the page directory name from the file name
     .pipe(es.map(function (file, cb) {
       dir = file.path.split('/');
       dir = dir[dir.length - 1].replace('.html', '');
