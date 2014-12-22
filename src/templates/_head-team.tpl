@@ -22,7 +22,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@colabcoop">
   <meta name="twitter:creator" content="@colabcoop">
-  <meta name="twitter:image" content="http://colab.coop/assets/img/colab-logo-social-share.png">
+  <meta name="twitter:image" content="http://colab.coop/assets/img/colab-logo-social-share-twitter.png">
 
   <!-- Open Graph data -->
   <meta property="og:title" content="{{title}}" />
