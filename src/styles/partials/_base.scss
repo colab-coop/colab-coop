@@ -38,6 +38,24 @@ a {
   &.link--no-border {
     border-bottom: 0px;
   }
+
+  &[href*="twitter.com/intent"] {
+    background: $gray-light;
+    padding: 2px 3px;
+    &:after {
+      color: $gray-medium;
+      content: "\f099";
+      display: inline-block;
+      font-family: "FontAwesome";
+      margin-left: 5px;
+    }
+    &:hover {
+      &:after {
+        color: darken($red, 10%);
+      }
+    }
+  }
+
 }
 
 img {
@@ -428,7 +446,7 @@ hr {
   }
 
   .animated.slideDown {
-    animation-name: noneIE1; //hack for IE bug: keyframe animations dont work inside @media 
+    animation-name: noneIE1; //hack for IE bug: keyframe animations dont work inside @media
   }
 
   @keyframes slideUp {

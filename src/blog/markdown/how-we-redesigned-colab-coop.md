@@ -103,7 +103,7 @@ All of CoLab was involved in the process &mdash; the staging site was open to an
 
 There were rough spots. Some weeks, some of us were more invested than others. Sometimes we questioned the investment and the value.
 
-It came down to this: clients want to see our real-life professionalism reflected on our site. As a distributed team, keeping everyone united and connected is a priority and we wanted to portray that sense of togetherness to clients and the online community.
+It came down to this: clients want to see our real-life professionalism reflected on our site. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1zmkIh8&text=As%20a%20distributed%20team%2C%20keeping%20everyone%20united%20and%20connected%20is%20a%20priority.">As a distributed team, keeping everyone united and connected is a priority</a> and we wanted to portray that sense of togetherness to clients and the online community.
 
 ## Lessons learned
 
@@ -115,4 +115,4 @@ We found these exercises to be helpful:
 2. Being honest about goals. Does your company want to drive more leads? Or is everyone just sick of looking at the same homepage?
 3. Recruiting outsiders. Using a contractor for content analysis got us to focus.
 
-It took us a nearly a year, but collaboration made it happen. Congratulations, team CoLab.
+<a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1zmkIh8&text=It%20took%20us%20nearly%20a%20year,%20but%20collaboration%20made%20it%20happen.">It took us a nearly a year, but collaboration made it happen.</a> Congratulations, team CoLab.
