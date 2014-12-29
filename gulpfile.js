@@ -249,6 +249,13 @@ gulp.task('images', function() {
     .pipe(gulp.dest(destination + '/assets/img'));
 });
 
+// copy xml
+gulp.task('xml', function () {
+  gulp.src('src/**/*.xml')
+    .pipe(gulp.dest(destination));
+});
+
+
 gulp.task('clean', function(cb) {
   del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/prototype', '!'+destination+'/editor'], {force:true}, cb);
 });
@@ -256,7 +263,7 @@ gulp.task('clean', function(cb) {
 // default build task
 gulp.task('default', ['clean'], function() {
   // clean first, then these
-  gulp.start('html', 'styles', 'scripts', 'images');
+  gulp.start('html', 'xml', 'styles', 'scripts', 'images');
 });
 
 // watch
