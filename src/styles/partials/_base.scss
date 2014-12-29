@@ -41,13 +41,14 @@ a {
 
   &[href*="twitter.com/intent"] {
     background: $gray-light;
-    padding: 2px 3px;
+    padding: 2px 5px;
     &:after {
       color: $gray-medium;
       content: "\f099";
       display: inline-block;
       font-family: "FontAwesome";
       margin-left: 5px;
+      margin-right: 5px;
     }
     &:hover {
       &:after {

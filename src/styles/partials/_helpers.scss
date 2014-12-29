@@ -20,6 +20,10 @@
   }
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 //------------------------------------------------
 // Floats
 .float-left {
@@ -232,6 +236,14 @@
 
 .margin-left, %margin-left {
   margin-left: $base-spacing * 4;
+}
+
+.margin-top-base { /* this is not ok */
+  margin-top: $base-spacing;
+}
+
+.margin-right-base-lg { /* this is also not ok */
+  margin-right: $base-spacing-lg;
 }
 
 // ------------------------------------------------
