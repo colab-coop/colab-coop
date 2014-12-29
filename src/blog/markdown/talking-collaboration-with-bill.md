@@ -8,7 +8,7 @@ readfullarticle: talking-collaboration-with-bill
 
 # Talking Collaboration with Bill
 
-<img src="/assets/img/blog/2014-12-27.png" class="center-element">
+<img src="/assets/img/blog/2014-12-27_1.png" class="center-element">
 
 Bill is an Application Support Specialist at [Compass Learning](http://compasslearning.com/), a software company in Austin, Texas. He's provided customer service and training for large corporate retailers including Jones Apparel Group, Woolrich, and Aeropostale.
 
