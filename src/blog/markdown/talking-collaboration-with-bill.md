@@ -8,7 +8,7 @@ readfullarticle: talking-collaboration-with-bill
 
 # Talking Collaboration with Bill
 
-<img src="/assets/img/blog/comic.png" class="center-element">
+<a href="/assets/img/blog/comic.png"><img src="/assets/img/blog/comic.png" class="center-element"></a>
 
 <div class="spacing--mid-x"></div>
 
@@ -76,7 +76,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
-<p>I'll always err on the side of diversity for the new ideas. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1zmkIh8&text=It%20took%20us%20nearly%20a%20year,%20but%20collaboration%20made%20it%20happen.">A diverse team just needs a stronger leader.</a> It needs that queen bee who's going to keep everyone on track.</p>
+<p>I'll always err on the side of diversity for the new ideas. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1BrN9cY&text=A%20diverse%20team%20just%20needs%20a%20stronger%20leader.">A diverse team just needs a stronger leader.</a> It needs that queen bee who's going to keep everyone on track.</p>
 
 <p>The benefit of working with people of a similar mind is that you can get the answers a little quicker, because everyone is already going through the same problem-solving steps.</p>
 
@@ -88,7 +88,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
-<p>My first reaction is "absolutely." Ideas are what I do, especially in my other life as a writer. Ideas are everything. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1zmkIh8&text=It%20took%20us%20nearly%20a%20year,%20but%20collaboration%20made%20it%20happen.">Good ideas can be born in the box, but they can't be bred there.</a> They need to grow out in the open. They need to be bounced around and given room to sprout.</p></div>
+<p>My first reaction is "absolutely." Ideas are what I do, especially in my other life as a writer. Ideas are everything. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1BrN9cY&text=Good%20ideas%20can%20be%20born%20in%20the%20box%2C%20but%20they%20can%27t%20be%20bred%20there.">Good ideas can be born in the box, but they can't be bred there.</a> They need to grow out in the open. They need to be bounced around and given room to sprout.</p></div>
 
 <div class="spacing--mid-x"></div>
 
@@ -120,7 +120,7 @@ It relates to the classic [Theory X and Theory Y](http://en.wikipedia.org/wiki/T
 <div class="overflow-hidden">
 <p>Learn to actively listen. When you're in a situation where you need to be collaborative, giving someone a chance to speak will help them bring more to the table. When I say actively listen, really key in to what they're saying. Pay attention to your body language. Lean in and keep your arms to the side or open.</p>
 
-<p><a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1zmkIh8&text=It%20took%20us%20nearly%20a%20year,%20but%20collaboration%20made%20it%20happen.">Offering up a new idea is a scary and brave thing to do.</a> There's a lot of risk involved. It only takes one person to react with, "Oh... yeah, ok, sure." The other person will never say anything in a meeting again.</p>
+<p><a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1BrN9cY&text=Offering%20up%20a%20new%20idea%20is%20a%20scary%20and%20brave%20thing%20to%20do.">Offering up a new idea is a scary and brave thing to do.</a> There's a lot of risk involved. It only takes one person to react with, "Oh... yeah, ok, sure." The other person will never say anything in a meeting again.</p>
 
 <p>If you're facilitating, you need to squash that. You need to be receptive to every idea, even if it's no good. A bad idea can lead to a great idea. That's why actively listening is a big thing for me. As a facilitator, you can get that in your brain and say, "Ok, that's not quite it. But what's good there? Let's explore it a bit." Let it live and let it be heard.</p></div>
 
