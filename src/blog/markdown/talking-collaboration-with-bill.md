@@ -8,7 +8,9 @@ readfullarticle: talking-collaboration-with-bill
 
 # Talking Collaboration with Bill
 
-<img src="/assets/img/blog/2014-12-27_1.png" class="center-element">
+<img src="/assets/img/blog/comic.png" class="center-element">
+
+<div class="spacing--mid-x"></div>
 
 <em>This post is part of an ongoing series about collaboration in the workplace. We talk to individuals about their challenges, successes, and advice on how to collaborate more effectively.</em>
 
@@ -17,9 +19,10 @@ Bill is an Application Support Specialist at [Compass Learning](http://compassle
 We talk to Bill about queen bees, team diversity, and techniques for ensuring an inclusive collaborative culture.
 
 <hr>
+
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Tell us about Compass Learning and what you do there.</p>
+<p class="lubalin-bold text--large">Tell us about Compass Learning and what you do there.</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
@@ -29,7 +32,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">What tools do you use to collaborate?</p>
+<p class="lubalin-bold text--large">What tools do you use to collaborate?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
@@ -41,7 +44,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">How does your team share ideas?</p>
+<p class="lubalin-bold text--large">How does your team share ideas?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
@@ -53,7 +56,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Have you experienced any downsides to being in such a highly collaborative environment?</p>
+<p class="lubalin-bold text--large">Have you experienced any downsides to being in such a highly collaborative environment?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
@@ -61,7 +64,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">How does your team deal with that?</p>
+<p class="lubalin-bold text--large">How does your team deal with that?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
@@ -69,7 +72,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Do you prefer to collaborate with diverse or like-minded teams?</p>
+<p class="lubalin-bold text--large">Do you prefer to collaborate with diverse or like-minded teams?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
@@ -81,7 +84,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Do you consider yourself a collaborative person by nature?</p>
+<p class="lubalin-bold text--large">Do you consider yourself a collaborative person by nature?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
@@ -89,7 +92,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Can you tell us about a recent successful collaboration?</p>
+<p class="lubalin-bold text--large">Can you tell us about a recent successful collaboration?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
@@ -103,7 +106,7 @@ We talk to Bill about queen bees, team diversity, and techniques for ensuring an
 
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">How do you think a company can encourage a culture of collaboration?</p>
+<p class="lubalin-bold text--large">How do you think a company can encourage a culture of collaboration?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
@@ -111,7 +114,7 @@ It relates to the classic [Theory X and Theory Y](http://en.wikipedia.org/wiki/T
 
 <div class="spacing--mid-x"></div>
 
-<p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">What advice would you give to others who want to collaborate more effectively?</p>
+<p class="lubalin-bold text--large">What advice would you give to others who want to collaborate more effectively?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-03.jpg"></div>
 <div class="overflow-hidden">
