@@ -28,8 +28,6 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 <p>I work with two of our ventures [Enspiral Dev Academy](http://devacademy.co.nz/) (programmer bootcamp) and Enspiral Craftworks (contracting team) as well as helping out with the Foundation board and our Open App project (an open source suite of apps focused on decentralized organizing).</p>
 </div>
 
-<div class="spacing--mid-x"></div>
-
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">How does collaboration fit into your daily work?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
@@ -48,14 +46,16 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="spacing--mid-x"></div>
 
+<img src="/assets/img/blog/2015-01-21_5.jpg" class="center-element" alt="Enspiral">
+
+<div class="spacing--mid-x"></div>
+
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Have you seen a collaboration recently that inspired you?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
 <p>Every day. Today at dev academy we had a team conversation about our new remuneration process where everyone sets their own salary which is shared transparently throughout the company. All salary requests are approved by default and if anyone has an issue with how much someone pays themselves then it is resolved through our conflict resolution process. We were also inspired by <a href="http://bufferapp.com/">Buffer</a>'s work with transparency and are thinking about how to make our company more transparent.</p>
 </div>
-
-<div class="spacing--mid-x"></div>
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Can you tell us about a recent successful collaboration at Enspiral?</p>
 
@@ -74,6 +74,10 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p>I've found that when you remove structure from a hierarchy you don't get collaboration, you get informal hierarchy. To build true decentralisation takes good processes and conscious effort from everyone in the organization.</p>
 </div>
+
+<div class="spacing--mid-x"></div>
+
+<img src="/assets/img/blog/2015-01-21_3.jpg" class="center-element" alt="Enspiral">
 
 <div class="spacing--mid-x"></div>
 
@@ -113,6 +117,10 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p>The things you own end up owning you. Personal power and privilege can be addictive but they will mess with your psychology and diminish your potential. There is true freedom and joy to be found in helping other people to step up leaving you to revel in a loving network of peers.</p>
 </div>
+
+<div class="spacing--mid-x"></div>
+
+<img src="/assets/img/blog/2015-01-21_4.jpg" class="center-element" alt="Enspiral">
 
 <hr>
 
