@@ -1,6 +1,6 @@
 ---
 title: "Talking Collaboration with Joshua"
-summary: "We talk to Jack about fearless feedback, using your resources, and squashing egos before they start."
+summary: "We talk to Joshua about transparency, the challenges of running a co-working space, and leadership dynamics in decentralized organizations."
 date: 2015-01-21
 authors: [jenn]
 readfullarticle: talking-collaboration-with-joshua
