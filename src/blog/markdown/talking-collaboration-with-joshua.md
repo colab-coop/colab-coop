@@ -54,7 +54,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>Every day. Today at dev academy we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1BrN9cY&text=Everyone%20sets%20their%20own%20salary%20which%20is%20shared%20transparently%20throughout%20the%20company.">everyone sets their own salary which is shared transparently throughout the company</a>. All salary requests are approved by default and if anyone has an issue with how much someone pays themselves then it is resolved through our conflict resolution process. We were also inspired by <a href="http://bufferapp.com/">Buffer</a>'s work with transparency and are thinking about how to make our company more transparent.</p>
+<p>Every day. Today at dev academy we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Everyone%20sets%20their%20own%20salary%20which%20is%20shared%20transparently%20throughout%20the%20company.">everyone sets their own salary which is shared transparently throughout the company</a>. All salary requests are approved by default and if anyone has an issue with how much someone pays themselves then it is resolved through our conflict resolution process. We were also inspired by <a href="http://bufferapp.com/">Buffer</a>'s work with transparency and are thinking about how to make our company more transparent.</p>
 </div>
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Can you tell us about a recent successful collaboration at Enspiral?</p>
@@ -72,7 +72,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 <div class="overflow-hidden">
 <p>We've had a co-working space for the past few years and it has always been a challenge to manage. Essentially lots of people want a place to work but no one really wants to run a co-working business so the people who hold everything together often do so out of obligation and responsibility rather than doing the work which most brings them alive. The big lesson for me is that when there is work that needs doing which people aren't naturally drawn towards you need to resource it really well.</p>
 
-<p>I've found that when you remove structure from a hierarchy you don't get collaboration, you get informal hierarchy. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1BrN9cY&text=To%20build%20true%20decentralization%20takes%20good%20processes%20and%20conscious%20effort.">To build true decentralization takes good processes and conscious effort</a> from everyone in the organization.</p>
+<p>I've found that when you remove structure from a hierarchy you don't get collaboration, you get informal hierarchy. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=To%20build%20true%20decentralization%20takes%20good%20processes%20and%20conscious%20effort.">To build true decentralization takes good processes and conscious effort</a> from everyone in the organization.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -85,9 +85,9 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>I think the enquiry into leadership in both centralized and decentralized organizations is fascinating. Often what people think of as centralized leadership is just bad leadership and when it is done well there are similarities in both environments. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1BrN9cY&text=Good%20leaders%20will%20always%20serve%20the%20people%20they%20lead.">Good leaders will always serve the people they lead</a> and will always empower people to have a lot of autonomy.</p>
+<p>I think the enquiry into leadership in both centralized and decentralized organizations is fascinating. Often what people think of as centralized leadership is just bad leadership and when it is done well there are similarities in both environments. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Good%20leaders%20will%20always%20serve%20the%20people%20they%20lead.">Good leaders will always serve the people they lead</a> and will always empower people to have a lot of autonomy.</p>
 
-<p>Interesting things emerge when you take away coercive power and add in radical transparency. When everything leaders do is visible across the organization and they have only influence and no authority then some tangible differences manifests in the culture. I think the <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1BrN9cY&text=Real%20magic%20happens%20when%20people%20realize%20that%20they%20have%20true%20power%20in%20the%20organization.">real magic happens when people realize that they have true power in the organization</a> and their voices have weight.</p>
+<p>Interesting things emerge when you take away coercive power and add in radical transparency. When everything leaders do is visible across the organization and they have only influence and no authority then some tangible differences manifests in the culture. I think the <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Real%20magic%20happens%20when%20people%20realize%20that%20they%20have%20true%20power%20in%20the%20organization.">real magic happens when people realize that they have true power in the organization</a> and their voices have weight.</p>
 
 <p>I also think there is a powerful dynamic which emerges when you encourage rotating leadership and I have found the mantra of "no one should lead all the time and everyone should lead some of the time" really helpful. There is pretty compelling research on what power and privilege do to our individual psychologies and I've personally found it very liberating to be able to put down the burden of leadership and rejoice in being part of a network of peers.</p>
 </div>
@@ -98,7 +98,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>I believe a collaborative organization is only possible when people have true power in an organization and put aside their professional masks and bring all of themselves to work. When that happens a deeply held sense of trust and love emerges in the community creating a very low friction environment for collaborating which is an incredible competitive advantage. My sense is that <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1BrN9cY&text=A%20lot%20of%20organizations%20waste%20inordinate%20amounts%20of%20energy.">a lot of organizations waste inordinate amounts of energy</a> on internal politics, bureaucracy and power plays which completely disappears in a collaborative organization.</p>
+<p>I believe a collaborative organization is only possible when people have true power in an organization and put aside their professional masks and bring all of themselves to work. When that happens a deeply held sense of trust and love emerges in the community creating a very low friction environment for collaborating which is an incredible competitive advantage. My sense is that <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=A%20lot%20of%20organizations%20waste%20inordinate%20amounts%20of%20energy.">a lot of organizations waste inordinate amounts of energy</a> on internal politics, bureaucracy and power plays which completely disappears in a collaborative organization.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -109,7 +109,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 <div class="overflow-hidden">
 <p>Focus on decentralizing money, information and control throughout your organization, when you find a nexus of centralisation apply gentle pressure until it slowly releases.</p>
 
-<p><a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1BrN9cY&text=Nurture%20a%20generous%20community%20by%20approaching%20every%20interaction%20asking%20what%20you%20can%20give.">Nurture a generous community by approaching every interaction asking what you can give</a>, not what will you get.</p>
+<p><a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Nurture%20a%20generous%20community%20by%20approaching%20every%20interaction%20asking%20what%20you%20can%20give.">Nurture a generous community by approaching every interaction asking what you can give</a>, not what will you get.</p>
 
 <p>Use deals not as a means to an end but as an ingredient in growing relationships in the organization. Deals come and go but great relationships will last a lifetime.</p>
 
