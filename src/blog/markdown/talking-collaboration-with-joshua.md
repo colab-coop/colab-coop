@@ -101,8 +101,6 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 <p>I think the enquiry into leadership in both centralized and decentralized organizations is fascinating. Often what people think of as centralized leadership is just bad leadership. When done well, there are similarities in both environments. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Good%20leaders%20will%20always%20serve%20the%20people%20they%20lead.">Good leaders will always serve the people they lead</a> and will always empower people to have a lot of autonomy.</p>
 
 <p>Interesting things emerge when you take away coercive power and add radical transparency. When everything leaders do is visible across the organization &mdash; they only have influence, not authority &mdash; tangible differences manifest in the culture. I think <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Real%20magic%20happens%20when%20people%20realize%20they%20have%20true%20power%20in%20the%20organization.">real magic happens when people realize they have true power in the organization</a> and their voices carry weight.</p>
-
-<p>I also think there's a powerful dynamic which emerges when you encourage rotating leadership. I've found the mantra, "No one should lead all the time and everyone should lead some of the time," to be really helpful. There's  compelling research on what power and privilege do to our individual psychologies. Personally, I've found it very liberating to be able to put down the burden of leadership and rejoice in being part of a network of peers.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -111,7 +109,9 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>I believe a collaborative organization is only possible when people have true power in an organization, put aside their professional masks, and bring all of themselves to work. When that happens, a deeply held sense of trust and love emerges in the community. This creates a low-friction environment for collaborating, which is an incredible competitive advantage. My sense is that <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=A%20lot%20of%20organizations%20waste%20inordinate%20amounts%20of%20energy.">a lot of organizations waste inordinate amounts of energy</a> on internal politics, bureaucracy, and power plays. These issues completely disappear in a collaborative organization.</p>
+<p>I believe a collaborative organization is only possible when people have true power in an organization, put aside their professional masks, and bring all of themselves to work.</p>
+
+<p>When that happens, a deeply held sense of trust and love emerges in the community. This creates a low-friction environment for collaborating, which is an incredible competitive advantage. My sense is that <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=A%20lot%20of%20organizations%20waste%20inordinate%20amounts%20of%20energy.">a lot of organizations waste inordinate amounts of energy</a> on internal politics, bureaucracy, and power plays. These issues completely disappear in a collaborative organization.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
