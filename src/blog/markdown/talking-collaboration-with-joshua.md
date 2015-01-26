@@ -81,7 +81,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>We've had a co-working space for the past few years. It has always been a challenge to manage. Essentially, lots of people want a place to work, but no one really wants to run a co-working business!</p>
+<p>We've had a co-working space for the past few years. It has always been a challenge to manage. Essentially, people want a place to work, but no one really wants to run a co-working business.</p>
 
 <p>As a result, the people who hold everything together often do so out of obligation and responsibility, rather than doing the work which most brings them alive. It's difficult for us to bring in new people, as profits in the co-working business are marginal and folks are generally underpaid for their work.</p>
 
