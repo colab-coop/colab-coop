@@ -126,7 +126,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p>Second, <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Nurture%20a%20generous%20community%20by%20approaching%20every%20interaction%20asking%20what%20you%20can%20give.">nurture a generous community by approaching every interaction asking what you can give</a>, not what you can  get.</p>
 
-<p>Lastly, realize that culture is everything. If you lost all of your money and assets but still had your culture you could build everything again. If you lose your culture, you will destroy anything you've created.</p>
+<p>Lastly, realize that culture is everything. If you lost all of your money and assets but still had your culture, you could build everything again. If you lose your culture, you've lost everything.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
