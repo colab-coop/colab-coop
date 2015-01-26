@@ -8,11 +8,11 @@ readfullarticle: talking-collaboration-with-joshua
 
 # Talking Collaboration with Joshua
 
-<img src="/assets/img/blog/2015-01-21_2.jpg" class="center-element" alt="Enspiral">
+<img src="/assets/img/blog/2015-01-21_2.jpg" class="center-element" alt="Joshua from Enspiral">
 
 <em>This post is part of an ongoing series about collaboration in the workplace. We talk to individuals about their challenges, successes, and advice on how to collaborate more effectively.</em>
 
-Joshua is an entrepreneur and founder of [Enspiral](http://wwww.enspiral.com/), a global network of socially-minded individuals and enterprises. He is also the co-founder of Enspiral Craftworks, Enspiral Dev Academy, and a board member of Enspiral Foundation.
+Joshua Vial is an entrepreneur and founder of [Enspiral](http://wwww.enspiral.com/), a global network of socially-minded individuals and enterprises. He is also the co-founder of Enspiral Craftworks, Enspiral Dev Academy, and a board member of Enspiral Foundation.
 
 We talk to Joshua about transparency, the challenges of running a co-working space, and leadership dynamics in decentralized organizations.
 
@@ -113,9 +113,9 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p>Use deals not as a means to an end but as an ingredient in growing relationships in the organization. Deals come and go but great relationships will last a lifetime.</p>
 
-<p>Realise that culture is everything. If you lost all of your money and assets but still had your culture you could build everything again. If you lose your culture you will destroy anything you have created.</p>
+<p>Realize that culture is everything. If you lost all of your money and assets but still had your culture you could build everything again. If you lose your culture you will destroy anything you have created.</p>
 
-<p>The things you own end up owning you. Personal power and privilege can be addictive but they will mess with your psychology and diminish your potential. There is true freedom and joy to be found in helping other people to step up leaving you to revel in a loving network of peers.</p>
+<p>The things you own end up owning you. Personal power and privilege can be addictive but they will mess with your psychology and diminish your potential. There is true freedom and joy to be found in helping other people to step up, leaving you to revel in a loving network of peers.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
