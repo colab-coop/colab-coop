@@ -23,9 +23,9 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>Enspiral is a collective of companies and individuals helping people work on stuff that matters. There are 15 or so ventures in the network with a 50/50 split between professional services and building products. A big focus is on network based, decentralized organizing and using the tools of business to make the world a better place.</p>
+<p>Enspiral is a collective of companies and individuals helping people work on stuff that matters. There are 15 or so ventures in the network, with a 50/50 split between professional services and building products. A big focus is  network-based, decentralized organizing and using the tools of business to make the world a better place.</p>
 
-<p>I work with two of our ventures, [Enspiral Dev Academy](http://devacademy.co.nz/) (programmer bootcamp) and Enspiral Craftworks (contracting team), as well as helping out with the foundation board and our <a href="https://www.loomio.org/g/exAKrBUp/open-app-ecosystem">Open App</a> project (an open source suite of apps focused on decentralized organizing).</p>
+<p>I work with two of our ventures, [Enspiral Dev Academy](http://devacademy.co.nz/) (programmer bootcamp) and Enspiral Craftworks (contracting team), as well as the Enspiral Foundation board and our <a href="https://www.loomio.org/g/exAKrBUp/open-app-ecosystem">Open App</a> project (an open source suite of apps focused on decentralized organizing).</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -44,8 +44,9 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>We use [Loomio](http://loomio.org) for decision-making, [Cobudget](http://cobudget.co) for budgeting and [Slack](https://slack.com/) for chat. Google Apps, Trello, and Doodle are all key.</p>
-<p>We have a missing gap in our communication stack for slow-moving, forum-type discussions. Yammer used to do that for us but they made product choices that led to our users abandoning it. Right now we're using Google Plus, which people don't really like, so we're actively looking for a replacement.</p>
+<p>We use [Loomio](http://loomio.org) for decision-making, [Cobudget](http://cobudget.co) for budgeting and [Slack](http://slack.com/) for chat. Google Apps, <a href="http://trello.com/">Trello</a>, and <a href="http://doodle.com/">Doodle</a> are all key.</p>
+
+<p>We have a missing gap in our communication stack for slow-moving, forum-type discussions. <a href="http://www.yammer.com/">Yammer</a> used to do that for us but they made product choices that led to our users abandoning it. Right now we're using Google Plus, which people don't really like, so we're actively looking for a replacement.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -58,7 +59,9 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>Every day. Today, at Dev Academy, we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Everyone%20sets%20their%20own%20salary%20which%20is%20shared%20transparently%20throughout%20the%20company.">everyone sets their own salary, which is shared transparently throughout the company</a>. All salary requests are approved by default. If anyone has an issue with how much someone pays themselves, it's resolved through our conflict resolution process. We were  inspired by <a href="https://bufferapp.com/transparency">Buffer's work with transparency</a> and are thinking about how to make our company more transparent.</p>
+<p>I see inspiring collaborations every day. Today, at Dev Academy, we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Everyone%20sets%20their%20own%20salary%20which%20is%20shared%20transparently%20throughout%20the%20company.">everyone sets their own salary, which is shared transparently throughout the company</a>.</p>
+
+<p>The way our new process works, all salary requests are approved by default. If anyone has an issue with how much someone pays themselves, it's resolved through our conflict resolution process. We were inspired by <a href="https://bufferapp.com/transparency">Buffer's work with transparency</a>. We're currently talking about ways to make our company more transparent.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -67,7 +70,9 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>Last year, the Loomio team had to cut back on the number of people they were employing. This would normally be a really painful decision for a company, with dramatic impacts on the individuals involved. Because the strength of the connections in the network, Enspiral Craftworks was able to find roles for all the people involved. Despite being separate companies, it looked more like an internal transfer than a mass redundancy.</p>
+<p>Last year, the Loomio team had to cut a number of employees. This would normally be a really painful decision for a company, with dramatic impacts on the individuals involved.</p>
+
+<p>But by using connections in the network, Enspiral Craftworks was able to find roles for all the people involved. Despite Loomio and Craftworks being separate companies, it looked more like an internal transfer than a mass redundancy.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -76,11 +81,11 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>We've had a co-working space for the past few years. It has always been a challenge to manage. Essentially, lots of people want a place to work but no one really wants to run a co-working business.</p>
+<p>We've had a co-working space for the past few years. It has always been a challenge to manage. Essentially, lots of people want a place to work, but no one really wants to run a co-working business!</p>
 
-<p>The people who hold everything together often do so out of obligation and responsibility rather than doing the work which most brings them alive. It is difficult for us to bring in new people, as the finances in that business are marginal and folks are generally underpaid for their work. The big lesson for me has been: when there's work that needs doing which people aren't naturally drawn towards, you need to resource it really well.</p>
+<p>As a result, the people who hold everything together often do so out of obligation and responsibility, rather than doing the work which most brings them alive. It's difficult for us to bring in new people, as profits in the co-working business are marginal and folks are generally underpaid for their work.</p>
 
-<p>I've found that when you remove structure from a hierarchy you don't get collaboration, you get informal hierarchy. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=To%20build%20true%20decentralization%20takes%20good%20processes%20and%20conscious%20effort.">To build true decentralization takes good processes and conscious effort</a> from everyone in the organization.</p>
+<p>The big lesson for me has been: when there's work that needs doing which people aren't naturally drawn towards, you need to resource it really well.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -89,7 +94,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="spacing--mid-x"></div>
 
-<div><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg"><div class="overflow-hidden"><p class="lubalin-bold text--large">What are some interesting differences you've come across between centralized and decentralized or collaborative organizations?</p></div></div>
+<div><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg"><div class="overflow-hidden"><p class="lubalin-bold text--large">What are some interesting differences you've come across between centralized and decentralized organizations?</p></div></div>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
