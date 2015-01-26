@@ -28,6 +28,8 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 <p>I work with two of our ventures, [Enspiral Dev Academy](http://devacademy.co.nz/) (programmer bootcamp) and Enspiral Craftworks (contracting team), as well as helping out with the foundation board and our Open App project (an open source suite of apps focused on decentralized organizing).</p>
 </div>
 
+<div class="spacing--mid-x"></div>
+
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">How does collaboration fit into your daily work?</p>
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
@@ -56,6 +58,8 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 <div class="overflow-hidden">
 <p>Every day. Today at Dev Academy, we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Everyone%20sets%20their%20own%20salary%20which%20is%20shared%20transparently%20throughout%20the%20company.">everyone sets their own salary which is shared transparently throughout the company</a>. All salary requests are approved by default. If anyone has an issue with how much someone pays themselves, it's resolved through our conflict resolution process. We were  inspired by <a href="http://bufferapp.com/">Buffer</a>'s work with transparency and are thinking about how to make our company more transparent.</p>
 </div>
+
+<div class="spacing--mid-x"></div>
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Can you tell us about a recent successful collaboration at Enspiral?</p>
 
