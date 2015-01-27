@@ -111,7 +111,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 <div class="overflow-hidden">
 <p>I believe a collaborative organization is only possible when people have true power in an organization, put aside their professional masks, and bring all of themselves to work.</p>
 
-<p>When that happens, a deeply held sense of trust and love emerges in the community. This creates a low-friction environment for collaborating, which is an incredible competitive advantage. Many issues such as <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Internal%20politics%2C%20bureaucracy%20and%20power%20plays%2C%20completely%20disappear%20in%20collaborative%20organizations.">internal politics, bureaucracy and power plays completely disappear in collaborative organizations</a>.</p>
+<p>When that happens, a deeply held sense of trust and love emerges in the community. This creates a low-friction environment for collaborating, which is an incredible competitive advantage. Many issues such as <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Internal%20politics%2C%20bureaucracy%20and%20power%20plays%20completely%20disappear%20in%20collaborative%20organizations.">internal politics, bureaucracy and power plays completely disappear in collaborative organizations</a>.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
