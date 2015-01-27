@@ -34,8 +34,8 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>Collaboration is the heart of Enspiral. The majority of my work is collaborative; I typically pair with at least one other person. Even when not pairing, there's a review process where someone else will run through things and provide feedback.</p>
-<p>There's a daily standup at Dev Academy and virtual daily standup on Slack for Craftworks. Dev Academy holds weekly retrospectives and Open App holds monthly check-ins on Loomio. Dev Academy also holds feedback sessions every month or two. Most teams hold a retreat every six months, when we also have our full network retreats.</p>
+<p>Collaboration is the heart of Enspiral. The majority of my work is collaborative. I often pair with people, and most of my work is reviewed by at least one person before going out.</p>
+<p>There's a daily standup at Dev Academy and virtual daily standup on Slack for Craftworks. Dev Academy holds weekly retrospectives and Open App holds monthly check-ins on Loomio. Dev Academy holds individual feedback sessions every month or two. Most teams hold a retreat every six months, when we also have our full network retreats.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -59,9 +59,9 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>I see inspiring collaborations every day. Today, at Dev Academy, we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Everyone%20sets%20their%20own%20salary%20which%20is%20shared%20transparently%20throughout%20the%20company.">everyone sets their own salary, which is shared transparently throughout the company</a>.</p>
+<p>I see inspiring collaborations every day. Today, at Dev Academy, we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=People%20literally%20set%20their%20own%20salaries%2C%20which%20is%20shared%20transparently%20throughout%20the%20company.">people literally set their own salaries, which is shared transparently throughout the company</a>.</p>
 
-<p>The way our new process works, all salary requests are approved by default. If anyone has an issue with how much someone pays themselves, it's resolved through our conflict resolution process. We were inspired by <a href="https://bufferapp.com/transparency">Buffer's work with transparency</a>. We're currently talking about ways to make our company more transparent.</p>
+<p>The way our new process works, all salary requests are approved by default. If anyone has an issue with how much someone pays themselves, it's resolved through our conflict resolution process. We were inspired by [Morningstar's process](http://morningstarco.com/index.cgi?Page=About%20Us/Organizational%20Vision) and have also been inspired by [Buffer's work with transparency](https://bufferapp.com/transparency). We're currently talking about ways to make our company more transparent.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -98,9 +98,9 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>I think the enquiry into leadership in both centralized and decentralized organizations is fascinating. Often what people think of as centralized leadership is just bad leadership. When done well, there are similarities in both environments. <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Good%20leaders%20will%20always%20serve%20the%20people%20they%20lead.">Good leaders will always serve the people they lead</a> and will always empower people to have a lot of autonomy.</p>
+<p>I think the enquiry into leadership in both centralized and decentralized organizations is fascinating. Often what people think of as centralized leadership is just bad leadership. When done well, there are similarities in both environments and both will always serve the people they lead, empowering people to have a lot of autonomy.</p>
 
-<p>Interesting things emerge when you take away coercive power and add radical transparency. When everything leaders do is visible across the organization &mdash; they only have influence, not authority &mdash; tangible differences manifest in the culture. I think <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Real%20magic%20happens%20when%20people%20realize%20they%20have%20true%20power%20in%20the%20organization.">real magic happens when people realize they have true power in the organization</a> and their voices carry weight.</p>
+<p>Interesting things emerge when you take away coercive power and add radical transparency. When everything leaders do is visible across the organization &mdash; they only have influence, not authority &mdash; tangible differences manifest in the culture. I think <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Real%20magic%20happens%20when%20people%20realize%20they%20have%20true%20power%20in%20the%20organization.">real magic happens when people realize they have true power in the organization</a>. In particular, engagement really builds when people realize their voices carry weight.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -111,7 +111,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 <div class="overflow-hidden">
 <p>I believe a collaborative organization is only possible when people have true power in an organization, put aside their professional masks, and bring all of themselves to work.</p>
 
-<p>When that happens, a deeply held sense of trust and love emerges in the community. This creates a low-friction environment for collaborating, which is an incredible competitive advantage. My sense is that <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=A%20lot%20of%20organizations%20waste%20inordinate%20amounts%20of%20energy.">a lot of organizations waste inordinate amounts of energy</a> on internal politics, bureaucracy, and power plays. These issues completely disappear in a collaborative organization.</p>
+<p>When that happens, a deeply held sense of trust and love emerges in the community. This creates a low-friction environment for collaborating, which is an incredible competitive advantage. Many issues such as <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Internal%20politics%2C%20bureaucracy%20and%20power%20plays%2C%20completely%20disappear%20in%20collaborative%20organizations.">internal politics, bureaucracy and power plays completely disappear in collaborative organizations</a>.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
@@ -122,11 +122,11 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 <div class="overflow-hidden">
 <p>I have a few pieces of advice:</p>
 
-<p>First, focusing on decentralizing money, information, and control in your organization. When you find a nexus of centralization, apply gentle pressure until it slowly releases.</p>
+<p>First, focus on decentralizing money, information, and control in your organization. When you find a nexus of centralization, apply gentle pressure until it slowly releases.</p>
 
-<p>Second, <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Nurture%20a%20generous%20community%20by%20approaching%20every%20interaction%20asking%20what%20you%20can%20give.">nurture a generous community by approaching every interaction asking what you can give</a>, not what you can  get.</p>
+<p>Second, <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Build%20a%20generous%20community%20by%20approaching%20every%20interaction%20asking%20what%20you%20can%20give.">build a culture of generosity by approaching every interaction asking what you can give</a>, not what you can get.</p>
 
-<p>Lastly, realize that culture is everything. If you lost all of your money and assets but still had your culture, you could build everything again. If you lose your culture, you've lost everything.</p>
+<p>Lastly, realize that culture is everything. If you lost all of your money and assets but still had your culture, you could build everything again. If you lose your culture, you will destroy everything you have created.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
