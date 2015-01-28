@@ -34,8 +34,8 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>Collaboration is the heart of Enspiral. The majority of my work is collaborative. I often pair with people, and most of my work is reviewed by at least one person before going out.</p>
-<p>There's a daily standup at Dev Academy and virtual daily standup on Slack for Craftworks. Dev Academy holds weekly retrospectives and Open App holds monthly check-ins on Loomio. Dev Academy holds individual feedback sessions every month or two. Most teams hold a retreat every six months, when we also have our full network retreats.</p>
+<p>Collaboration is the heart of Enspiral. The majority of my work is collaborative. I typically pair with at least one other person. Even when not pairing, there's a review process where someone else will run through things and provide feedback.</p>
+<p>There's a daily standup at Dev Academy and virtual daily standup on Slack for Craftworks. Dev Academy holds weekly retrospectives and Open App holds monthly check-ins on Loomio. Dev Academy also holds individual feedback sessions every month or two. Most teams hold a retreat every six months, when we also have our full network retreats.</p>
 </div>
 
 <div class="spacing--mid-x"></div>
