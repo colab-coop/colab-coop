@@ -98,7 +98,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>I think the enquiry into leadership in both centralized and decentralized organizations is fascinating. Often what people think of as centralized leadership is just bad leadership. When done well, there are similarities in both environments and both will always serve the people they lead, empowering people to have a lot of autonomy.</p>
+<p>I think the inquiry into leadership in both centralized and decentralized organizations is fascinating. Often what people think of as centralized leadership is just bad leadership. When done well, there are similarities in both environments and both will always serve the people they lead, empowering people to have a lot of autonomy.</p>
 
 <p>Interesting things emerge when you take away coercive power and add radical transparency. When everything leaders do is visible across the organization &mdash; they only have influence, not authority &mdash; tangible differences manifest in the culture. I think <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=Real%20magic%20happens%20when%20people%20realize%20they%20have%20true%20power%20in%20the%20organization.">real magic happens when people realize they have true power in the organization</a>. In particular, engagement really builds when people realize their voices carry weight.</p>
 </div>
