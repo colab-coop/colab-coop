@@ -59,7 +59,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
 <div class="overflow-hidden">
-<p>I see inspiring collaborations every day. Today, at Dev Academy, we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=People%20literally%20set%20their%20own%20salaries%2C%20which%20is%20shared%20transparently%20throughout%20the%20company.">people literally set their own salaries, which is shared transparently throughout the company</a>.</p>
+<p>I see inspiring collaborations every day. Today, at Dev Academy, we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=People%20literally%20set%20their%20own%20salaries.">people literally set their own salaries</a>.</p>
 
 <p>The way our new process works, all salary requests are approved by default. If anyone has an issue with how much someone pays themselves, it's resolved through our conflict resolution process. We were inspired by [Morningstar's process](http://morningstarco.com/index.cgi?Page=About%20Us/Organizational%20Vision) and [Buffer's work with transparency](https://bufferapp.com/transparency). We're currently talking about ways to make our company more transparent.</p>
 </div>
