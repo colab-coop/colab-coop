@@ -1,7 +1,7 @@
 ---
 title: "Talking Collaboration with Joshua"
 summary: "We talk to Joshua about transparency, the challenges of running a co-working space, and leadership dynamics in decentralized organizations."
-date: 2015-01-21
+date: 2015-02-02
 authors: [jenn]
 readfullarticle: talking-collaboration-with-joshua
 ---
