@@ -135,4 +135,4 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <hr>
 
-<div class="center-text">For more from Joshua, visit [Enspiral](http://www.enspiral.com/) or follow   [@joshuavial](https://twitter.com/joshuavial).</div>
+<div class="center-text">For more from Joshua, visit [joshuavial.com](http://joshuavial.com/) or follow [@joshuavial](https://twitter.com/joshuavial).</div>
