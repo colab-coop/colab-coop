@@ -589,6 +589,10 @@ main {
 
 .work-additional {
   @extend %grid-child;
+  
+  a {
+    @extend %link--gray-medium;
+  }
 }
 
 .work-tech-block {

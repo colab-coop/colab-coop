@@ -234,3 +234,10 @@ blockquote {
 @mixin text--capitalize {
   text-transform: capitalize;
 }
+
+.link--gray-medium, %link--gray-medium {
+  color: $gray-medium;
+  a {
+		color: $red;
+  }
+}
