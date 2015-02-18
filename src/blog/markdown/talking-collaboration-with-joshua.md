@@ -12,7 +12,7 @@ readfullarticle: talking-collaboration-with-joshua
 
 <em>This post is part of an ongoing series about collaboration in the workplace. We talk to individuals about their challenges, successes, and advice on how to collaborate more effectively.</em>
 
-Joshua Vial is an entrepreneur and founder of [Enspiral](http://wwww.enspiral.com/), a global network of socially-minded individuals and enterprises. He is also the co-founder of Enspiral Craftworks, Enspiral Dev Academy, and a board member of Enspiral Foundation.
+Joshua Vial is an entrepreneur and founder of [Enspiral](http://www.enspiral.com/), a global network of socially-minded individuals and enterprises. He is also the co-founder of Enspiral Craftworks, Enspiral Dev Academy, and a board member of Enspiral Foundation.
 
 We talk to Joshua about transparency, the challenges of running a co-working space, and leadership dynamics in decentralized organizations.
 
