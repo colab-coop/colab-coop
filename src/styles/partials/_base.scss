@@ -267,7 +267,6 @@ hr {
 
 .img-pixelate-heading {
   @extend %text--small;
-  letter-spacing: -1px;
   line-height: 1.5;
   margin-bottom: $base-spacing-sm;
 }
@@ -351,7 +350,7 @@ hr {
   left: 0;
   top: 0;
   padding: $base-spacing 0 0 0;
-  transition: all .1s linear;
+  transition: all .3s linear;
   @extend %clearfix;
 
 	.logo {
@@ -624,16 +623,22 @@ main {
 	a {
     > img {
       @extend %center-element;
-      filter: grayscale(1);
+      filter: grayscale(100%);
+      transition: all 0.2s linear;
+      width: 90%;
     }
 
     &:hover {
       > img {
-        filter: grayscale(0);
-        transition: all 0.2s linear;
+        filter: grayscale(0%);
       }
     }
   }
+  
+  > a > div > div {
+    line-height: 1.6;
+  }
+  
 }
 
 
@@ -676,6 +681,9 @@ main {
 
 .team-profile-meta, .team-profile-bio {
   @include grid-child;
+}
+
+.team-profile-meta img {
 }
 
 .team-profile-meta {
@@ -869,6 +877,10 @@ main {
 
 #map-canvas {
   height: 400px;
+}
+
+#map-canvas img {
+  max-width: none;
 }
 
 
