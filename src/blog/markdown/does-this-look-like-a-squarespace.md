@@ -12,7 +12,7 @@ A site on Squarespace doesn't have to look like a Squarespace.
 
 In a recent episode of [Shoptalk](http://shoptalkshow.com/episodes/151-emily-lewis-lea-alcantara/), the phrase <em>I want a WordPress</em> was used to illustrate the ubiquity of the WordPress platform.
 
-Squarespace and WordPress are different platforms with similar notoriety. There was a time when you knew a WordPress theme by sight &mdash; the telltale sidebar, the blogroll links. Similarly, many of us can spot a Squarespace site from across the room.
+Squarespace and WordPress are different platforms with similar notoriety. There was a time when you knew a WordPress theme by sight &mdash; the telltale sidebar, the blogroll links. Similarly, many of us who look at websites all day long can spot a Squarespace site from across the room.
 
 On a recent <a href="/blog/site-launched-mama-hope">custom Squarespace development</a> project, we needed the best of both worlds: a one-of-a-kind design that also could be easily managed using the Squarespace editor.
 
@@ -28,7 +28,7 @@ Here's how we did it.
 
 ## Turn on developer mode
 
-Turn on developer mode in the Squarespace admin panel. This gives you access to your site's git repository, including a panel for reviewing commit history and syntax errors:
+Turn on developer mode in the Squarespace admin panel. This gives you access to your site's git repository, including a  helpful panel for reviewing commit history and syntax errors:
 
 <img src="/assets/img/blog/2015-03-12_2.png" alt="Squarespace git history and syntax errors" class="center-element border-all">
 
@@ -40,9 +40,9 @@ WordPress has Bones, Drupal has Zen, and Squarespace has <a href="http://base-te
 
 At the time of writing, Squarespace has 36 system templates: 22 parent templates and 14 variants.
 
-This <a href="http://www.usingmyhead.com/squarespace-7-template-comparison-chart/">Squarespace template comparison chart</a> shows that variants are actually not unique from their parent template. Bedford and Anya may be styled differently, but they share the same codebase. We found <a href="http://bedford-demo.squarespace.com/">Bedford</a> and <a href="http://pacific-demo.squarespace.com/">Pacific</a> to be the most versatile parent templates.
+This handy <a href="http://www.usingmyhead.com/squarespace-7-template-comparison-chart/">Squarespace template comparison chart</a> reveals that variants are actually not unique from their parent template. Bedford and Anya may be styled differently, but they share the same codebase. We found <a href="http://bedford-demo.squarespace.com/">Bedford</a> and <a href="http://pacific-demo.squarespace.com/">Pacific</a> to be the most versatile parent templates.
 
-In addition to reading the <a href="https://developers.squarespace.com/">developer docs</a>, we learned a lot by studying parent templates. To do this, install a template in the admin panel, turn on developer mode, and check out the git repository.
+In addition to reading the <a href="https://developers.squarespace.com/">developer docs</a>, we learned a lot by studying system templates. To do this, install a template in the admin panel, turn on developer mode, and check out the git repository.
 
 ## Grab JSON data
 
