@@ -25,7 +25,7 @@ title: Team
               <div class="text--gray-medium">Owner, Co-Founder</div>
             </div>
           </a>
-
+        
         <li class="team-each">
           <a href="/team/ralph">
             <img src="/assets/img/team/ralph.jpg" alt="Ralph Cutler">
@@ -148,11 +148,11 @@ title: Team
 
       <li class="team-each">
         <a href="/team/dave">
-          <img src="/assets/img/team/dave.jpg" alt="Dave Flemming">
+          <img src="/assets/img/team/dave.jpg" alt="Dave Fleming">
           <div class="text--small center-text">
             <div class="spacing--sm"></div>
-            <div class="text--color-default">Dave Flemming</div>
-            <div class="text--gray-medium">Designer</div>
+            <div class="text--color-default">Dave Fleming</div>
+            <div class="text--gray-medium">Holistic Experience Analyst</div>
           </div>
         </a>
 
@@ -287,7 +287,8 @@ title: Team
                           // Izola
                           [45.531221,13.6702065],
                           // Troy
-                          [42.7447823,-73.6771721],
+                          // Disable overlapping locations
+                          //[42.7447823,-73.6771721],
                           // Las Cruces
                           [32.3440134,-106.8113814],
                           // Huntsville
@@ -301,15 +302,16 @@ title: Team
                           // Mumbai
                           [19.0822508,72.8812041],
                           // Los Altos
-                          [37.3679399,-122.095873],
+                          // Disable overlapping locations
+                          //[37.3679399,-122.095873],
                           // Caerphilly
                           [51.5768733,-3.2160731]
         ];
         var mapCanvas = document.getElementById('map-canvas');
         var teamLatLngs = teamCoords.map(function(c){return new google.maps.LatLng(c[0],c[1]);});
         var mapOptions = {
-          center: new google.maps.LatLng(42.4422877, -76.4983749),
-          zoom: 2,
+          center: new google.maps.LatLng(38.6594773,-27.2301503),
+          zoom: 3,
           scrollwheel: false,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#eeeeee"}]},{"featureType":"water","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]}]
@@ -322,7 +324,7 @@ title: Team
           new google.maps.Marker({
             position: ll,
             map: map,
-            icon: iconBase + 'google-maps-marker.png'
+            icon: iconBase + 'google-maps-marker.svg'
           });
         });
 

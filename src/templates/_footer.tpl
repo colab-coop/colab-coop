@@ -8,7 +8,7 @@
 
 				<div class="spacing--sm"></div>
 
-				<a href="/contact/" class="button--brand-outline">Tell us about your project</a>
+				<a href="/project-check-in/" class="button--brand-outline">Tell us about your project</a>
 			</div>
 
 			<div class="footer-connect">
@@ -30,7 +30,7 @@
 
 			<div class="grid-parent">
 				<div class="footer-address">
-					<span class="icon-dot">141 The Commons Suite 300, Ithaca, NY 14850</span><span class="icon-dot">(888) 426-5996</span><a href="mailto:core@colab.coop">core@colab.coop</a>
+					<span class="icon-dot"><a href="http://colabhive.com/"><img src="/assets/img/hive-logo.svg" alt="CoLab Hive"></a> Based in Ithaca, NY</span><span class="icon-dot">&nbsp;(888) 426-5996&nbsp;</span>&nbsp;<a href="mailto:core@colab.coop">core@colab.coop</a>
 				</div>
 				<div class="footer-social">
 					<a href="http://www.facebook.com/colab.coop"><span class="fa fa-facebook"></span></a>
