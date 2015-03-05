@@ -10,7 +10,7 @@ readfullarticle: karen-talks-about-harnessing-flexbox-on-smashing-magazine
 
 <a href="http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/"><img src="/assets/img/blog/flexbox_demo.png" class="center-element border-all"></a>
 
- Ever struggle with CSS to create vertical centering or equal heights on a web app layout? We have. Thankfully our collaborator and front-end developer Karen Menezes has some answers. She's published a sweet and fairly in depth <a href="http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/">article on Smashing Magazine</a> looking into flexbox, a simple and accommodating solution for just such fuss. It's chocked full of real world use cases and info on browser support. 
+ Ever struggle with CSS to create vertical centering or equal heights on a web app layout? We have. Thankfully our collaborator and front-end developer Karen Menezes has some answers. She's published a sweet and fairly in depth <a href="http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/">article on Smashing Magazine</a> looking into flexbox, a simple and accommodating solution for just such fuss. It's chock-full of real world use cases and info on browser support. 
 
  Here's a sample:
  
