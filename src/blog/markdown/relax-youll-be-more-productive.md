@@ -14,7 +14,7 @@ I wish we could collectively learn to pause more often &mdash; to stop for a min
 
 A chance to reset our intentions, our perspectives on what’s really important.
 
-A recent article in the [New York Times](http://www.nytimes.com/2013/02/10/opinion/sunday/relax-youll-be-more-productive.html?hp&_r=1&) suggests that this makes sense not just for our personal state of bliss but for biz-ness as well.  Regular pauses in the mad dash from task to task actually boost efficiency and productivity.  What would happen is we regularly allowed ourselves to disconnect from ‘go, go, go’ and return to stillness?  Silence.  Pause.
+A recent article in the [New York Times](//www.nytimes.com/2013/02/10/opinion/sunday/relax-youll-be-more-productive.html?hp&_r=1&) suggests that this makes sense not just for our personal state of bliss but for biz-ness as well.  Regular pauses in the mad dash from task to task actually boost efficiency and productivity.  What would happen is we regularly allowed ourselves to disconnect from ‘go, go, go’ and return to stillness?  Silence.  Pause.
 
 I suppose the closest thing we have for that may be the Christmas holiday. Many offices close or limit hours for several days around the holidays. Cellphones grow silent; inboxes get ignored. Our focus shifts to family and friends. In my experience though, even as I am able to take a break and offer more time and gratitude to loved ones, the time goes by in a blur. We try to minimize the fuss about the holidays in our family, but it’s challenging not to get caught up in some of the shopping madness, traffic back-ups or flight delays. It’s hard to keep in mind that for some the holiday season is quite the opposite of a time to rest. People who work in retail, the travel industry, bars and restaurants all shift into overdrive.  And the ceaseless chatter often begins!
 
@@ -30,10 +30,10 @@ In the NYTimes article I referenced above, Tony Schwartz talks about how he has 
 
 This is the kind of mindful culture we are embracing at Colab.
 
-Starting yesterday, my fellow coop member [Ralph](http://colab.coop/team) (the one who shared this lovely article), began a new weekly "renewal break" of leaving the office for an hour or so to go for a hike with me, his co-worker (and co-owner).
+Starting yesterday, my fellow coop member [Ralph](//colab.coop/team) (the one who shared this lovely article), began a new weekly "renewal break" of leaving the office for an hour or so to go for a hike with me, his co-worker (and co-owner).
 
-[CoLab’s headquarters](http://colabhive.com/) is (somewhat on purpose) striking distance from beautiful gorge trails and waterfall parks. We wandered and talk along the way, in a mix of venting, visioning, and quiet contemplation of our surroundings. Though we don’t completely detach from work per say, we come away with the feeling a big collective breathe of fresh air. A bit of a lift to kick off the week and a fresh perspective on the work at hand.  This rocks.
+[CoLab’s headquarters](//colabhive.com/) is (somewhat on purpose) striking distance from beautiful gorge trails and waterfall parks. We wandered and talk along the way, in a mix of venting, visioning, and quiet contemplation of our surroundings. Though we don’t completely detach from work per say, we come away with the feeling a big collective breathe of fresh air. A bit of a lift to kick off the week and a fresh perspective on the work at hand.  This rocks.
 
-And of course when CoLabrs like [Yaniv](http://colab.coop/team) from (LA) and [Jenn](http://colab.coop/team) (NYC) come to visit, you know where we go to catch up wink
+And of course when CoLabrs like [Yaniv](//colab.coop/team) from (LA) and [Jenn](//colab.coop/team) (NYC) come to visit, you know where we go to catch up wink
 
-Want to go for a walk and talk business? [Hit us up](http://colab.coop/team).
+Want to go for a walk and talk business? [Hit us up](//colab.coop/team).

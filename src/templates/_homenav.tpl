@@ -2,7 +2,7 @@
 
 	<div class="container">
   	<a href="/" class="logo">
-		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		<svg version="1.1" id="Layer_1" x="0px" y="0px"
 			 width="500.179px" height="129.007px" viewBox="0 0 500.179 129.007" enable-background="new 0 0 500.179 129.007" class="logo-svg"
 			 xml:space="preserve">
 		<path fill="#A8A9AD" d="M249.814,44.646c-4.284,15.19-17.625,25.414-32.719,25.414c-18.307,0-33.498-15.385-33.498-33.981

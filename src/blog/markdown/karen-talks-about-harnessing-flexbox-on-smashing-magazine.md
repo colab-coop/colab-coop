@@ -8,9 +8,9 @@ readfullarticle: karen-talks-about-harnessing-flexbox-on-smashing-magazine
 
 # Karen Talks About Harnessing Flexbox On Smashing Magazine
 
-<a href="http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/"><img src="/assets/img/blog/flexbox_demo.png" class="center-element border-all"></a>
+<a href="//www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/"><img src="/assets/img/blog/flexbox_demo.png" class="center-element border-all"></a>
 
- Ever struggle with CSS to create vertical centering or equal heights on a web app layout? We have. Thankfully our collaborator and front-end developer Karen Menezes has some answers. She's published a sweet and fairly in depth <a href="http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/">article on Smashing Magazine</a> looking into flexbox, a simple and accommodating solution for just such fuss. It's chock-full of real world use cases and info on browser support. 
+ Ever struggle with CSS to create vertical centering or equal heights on a web app layout? We have. Thankfully our collaborator and front-end developer Karen Menezes has some answers. She's published a sweet and fairly in depth <a href="//www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/">article on Smashing Magazine</a> looking into flexbox, a simple and accommodating solution for just such fuss. It's chock-full of real world use cases and info on browser support. 
 
  Here's a sample:
  
@@ -26,7 +26,7 @@ readfullarticle: karen-talks-about-harnessing-flexbox-on-smashing-magazine
 
 > As a bonus, we’ll throw in a fixed-width sidebar (which is always 180 pixels on large screens and full width on mobile).
 
- <p data-height="372" data-theme-id="0" data-slug-hash="JoYoRE" data-default-tab="result" data-user="imohkay" class='codepen'>See the Pen <a href='http://codepen.io/imohkay/pen/JoYoRE/'>Flexbox: Sidebar with source order independence using flex-direction</a> by Karen Menezes (<a href='http://codepen.io/imohkay'>@imohkay</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+ <p data-height="372" data-theme-id="0" data-slug-hash="JoYoRE" data-default-tab="result" data-user="imohkay" class='codepen'>See the Pen <a href='//codepen.io/imohkay/pen/JoYoRE/'>Flexbox: Sidebar with source order independence using flex-direction</a> by Karen Menezes (<a href='//codepen.io/imohkay'>@imohkay</a>) on <a href='//codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-You can read the full article over at <a href="http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/">Smashing Mag</a>.
+You can read the full article over at <a href="//www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/">Smashing Mag</a>.

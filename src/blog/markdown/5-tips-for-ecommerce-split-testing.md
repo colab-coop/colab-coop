@@ -10,13 +10,13 @@ readfullarticle: 5-tips-for-ecommerce-split-testing
 
 <a href="https://jirafe.com/article-ecommerce-customer-acquisition-decoded"><img src="/assets/img/blog/2014-11-24.png" class="center-element"></a>
 
-Last week, CoLab’s content and SEO expert, Jess Spate, co-hosted a webinar with [Jirafe](http://jirafe.com/)’s CEO Amit Shahon on ecommerce customer acquisition.
+Last week, CoLab’s content and SEO expert, Jess Spate, co-hosted a webinar with [Jirafe](//jirafe.com/)’s CEO Amit Shahon on ecommerce customer acquisition.
 
-The topic was split testing, an optimization strategy we highly recommend and use regularly with clients like [Valuate](http://colab.coop/work).
+The topic was split testing, an optimization strategy we highly recommend and use regularly with clients like [Valuate](//colab.coop/work).
 
 In a split test, a slightly different version of a website is shown to a random sample of visitors. A classic example of a split test is changing the button color on an ecommerce product page.
 
-Split testing is only one technique used in a CRO (Conversion Rate Optimization) strategy. But it’s an effective one. Google and Amazon rely heavily on split testing to increase their conversions. Amazon famously increased their annual revenue by $300 million (yes, million) by adding the option to check out as a guest. ([The $300 Million Button](https://www.uie.com/articles/three_hund_million_button/).) Every time you shop online, you’re likely on the receiving end of a split test.
+Split testing is only one technique used in a CRO (Conversion Rate Optimization) strategy. But it’s an effective one. Google and Amazon rely heavily on split testing to increase their conversions. Amazon famously increased their annual revenue by $300 million (yes, million) by adding the option to check out as a guest. ([The $300 Million Button](//www.uie.com/articles/three_hund_million_button/).) Every time you shop online, you’re likely on the receiving end of a split test.
 
 First, the tips:
 
@@ -30,7 +30,7 @@ First, the tips:
 
 Tests that seem to be about color are sometimes really about contrast and visibility.
 
-[Google famously tested 41 shades of blue](http://www.nytimes.com/2009/03/01/business/01marissa.html?pagewanted=3&_r=1&) to arrive at the blue used on their search result pages. The reason online marketers continue testing colors is because there is no single best color for conversion. There is no one color that is always best for a “buy” button. It depends on context and audience.
+[Google famously tested 41 shades of blue](//www.nytimes.com/2009/03/01/business/01marissa.html?pagewanted=3&_r=1&) to arrive at the blue used on their search result pages. The reason online marketers continue testing colors is because there is no single best color for conversion. There is no one color that is always best for a “buy” button. It depends on context and audience.
 
 ## Get the message right
 
