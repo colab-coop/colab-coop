@@ -1,18 +1,19 @@
 ---
 title: "Karen Talks About Harnessing Flexbox On Smashing Magazine"
-summary: "One of our favorite front-end developers dives deep in into the CSS3 Flexible Box, sharing solutions to various common use cases for modern web apps."
+summary: "One of our favorite front-end developers dives deep into CSS3 Flexible Box, sharing solutions to various common use cases for modern web apps."
 date: 2015-03-03
 authors: [ralph]
-readfullarticle: karen-talks-about-harnessing-flexbot-on-smashing-magazine
+readfullarticle: karen-talks-about-harnessing-flexbox-on-smashing-magazine
 ---
 
 # Karen Talks About Harnessing Flexbox On Smashing Magazine
 
 <a href="http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/"><img src="/assets/img/blog/flexbox_demo.png" class="center-element border-all"></a>
 
- Ever struggle with CSS to create vertical centering or equal heights on a web app layout? We have. Thankfully our collaborator and front-end developer Karen Menezes has some answers She's published a sweet and fairly in depth <a href="http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/">article on Smashing Magazine</a> looking into flexbox, a simple and accomodating solution for just such fuss. It's chocked full of real world use cases and info on browswer support. 
+ Ever struggle with CSS to create vertical centering or equal heights on a web app layout? We have. Thankfully our collaborator and front-end developer Karen Menezes has some answers. She's published a sweet and fairly in depth <a href="http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/">article on Smashing Magazine</a> looking into flexbox, a simple and accommodating solution for just such fuss. It's chock-full of real world use cases and info on browser support. 
 
  Here's a sample:
+ 
 > ###A. VISUAL ORDER INDEPENDENCE WITH FLEX DIRECTION
 
 > *Use case:* I have a sidebar positioned to the right of the main content section. On small screens, I want the sidebar to be at the top of the main content, reversing the order.

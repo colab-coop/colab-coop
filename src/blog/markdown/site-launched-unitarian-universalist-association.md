@@ -1,5 +1,5 @@
 ---
-title: "Site Launched: Unitarian Universalist Association!!"
+title: "Site Launched: Unitarian Universalist Association"
 summary: "The Unitarian Universalist Association provides a home for anyone with a desire to connect with their personal spiritual path. As of last week, they also have a new website."
 date: 2015-03-02
 authors: [jenn]
