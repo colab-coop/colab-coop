@@ -21,7 +21,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Tell us about Enspiral and what you do there.</p>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>Enspiral is a collective of companies and individuals helping people work on stuff that matters. There are 15 or so ventures in the network, with a 50/50 split between professional services and building products. A big focus is  network-based, decentralized organizing and using the tools of business to make the world a better place.</p>
 
@@ -32,7 +32,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">How does collaboration fit into your daily work?</p>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>Collaboration is the heart of Enspiral. The majority of my work is collaborative. I typically pair with at least one other person. Even when not pairing, there's a review process where someone else will run through things and provide feedback.</p>
 <p>There's a daily standup at Dev Academy and virtual daily standup on Slack for Craftworks. Dev Academy holds weekly retrospectives and Open App holds monthly check-ins on Loomio. Dev Academy also holds individual feedback sessions every month or two. Most teams hold a retreat every six months, when we also have our full network retreats.</p>
@@ -42,7 +42,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Which tools does Enspiral use to collaborate?</p>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>We use [Loomio](http://loomio.org) for decision-making, [Cobudget](http://cobudget.co) for budgeting and [Slack](http://slack.com/) for chat. Google Apps, <a href="http://trello.com/">Trello</a>, and <a href="http://doodle.com/">Doodle</a> are all key.</p>
 
@@ -57,7 +57,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Have you seen a collaboration recently that inspired you?</p>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>I see inspiring collaborations every day. Today, at Dev Academy, we had a team conversation about our new remuneration process where <a href="https://twitter.com/intent/tweet?via=colabcoop&url=http%3A%2F%2Fbit.ly%2F1uJDSNc&text=People%20can%20literally%20set%20their%20own%20salaries.">people can literally set their own salaries</a>.</p>
 
@@ -68,7 +68,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Can you tell us about a recent success  at Enspiral?</p>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>Last year, the Loomio team had to cut a number of employees. This would normally be a really painful decision for a company, with dramatic impacts on the individuals involved.</p>
 
@@ -79,7 +79,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Where have you seen collaboration break down, and what lessons were learned?</p>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>We've had a co-working space for the past few years. It has always been a challenge to manage. Essentially, people want a place to work, but no one really wants to run a co-working business.</p>
 
@@ -96,7 +96,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <div><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg"><div class="overflow-hidden"><p class="lubalin-bold text--large">What are some interesting differences you've come across between centralized and decentralized organizations?</p></div></div>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>I think the inquiry into leadership in both centralized and decentralized organizations is fascinating. Often what people think of as centralized leadership is just bad leadership. When done well, there are similarities in both environments and both will always serve the people they lead, empowering people to have a lot of autonomy.</p>
 
@@ -107,7 +107,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">Which methodologies or practices from collaborative organizations do you feel are the most important?</p>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>I believe a collaborative organization is only possible when people have true power in an organization, put aside their professional masks, and bring all of themselves to work.</p>
 
@@ -118,7 +118,7 @@ We talk to Joshua about transparency, the challenges of running a co-working spa
 
 <p class="lubalin-bold text--large"><img src="/assets/img/blog/2014-12-27_3.png" class="float-left margin-right-base-lg">What advice would you give to someone who wants to collaborate more effectively?</p>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/2015-01-21_1.jpg" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>I have a few pieces of advice:</p>
 

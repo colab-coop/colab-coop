@@ -450,3 +450,10 @@ a {
 .tab-content {
   @extend %grid-child;
 }
+
+//------------------------------------------------
+// Images
+
+.img-rounded {
+  border-radius: 100%;
+}
