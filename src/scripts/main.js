@@ -1,87 +1,70 @@
-var jsPixelateHover = require('./pixelate.js');
 var headroom = require('./headroom.min.js');
 var headroomJQuery = require('./jQuery.headroom.min.js');
-var headroomJQuery = require('./owl.carousel.min.js');
+var owlCarousel = require('./owl.carousel.min.js');
 var formApi = require('./form.api.js');
 
 $('html').removeClass('no-js');
 
+// takes a canvas element, image, and pixelation value, and
+// paints the pixelated image on the canvas element
+function pixelate(canvas, img, value) {
+  if (!canvas || !img) {
+    return;
+  }
+
+  var ctx = canvas.getContext('2d');
+
+  if (value === 0) {
+    value = 1;
+  }
+  /// calculate the factor
+  var fw = (img.width / value)|0,
+      fh = (img.height / value)|0;
+
+  /// turn off image smoothing (prefixed in some browsers)
+  ctx.imageSmoothingEnabled =
+    ctx.mozImageSmoothingEnabled =
+    ctx.msImageSmoothingEnabled =
+    ctx.webkitImageSmoothingEnabled = false;
+
+  /// draw mini-version of image
+  ctx.drawImage(img, 0, 0, fw, fh);
+
+  /// draw the mini-version back up, voila, pixelated
+  ctx.drawImage(canvas, 0, 0, fw, fh, 0, 0, img.width, img.height);
+}
+
+
 $(document).ready(function() {
-  //PIXELATE ON SCROLL CODE
+
+  // setting up pixelation on scroll
+
   var imgPixelate = $('#js-pixelate-scroll');
 
   if (imgPixelate.length > 0) {
 
-    var ctx = jsPixelateCanvas.getContext('2d'),
-        img = new Image;
-        //value = factor.value;
+    var img = new Image;
+    //value = factor.value;
 
     img.onload = function() {
-      pixelate(0);
+      pixelate(jsPixelateCanvas, img, 0);
     };
 
     var imgPixelateId = imgPixelate.attr('src');
     img.src = imgPixelateId;
 
-    function pixelate(value) {
+    var previousScroll = 0;
 
-      if (value === 0) {
-        value = 1;
+    $(window).scroll(function(){
+      var currentScroll = $(this).scrollTop();
+      if (currentScroll > previousScroll){
+        $('#js-panel-fullwidth .panel-fullwidth-content')
+          .addClass('panel-fullwidth-img-text');
+      } else {
+        $('#js-panel-fullwidth .panel-fullwidth-content')
+          .removeClass('panel-fullwidth-img-text');
       }
-        /// calculate the factor
-        var fw = (img.width / value)|0,
-            fh = (img.height / value)|0;
-
-        /// turn off image smoothing (prefixed in some browsers)
-        ctx.imageSmoothingEnabled =
-        ctx.mozImageSmoothingEnabled =
-        ctx.msImageSmoothingEnabled =
-        ctx.webkitImageSmoothingEnabled = false;
-
-        /// draw mini-version of image
-        ctx.drawImage(img, 0, 0, fw, fh);
-
-        /// draw the mini-version back up, voila, pixelated
-        ctx.drawImage(jsPixelateCanvas, 0, 0, fw, fh, 0, 0, img.width, img.height);
-    }
-
-  (function () {
-      var previousScroll = 0;
-
-      $(window).scroll(function(){
-         var currentScroll = $(this).scrollTop();
-         if (currentScroll > previousScroll){
-        $('#js-panel-fullwidth .panel-fullwidth-content').addClass('panel-fullwidth-img-text');
-         } else {
-          $('#js-panel-fullwidth .panel-fullwidth-content').removeClass('panel-fullwidth-img-text');
-         }
-         previousScroll = currentScroll;
-      });
-  }());
-
-  $(document).scroll(function() {
-    var scrollTop = $(window).scrollTop();
-    if (scrollTop > 450) {
-      return;
-    }
-    var pixelateValue = parseInt(scrollTop / 12);
-    pixelate(pixelateValue);
-
-  });
-  }
-});
-
-$(document).ready(function(){
-    //menu: off canvas
-    $('.nav-menu-trigger').click(function(event){
-        event.stopPropagation();
-        $(this).toggleClass('nav-menu-triggered');
-        $('.nav-menu').toggleClass('nav-menu-open');
-        $('main').toggleClass('main-offcanvas');
-    });
-
-    $('.nav-menu').click(function(event){
-        event.stopPropagation();
+      previousScroll = currentScroll;
     });
 
     $(window).click(function(){
@@ -90,69 +73,144 @@ $(document).ready(function(){
         $('main').removeClass('main-offcanvas');
     });
 
-    //menu: current link styling
-    function stripTrailingSlash(str) {
-      if(str.substr(-1) == '/') {
-        return str.substr(0, str.length - 1);
+    // on scroll, pixelate appropriately any elements with
+    // id of "jsPixelateCanvas"
+    $(document).scroll(function() {
+      var scrollTop = $(window).scrollTop();
+      if (scrollTop > 450) {
+        return;
       }
-      return str;
-    }
-
-    var url = window.location.pathname;
-    var activePage = stripTrailingSlash(url);
-
-    $('.nav-menu a').each(function(){
-      var currentPage = stripTrailingSlash($(this).attr('href'));
-
-      if (activePage == currentPage) {
-        $(this).addClass('nav-active');
-      }
+      var pixelateValue = parseInt(scrollTop / 12);
+      pixelate(jsPixelateCanvas, img, pixelateValue);
     });
 
-    //slider
-    $("#slider-testimonial").owlCarousel({
-      navigation : true,
-       navigationText : false,
-      pagination : false,
-      slideSpeed : 300,
-      singleItem:true
-     });
+  }
 
-    //tabs
-    $(".tab-content").hide();
-    $(".tabs li:first").addClass("active-tab").show();
-    $(".tab-content:first").show();
-
-    //On Click Event
-    $(".tabs li").click(function() {
-      $(".tabs li").removeClass("active-tab");
-      $(this).addClass("active-tab");
-      $(".tab-content").hide();
-
-      var activeTab = $(this).find("a").attr("href");
-      $(activeTab).fadeIn();
-      return false;
-    });
-
-    //red pixel cube at end of blog post
-    $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
-
-    //header: sticky
-    $(".nav").headroom({
-      "offset": 10,
-      "tolerance": 5,
-      "classes": {
-        "initial": "animated",
-        "pinned": "slideDown",
-        "unpinned": "slideUp"
-      }
+  //menu: off canvas
+  $('.nav-menu-trigger').click(function(event){
+    event.stopPropagation();
+    $(this).toggleClass('nav-menu-triggered');
+    $('.nav-menu').toggleClass('nav-menu-open');
+    $('main').toggleClass('main-offcanvas');
   });
 
-    //thumbnails which pixelate on hover
-  $('.img-pixelate-hover').load(function(){
-    $(this).pixelate({
-      value : 0.7
-    });
+  $('.nav-menu').click(function(event){
+    event.stopPropagation();
+  });
+
+  //menu: current link styling
+  function stripTrailingSlash(str) {
+    if(str.substr(-1) == '/') {
+      return str.substr(0, str.length - 1);
+    }
+    return str;
+  }
+
+  var url = window.location.pathname;
+  var activePage = stripTrailingSlash(url);
+
+  $('.nav-menu a').each(function(){
+    var currentPage = stripTrailingSlash($(this).attr('href'));
+
+    if (activePage == currentPage) {
+      $(this).addClass('nav-active');
+    }
+  });
+
+  //slider
+  $("#slider-testimonial").owlCarousel({
+    navigation : true,
+    navigationText : false,
+    pagination : false,
+    slideSpeed : 300,
+    singleItem:true
+  });
+
+  //tabs
+  $(".tab-content").hide();
+  $(".tabs li:first").addClass("active-tab").show();
+  $(".tab-content:first").show();
+
+  //On Click Event
+  $(".tabs li").click(function() {
+    $(".tabs li").removeClass("active-tab");
+    $(this).addClass("active-tab");
+    $(".tab-content").hide();
+
+    var activeTab = $(this).find("a").attr("href");
+    $(activeTab).fadeIn();
+    return false;
+  });
+
+  //red pixel cube at end of blog post
+  $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
+
+  //header: sticky
+  $(".nav").headroom({
+    "offset": 10,
+    "tolerance": 5,
+    "classes": {
+      "initial": "animated",
+      "pinned": "slideDown",
+      "unpinned": "slideUp"
+    }
+  });
+
+  //thumbnails which pixelate on hover
+  $('.img-pixelate-hover').load(function () {
+    if ($(this).length !== 0) {
+      $(this).each(function (x, i) {
+        var img = new Image;
+        img.src = i.src;
+
+        var canvas = document.getElementById(i.dataset.canvasid);
+
+        // the containing div
+        var pDiv = i.parentElement.parentElement;
+
+        // current pixelation value
+        var level = 0;
+
+        // current interval id
+        var iid;
+
+        // animate pixelate on mouseover
+        pDiv.addEventListener('mouseover', function (e) {
+          if (iid) {
+            window.clearInterval(iid);
+          }
+
+          iid = window.setInterval(function () {
+            if (level > 44) {
+              window.clearInterval(iid);
+            } else {
+              pixelate(canvas, img, level);
+              level++;
+            }
+          }, 10);
+        });
+
+        // animate depixelate on mouseout
+        pDiv.addEventListener('mouseout', function (e) {
+          if (iid) {
+            window.clearInterval(iid);
+          }
+
+          iid = window.setInterval(function () {
+            if (level < 1) {
+              window.clearInterval(iid);
+            } else {
+              pixelate(canvas, img, level);
+              level--;
+            }
+          }, 10);
+        });
+
+        // set initial pixelation (none)
+        pixelate(canvas, img, 0);
+
+      });
+    }
   });
 
   $('#load-more').on('click', function(e) {

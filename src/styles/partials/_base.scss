@@ -320,7 +320,7 @@ hr {
 // MODULE: PIXELATE ON HOVER
 
 .img-pixelate-hover {
-  display: block !important; //important required to override js plugin, unfortunately
+  display: none;
 }
 
 .img-pixelate-content {
@@ -370,13 +370,11 @@ hr {
   canvas {
     max-width: 100%;
     height: auto;
-    position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    opacity: 0;
-    pointer-events: none;
+    opacity: 1;
     transition: all 0.3s ease-in-out;
   }
 
@@ -393,12 +391,6 @@ hr {
     .img-pixelate-content {
       margin-top: - $base-spacing-sm;
       transition: all 0.3s ease-in;
-    }
-
-    canvas {
-      opacity: 1;
-      transform: scale(1.2);
-      transition: all 0.3s linear;
     }
 
     .img-pixelate-meta {
