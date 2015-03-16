@@ -33,10 +33,26 @@
 					<span class="icon-dot"><a href="//colabhive.com/"><img src="/assets/img/hive-logo.svg" alt="CoLab Hive"></a> Based in Ithaca, NY</span><span class="icon-dot">&nbsp;(888) 426-5996&nbsp;</span>&nbsp;<a href="mailto:core@colab.coop">core@colab.coop</a>
 				</div>
 				<div class="footer-social">
-					<a href="//www.facebook.com/colab.coop"><span class="fa fa-facebook"></span></a>
-					<a href="//twitter.com/colabcoop"><span class="fa fa-twitter"></span></a>
-					<a href="//plus.google.com/+ColabCooperative"><span class="fa fa-google-plus"></span></a>
-					<a href="//github.com/colab-coop/"><span class="fa fa-github"></span></a>
+					<a href="//www.facebook.com/colab.coop">
+					  <svg viewBox="0 0 20 20" class="ico-social">
+					    <use xlink:href="/assets/img/ico-social.svg#ico-facebook"></use>
+					  </svg>
+					</a>
+					<a href="//twitter.com/colabcoop">
+					  <svg viewBox="0 0 20 20" class="ico-social">
+					    <use xlink:href="/assets/img/ico-social.svg#ico-twitter"></use>
+					  </svg>
+					</a>
+					<a href="//plus.google.com/+ColabCooperative">
+					  <svg viewBox="0 0 20 20" class="ico-social">
+					    <use xlink:href="/assets/img/ico-social.svg#ico-gplus"></use>
+					  </svg>
+					</a>
+					<a href="//github.com/colab-coop/">
+					  <svg viewBox="0 0 20 20" class="ico-social">
+					    <use xlink:href="/assets/img/ico-social.svg#ico-github"></use>
+					  </svg>
+					</a>
 				</div> <!-- /footer-social -->
 			</div> <!-- /grid-parent -->
 		</div> <!-- /footer-content -->

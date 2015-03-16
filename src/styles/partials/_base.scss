@@ -1,5 +1,4 @@
 /*/
-/do we need the entire font awesome off the cdn?
 //smoother transition on off canvas on main
 //add google maps custom script in a better place :)
 */
@@ -535,15 +534,16 @@ main {
 
 .footer-social {
   float: right;
-
-  > a {
-		color: $gray-medium;
-    @extend %text--largest;
-		display: inline-block;
-    padding: 0 0 0 $base-spacing;
-
+  a {
+    display: inline-block;
+    padding-right: $base-spacing;
+  }
+  .ico-social {
+    fill: $gray-medium;
+    height: 20px;
     &:hover {
-      color: #fff;
+      fill: white;
+      transition: all 0.2s linear;
     }
   }
 }
@@ -709,16 +709,15 @@ main {
 }
 
 .team-profile-social {
-  font-size: 140%;
-
-	> a {
-		color: $gray-medium;
-    padding-right: $base-spacing;
+  a {
     display: inline-block;
-    vertical-align: middle;
-
+    padding-right: $base-spacing;
+  }
+  .ico-social {
+    fill: $gray-medium;
+    height: 20px;
     &:hover {
-      color: darken($gray-medium, 10%);
+      fill: $red;
       transition: all 0.2s linear;
     }
   }
