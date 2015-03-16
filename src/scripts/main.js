@@ -1,3 +1,4 @@
+var jQuery = require('./jquery.js');
 var jsPixelateHover = require('./pixelate.js');
 var headroom = require('./headroom.min.js');
 var headroomJQuery = require('./jQuery.headroom.min.js');
