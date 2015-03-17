@@ -7,6 +7,8 @@
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
   <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-precomposed.png">
   <link rel="stylesheet" type="text/css" href="/assets/css/global.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
   <script src="/assets/js/bundle.js"></script>
 
   <!-- Schema.org data -->
