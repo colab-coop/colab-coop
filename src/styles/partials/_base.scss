@@ -239,6 +239,12 @@ hr {
   }
 }
 
+.project-bmp {
+  .project-panel-1 {
+    background-color: red;
+  }
+}
+
 /* End Module: Panel: Project specific images */
 
 //------------------------------------------------
@@ -280,7 +286,7 @@ hr {
 }
 
 .img-pixelate-meta {
-  padding: 0 $base-spacing;
+  padding: 0 ($base-spacing * 2);
 }
 
 .img-pixelate-parent {
