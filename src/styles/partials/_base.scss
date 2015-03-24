@@ -42,12 +42,15 @@ a {
     background: $gray-light;
     padding: 2px 5px;
     &:after {
-      color: $gray-medium;
-      content: "\f099";
+      background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2246.329px%22%20height%3D%2237.65px%22%20viewBox%3D%220%200%2046.329%2037.65%22%20enable-background%3D%22new%200%200%2046.329%2037.65%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23A9AAAD%22%20d%3D%22M46.33%2C4.457c-1.705%2C0.756-3.537%2C1.267-5.459%2C1.497c1.962-1.177%2C3.469-3.04%2C4.179-5.259%0D%0A%09c-1.837%2C1.089-3.871%2C1.88-6.036%2C2.306C37.279%2C1.154%2C34.81%2C0%2C32.076%2C0c-5.25%2C0-9.505%2C4.256-9.505%2C9.505%0D%0A%09c0%2C0.744%2C0.084%2C1.47%2C0.246%2C2.166C14.917%2C11.274%2C7.913%2C7.49%2C3.225%2C1.739C2.407%2C3.144%2C1.938%2C4.776%2C1.938%2C6.519%0D%0A%09c0%2C3.297%2C1.678%2C6.206%2C4.229%2C7.911c-1.558-0.05-3.024-0.477-4.306-1.189c0%2C0.04%2C0%2C0.08%2C0%2C0.12c0%2C4.605%2C3.276%2C8.446%2C7.625%2C9.32%0D%0A%09c-0.798%2C0.217-1.637%2C0.333-2.504%2C0.333c-0.613%2C0-1.208-0.06-1.789-0.171c1.209%2C3.776%2C4.72%2C6.524%2C8.879%2C6.602%0D%0A%09c-3.253%2C2.549-7.352%2C4.069-11.804%2C4.069C1.5%2C33.514%2C0.744%2C33.468%2C0%2C33.38c4.206%2C2.697%2C9.203%2C4.271%2C14.57%2C4.271%0D%0A%09c17.483%2C0%2C27.043-14.483%2C27.043-27.044c0-0.411-0.009-0.821-0.028-1.229C43.443%2C8.037%2C45.055%2C6.362%2C46.33%2C4.457z%22/%3E%0D%0A%3C/svg%3E%0D%0A');
+      background-repeat: no-repeat;
+      background-position: left 4px;
+      background-size: contain;
+      content: "";
       display: inline-block;
-      font-family: "FontAwesome";
       margin-left: 5px;
-      margin-right: 5px;
+      height: 20px;
+      width: 20px;
     }
     &:hover {
       &:after {
@@ -236,6 +239,12 @@ hr {
   }
 }
 
+.project-bmp {
+  .project-panel-1 {
+    background-color: red;
+  }
+}
+
 /* End Module: Panel: Project specific images */
 
 //------------------------------------------------
@@ -277,7 +286,7 @@ hr {
 }
 
 .img-pixelate-meta {
-  padding: 0 $base-spacing;
+  padding: 0 ($base-spacing * 2);
 }
 
 .img-pixelate-parent {
@@ -941,7 +950,6 @@ main {
 
     &:before {
       font-size: 40px;
-      font-family: "FontAwesome";
       padding: 3px 5px;
     }
   }
@@ -949,14 +957,14 @@ main {
   .owl-prev {
     left: -10px;
     &:before {
-      content: "\f104";
+      content: "‹";
     }
   }
 
   .owl-next {
     right: -10px;
     &:before {
-      content: "\f105";
+      content: "›";
     }
   }
 
