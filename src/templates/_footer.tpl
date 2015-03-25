@@ -16,7 +16,7 @@
 				<div>Love what you do? So do we.</div>
 
 				<div class="spacing--sm"></div>
-				<a href="/contact/" class="button--brand-outline">Introduce yourself</a>
+				<a href="/jobs/" class="button--brand-outline">See our job openings</a>
 			</div>
 		</div> <!-- /footer-info -->
 
