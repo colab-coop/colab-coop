@@ -1,5 +1,5 @@
 ---
-title: "App Launched: GlassApp (New Art Museum, Too)!"
+title: "App Launched: GlassApp (New Art Museum, Too)"
 summary: "Celebrating GlassApp and the Contemporary Art + Design Wing at the Corning Museum of Glass."
 date: 2015-03-24
 authors: [ralph]
