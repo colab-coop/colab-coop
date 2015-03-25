@@ -6,7 +6,7 @@ authors: [ralph]
 readfullarticle: new-app-launched-glassapp
 ---
 
-# App Launched: GlassApp (New Art Museum, Too)
+# App Launched: GlassApp (New Art Museum, Too)!
 
 <a href="http://glassapp.cmog.org/"><img src="/assets/img/blog/2015-03-24_2.png" class="center-element"></a>
 
