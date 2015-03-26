@@ -1,4 +1,7 @@
 //FORM API INTEGRATION with SIMPLE VALIDATION
+
+var API_URL = 'forms.colab.coop';
+
 $(document).ready(function(){
 	$('.form-api').submit(function (e) {
 		e.preventDefault();
@@ -68,7 +71,7 @@ $(document).ready(function(){
 				headers: {
 					'Accept': 'application/json'
 				},
-				url: window.location.protocol + '//' + window.location.hostname + ':8113/form',
+				url: window.location.protocol + '//'+API_URL+'/form',
 				data: JSON.stringify(form_data),
 				processData: false,
 				contentType: 'application/json',
