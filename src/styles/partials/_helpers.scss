@@ -332,6 +332,11 @@ a.button--brand-outline.color-red, .button--brand-outline.color-red {
   background-color: $gray-light;
 }
 
+.link-white, .link-white:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 //------------------------------------------------
 // Borders: Rainbow
 .border-rainbow, %border-rainbow {

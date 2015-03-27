@@ -118,6 +118,10 @@ hr {
 
 }
 
+.panel-bg-red {
+  background-color: $red;
+}
+
 .panel-bg-pattern {
   background-image: url('../img/bg-pixel@2x.png');
   background-repeat: repeat;
@@ -912,17 +916,26 @@ main {
 }
 
 .recent-work-block {
-  > a {
+  p {
+    margin: 0;
+  }
+  a {
     img {
       @extend %vertical-inline-middle;
       max-width: 40%;
       filter: grayscale(1);
+      transition: all 0.2s linear;
+      &[src*="cmog"] {
+        opacity: .4;
+      }
     }
 
     &:hover {
       img {
         filter: grayscale(0);
-        transition: all 0.2s linear;
+        &[src*="cmog"] {
+          opacity: 1;
+        }
       }
     }
   }
@@ -1042,3 +1055,31 @@ main {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+//------------------------------------------------
+// Jobs: Page
+
+.job-each {
+  padding: 0 $grid-padding $base-spacing-lg*1.5 $grid-padding;
+  text-align: center;
+}
+
+.grid-card {
+  background: white;
+  display: flex;
+  align-content: stretch;
+  min-height: 200px;
+  width: 100%;
+  
+  a {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 0 $base-spacing-lg*1.5;
+    width: 100%;
+  }
+  
+}
+
