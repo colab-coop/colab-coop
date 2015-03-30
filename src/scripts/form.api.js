@@ -84,6 +84,10 @@ $(document).ready(function(){
 						$('#success').fadeOut();
 						$('.form-api').find('input, textarea').unbind('focus');
 					});
+
+                                        // say thank you
+                                        window.location.href = "/thank-you/";
+
 					/*
 					window.setTimeout(function () {
 						$('#success').fadeOut();
