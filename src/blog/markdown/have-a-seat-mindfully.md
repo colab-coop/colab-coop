@@ -3,7 +3,7 @@ title: "Have A Seat, Mindfully"
 summary: "Appreciating our cooperative culture in which mindful practices are fostered"
 date: 2015-06-12
 authors: [ralph]
-readfullarticle: talking-collaboration-with-bill
+readfullarticle: have-a-seat-mindfully
 ---
 
 # Have A Seat, Mindfully
