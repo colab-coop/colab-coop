@@ -12,9 +12,9 @@ readfullarticle: have-a-seat-mindfully
 
 <div class="spacing--mid-x"></div>
 
-Really enjoying taking time out of the work day to sit in silence together with other CoLabrs. Some of us seasoned practitioners of one mindfullness philosophy or another. Others simply embracing the time to breathe, reset or recalibrate. In either case, a subtle but deep connection is happening between peers. This humble weekly tradition embodies our approach to work, and creates value to our lives.
+We really enjoying taking time out of the work day to sit in silence together with other CoLabrs. Some of us seasoned practitioners of one mindfullness philosophy or another, while others simply embrace a time to breathe, rest and reset. Through this simple act, a subtle but deep connection is happening between peers. This humble weekly tradition embodies our approach to work, and creates value within our lives.
 
-Here are some of things those who are joining the weekly sit are saying about the experience:
+Here are some of things those who join the weekly sit say about the experience:
 
 <hr>
 
@@ -34,7 +34,7 @@ Here are some of things those who are joining the weekly sit are saying about th
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/davidb.jpg" width="50"  class="img-rounded"></div>
 <div class="overflow-hidden">
-<p>The weekly sit provides a center for my work schedule, it helps me bring the core practice of right-living directly at the core of my work life, my seva life, and a context that can so often become one of total compulsion and anxiety. It also connects me with a community that is deeply aligned yet outside the constrains of a single project, mission or goal. This helps me focus, be more present with those I'm trying to work with and support, and craft a more sustainable work life.</p></div>
+<p>The weekly sit provides a center for my work schedule. It helps me bring the core practice of right-living directly to the core of my work life &emdash; my seva life &emdash; a context that can so often become one of total compulsion and anxiety. It also connects me with a community that is deeply aligned yet outside the constrains of a single project, mission or goal. This helps me focus, be more present with those I'm trying to work with and support, and craft a more sustainable work life.</p></div>
 
 <div class="spacing--mid-x"></div>
 
