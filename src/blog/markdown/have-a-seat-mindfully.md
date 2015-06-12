@@ -34,7 +34,7 @@ Here are some of things those who join the weekly sit are saying about the exper
 
 <div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/davidb.jpg" width="50"  class="img-rounded"></div>
 <div class="overflow-hidden">
-<p>The weekly sit provides a center for my work schedule. It helps me bring the core practice of right-living directly to the core of my work life &emdash; my seva life &emdash; a context that can so often become one of total compulsion and anxiety. It also connects me with a community that is deeply aligned yet outside the constrains of a single project, mission or goal. This helps me focus, be more present with those I'm trying to work with and support, and craft a more sustainable work life.</p></div>
+<p>The weekly sit provides a center for my work schedule. It helps me bring the core practice of right-living directly to the core of my work life - my seva life - a context that can so often become one of total compulsion and anxiety. It also connects me with a community that is deeply aligned yet outside the constrains of a single project, mission or goal. This helps me focus, be more present with those I'm trying to work with and support, and craft a more sustainable work life.</p></div>
 
 <div class="spacing--mid-x"></div>
 
