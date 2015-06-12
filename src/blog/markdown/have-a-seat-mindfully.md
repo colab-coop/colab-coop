@@ -12,7 +12,7 @@ readfullarticle: have-a-seat-mindfully
 
 <div class="spacing--mid-x"></div>
 
-I am really enjoying taking time out of the work day to sit in silence together with other CoLabrs. Some of us seasoned practitioners of one mindfullness philosophy or another, while others simply embrace a time to breathe, rest and reset. Through this simple act, a subtle but deep connection is happening between peers. This humble weekly tradition embodies our approach to work, and creates value within our lives.
+I am really enjoying taking time out of the work day to sit in silence together with other CoLabrs. Some of us are seasoned practitioners of one mindfullness philosophy or another, while others simply embrace a time to breathe, rest and reset. Through this simple act, a subtle but deep connection is happening between peers. This humble weekly tradition embodies our approach to work, and creates value within our lives.
 
 Here are some of things those who join the weekly sit are saying about the experience:
 
