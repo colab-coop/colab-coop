@@ -45,4 +45,4 @@ Here are some of things those who join the weekly sit say about the experience:
 <p>Although my experience of this group practice, and of silent seated meditation in general, is still limited, it has already brought real, visceral benefit to me, as a person and as a CoLabr.  In the midst of a day of meetings and a week of work, with my mind racing with multiple projects and ideas and my balance thrown by perceived time pressures and competing priorities within and outside of CoLab, the mid-week sit provides respite, calm, grounding, and perspective, which allow me to return to work, and life, more balanced, focused, and renewed.  As minutiae of immediate tasks obstruct my view of the bigger picture, the mid-week sit also helps me to truly see and hear the CoLabrs around me, and reminds me of what is special about CoLab and why I am interested in being a part of it and helping it to grown and thrive. </p></div>
 
 
-<div class="center-text">You can join our moment in mindfullness Wednesdays @ 12pm via zoom [https://zoom.us/j/272293480]</div>
+<div class="center-text">You can join our moment in mindfullness Wednesdays @ 12pm via zoom [http://bit.ly/1dB7MLJ]</div>
