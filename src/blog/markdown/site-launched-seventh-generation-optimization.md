@@ -14,5 +14,5 @@ This week, with CoLab’s collaboration, <a href="http://www.seventhgeneration.c
 
 Our work focused on making their site mobile in time for <a href="http://searchengineland.com/googles-mobile-friendly-algorithm-a-week-later-was-it-really-mobilegeddon-219893" target="_blank">Google’s recent mobilegeddon</a> initiative and also to do a bunch of optimization towards faster performance and easier content administering.
 
-Seventh Generation is blessed with and amazing web team and we are proud to be supporting their efforts.Amazing doesn’t just mean talented either, it means genuine and passionate about making the world a brighter place. A good example is the work have been doing for years to <a href="https://fighttoxins.com/" target="_blank">protect children from exposure to toxic chemicals by supporting sound state and federal toxic chemical policy.  
+Seventh Generation is blessed with and amazing web team and we are proud to be supporting their efforts.Amazing doesn’t just mean talented either, it means genuine and passionate about making the world a brighter place. A good example is the work have been doing for years to <a href="https://fighttoxins.com/" target="_blank">protect children from exposure to toxic chemicals</a> by supporting sound state and federal toxic chemical policy.  
 
