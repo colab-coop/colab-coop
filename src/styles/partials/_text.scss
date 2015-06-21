@@ -24,11 +24,17 @@ h6, .h6 {
   margin: 0 0 40px 0;
 }
 
+.panel-bg-pattern h2,
+.panel-bg-pattern .h2 {
+  // Smaller bottom margin for headings in the
+  // patterned panel on project profiles.
+  margin-bottom: 20px;
+}
+
 h1, .h1, %h1 {
   font-family: $lubalin-bold;
   font-size: 170%;
   line-height: 1.3;
- /*45px*/;
 }
 
 h2, .h2 {
