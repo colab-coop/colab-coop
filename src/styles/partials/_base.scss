@@ -249,6 +249,26 @@ hr {
   }
 }
 
+.project-svg {
+
+  .project-panel-1 {
+    background-image: url("../img/projects/seventh-generation/seventh-generation-and-colab-in-burlington.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+
+  .panel-overlap-svg {
+    background: #3fae2a url('../img/bg-pixel@2x.png') 0 0 repeat;
+    background-size: 10%;
+
+    img {
+      border: 1px solid $gray-light;
+    }
+  }
+}
+
 /* End Module: Panel: Project specific images */
 
 //------------------------------------------------
@@ -525,21 +545,21 @@ main {
 
 .footer-address {
   float: left;
-  
+
   img {
     height: 25px;
     margin: 0 5px;
     vertical-align: middle;
     width: auto;
   }
-  
+
   a {
     color: $gray-medium;
     &:hover {
       text-decoration: underline;
     }
   }
-  
+
   .icon-dot {
     color: $gray-medium;
   }
@@ -601,7 +621,7 @@ main {
 
 .work-additional {
   @extend %grid-child;
-  
+
   a {
     @extend %link--gray-medium;
   }
@@ -647,11 +667,11 @@ main {
       }
     }
   }
-  
+
   > a > div > div {
     line-height: 1.6;
   }
-  
+
 }
 
 
@@ -1070,7 +1090,7 @@ main {
   align-content: stretch;
   min-height: 200px;
   width: 100%;
-  
+
   a {
     background: white;
     display: flex;
@@ -1080,6 +1100,6 @@ main {
     padding: 0 $base-spacing-lg*1.5;
     width: 100%;
   }
-  
+
 }
 
