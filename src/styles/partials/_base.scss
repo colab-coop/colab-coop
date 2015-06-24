@@ -250,12 +250,22 @@ hr {
 }
 
 .project-svg {
+
   .project-panel-1 {
     background-image: url("../img/projects/seventh-generation/seventh-generation-and-colab-in-burlington.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 400px;
+  }
+
+  .panel-overlap-svg {
+    background: #3fae2a url('../img/bg-pixel@2x.png') 0 0 repeat;
+    background-size: 10%;
+
+    img {
+      border: 1px solid $gray-light;
+    }
   }
 }
 
