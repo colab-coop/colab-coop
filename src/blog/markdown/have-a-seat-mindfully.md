@@ -26,13 +26,13 @@ Here are some of things those who join the weekly sit are saying about the exper
 
 <div class="spacing--mid-x"></div>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/ethanw.jpg" width="50px" class="img-rounded"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/davidb.jpg" width="50px" class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>The weekly sit tradition at CoLab is a treasured time for connecting with CoLabrs, centering one's mind, and bringing forth a calm and renewed energy. I think our weekly sit embodies all of CoLab's core values: wisdom and passion for mindful culture, collaboration in meditation, sustainability in holistic well-being, and innovation to keep the torch lit in the face of day-to-day business.</p></div>
 
 <div class="spacing--mid-x"></div>
 
-<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/davidb.jpg" width="50"  class="img-rounded"></div>
+<div class="float-left margin-right-base-lg margin-top-base"><img src="/assets/img/blog/ethanw.jpg" width="50"  class="img-rounded"></div>
 <div class="overflow-hidden">
 <p>The weekly sit provides a center for my work schedule. It helps me bring the core practice of right-living directly to the core of my work life - my seva life - a context that can so often become one of total compulsion and anxiety. It also connects me with a community that is deeply aligned yet outside the constrains of a single project, mission or goal. This helps me focus, be more present with those I'm trying to work with and support, and craft a more sustainable work life.</p></div>
 
