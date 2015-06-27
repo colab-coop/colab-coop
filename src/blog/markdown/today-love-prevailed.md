@@ -1,7 +1,7 @@
 ---
 title: "Today, Love Prevailed"
 summary: "Supreme Court ruled in favor of same-sex marriage today."
-date: 2012-06-26
+date: 2015-06-26
 authors: [ralph]
 readfullarticle: today-love-prevailed
 ---
