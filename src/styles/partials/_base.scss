@@ -97,7 +97,8 @@ hr {
   //  margin: 0.2em 0;
   }
 
-  .ul-default {
+  .ul-default,
+  .ul-unstyled {
     margin-bottom: 0;
 
     li {
@@ -120,6 +121,20 @@ hr {
 
 .panel-bg-red {
   background-color: $red;
+
+  *:last-child {
+    padding-bottom: 0 !important;
+  }
+
+  .ul-default {
+    li:before {
+      color: #fff;
+    }
+  }
+
+  hr {
+    opacity: .5;
+  }
 }
 
 .panel-bg-pattern {

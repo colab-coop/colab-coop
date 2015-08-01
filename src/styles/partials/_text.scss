@@ -3,13 +3,11 @@ strong, b {
 }
 
 //------------------------------------------------
-// Text container
+// Empty <p> tags
 
-/*.container--text {
-  > *:last-child {
-    margin-bottom: 0px;
-  }
-}*/
+p:empty {
+  display: none;
+}
 
 //------------------------------------------------
 // Headings
@@ -122,6 +120,81 @@ ol, %ol-default {
   padding-left: 30px;
 }
 
+.ul-unstyled, %ul-unstyled {
+  list-style-type: none;
+  list-style-position: outside;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.styling-markdown .ul-multistep {
+
+  @media (min-width: 600px) {
+    border-top: 2px solid $red;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      font-size: 13px;
+      position: relative;
+      text-indent: 0;
+
+      a,
+      &:before {
+        transition: all .2s;
+      }
+
+      a {
+        color: lighten($red, 30%);
+      }
+
+      &:before {
+        background: $gray-lighter;
+        border: 2px solid $red;
+        border-radius: 100%;
+        content: '';
+        font-size: 100%;
+        line-height: 1;
+        height: 8px;
+        width: 8px;
+        padding: 0;
+        position: absolute;
+        top: -7px;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+
+      &:first-of-type {
+        &:before {
+          left: 0;
+        }
+      }
+
+      &:last-child {
+        &:before {
+          left: auto;
+          right: -10px;
+        }
+      }
+
+      &.current,
+      &:hover {
+
+        a {
+          color: $red;
+        }
+
+        &:before {
+          background: $red;
+        }
+      }
+    }
+  }
+}
+
 ul, ol {
   li ul:last-child,
   li ol:last-child {
@@ -156,6 +229,23 @@ blockquote {
     margin-bottom: 0;
   }
 
+  cite {
+    display: block;
+    font-size: 75%;
+    font-style: normal;
+    margin-top: 20px;
+
+    img {
+      border-radius: 100%;
+      display: inline-block;
+      float: left;
+      margin-right: 15px;
+      height: 40px;
+      vertical-align: middle;
+      width: 40px;
+    }
+  }
+
 }
 
 //------------------------------------------------
@@ -183,6 +273,10 @@ blockquote {
   a {
 		border-bottom: 1px solid;
   }
+}
+
+.text--blue, %text--blue {
+  color: $blue;
 }
 
 .text--normal, %text--normal {
