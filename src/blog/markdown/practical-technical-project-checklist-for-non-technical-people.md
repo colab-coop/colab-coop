@@ -1,6 +1,6 @@
 ---
 title: "A Practical Technical Project Checklist (For Non-Technical People)"
-summary: ""
+summary: "Tackle your technical project's unknowns (and unknown unknowns) with this handy checklist."
 date: 2015-08-10
 authors: [jenn]
 readfullarticle: practical-technical-project-checklist-for-non-technical-people
