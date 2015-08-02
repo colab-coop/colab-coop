@@ -1,9 +1,9 @@
 ---
-title: "A Practical Technical Project Checklist (For Not Technical People)"
+title: "A Practical Technical Project Checklist (For Non-Technical People)"
 summary: ""
 date: 2015-08-10
 authors: [jenn]
-readfullarticle: practical-technical-project-checklist-for-not-technical-people
+readfullarticle: practical-technical-project-checklist-for-non-technical-people
 ---
 
 # A Practical Technical Project Checklist (For Not Technical People)
