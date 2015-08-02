@@ -148,13 +148,6 @@ $(document).ready(function(){
 	  	}
 	});
 
-  $('.js-scroll').click(function(x) {
-    x.preventDefault();
-    var id = $(this).attr('href').split('#')[1];
-    var pos = $('#' + id).offset();
-    $('body, html').animate({scrollTop: (pos.top + 10)}, 800);
-  });
-
     //thumbnails which pixelate on hover
 	$('.img-pixelate-hover').load(function(){
 		$(this).pixelate({
