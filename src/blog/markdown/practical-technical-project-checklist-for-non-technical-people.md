@@ -6,7 +6,7 @@ authors: [jenn]
 readfullarticle: practical-technical-project-checklist-for-non-technical-people
 ---
 
-# A Practical Technical Project Checklist (For Not Technical People)
+# A Practical Technical Project Checklist (For Non-Technical People)
 
 <blockquote>
   One of the biggest intimidations is not knowing the steps or process. That lack of understanding of, "How does it work? How long does this take?" That can be really scary.
