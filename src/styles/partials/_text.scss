@@ -118,6 +118,73 @@ ul {
 	}
 }
 
+.styling-markdown .ul-checklist {
+  margin-left: 0;
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0 0 0 40px;
+    text-indent: 0px;
+
+    &:before {
+      content: '';
+      display: none;
+    }
+
+    label {
+      cursor: pointer;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    input[type="checkbox"] {
+      position: absolute;
+      left: -40px;
+      top: 13px;
+
+      &:before {
+        content: '';
+        cursor: pointer;
+        position: absolute;
+        top: -6px;
+        left: 0;
+        z-index: 1;
+        width: 1em;
+        height: 1em;
+        border: 2px solid $gray-light;
+        transition: all .3s ease-in-out;
+      }
+
+      &:after {
+        background: #fff;
+        content: '';
+        cursor: pointer;
+        position: absolute;
+        top: -6px;
+        left: 0;
+        width: 1.1em;
+        height: 1.1em;
+      }
+
+      &:checked {
+        &:before {
+          transform: rotate(-45deg);
+          height: .5em;
+          border-color: $red;
+          border-top-style: none;
+          border-right-style: none;
+        }
+        &:after {
+          background: $gray-lighter;
+        }
+      }
+    }
+  }
+}
+
 ol, %ol-default {
   padding-left: 30px;
 }
@@ -156,6 +223,22 @@ blockquote {
     margin-bottom: 0;
   }
 
+    cite {
+    display: block;
+    font-size: 75%;
+    font-style: normal;
+    margin-top: 20px;
+
+    img {
+      border-radius: 100%;
+      display: inline-block;
+      float: left;
+      margin-right: 15px;
+      height: 40px;
+      vertical-align: middle;
+      width: 40px;
+    }
+  }
 }
 
 //------------------------------------------------

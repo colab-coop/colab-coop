@@ -120,6 +120,14 @@ hr {
 
 .panel-bg-red {
   background-color: $red;
+
+  .ul-default {
+    li {
+      &:before {
+        color: inherit;
+      }
+    }
+  }
 }
 
 .panel-bg-pattern {
