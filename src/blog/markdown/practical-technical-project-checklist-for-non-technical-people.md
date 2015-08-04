@@ -10,7 +10,7 @@ readfullarticle: practical-technical-project-checklist-for-non-technical-people
 
 <blockquote>
   One of the biggest intimidations is not knowing the steps or process. That lack of understanding of, "How does it work? How long does this take?" That can be really scary.
-  <cite><img src="/assets/img/projects/valuate/valuate-testimonial-headshot@2x.jpg"> Bruce Kirsch</cite>
+  <cite><img src="/assets/img/projects/valuate/valuate-testimonial-headshot@2x.jpg"> Bruce Kirsch, Founder & CEO, REFM</cite>
 </blockquote>
 
 <p>That's Bruce Kirsch. He made the leap to build his dream when he launched <a href="http://www.getrefm.com/valuate/">Valuate</a>, a web-based commercial real estate tool.</p>
