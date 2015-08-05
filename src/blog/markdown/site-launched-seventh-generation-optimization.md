@@ -8,7 +8,7 @@ readfullarticle: site-launched-seventh-generation-optimization
 
 # Site Launched: Seventh Generation Optimization
 
-<a href="//seventhgeneration.com/"><img src="/assets/img/blog/seventh-generation-mobile-update.jpg" alt="google mobilegeddon graphic" class="center-element border-all"></a>
+<a href="http://seventhgeneration.com/"><img src="/assets/img/blog/seventh-generation-mobile-update.jpg" alt="google mobilegeddon graphic" class="center-element border-all"></a>
 
 This week, with CoLab’s collaboration, <a href="http://www.seventhgeneration.com/" target="_blank">Seventh Generation</a> launched their newly redesigned and revamped site with a focus on mobile and story-telling. We brought together Drupalistas (slang for people really good at Drupal) from around the world and collaborated with Seventh Generation’s internal managers, designers and technology team to make it all happen.
 
