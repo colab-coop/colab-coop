@@ -32,7 +32,7 @@ readfullarticle: practical-technical-project-checklist-for-non-technical-people
 <ul class="ul-default">
 <li>Does the thought of holding a CTO or Technical Director role make your palms sweaty?</li>
 <li>Are you more at home in PowerPoint than an IDE?</li>
-<li>Did you just Google IDE?</li>
+<li>Did you just Google "IDE"?</li>
 </ul>
 <div class="spacing--mid-x"></div>
 <p>If you answered "yes" to any of the above, this checklist is for you.</p>
