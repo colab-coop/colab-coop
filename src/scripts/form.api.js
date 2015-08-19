@@ -1,18 +1,22 @@
 //FORM API INTEGRATION with SIMPLE VALIDATION
 
-var API_URL = 'forms.colab.coop';
+"use strict";
+
+//var API_URL = 'forms.colab.coop';
+var API_URL = 'localhost:8113';
 
 $(document).ready(function(){
-	$('.form-api').submit(function (e) {
+
+	$(document).on('submit', '.form-api', function(e) {
 		e.preventDefault();
 
 		// Clears the form of content and validation.
-		function clearform () {
+		function clearform() {
 			document.forms[0].reset();
 		}
 
 		// Simple Validation for non-html5 browsers & textarea.
-		$validated = 'true';
+		var $validated = 'true';
 		$(this).find('.required').each( function(){
 			if ($(this).val().trim() == '') {
 				$(this).addClass('error-empty');
@@ -38,15 +42,16 @@ $(document).ready(function(){
 
 			// Time to format the data to send over to the FORM.API
 			// !!! We will need to add functionality for checkboxes & SELECTs if they get added to the form !!!
-			var form_data = {};
+			var form_data = {'Form': $(this).attr('name')};
+			var latest = {};
 			$(this).find('input, textarea, select').each( function(){
-				label = $(this).siblings('label').html();
-				value = $(this).val();
+				var label = $(this).siblings('label').html();
+				var value = $(this).val();
 				// Add some more markup for textarea
-				if ($(this).is('textarea')) {
-					value = '<br />'+ value +'<br />';
+				if ($(this).is('textarea') && value.length > 0 ){
+					value = '<br />' + value + '<br />';
 				}
-				type = $(this).attr('type');
+				var type = $(this).attr('type');
 				if ((typeof label != 'undefined' && typeof value != 'undefined') && value.length > 0) {
 					// If radio handle it differently (change to switch (or else if) if we need to test for checkboxes and selects as well)
 					if (type == 'radio') {
@@ -58,7 +63,24 @@ $(document).ready(function(){
 							}
 							form_data[label] = value;
 						}
-					} // Input type=text or textarea (default)
+					}
+					else if (type =='checkbox'){
+						if ($(this).is(':checked')) {
+
+							label = $(this).parent().siblings('label').html();
+							checkbox_name = $(this).attr('name');
+
+							if(isNaN(latest[checkbox_name])) {
+								latest[checkbox_name] = 0;
+								form_data[label] = '<br />' + value + '<br />';
+							}
+							else{
+								latest[checkbox_name]++;
+								form_data[label] += value + '<br />';
+							}
+						}
+
+					}// Input type=text or textarea (default)
 					else {
 						form_data[label] = value;
 					}
@@ -103,8 +125,27 @@ $(document).ready(function(){
 						$('#error').fadeOut();
 					}, 3000);
 				}
-			})
+			});
 
-		}
+
+		} // End if(validated)
 	});
+
+	$('main').on('click', '.form-selector li', function(x){
+
+		$(this).addClass('selected').siblings('.selected').removeClass('selected');
+
+		var value = $(this).data('value');
+		var url = '/contact/';
+		if (value != 'default') {
+			url = url + value;
+		}
+		$('.form-wrapper').load(url + ' .form-wrapper', function(response, status, xhr) {
+			if (status == 'error') {
+				$(this).html('<div id="error"><div id="errorMsg">Sorry, this form could not be found. Please select another.</div></div>');
+			}
+		});
+	});
+
+
 });

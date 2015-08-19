@@ -119,9 +119,22 @@ label {
     text-align: center;
   }
 
-  .checkbox-custom:checked + .checkbox-custom-label:before {
-    background: #ccc;
-  }
+	.checkbox-custom:checked {
+		+ .checkbox-custom-label:before {
+			// Red Box style (default)
+			background: $red;
+		}
+		&.checkmark-style{
+			+ .checkbox-custom-label:before {
+				// Checkmark style
+				content: "\2713";
+				color: $red;
+				font-size: 38px;
+				line-height: 23px;
+				background: #fff;
+			}
+		}
+	}
 
   .radio-custom + .radio-custom-label:before {
     border-radius: 50%;
@@ -131,6 +144,25 @@ label {
     box-shadow: inset 0px 0px 0px 5px $red;
     border-color: $red;
   }
+}
+
+ul.custom-list-as-select {
+	padding: 20px;
+	border-radius: 5px;
+	background: #fff;
+	display: inline-block;
+	li {
+		text-align: left;
+		cursor: pointer;
+		line-height: 35px;
+    margin: 4px 0;
+		&.selected {
+			background: #ddd;
+		}
+		&:hover {
+			background: #eee;
+		}
+	}
 }
 
 .required-label {

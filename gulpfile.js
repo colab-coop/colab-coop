@@ -208,6 +208,14 @@ gulp.task('styles', ['fonts'], function() {
 gulp.task('browserify', ['jshint'], function () {
   return browserify('./src/scripts/main.js')
     .bundle()
+
+    // Stops Gulp from crashing on JS code error
+    // https://truongtx.me/2014/07/15/handle-errors-while-using-gulp-watch/
+    .on('error', function(err){
+      console.log(err.message);
+      this.end();
+    })
+
     //Pass desired output filename to vinyl-source-stream
     .pipe(source('bundle.js'))
     // Start piping stream to tasks!

@@ -77,13 +77,19 @@
     @include col-50-flt;
   }
 
-  .form-contact, .form-project-checkin {
+  .form-api {
     .grid-parent {
       > .form-field-wrap {
         @include col-50-flt;
       }
     }
   }
+
+	.form-select-text {
+		float: left;
+		padding: 15px 0 0 10px;
+	}
+
 
   .address-colab {
     font-size: $body-font-size;
@@ -93,18 +99,18 @@
     width: 33.33%;
     float: left;
   }
-  
+
   .jobs {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .job-each {
     display: flex;
     align-items: stretch;
     flex: 0 1 33.33%;
   }
-  
+
 }
 
 @media screen and (min-width: 700px) {
