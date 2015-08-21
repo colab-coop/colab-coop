@@ -2,20 +2,26 @@
 // Forms
 
 // No-js form styles
-.no-js form.form-api{
-	& > div{
-		display:none;
+.no-js {
+	form.form-api {
+		& > div {
+			display:none;
+		}
+		&:before {
+			content: 'This form requires Javascript. \A Please turn Javascript on in your browser.';
+			color: $gray-dark;
+			background-color: $gray-light;
+			box-shaddow:active 2px 2px 1px 2px $gray-lighter;
+			display: block;
+			text-align: center;
+			margin:30px 40px;
+			padding: 75px 0;
+			white-space: pre;
+		}
 	}
-	&:before{
-		content: 'This form requires Javascript. \A Please turn Javascript on in your browser.';
-		color: $gray-dark;
-		background-color: $gray-light;
-		box-shaddow:active 2px 2px 1px 2px $gray-lighter;
-		display: block;
-		text-align: center;
-		margin:30px 40px;
-		padding: 75px 0;
-		white-space: pre;
+
+	.form-select-wrapper {
+		display: none;
 	}
 }
 
@@ -156,6 +162,7 @@ ul.custom-list-as-select {
 		cursor: pointer;
 		line-height: 35px;
     margin: 4px 0;
+		padding: 0 0 0 4px;
 		&.selected {
 			background: #ddd;
 		}

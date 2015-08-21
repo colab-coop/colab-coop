@@ -68,7 +68,7 @@ $(document).ready(function(){
 						if ($(this).is(':checked')) {
 
 							label = $(this).parent().siblings('label').html();
-							checkbox_name = $(this).attr('name');
+							var checkbox_name = $(this).attr('name');
 
 							if(isNaN(latest[checkbox_name])) {
 								latest[checkbox_name] = 0;
@@ -132,19 +132,29 @@ $(document).ready(function(){
 	});
 
 	$('main').on('click', '.form-selector li', function(x){
+		if (!$(this).hasClass('selected')) {
 
-		$(this).addClass('selected').siblings('.selected').removeClass('selected');
+			var pos = $(this).position();
+			var ppos = $(this).parent().position();
+			var ptop = $('.form-select-text').css('paddingTop').replace('px','');
+			var move = (pos.top - ppos.top) - ptop;
 
-		var value = $(this).data('value');
-		var url = '/contact/';
-		if (value != 'default') {
-			url = url + value;
-		}
-		$('.form-wrapper').load(url + ' .form-wrapper', function(response, status, xhr) {
-			if (status == 'error') {
-				$(this).html('<div id="error"><div id="errorMsg">Sorry, this form could not be found. Please select another.</div></div>');
+			$('.form-select-text').animate({top:  move + 'px'}, 400, 'swing');
+
+			$(this).addClass('selected').siblings('.selected').removeClass('selected');
+
+			var value = $(this).data('value');
+			var url = '/contact/';
+			if (value != 'default') {
+				url = url + value;
 			}
-		});
+			$('.form-wrapper').load(url + ' .form-wrapper', function(response, status, xhr) {
+				if (status == 'error') {
+					$(this).html('<div id="error"><div id="errorMsg">Sorry, this form could not be found. Please select another.</div></div>');
+				}
+			});
+
+		}
 	});
 
 
