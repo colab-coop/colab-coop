@@ -1,6 +1,6 @@
 ---
 title: "How to Start Flowing with Flow-based Programming"
-summary: "Seems like every time I click on the NYT these days, I'm inspired or at least reassured that momentum is shifting, people are waking up and choosing a path with less greed, ego and blind consumption involved."
+summary: "Shining light on what FBP is and what benefits it offers, plus a simple ToDo app to tie it all together."
 date: 2015-09-03
 authors: [david]
 readfullarticle: how-to-start-flowing-with-flow-based-programming
