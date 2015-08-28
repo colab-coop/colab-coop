@@ -263,7 +263,7 @@ I hope you've enjoyed this little foray into flow-based programming. While FBP i
 
 And I think that's worth at least thinking about.
 
-####links
+##Links
 
 If this FBP stuff interests you, here are some links you might enjoy:
 
@@ -281,12 +281,12 @@ If this FBP stuff interests you, here are some links you might enjoy:
 
 [JsMaker](http://jsmaker.com/jsmaker/) - "Visual Javascript Programing"
 
-Reading suggestions:
+##Reading suggestions
 
 [Dataflow and Reactive Programming Systems](https://deepfriedcode.com/books/darps.html) by Matt Carkci
 
 And of course nothing beats reading the book that started it all: [Flow-Based Programming, 2nd Edition: A New Approach to Application Development](http://www.jpaulmorrison.com/fbp/book.html) by J. Paul Morrison. You can read the first edition online [here](http://www.jpaulmorrison.com/fbp/1stedchaps.html).
 
-####Note on rhei.js:
+##Note on rhei.js
 
 rhei.js is just a toy. It does not follow many of the FBP tenets such as: strict IP lifetimes, or bounded buffers, or substreams / brackets, or error handling, or composite components, or or or.. in other words __do not use rhei.js for anything__. If you do feel like playing around with this toy, note that it uses ES6 arrow functions. So use node --harmony app.js for the server, and use Firefox for the client.
