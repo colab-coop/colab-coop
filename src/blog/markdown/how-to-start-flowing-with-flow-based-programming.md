@@ -14,7 +14,7 @@ If you're reading this, you likely have at least some interest in flow-based pro
 
 For those new to the whole FBP thing, let's start at the beginning: what *is* Flow-based programming anyway?
 
-Flow-based programming was invented by [J. Paul Morrison](http://www.jpaulmorrison.com) (he would say "discovered"). This work began in the 1970's, and systems built with FBP concepts are still running to this day, despite maintenance and upgrades throughout the decades. Maintenance and upgrades performed by people who were not yet born when the program was first built, no less. Not too shabby!
+Flow-based programming was invented by [J. Paul Morrison](http://www.jpaulmorrison.com) (he would say "discovered"). This work began in the 1970s, and systems built with FBP concepts are still running to this day, despite maintenance and upgrades throughout the decades. Maintenance and upgrades performed by people who were not yet born when the program was first built, no less. Not too shabby!
 
 Like many JS people new to the idea, I was first exposed to [flow-based programming](https://en.wikipedia.org/wiki/Flow-based_programming) by way of the [NoFlo](http://noflojs.org/) Kickstarter. Like many others, I buzzed with excitement over a "whole new world" of programming.
 
@@ -22,7 +22,7 @@ Flow-based programming, as defined in Wikipedia, is:
 
 > .. a programming paradigm that defines applications as networks of "black box" processes, which exchange data across predefined connections by message passing, where the connections are specified externally to the processes. These black box processes can be reconnected endlessly to form different applications without having to be changed internally... FBP is a particular form of dataflow programming based on bounded buffers, information packets with defined lifetimes, named ports, and separate definition of connections.
 
-Again like many others, I eventually walked away confused. I left, scratching my head, wondering what it's all about. But Flow-based programming (FBP) lingered in my thoughts long after the initial excitement wore off.
+Again, like many others, I eventually walked away confused. I left, scratching my head, wondering what it's all about. But Flow-based programming (FBP) lingered in my thoughts long after the initial excitement wore off.
 
 Well, I've had time to think about it, and it is my hope that this article will shine some additional light on what FBP is, and what benefits I believe it offers. Along the way, I will demo part of a simple Javascript ToDo app built using a tiny flow-based programming framework I wrote called [rhei.js](https://github.com/brodavi/rhei.js).
 
@@ -58,7 +58,7 @@ doIO(function (err) {
 });
 ```
 
-...wherein we simply passed functions to other functions to be executed at a later time, usually after an IO operation. To re-iterate the problems we've had with callbacks is to beat the pulpy remains of an already-beaten dead horse. Needless to say, the people cried for better async. So lo and behold, promises arrived:
+... wherein we simply passed functions to other functions to be executed at a later time, usually after an IO operation. To re-iterate the problems we've had with callbacks is to beat the pulpy remains of an already-beaten dead horse. Needless to say, the people cried for better async. So lo and behold, promises arrived:
 
 ```javascript
 doIO()
@@ -72,7 +72,7 @@ doIO()
   })
 ```
 
-...which certainly *look* a bit nicer than the callback hell trees we dealt with in the early days. But if there is any branching (error handling, etc), then what do you really gain? We still have a tendency to spread it out like the pyramid of doom situation above, because we haven't really gotten away from callbacks, we've just adjusted how they look.
+... which certainly *look* a bit nicer than the callback hell trees we dealt with in the early days. But if there is any branching (error handling, etc), then what do you really gain? We still have a tendency to spread it out like the pyramid of doom situation above, because we haven't really gotten away from callbacks, we've just adjusted how they look.
 
 What about FBP? Well, easy async is one of my favorite aspects of flow-based programming, because FBP is _all async, all the time_. You just don't have to think about it. A component will execute when there is some data for it to work on... that's it. Whether you are waiting for an ajax response or input from the user, or a long computation, all FBP components are independent of one another. This lends FBP components to easy parallelism, as I mentioned above.
 
@@ -122,7 +122,7 @@ What's going on here? ```ajax``` should be self-explanatory. ```store``` simply 
 
 Each component is completely ignorant of any other component, has no internal state, is simple to unit test, and when prototyping, can be replaced with a component that just outputs dummy data.
 
-You might ask yourself how this is different from just following good functional programming or [SOLID](https://en.wikipedia.org/wiki/Solid_%28object-oriented_design%29) practices. I certainly did. So let's try to implement the above in plain javascript. Assuming we have monads/promises, we might write this as:
+You might ask yourself how this is different from just following good functional programming or [SOLID](https://en.wikipedia.org/wiki/Solid_%28object-oriented_design%29) practices. I certainly did. So let's try to implement the above in plain Javascript. Assuming we have monads/promises, we might write this as:
 
 ```javascript
 function ajax (url, method, data) {
@@ -200,7 +200,7 @@ True, you can zoom out of text too, but is this:
 
 <img src="/assets/img/blog/on-flow-based-programming_minimap.png" class="center-element">
 
-..really that useful? Someone who is very familiar with the code may glean some minor insight, but anyone new to the code would find the zoomed-out text useless.
+... really that useful? Someone who is very familiar with the code may glean some minor insight, but anyone new to the code would find the zoomed-out text useless.
 
 Well then, what does branching in FBP (or at least my simple version of FBP) look like?
 
@@ -273,11 +273,11 @@ If this FBP stuff interests you, here are some links you might enjoy:
 
 [Straw](http://strawjs.com/) - "Straw lets you run a Topology of worker Nodes that consume, process, generate and emit messages."
 
-[IFTTT](https://ifttt.com/) - "gives you creative control over the products and apps you love."
+[IFTTT](https://ifttt.com/) - "Gives you creative control over the products and apps you love."
 
 [Elixer](https://github.com/pcmarks/ElixirFBP) - "An Elixir implementation of Flow-based Programming"
 
-[LabView](http://www.ni.com/labview/) - "a development environment designed specifically to accelerate the productivity of engineers and scientists."
+[LabView](http://www.ni.com/labview/) - "A development environment designed specifically to accelerate the productivity of engineers and scientists."
 
 [JsMaker](http://jsmaker.com/jsmaker/) - "Visual Javascript Programing"
 
@@ -289,4 +289,4 @@ And of course nothing beats reading the book that started it all: [Flow-Based Pr
 
 ##Note on rhei.js
 
-rhei.js is just a toy. It does not follow many of the FBP tenets such as: strict IP lifetimes, or bounded buffers, or substreams / brackets, or error handling, or composite components, or or or.. in other words __do not use rhei.js for anything__. If you do feel like playing around with this toy, note that it uses ES6 arrow functions. So use node --harmony app.js for the server, and use Firefox for the client.
+rhei.js is just a toy. It does not follow many of the FBP tenets such as: strict IP lifetimes, or bounded buffers, or substreams / brackets, or error handling, or composite components, or or or... in other words __do not use rhei.js for anything__. If you do feel like playing around with this toy, note that it uses ES6 arrow functions. So use node --harmony app.js for the server, and use Firefox for the client.
