@@ -1,7 +1,7 @@
 ---
 title: "How to Start Flowing with Flow-based Programming"
 summary: "Shining light on what FBP is and what benefits it offers, plus a simple ToDo app to tie it all together."
-date: 2015-09-03
+date: 2015-08-29
 authors: [david]
 readfullarticle: how-to-start-flowing-with-flow-based-programming
 ---
