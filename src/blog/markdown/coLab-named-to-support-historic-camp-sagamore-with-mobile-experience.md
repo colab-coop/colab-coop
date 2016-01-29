@@ -6,7 +6,7 @@ authors: [ralph]
 readfullarticle: coLab-named-to-support-historic-camp-sagamore-with-mobile-experience
 ---
 
-# NEWS / CoLab Named To Support Historic Camp Sagamore With Mobile Experience
+# CoLab Named To Support Historic Camp Sagamore With Mobile Experience
 
 <img src="/assets/img/blog/2016-01-29.jpg" class="center-element" alt="View of Great Camp Sagamore">
 
