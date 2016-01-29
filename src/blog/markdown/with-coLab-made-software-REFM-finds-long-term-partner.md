@@ -6,7 +6,7 @@ authors: [ralph]
 readfullarticle: with-coLab-made-software-REFM-finds-long-term-partner
 ---
 
-# NEWS: With CoLab Made Software REFM Finds Long-term Partner 
+# NEWS / With CoLab Made Software REFM Finds Long-term Partner 
 
 Our partner Real Estate Financial Modeling (REFM) has entered into a long-term software license agreement with Realtors Property Resource® (RPR®), an online property database available exclusively to members of the National Association of REALTORS®, one of the largest trade organization in the U.S.
 
