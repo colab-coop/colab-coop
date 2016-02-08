@@ -1,0 +1,75 @@
+@@include('../../templates/_head-team.tpl')
+
+<body class="team-profile">
+
+  @@include('../../templates/_homenav.tpl')
+
+  <main>
+    <section class="panel-full panel-bg-pattern color-red-bg">
+      <div class="container clearfix">
+        <div class="team-profile-intro-block grid-parent">
+          <div class="team-profile-heading">
+            <h1 class="lubalin-bold">Jeremy John</h1>
+            <div>Developer</div>
+          </div>
+
+            <div class="team-profile-badges">
+              <div class="badge" data-tooltip="Development">
+                <img src="/assets/img/badges/badge-development.svg" alt="badge-development">
+              </div>
+            </div>
+        </div> <!-- /team-profile-intro-block -->
+      </div> <!-- /container -->
+    </section> <!-- /panel -->
+
+    <section>
+      <div class="container">
+          <div class="grid-parent clearfix">
+            <div class="team-profile-meta">
+              <img src="/assets/img/team/" alt="Jeremy John">
+              <div class="team-profile">
+                <div class="team-profile-each">
+                  <h2 class="h2">CONTRIBUTES TO</h2>
+                 
+                </div>
+
+                <div class="team-profile-each">
+                  <h2 class="h2">CONNECT</h2>
+                  <div class="team-profile-social">
+                    <a href="http://www.drupal.org/u/a-fro">
+                      <svg viewBox="0 0 20 20" class="ico-social">
+                        <use xlink:href="/assets/img/ico-social.svg#ico-drupal"></use>
+                      </svg>
+                    </a>
+                    <a href="http://twitter.com/glassdimlytech">
+                      <svg viewBox="0 0 20 20" class="ico-social">
+                        <use xlink:href="/assets/img/ico-social.svg#ico-twitter"></use>
+                      </svg>
+                    </a>
+                  </div> <!-- /team-profile-social -->
+                </div>
+              </div> <!-- /team-profile -->
+            </div> <!-- /team-profile-meta -->
+
+            <div class="team-profile-bio">
+              <p>At some point during his high school years, Jeremy accidentally ate the red pill instead of the more harmless blue one; he has been an activist for social justice ever since.</p>
+
+              <p>A full-stack Drupal developer specializing in tricky bugs, migrations, and Drupal scaling, Jeremy loves elegant usability, readable code, and maintainable open-source solutions--after all, what good is technology when it isn't usable, sustainable, and accessible?</p>
+
+              <p>Jeremy is generally a radical, but unpredictably so.  He is a poet, as well as a disciple of the quixote. Though a completely untrained theologian, he works to disrupt the money-based economy with a love-based model.  He is working on a personal website designed to connect churches, mosques, and synagogues directly with farmers in order to bring fresh produce to those in need.</p>
+              <p>As an author, Jeremy is currently writing a dystopian science-fiction novel, and his work as a blogger can be found scattered across the interwebs.  <p>
+
+
+            </div> <!-- /team-profile-bio -->
+
+          </div>
+      </div> <!-- /container -->
+    </section>
+
+  </main>
+
+  @@include('../../templates/_footer.tpl')
+
+  @@include('../../templates/_tail.tpl')## A New Post
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
