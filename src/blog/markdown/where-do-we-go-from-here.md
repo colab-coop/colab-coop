@@ -10,7 +10,7 @@ published: true
 
 
 
-## Where Do We Go From Here?
+# Where Do We Go From Here?
 
 <img src="/assets/img/blog/2016-02-15.jpg" class="center-element"></a>
 Photo credit: <a href="https://www.flickr.com/photos/bonardhughins/233106076/">▲Bonard▼</a> via <a href="https://visualhunt.com">Visualhunt.com</a> / <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA</a>
