@@ -1,5 +1,8 @@
 ## Where Do We Go From Here?
 
+<img src="/assets/img/blog/2016-02-15.jpg" class="center-element"></a>
+Photo credit: <a href="https://www.flickr.com/photos/bonardhughins/233106076/">▲Bonard▼</a> via <a href="https://visualhunt.com">Visualhunt.com</a> / <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA</a>
+
 In honor of Dr. King’s birthday, I decided to take some much needed quiet time to reflect on his life and work, re-immersing myself in his writings on human inequality and social justice.  I was particularly interested in understanding the trajectory of Dr. King’s journey and the areas where his energies were focused at the time of his death.  It was my hope that this would serve as inspiration for my own work with CoLab, a worker-owned cooperative whose mission it is to co-create a brighter future with  purpose-driven technology.
 
 My own personal interests are rooted in in efforts to understand the foundations of our shared humanity and the challenges we face as human beings attempting to live together in peace.  My hope is that there is a common set of values that transcend our world cultures and religions and which can form the basis for us living together in peace.  I am currently undertaking independent research on the topic of what these values might be by studying the world’s great religions and reading thoughts from thought luminaries from various wisdom traditions and cultures.  My dive into the life of Dr. King is part of this attempt to weave a unifying human manifesto from the world’s great traditions which can provide the basis for us to live together harmoniously with a shared common set of values.   
