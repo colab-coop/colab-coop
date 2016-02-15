@@ -1,5 +1,5 @@
 ---
-title: Where Do We Go From Here?
+title: Where Do We Go From Here
 summary: Reflecting on our mission at CoLab and the work of Dr. Martin Luther King
 date: {2016-02-15}
 authors: 
