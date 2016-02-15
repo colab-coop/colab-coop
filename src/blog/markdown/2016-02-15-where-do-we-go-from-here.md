@@ -1,3 +1,11 @@
+---
+title: "Where Do We Go From Here"
+summary: "Reflecting on our mission at CoLab and the work of Dr. Martin Luther King"
+date: 2015-08-29
+authors: [rylan]
+readfullarticle: where-do-we-go-from-here
+---
+
 ## Where Do We Go From Here?
 
 <img src="/assets/img/blog/2016-02-15.jpg" class="center-element"></a>
