@@ -11,7 +11,12 @@ published: true
 
 # Where Do We Go From Here?
 
+<div class="text--align-center text--smallest link--gray-medium-with-hover">
 <img src="/assets/img/blog/2016-02-15.jpg" class="center-element">
+          Photography by: <a href="https://www.flickr.com/photos/bonardhughins/233106076/">▲Bonard▼</a> via <a href="https://visualhunt.com">Visualhunt.com</a> / <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA</a>
+        </div>
+
+<section class="spacing--lg"></section>
 
 <p>In honor of Dr. King’s birthday, I decided to take some much needed quiet time to reflect on his life and work, re-immersing myself in his writings on human inequality and social justice.  I was particularly interested in understanding the trajectory of Dr. King’s journey and the areas where his energies were focused at the time of his death.  It was my hope that this would serve as inspiration for my own work with CoLab, a worker-owned cooperative whose mission it is to co-create a brighter future with purpose-driven technology.</p>
 
@@ -40,3 +45,4 @@ published: true
 <p>While we certainly cannot say that all technology provides a silver-bullet solution to such deep-rooted issues as poverty and war, we at CoLab are optimistic that technology does indeed have a role to play in addressing issues of global inequality.   And <a href="https://twitter.com/intent/tweet?via=colabcoop%20@rylanpeery&url=http://bit.ly/1RJTUQj&text=I%20would%20imagine%20that%20Dr.%20King%20himself%20would%20have%20embraced%20modern%20%20technology%20as%20an%20accelerator%20of%20social%20change%20%20were%20he%20still%20alive.">I would imagine that Dr. King himself would have embraced modern technology as an accelerator of social change  were he still alive.</a></p> 
 
 <p>And so in honor of Dr. King, I would humbly propose we take a moment to strengthen our resolve and to re-establish our intent to work diligently toward solutions that can one day bring peace to our World House.  While this is still a book very much in the process of being written….if we do not work for the betterment of all, for what purpose do we as humans live?</p>
+
