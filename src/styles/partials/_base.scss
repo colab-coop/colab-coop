@@ -1012,14 +1012,14 @@ main {
   .owl-prev {
     left: -10px;
     &:before {
-      content: "‹";
+      content: "\2039";
     }
   }
 
   .owl-next {
     right: -10px;
     &:before {
-      content: "›";
+      content: "\203A";
     }
   }
 
@@ -1124,4 +1124,3 @@ main {
   }
 
 }
-
