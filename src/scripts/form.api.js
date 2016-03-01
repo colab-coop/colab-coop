@@ -144,7 +144,7 @@ $(document).ready(function(){
 			$(this).addClass('selected').siblings('.selected').removeClass('selected');
 
 			var value = $(this).data('value');
-			var url = '/contact/';
+			var url = document.URL;
 			if (value != 'default') {
 				url = url + value;
 			}
