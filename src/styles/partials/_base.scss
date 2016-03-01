@@ -26,6 +26,18 @@ p, ul, ol, table {
   margin-bottom: 40px;
 }
 
+li {
+
+	.label {
+		float: left;
+	}
+
+	.li {
+		display: block;
+    margin: 0 0 0 25px;
+	}
+}
+
 a {
   color: $red;
   text-decoration: none;
