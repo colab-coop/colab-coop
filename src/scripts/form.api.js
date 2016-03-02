@@ -144,7 +144,7 @@ $(document).ready(function(){
 			$(this).addClass('selected').siblings('.selected').removeClass('selected');
 
 			var value = $(this).data('value');
-			var url = document.URL;
+			var url = document.URL.replace('http:', '');
 			if (value != 'default') {
 				url = url + value;
 			}
