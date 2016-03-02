@@ -146,7 +146,7 @@ $(document).ready(function(){
 			var value = $(this).data('value');
 			var url = document.URL.replace('http:', '');
 			if (value != 'default') {
-				url = url + value;
+				url = url + value + '/';
 			}
 			$('.form-wrapper').load(url + ' .form-wrapper', function(response, status, xhr) {
 				if (status == 'error') {
