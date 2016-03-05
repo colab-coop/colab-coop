@@ -2,8 +2,8 @@
 
 "use strict";
 
-//var API_URL = 'forms.colab.coop';
-var API_URL = 'localhost:8113';
+var API_URL = 'forms.colab.coop';
+//var API_URL = 'localhost:8113';
 
 $(document).ready(function(){
 
@@ -93,7 +93,7 @@ $(document).ready(function(){
 				headers: {
 					'Accept': 'application/json'
 				},
-				url: window.location.protocol + '//'+API_URL+'/form',
+				url: window.location.protocol + '//' + API_URL + '/form',
 				data: JSON.stringify(form_data),
 				processData: false,
 				contentType: 'application/json',
@@ -146,7 +146,7 @@ $(document).ready(function(){
 			var value = $(this).data('value');
 			var url = document.URL.replace('http:', '');
 			if (value != 'default') {
-				url = url + value + '/';
+				url = url + value;
 			}
 			$('.form-wrapper').load(url + ' .form-wrapper', function(response, status, xhr) {
 				if (status == 'error') {
