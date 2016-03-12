@@ -49,7 +49,7 @@ $(document).ready(function(){
 				var value = $(this).val();
 				// Add some more markup for textarea
 				if ($(this).is('textarea') && value.length > 0 ){
-					value = '<br />' + value + '<br />';
+					value = '<br />' + value;
 				}
 				var type = $(this).attr('type');
 				if ((typeof label != 'undefined' && typeof value != 'undefined') && value.length > 0) {
@@ -146,7 +146,7 @@ $(document).ready(function(){
 			var value = $(this).data('value');
 			var url = document.URL.replace('http:', '');
 			if (value != 'default') {
-				url = url + value;
+				url = url + value + '/';
 			}
 			$('.form-wrapper').load(url + ' .form-wrapper', function(response, status, xhr) {
 				if (status == 'error') {
