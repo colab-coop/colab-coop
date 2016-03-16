@@ -8,7 +8,7 @@
 
 				<div class="spacing--sm"></div>
 
-				<a href="/project-check-in/" class="button--brand-outline">Tell us about your project</a>
+				<a href="/contact/" class="button--brand-outline">Tell us about your project</a>
 			</div>
 
 			<div class="footer-connect">
