@@ -6,7 +6,7 @@ authors: [ralph]
 readfullarticle: seventh-generation-homepage-features-comeclean-campaign
 ---
 
-## Seventh Generation Homepage Features #ComeClean Campaign
+# Seventh Generation Homepage Features #ComeClean Campaign
 
 <a href="http://seventhgeneration.com/"><img src="/assets/img/blog/comeclean-post.jpg" alt="#comeclean campaign photo" class="center-element border-all"></a>
 
