@@ -286,3 +286,5 @@ gulp.task('watch', ['default'], function() {
   gulp.watch('src/scripts/**/*.js', ['scripts']);
   gulp.watch('src/images/**/*', ['images']);
 });
+
+// test
