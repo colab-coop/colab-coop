@@ -117,6 +117,17 @@ hr {
       padding-bottom: $base-spacing * 1.5;
     }
   }
+
+  &.panel-fullwidth-img.panel-home {
+    direction: rtl;
+    div.container {
+      direction: ltr;
+    }
+
+    canvas.img-fullwidth {
+      min-width: 637px;
+    }
+  }
 }
 
 .panel-fullwidth-content {
