@@ -169,17 +169,11 @@ gulp.task('html', ['blog'], function () {
       cb(null, file);
     }))
     .pipe(gulpif(isProduction, gzip()))
-    // get the page directory name from the file name
-    .pipe(es.map(function (file, cb) {
-      dir = file.path.split('/');
-      dir = dir[dir.length - 1].replace('.html', '');
-      cb(null, file);
-    }))
     // rename the destination path for the file (avoiding .html)
     // unless it is index.html in which case just ignore it
     .pipe(rename(function (path) {
       if (path.basename !== 'index') {
-        path.dirname = path.dirname + '/' + dir;
+        path.dirname = path.dirname + '/' + path.basename;
         path.basename = "index";
         path.extname = ".html";
       }
