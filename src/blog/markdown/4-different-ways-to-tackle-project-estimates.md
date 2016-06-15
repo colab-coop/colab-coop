@@ -6,8 +6,6 @@ authors: [gabrielle]
 readfullarticle: 4-different-ways-to-tackle-project-estimates
 ---
 
-# 4 different ways to tackle project estimates
-
 # Project Management: Four of the Best Ways to Do Project Estimates
 
 I learned a thing or two about estimates when I started as a project manager. My employer at the time had hired me to lead a fairly large development project. My first task was to find a company to do the work. I got asked to produce a request for proposals (RFP), gather the offers, pick the best one, and work with the developers at producing a wonderful tool that would solve all of our problems (and also make coffee).
