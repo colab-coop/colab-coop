@@ -2,13 +2,13 @@
 title: "4 different ways to tackle project estimates"
 summary: CoLab's Ryan Miga looks at the problems of project estimation and explores some possible solutions.
 date: 2016-06-14
-authors: [ralph]
+authors: [gabrielle]
 readfullarticle: 4-different-ways-to-tackle-project-estimates
 ---
 
 # 4 different ways to tackle project estimates
 
-## Project Management: Four of the best ways to do project estimates
+# Project Management: Four of the Best Ways to Do Project Estimates
 
 I learned a thing or two about estimates when I started as a project manager. My employer at the time had hired me to lead a fairly large development project. My first task was to find a company to do the work. I got asked to produce a request for proposals (RFP), gather the offers, pick the best one, and work with the developers at producing a wonderful tool that would solve all of our problems (and also make coffee).
 
@@ -24,17 +24,24 @@ But the estimates? They were all over the place. One company promised they could
 
 I had encountered what I call the estimations quandary.
 
-### The estimations quandary
+## The estimations quandary
 
 Providing time estimates for technical tasks is notoriously difficult. Ask anyone who’s ever had to do it - the only way to provide an accurate estimate of how long a task will take is to do it first. This problem will affect anyone, large corporations and small companies alike. It’s an issue for other industries too - road construction, home repairs, automotives, hardware, you name it - everyone who ever has had to provide an estimate will know exactly what this quandary is.
 
 Why is it so hard to come up with an estimate? Well, many reasons:
 
-It’s really difficult to provide an estimate for a task that has never been done before - who knows what it might turn out to actually be? Even when it’s been done before in another context, a slight difference in the new context might make a huge difference.
-The task description might not really encompass all the work that needs to be done. “Change the font size on this page” might mean that the developer will need to learn a whole new CMS to find out where the CSS is located before they can perform that “easy fix”.
-Providing a reasonable time estimate for a task may require a few hours of investigation, research, coding a proof of concept, etc. Providing a “quick estimation” for a small list of 5 tasks could take days!
-One word: browsers. With mobile phones, tablets, the variety of OS and the different versions of each browser, we sometimes end up spending most of the budget trying to make this button look just right on Chrome on Android 4.
-Who can predict that a small change to, say, the social icons to the top corner, might mean we need to switch font providers? Even with an in-depth analysis beforehand, predicting the side effect of some changes is nearly impossible.
+<ul class="ul-default">
+  <li>
+    It’s really difficult to provide an estimate for a task that has never been done before - who knows what it might turn out to actually be? Even when it’s been done before in another context, a slight difference in the new context might make a huge difference.
+  <li>
+    The task description might not really encompass all the work that needs to be done. “Change the font size on this page” might mean that the developer will need to learn a whole new CMS to find out where the CSS is located before they can perform that “easy fix”.
+  <li>
+    Providing a reasonable time estimate for a task may require a few hours of investigation, research, coding a proof of concept, etc. Providing a “quick estimation” for a small list of 5 tasks could take days!
+  <li>
+    One word: browsers. With mobile phones, tablets, the variety of OS and the different versions of each browser, we sometimes end up spending most of the budget trying to make this button look just right on Chrome on Android 4.
+  <li>
+    Who can predict that a small change to, say, the social icons to the top corner, might mean we need to switch font providers? Even with an in-depth analysis beforehand, predicting the side effect of some changes is nearly impossible.
+</ul>
 
 It’s simple: estimates are possibly one of the least useful way to talk about a project.
 
@@ -44,13 +51,13 @@ Then what? How can we give a fair idea of how much a project will cost while als
 
 There might be hope on the horizon.
 
-Can this get better?
+## Can this get better?
 
 At CoLab, we’ve encountered this problem many times over. And, every time the estimates question gets brought up, it sparks a new conversation. What’s the best way to go about doing this? Many people have their favourite estimation technique which, they often seem to think, is the best thing since sliced bread.
 
 Let’s see which one really is the best.
 
-### Value-Based Billing
+## Value-Based Billing
 
 What about we don’t even talk about how much it’ll cost? What about we instead talk about how much money it’ll bring in?
 
@@ -61,21 +68,21 @@ An alternative approach would be to say, “Boosting newsletter subscribers is a
 
 Instead of evaluating if paying for 20 hours of time seems worth it, clients can evaluate based on how the work will impact a goal. It allows them to focus on outcomes rather than costs. After all, most clients would readily spend $100,000 to generate $150,000.
 
-PROS: Isn’t is pleasant to look at it positively? Thinking about the added revenues instead of the money needing to be spent?
+**PROS**: Isn’t is pleasant to look at it positively? Thinking about the added revenues instead of the money needing to be spent?
 
-CONS: It does require a lot more work from the developers, can feel a little bit like a leap of faith, and certainly only applies to companies which measure in revenues.
+**CONS**: It does require a lot more work from the developers, can feel a little bit like a leap of faith, and certainly only applies to companies which measure in revenues.
 
-### #NoEstimates
+## #NoEstimates
 
-The #NoEstimates philosophy isn’t really a new way of producing cost estimations. Instead, it challenges the concept of estimations as we know them and asks project leads to explore new avenues. As Woody Zuill puts it, #NoEstimates means: “question everything – put special focus on our deepest held beliefs. What we trust most hides our biggest problems.”
+The [#NoEstimates](http://softwaredevelopmenttoday.com/noestimates/) philosophy isn’t really a new way of producing cost estimations. Instead, it challenges the concept of estimations as we know them and asks project leads to explore new avenues. As [Woody Zuill puts it](http://zuill.us/WoodyZuill/2012/12/06/do-estimates-do-what-we-want-them-to-do/), #NoEstimates means: “question everything – put special focus on our deepest held beliefs. What we trust most hides our biggest problems.”
 
-It makes a lot of sense. Why would we continue using a tool that wastes everybody’s time and proves to be repeatedly flawed? #NoEstimates wants us - rightfully - to question our methods and to strive to produce the best work we can - from the very start of the project.
+It makes a lot of sense. Why would we continue using a tool that wastes everybody’s time and proves to be repeatedly flawed? [#NoEstimates](https://twitter.com/search?q=%23NoEstimates&src=typd) wants us - rightfully - to question our methods and to strive to produce the best work we can - from the very start of the project.
 
-PROS: Let’s stop using a tool which doesn’t work!
+**PROS**: Let’s stop using a tool which doesn’t work!
 
-CONS: But finding solutions takes time and a lot of trial and error. Maybe it’s better to stick with the devil we know?
+**CONS**: But finding solutions takes time and a lot of trial and error. Maybe it’s better to stick with the devil we know?
 
-### Budget-Driven Development
+## Budget-Driven Development
 
 This one’s tricky. Because budget making is a chicken and egg story: clients need an estimate to see how much budget they’ll need for the project. But a good estimate will be based on the client’s budget. Which comes first?
 
@@ -83,21 +90,21 @@ With budget-driven development, we start by setting limits. The client establish
 
 This approach requires strong project management techniques. And that’s probably why I like it the most. It means that everybody’s expectations are clearly laid out, and leaves it to the project manager to keep track of the work done and of changed needs. I believe a project well done is one where you’re often checking in with the client and making sure they’re happy with the work done. And something like budget-driven development will only work if everybody’s working together.
 
-PROS: No surprises! None! Seems impossible...
+**PROS**: No surprises! None! Seems impossible...
 
-CONS: Requires the client to have a very clear idea of what their needs are and of how much money they have to work with.
+**CONS**: Requires the client to have a very clear idea of what their needs are and of how much money they have to work with.
 
-### The CoLab Way
+## The CoLab Way
 
 The beauty of an organisation like CoLab is that there is room for evolution. For now, we’ve developed an estimate template which takes into account how much risk there is for a given task (adding a new feature in an unknown site will have a higher risk factor than, say, changing a password on a site we’ve been managing for years) and which provides a high and a low estimate for each task. If all goes well, we’ll be at the low. If problems come up, hopefully we’ll stay within the high.
 
 But this is only the current iteration of our method. And, thankfully, it’s far from being treated as gospel truth. We adapt to our clients and refine our estimate template with each lesson we learn. The most important thing for us is to always keep in mind that estimates are always a guess. The best we can do is work with the client to ensure that the final product can be as close to their expectations while respecting their budget. It takes hard work, constant communication and a lot of love for us to get there.
 
-PROS: Well, it’s the CoLab way, it must be the best, right?
+**PROS**: Well, it’s the CoLab way, it must be the best, right?
 
-CONS: It can be hard for a newcomer to understand the intricacy of so many levels of estimations (a low and high risk what?)
+**CONS**: It can be hard for a newcomer to understand the intricacy of so many levels of estimations (a low and high risk what?)
 
-### The method to rule them all
+## The method to rule them all
 
 What now? Which one is the best?
 

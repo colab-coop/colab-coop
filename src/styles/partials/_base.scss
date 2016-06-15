@@ -890,6 +890,9 @@ main {
 
   ul {
     @extend %ul-default;
+    li {
+      margin-bottom: 10px;
+    }
   }
 }
 
