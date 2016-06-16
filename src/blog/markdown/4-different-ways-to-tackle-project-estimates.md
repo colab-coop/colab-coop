@@ -1,6 +1,6 @@
 ---
 title: "4 different ways to tackle project estimates"
-summary: CoLab's Ryan Miga looks at the problems of project estimation and explores some possible solutions.
+summary: CoLab's Gabrielle Anctil looks at the problems of project estimation and explores some possible solutions.
 date: 2016-06-14
 authors: [gabrielle]
 readfullarticle: 4-different-ways-to-tackle-project-estimates
