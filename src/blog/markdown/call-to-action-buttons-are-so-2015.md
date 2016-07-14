@@ -1,5 +1,5 @@
 ---
-title: "Call to action buttons are so 2015"
+title: "Call To Action Buttons Are So 2015"
 summary: We at CoLab like to find the best solutions for everyday problems.. And when it comes to call to action buttons, we just think they could be better. “Click here to try our product!” you get told every time you land on a page. “Please, pay attention to me!” they seem to say. Oh boy. Is this really the only way to get people to try something out?
 date: 2016-07-14
 authors: [ralph]
