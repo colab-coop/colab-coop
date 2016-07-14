@@ -2,7 +2,7 @@
 title: "Call To Action Buttons Are So 2015"
 summary: We at CoLab like to find the best solutions for everyday problems.. And when it comes to call to action buttons, we just think they could be better. “Click here to try our product!” you get told every time you land on a page. “Please, pay attention to me!” they seem to say. Oh boy. Is this really the only way to get people to try something out?
 date: 2016-07-14
-authors: [ralph]
+authors: [gabrielle]
 readfullarticle: call-to-action-buttons-are-so-2015
 ---
 
@@ -16,7 +16,7 @@ What about this: imagine you don’t need to click on anything to see the softwa
 
 “Now that is something”, we thought. 
 
-So we tried it recently for a longstanding client. We were redesigning marketing pages for a web app we built called Valuate, trying to get the most exposure for it as a property valuation and investment analysis software app. “As a small operation, we need to rise above the noise in the marketplace without the aid of a 7-figure marketing and advertising budget,” explains Bruce Kirsch, REFM founder and CEO. 
+So we tried it recently for a longstanding client. We were redesigning [marketing pages](https://www.getrefm.com/valuate/) for a web app we built called [Valuate](https://app.getrefm.com/#/login), trying to get the most exposure for it as a property valuation and investment analysis software app. “As a small operation, we need to rise above the noise in the marketplace without the aid of a 7-figure marketing and advertising budget,” explains Bruce Kirsch, REFM founder and CEO. 
 
 One of the beauties of Valuate is that anyone can create an account and start using its robust features for free. We wanted to ensure that as many people as possible could take advantage of it. For Bruce Kirsch, there was only one way: “the least expensive way to get noticed from a direct marketing costs perspective is simply to be remarkable.”
 
