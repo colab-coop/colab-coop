@@ -32,7 +32,7 @@ Users no longer need to find their way through a labyrinth of pages before they 
 
 ”[The app integration on the marketing pages] showcases the software beautifully. Is it the first full web app embedded in a marketing page in the history of the Internet?” wonders Bruce Kirsch. “I’ve never seen anything like this.” 
 
-We are not ones to brag and boast but since we create something that’s never been done in the history of the internet (not verified) ;), we thought we’d share. Revolutionary app embed? Check!
+We are not ones to brag and boast but since we created something that’s never been done in the history of the internet (not verified) ;), we thought we’d share. Revolutionary app embed? Check!
 
 
 
