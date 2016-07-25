@@ -1,9 +1,9 @@
 ---
-title: "4 different ways to tackle project estimates"
+title: "Project Management: Four of the Best Ways to Do Project Estimates"
 summary: CoLab's Gabrielle Anctil looks at the problems of project estimation and explores some possible solutions.
 date: 2016-06-14
 authors: [gabrielle]
-readfullarticle: 4-different-ways-to-tackle-project-estimates
+readfullarticle: project-management-four-of-the-best-ways-to-do-project-estimates
 ---
 
 # Project Management: Four of the Best Ways to Do Project Estimates
