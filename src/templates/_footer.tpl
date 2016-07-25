@@ -30,7 +30,7 @@
 
 			<div class="grid-parent">
 				<div class="footer-address">
-					<span class="icon-dot"><a href="http://colabhive.com/"><img src="/assets/img/hive-logo.svg" alt="CoLab Hive"></a> Based in Ithaca, NY </span><span class="icon-dot">Working Worldwide</span><span class="icon-dot">&nbsp;(888) 426-5996&nbsp;</span>&nbsp;<a href="mailto:core@colab.coop">core@colab.coop</a>
+					<span class="icon-dot"><a href="http://colabhive.com/"><img src="/assets/img/hive-logo.svg" alt="CoLab Hive"></a> Based in Ithaca, NY </span><span>Working Worldwide</span>
 				</div>
 				<div class="footer-social">
 					<a href="//www.facebook.com/colab.coop">
