@@ -1,3 +1,5 @@
+/* jshint node: true */
+
 //FORM API INTEGRATION with SIMPLE VALIDATION
 
 "use strict";
@@ -18,7 +20,7 @@ $(document).ready(function(){
 		// Simple Validation for non-html5 browsers & textarea.
 		var $validated = 'true';
 		$(this).find('.required').each( function(){
-			if ($(this).val().trim() == '') {
+			if ($(this).val().trim() === '') {
 				$(this).addClass('error-empty');
 				$validated = 'false';
 				$(this).focus( function(){
@@ -131,7 +133,7 @@ $(document).ready(function(){
 		} // End if(validated)
 	});
 
-	$('main').on('click', '.form-selector li', function(x){
+	$('main').on('click', '.form-selector li', function() {
 		if (!$(this).hasClass('selected')) {
 
 			var pos = $(this).position();
@@ -148,7 +150,7 @@ $(document).ready(function(){
 			if (value != 'default') {
 				url = url + value + '/';
 			}
-			$('.form-wrapper').load(url + ' .form-wrapper', function(response, status, xhr) {
+			$('.form-wrapper').load(url + ' .form-wrapper', function(response, status) {
 				if (status == 'error') {
 					$(this).html('<div id="error"><div id="errorMsg">Sorry, this form could not be found. Please select another.</div></div>');
 				}

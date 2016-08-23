@@ -1,7 +1,7 @@
-var headroom = require('./headroom.min.js');
-var headroomJQuery = require('./jQuery.headroom.min.js');
-var owlCarousel = require('./owl.carousel.min.js');
-var formApi = require('./form.api.js');
+require('./headroom.min.js');
+require('./jQuery.headroom.min.js');
+require('./owl.carousel.min.js');
+require('./form.api.js');
 
 $('html').removeClass('no-js');
 
@@ -43,8 +43,10 @@ $(document).ready(function() {
 
   if (imgPixelate.length > 0) {
 
-    var img = new Image;
+    var img = new window.Image();
     //value = factor.value;
+
+    var jsPixelateCanvas = document.getElementById('jsPixelateCanvas');
 
     img.onload = function() {
       pixelate(jsPixelateCanvas, img, 0);
@@ -160,7 +162,7 @@ $(document).ready(function() {
   $('.img-pixelate-hover').load(function () {
     if ($(this).length !== 0) {
       $(this).each(function (x, i) {
-        var img = new Image;
+        var img = new window.Image();
         img.src = i.src;
 
         var canvas = document.getElementById(i.dataset.canvasid);
@@ -175,7 +177,7 @@ $(document).ready(function() {
         var iid;
 
         // animate pixelate on mouseover
-        pDiv.addEventListener('mouseover', function (e) {
+        pDiv.addEventListener('mouseover', function () {
           if (iid) {
             window.clearInterval(iid);
           }
@@ -191,7 +193,7 @@ $(document).ready(function() {
         });
 
         // animate depixelate on mouseout
-        pDiv.addEventListener('mouseout', function (e) {
+        pDiv.addEventListener('mouseout', function () {
           if (iid) {
             window.clearInterval(iid);
           }
@@ -228,7 +230,7 @@ $(document).ready(function() {
 //customize twitter feed
 var hideTwitterAttempts = 0;
 function hideTwitterBoxElements() {
-  setTimeout( function() {
+  window.setTimeout( function() {
     if ( $('[id*=twitter]').length ) {
       $('[id*=twitter]').each( function(){
         var ibody = $(this).contents().find( 'body' );
