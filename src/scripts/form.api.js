@@ -4,6 +4,8 @@
 
 "use strict";
 
+var $ = require('jquery');
+
 var API_URL = 'forms.colab.coop';
 //var API_URL = 'localhost:8113';
 

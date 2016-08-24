@@ -1,7 +1,8 @@
-require('./headroom.min.js');
-require('./jQuery.headroom.min.js');
 require('./owl.carousel.min.js');
 require('./form.api.js');
+
+var Headroom = require('./headroom.min.js');
+var $ = require('jquery');
 
 $('html').removeClass('no-js');
 
@@ -147,8 +148,11 @@ $(document).ready(function() {
   //red pixel cube at end of blog post
   $(".blog-post-info").children().last().addClass('icon-decorative-pixel');
 
-  //header: sticky
-  $(".nav").headroom({
+  // grab an element
+  var myElement = document.querySelector(".nav");
+  // construct an instance of Headroom, passing the element
+
+  var thisheadroom  = new Headroom(myElement, {
     "offset": 10,
     "tolerance": 5,
     "classes": {
@@ -157,6 +161,9 @@ $(document).ready(function() {
       "unpinned": "slideUp"
     }
   });
+
+  // initialise
+  thisheadroom.init();
 
   //thumbnails which pixelate on hover
   $('.img-pixelate-hover').load(function () {
