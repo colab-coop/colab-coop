@@ -124,12 +124,6 @@ gulp.task('blog-posts-html', function () {
     }))
     // include stuff
     .pipe(fileInclude())
-    // get the blog post directory name from the .md file name
-    .pipe(es.map(function (file, cb) {
-      dir = file.path.split('/');
-      dir = dir[dir.length - 1].replace('.md', '');
-      cb(null, file);
-    }))
     // insert handlebars values from frontmatter into head template
     .pipe(es.map(function (file, cb) {
       file.contents = new Buffer(
@@ -144,7 +138,7 @@ gulp.task('blog-posts-html', function () {
     }))
     // rename the destination path for the file (avoiding .html)
     .pipe(rename(function (path) {
-      path.dirname = dir.split('.')[0];
+      path.dirname = path.dirname + '/' + path.basename;
       path.basename = "index";
       path.extname = ".html";
     }))
