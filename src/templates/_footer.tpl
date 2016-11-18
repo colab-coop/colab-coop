@@ -28,17 +28,17 @@
 		    	</div>
 	    	</div> <!-- /grid-parent -->
 
-			<div class="grid-parent">
+			<div class="grid-parent bottom-footer">
 				<div class="footer-address">
 					<span class="icon-dot"><a href="http://colabhive.com/"><img src="/assets/img/hive-logo.svg" alt="CoLab Hive"></a> Based in Ithaca, NY </span><span>Working Worldwide</span>
-				</div>
-				<div class="footer-usfwc-text">
-					Proud member of the USFWC
 				</div>
 				<div class="footer-usfwc-img">
 					<a href="https://usworker.coop/home/">
 						<img src="/assets/img/usworkerlogo.png" alt="United States Federation of Worker Cooperatives logo" />
 					</a>
+				</div>
+				<div class="footer-usfwc-text">
+					Proud member of the USFWC
 				</div>
 				<div class="footer-social">
 					<a href="//www.facebook.com/colab.coop">

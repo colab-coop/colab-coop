@@ -576,6 +576,11 @@ main {
   @extend %text--smaller;
 }
 
+.bottom-footer {
+  position: relative;
+  margin-top: 60px;
+}
+
 .footer-address, .footer-social {
   @extend %grid-child;
 }
@@ -603,24 +608,24 @@ main {
 }
 
 .footer-usfwc-text {
-  float: left;
+  float: right;
   font-size: 0.7em;
   font-weight: bold;
   margin-left: 50px;
-  margin-right: 10px;
+  margin-right: 100px;
 }
 
 .footer-usfwc-img {
-  float: left;
-  top: 3px;
-  position: relative;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
   img {
-    height: 25px;
+    height: 95px;
   }
 }
 
 .footer-social {
-  float: right;
+  float: left;
   a {
     display: inline-block;
     padding-right: $base-spacing;
