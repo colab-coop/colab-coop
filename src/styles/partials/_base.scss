@@ -602,6 +602,23 @@ main {
   }
 }
 
+.footer-usfwc-text {
+  float: left;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.footer-usfwc-img {
+  float: left;
+  top: 3px;
+  position: relative;
+  img {
+    height: 25px;
+  }
+}
+
 .footer-social {
   float: right;
   a {
