@@ -26,7 +26,7 @@ function pixelate(canvas, img, value) {
   ctx.imageSmoothingEnabled =
     ctx.mozImageSmoothingEnabled =
     ctx.msImageSmoothingEnabled =
-    ctx.webkitImageSmoothingEnabled = false;
+    ctx.imageSmoothingEnabled = false;
 
   /// draw mini-version of image
   ctx.drawImage(img, 0, 0, fw, fh);
