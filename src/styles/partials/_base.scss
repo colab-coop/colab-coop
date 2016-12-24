@@ -607,20 +607,14 @@ main {
   }
 }
 
-.footer-usfwc-text {
-  float: right;
-  font-size: 0.7em;
-  font-weight: bold;
-  margin-left: 50px;
-  margin-right: 100px;
-}
-
-.footer-usfwc-img {
+.footer-logos-img {
   position: absolute;
   bottom: 0px;
   right: 0px;
+
   img {
     height: 95px;
+    margin-right: 20px;
   }
 }
 
