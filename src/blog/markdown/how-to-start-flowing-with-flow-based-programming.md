@@ -6,7 +6,7 @@ authors: [david]
 readfullarticle: how-to-start-flowing-with-flow-based-programming
 ---
 
-#How to Start Flowing with Flow-based Programming
+# How to Start Flowing with Flow-based Programming
 
 <img src="/assets/img/blog/on-flow-based-programming.png" class="center-element">
 
@@ -28,7 +28,7 @@ Well, I've had time to think about it, and it is my hope that this article will 
 
 Let's take a look at some of those benefits I mentioned.
 
-##Parallelism
+## Parallelism
 
 Anyone who has browsed through the [Google Group](http://groups.google.com/group/flow-based-programming) will undoubtedly come across JPM himself, reminding us that NoFlo and many others are not "classical" FBP. Read more [here](http://www.jpaulmorrison.com/fbp/noflo.html). To my understanding, "non-classical" FBP differs from classical FBP in several ways, but one of the major differences is that classical FBP allows for real parallelism (as opposed to concurrency).
 
@@ -38,7 +38,7 @@ In any case, I think that even if you ignore Web Workers, as most of us seem to 
 
 To illustrate why parallelism is beneficial, imagine a particular piece of code that is processing a large amount of data, and has become a bottleneck. In the flow-based programming world, we can simply copy that component and let it run in parallel, thus "cooling down" the hotspot, with very little modification to the program.
 
-##Async
+## Async
 
 If you will indulge me for a moment, please have a quick look at the story of async Javascript.
 
@@ -76,7 +76,7 @@ doIO()
 
 What about FBP? Well, easy async is one of my favorite aspects of flow-based programming, because FBP is _all async, all the time_. You just don't have to think about it. A component will execute when there is some data for it to work on... that's it. Whether you are waiting for an ajax response or input from the user, or a long computation, all FBP components are independent of one another. This lends FBP components to easy parallelism, as I mentioned above.
 
-##Externally Defined Connections
+## Externally Defined Connections
 
 Promise chaining like the above often reminds me of the command-line. If you've ever done ```ps aux | grep node``` then you've gotten a taste of flow-based programming. In the command-line, we use very simple programs that are completely ignorant of each other. We connect them with "pipes", taking the output flow of one program, and feeding it into the input of another.
 
@@ -92,7 +92,7 @@ As an aside, flow-based programming lends itself to the [microservices](https://
 
 In fact, there exist flow-based programming networks running in the wild where some FBP components were written in Java, and others in C++. And since async is no obstacle, it might be possible for a FBP network to consist of some Haskell components living in Berlin, some APL components in Rio De Janeiro, all waiting for data from a python component in NYC.
 
-##Conveyor belt, or plug n' play programming
+## Conveyor belt, or plug n' play programming
 
 One way to think about flow-based programming is to consider "code flow" vs "data flow". When hunting bugs or modifying programs, we often think about "where the program _is_" or "what is executing?". With flow-based programming however, we are following the data (the "information packets", in FBP jargon) through the system. We follow parts on a factory floor. We ask ourselves "where is the data?", and "what does the data look like right now?". Similar to electrical signals in an electronic circuit, we can probe the data at a connection for debugging purposes. We can similarly track a single datum through the factory machines that we have connected together.
 
@@ -106,7 +106,7 @@ Flow-based programming is sometimes called a "coordination" language. It is not 
 
 An added benefit of this separation of work is that it forces one to do real architecture design first, instead of jumping in and hacking on code as a first step.
 
-##Let's try it
+## Let's try it
 
 Okay, enough theory, let's get our hands dirty. There are several choices out there for pre-built FBP-like solutions. There's IBM's [NodeRed](http://nodered.org/), and there's [Blockie.io](https://www.youtube.com/user/BlockieIO), both of which seem to be focused on the Internet of Things. There are also projects like [Meemoo](http://meemoo.org/) and [Visor Create](http://create.vizor.io/) both of which seem to be focused on media creation.
 
@@ -257,13 +257,13 @@ FBP.go(
 
 Despite building the graph textually instead of using a graph editor, modifying the program for the contrived branching flow required the same work: adding nodes to the graph, connecting some edges, and providing parameters. No new code was written, as I reused the existing components.
 
-##The End
+## The End
 
 I hope you've enjoyed this little foray into flow-based programming. While FBP is certainly useful, and fun to create programs with, and has many advantages over textual programming, I think the real lesson to be learned here is: "how should we think about our programs?" Can we write functions/modules that can be viewed as "black boxes"? Sure. Can we write them in such a way that they can be infinitely reconfigurable, connected externally? Yep. Can we model our programs on factory machines and conveyor-belts, focusing on data? Yes! When we do, we gain many of the benefits of flow-based programming.
 
 And I think that's worth at least thinking about.
 
-##Links
+## Links
 
 If this FBP stuff interests you, here are some links you might enjoy:
 
@@ -281,12 +281,12 @@ If this FBP stuff interests you, here are some links you might enjoy:
 
 [JsMaker](http://jsmaker.com/jsmaker/) - "Visual Javascript Programing"
 
-##Reading suggestions
+## Reading suggestions
 
 [Dataflow and Reactive Programming Systems](https://deepfriedcode.com/books/darps.html) by Matt Carkci
 
 And of course nothing beats reading the book that started it all: [Flow-Based Programming, 2nd Edition: A New Approach to Application Development](http://www.jpaulmorrison.com/fbp/book.html) by J. Paul Morrison. You can read the first edition online [here](http://www.jpaulmorrison.com/fbp/1stedchaps.html).
 
-##Note on rhei.js
+## Note on rhei.js
 
 rhei.js is just a toy. It does not follow many of the FBP tenets such as: strict IP lifetimes, or bounded buffers, or substreams / brackets, or error handling, or composite components, or or or... in other words __do not use rhei.js for anything__. If you do feel like playing around with this toy, note that it uses ES6 arrow functions. So use node --harmony app.js for the server, and use Firefox for the client.
