@@ -2,7 +2,7 @@
 	<div class="container">
 
 		<div class="footer-info grid-parent">
-			<div class="footer-connect">
+			<div> <!-- add class="footer-connect" if jobs are available -->
 				<h2 class="h2">HIRE US</h2>
 				<div>We're easy to talk to.</div>
 
@@ -11,7 +11,7 @@
 				<a href="/contact/" class="button--brand-outline">Tell us about your project</a>
 			</div>
 
-			<div class="footer-connect">
+			<div class="footer-connect" style="display: none"> <!-- see HIRE US div above if jobs available again -->
 				<h2 class="h2">JOIN US</h2>
 				<div>Love what you do? So do we.</div>
 
