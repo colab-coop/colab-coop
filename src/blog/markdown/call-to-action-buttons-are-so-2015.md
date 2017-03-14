@@ -42,7 +42,10 @@ Original embed:
 
 New and improved:
 <div style="width:100%; height: 800px; overflow:hidden">
-  <iframe src="https://app.getrefm.com/#/share/transaction-runs/573df76671b3f7142a7cb1ff/-5478938058?public=true&amp;email=null" height="150" width="500" style="
+  <iframe src="https://app.getrefm.com#/embed/1?id=/embed/transaction-runs/575d82bb50a8940566e0324a/5083984218"
+  height="150"
+  width="500"
+  style="
   width: 1200px;
   height: 1510px;
   border: 0px;
@@ -54,5 +57,6 @@ New and improved:
   -webkit-transform: scale(0.56);
   -webkit-transform-origin: 0 0;
   transform: scale(0.56);
-  transform-origin: 0 0;"></iframe>
+  transform-origin: 0 0;"
+  frameborder="0"></iframe>
 </div>
