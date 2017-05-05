@@ -14,7 +14,7 @@ readfullarticle: may-strike
 
 Today, workers around the world join in solidarity with the long lineage of labor organizers and brave laborers who have fought hard for the many freedoms we enjoy today. At the same time, they are coming together to stand tall against the forces of exploitative, extractive transnational capital that seek to curtail democratic self-governance, impose authoritarian control over people’s personal and economic lives, and dismantle the power of the people that so many generations have worked so hard to build.
 
-We at CoLab support those who are standing their ground and fighting for human rights and economic justice around the world today, and those – such as our project partners at Democracy Collaborative and US Federation of Worker Coops – who are working hard to sustain and create alternatives to the malignant, flawed systems in which we are currently caught. 
+We at CoLab support those who are standing their ground and fighting for human rights and economic justice around the world today, and those – such as our project partners at [Democracy Collaborative](http://democracycollaborative.org/), the [International Cooperative Alliance](https://ica.coop/en) and [US Federation of Worker Coops](https://usworker.coop/home/) – who are working hard to sustain and create alternatives to the malignant, flawed systems in which we are currently caught.
 
 In solidarity with our US collaborators and member-owners who are striking today we would like to share their words and the demands (specific demands of the US May-day strike) of that movement here, today.
 
