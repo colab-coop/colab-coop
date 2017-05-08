@@ -1008,13 +1008,15 @@ main {
   }
   a {
     img {
+      margin-left: 30px;
+      margin-right: 30px;
       @extend %vertical-inline-middle;
       max-width: 40%;
-      filter: grayscale(1);
-      transition: all 0.2s linear;
-      &[src*="cmog"] {
-        opacity: .4;
-      }
+      // filter: grayscale(1);
+      // transition: all 0.2s linear;
+      // &[src*="cmog"] {
+      //   opacity: .4;
+      // }
     }
 
     &:hover {
