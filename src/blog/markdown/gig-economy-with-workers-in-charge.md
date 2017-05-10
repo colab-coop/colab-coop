@@ -1,12 +1,12 @@
 ---
-title: "App Launched: Think Gig Economy With Workers in Charge "
+title: "App Launched: Think Gig Economy With Workers in Charge"
 summary: "This week we launched Up & Go, a web application that connects consumers with local, sustainable, worker-owned cooperatives offering top-quality services at guaranteed fair wages."
 date: 2017-05-10
 authors: [ralph, ethan, gabrielle, rylan]
 readfullarticle: gig-economy-with-workers-in-charge
 ---
 
-# CoLab For Storied: Helping Meaningful Stories Live Forever
+# App Launched: Think Gig Economy With Workers in Charge
 
 <img src="/assets/img/blog/up-and-go.jpg" class="center-element">
 <small>Rylan Peery (far left) with other contributors to the UP&GO project presenting at the launch event in NYC</small>
@@ -20,3 +20,5 @@ Over the past year and a half, CoLab designed and built the app in collaboration
 >_-Steven Lee, a managing director at Robin Hood_
 
 Our work together has centered on a vision of a future in which technology enables new forms of cooperatively-owned, democratically-governed businesses to scale and thrive in the competitive world of online e-commerce. Offering an alternative to models that are often extractive and exploitative, these business  support a new economy founded on cooperation and sustainability. We’ll have to go deeper on that another time. For now we’re excited to announce that the first step toward this vision has launched this week – an easy-to-use, open marketplace for cooperative house cleaning: [upandgo.coop](https://www.upandgo.coop/).
+
+Read Up & Go’s official press release on [www.marketwired.com](http://www.marketwired.com/press-release/new-home-services-platform-up-go-shakes-up-gig-economy-putting-workers-charge-2215217.htm).
