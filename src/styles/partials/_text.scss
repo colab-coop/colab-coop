@@ -291,6 +291,7 @@ blockquote {
 
 .text--smaller, %text--smaller {
   font-size: 80%;
+  line-height: 0.5em;
 }
 
 @mixin text--smaller {
