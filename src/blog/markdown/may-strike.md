@@ -8,7 +8,7 @@ readfullarticle: may-strike
 
 # May Strike
 
-<img src="/assets/img/blog/image1.png" class="center-element">
+<img src="/assets/img/blog/co-operator.png" class="center-element">
 
 60 years before the first May Day commemorated the Haymarket Affair in 1889, the English physician Robert Owen published the above words in the first volume of The Co-operator. Owen was one of the earliest cooperative founders, and the journal he started had profound impact on the then-emerging movement. In his writing he made clear both the need for an uncompromising critique of the unsustainable and unjust industrial system coming of age in his time, as well as the need to focus on creating fair and just organizations within that economic model. 
 
