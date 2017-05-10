@@ -9,7 +9,7 @@ readfullarticle: gig-economy-with-workers-in-charge
 # App Launched: Think Gig Economy With Workers in Charge
 
 <img src="/assets/img/blog/up-and-go.jpg" class="center-element">
-<small class="text--smaller">Rylan Peery (far left) with other contributors to the UP&GO project presenting at the launch event in NYC</small>
+<small class="text--smallest">Rylan Peery (far left) with other contributors to the UP&GO project presenting at the launch event in NYC</small>
 
 This week we launched Up & Go, a web application that connects consumers with local, sustainable, worker-owned cooperatives offering top-quality services at guaranteed fair wages. The platform’s first focus is on house-cleaning, provided by majority-women-owned worker cooperatives in the New York City area. As it grows it will include more services and, we hope, expand to more regions, supporting just economies and the cooperative movement in cities around the world.
 
