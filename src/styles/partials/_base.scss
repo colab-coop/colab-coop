@@ -988,6 +988,19 @@ main {
 //------------------------------------------------
 // About: Page
 
+.process-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .process {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 590px;
+  }
+}
+
 .services-list-each {
   margin-top: $base-spacing-mid;
 
