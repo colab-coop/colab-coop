@@ -83,6 +83,21 @@ label {
   	width: 100%;
   }
 
+  div.subscribe-email-field {
+    width: 66.66%;
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  @media screen and (max-width: 480px) {
+    div.subscribe-email-field {
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
   input[type="submit"], button {
   	display: inline-block;
     min-width: 140px;
