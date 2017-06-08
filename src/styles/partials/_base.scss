@@ -577,8 +577,11 @@ main {
 }
 
 .bottom-footer {
-  position: relative;
   margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .footer-address, .footer-social {
@@ -586,8 +589,6 @@ main {
 }
 
 .footer-address {
-  float: left;
-
   img {
     height: 25px;
     margin: 0 5px;
@@ -608,9 +609,7 @@ main {
 }
 
 .footer-logos-img {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+  margin-left: auto;
 
   img {
     height: 95px;
@@ -619,7 +618,6 @@ main {
 }
 
 .footer-social {
-  float: left;
   a {
     display: inline-block;
     padding-right: $base-spacing;
@@ -636,10 +634,14 @@ main {
 
 .footer-hash {
   text-align: center;
+  div.twitter-container {
+    margin: auto;
+    max-width: 600px;
+  }
 }
 
 .twitter-timeline {
-  height: auto !important;
+  // height: auto !important;
   width: 80% !important;
 }
 
