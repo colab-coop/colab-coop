@@ -121,7 +121,9 @@ $(document).ready(function() {
   });
 
   //slider
-  $("#slider-testimonial").owlCarousel({
+  var test = $("#slider-testimonial").owlCarousel({
+    autoPlay: true,
+    loop: true,
     navigation : true,
     navigationText : false,
     pagination : false,
