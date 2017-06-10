@@ -1,12 +1,12 @@
 ---
 title: "AltCoins and Alt-Societies"
-summary: "Investing in cryptocurrencies is fun, but let’s not forget what we are doing here: building the economic systems of the future."
+summary: "Investing in cryptocurrencies is fun, but let’s not forget what we are doing: building the economic systems of the future."
 date: 2017-06-09
-authors: [ethan]
+authors: [ethan, jeremy, david]
 readfullarticle: alt-coins-and-alt-societies
 ---
 
-<img src="/assets/img/blog/coin.png" class="center-element" alt="video game coin">
+<img src="/assets/img/blog/coin.gif" class="center-element" alt="video game coin">
 
 # Altcoins and alt-societies
 
