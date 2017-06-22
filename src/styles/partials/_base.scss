@@ -314,6 +314,57 @@ hr {
   }
 }
 
+.project-upandgo {
+
+  .logo-container {
+    width: 25%;
+  }
+
+  .main-logo {
+    position: absolute;
+    width: 25%;
+    top: 40%;
+  }
+
+  .oxygen {
+    font-weight: bold;
+    font-family: $oxygen-font;
+  }
+
+  .lubalin {
+    font-family: $lubalin;
+  }
+
+  .panel-full {
+    img.logo {
+      margin-top: 35px;
+      margin-bottom: 35px;
+    }
+  }
+
+  .panel-bio {
+    font-size: 100%;
+  }
+
+  .panel-overlap-content {
+    background-color: #222222;
+    .giantquotes {
+      width: 58px;
+      height: 51px;
+    }
+  }
+
+  .panel-overlap-upandgo-bg {
+    background-image: url("../img/projects/upandgo/ameeting.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    .container--text {
+      padding-top: 60px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
 /* End Module: Panel: Project specific images */
 
 //------------------------------------------------
