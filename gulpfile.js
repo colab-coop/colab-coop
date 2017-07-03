@@ -251,6 +251,60 @@ gulp.task('xml', function () {
     .pipe(gulp.dest(destination));
 });
 
+// The RSS feed
+gulp.task('rss', ['rss-items'], function () {
+  // taking the rss items list from the 'rss-items' step
+  // and including it into the rss.xml template
+  return gulp.src('src/rss/rss.xml')
+    .pipe(es.map(function (file, cb) {
+      // first inject the build destination so include knows where to go
+      var xml = mustache.render(
+        String(file.contents), {
+          buildDest: config.buildDest
+        });
+      file.contents = new Buffer(xml);
+      cb(null, file);
+    }))
+    // then actually include the items
+    .pipe(fileInclude())
+    // now we have /rss.xml tada
+    .pipe(gulp.dest(destination));
+});
+
+// RSS Feed (individual items)
+gulp.task('rss-items', function () {
+  var rssxml = String(fs.readFileSync('src/rss/rss-items.xml'));
+
+  return gulp.src('src/blog/markdown/**/*.md')
+    // extract the frontmatter from the .md add to file attributes
+    .pipe(frontMatter({
+      property: 'frontMatter',
+      remove: true
+    }))
+    // use the frontmatter to populate a blog post list
+    .pipe(es.map(function (file, cb) {
+      var xml;
+      if (file.frontMatter.category !== 'drupal') {
+        cb();
+      } else {
+        xml = mustache.render(rssxml, {
+          item: file.frontMatter,
+          // link: 'https://colab.coop/blog' + '/' + file.frontMatter.readfullarticle + '.html'
+        });
+        file.contents = new Buffer(xml);
+        cb(null, file);
+      }
+    }))
+    // sort the list newest-first
+    .pipe(sort(function (a, b) {
+      if (a.frontMatter.date > b.frontMatter.date) return -1;
+      if (a.frontMatter.date < b.frontMatter.date) return 1;
+      return 0;
+    }))
+    // concat the list into a single xml
+    .pipe(concat('rss-items.xml'))
+    .pipe(gulp.dest(destination));
+});
 
 gulp.task('clean', function(cb) {
   del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/prototype', '!'+destination+'/editor'], {force:true}, cb);
@@ -259,7 +313,7 @@ gulp.task('clean', function(cb) {
 // default build task
 gulp.task('default', ['clean'], function() {
   // clean first, then these
-  gulp.start('html', 'xml', 'styles', 'scripts', 'images');
+  gulp.start('html', 'xml', 'rss', 'styles', 'scripts', 'images');
 });
 
 // watch

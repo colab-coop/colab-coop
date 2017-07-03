@@ -3,6 +3,7 @@ title: "Installing Solr 5 for Drupal Apachesolr on OS X with Homebrew"
 summary: "First in a series of technical posts at CoLab!"
 date: 2017-03-17
 authors: [jeremy]
+category: drupal
 readfullarticle: installing-solr-5-for-drupal-apachesolr-on-os-x-with-homebrew
 ---
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+  <rss version="2.0">
+    <channel>
+      <title>CoLab Coop Drupal RSS Feed</title>
+      <link>https://colab.coop</link>
+      <description>Drupal Posts at CoLab Coop</description>
+
+      @@include('{{{buildDest}}}rss-items.xml')
+
+    </channel>
+  </rss>
+</xml>

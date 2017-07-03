@@ -1,0 +1,5 @@
+<item>
+  <title>{{item.title}}</title>
+  <link>https://colab.coop/blog/{{item.readfullarticle}}</link>
+  <description>{{item.summary}}</description>
+</item>
