@@ -19,5 +19,7 @@ var _vwo_code=(function(){
 </script>
 <!-- End Visual Website Optimizer Asynchronous Code -->
 
+<script src="https://widget.battleforthenet.com/widget.js" async></script>
+
 </body>
 </html>
