@@ -275,7 +275,7 @@ function hideTwitterBoxElements() {
 
 function startTyping() {
   var typed = new Typed('.typedjs', {
-    strings: ['It doesn\'t mean anything^1500', 'if it doesn\'t have heart^1500'],
+    strings: ['if it doesn\'t have heart.^1500', 'It doesn\'t mean anything,^1500'],
     startDelay: 0,
     typeSpeed: 50,
     backSpeed: 0,
