@@ -599,6 +599,83 @@ main {
   transition: all 0.6s ease-in;
 }
 
+canvas.centered-canvas {
+  margin: 0 auto;
+  display: inherit;
+}
+
+div.red-banner-overlay {
+  height: 456px;
+  opacity: 0.93;
+  background-color: #F24249;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+body.home {
+  section.panel-full {
+    img.upandgo-home {
+      min-width: 1500px;
+      @media all and (max-width: 1200px) {
+        transform: translateX(-20%);
+      }
+      @media all and (max-width: 898px) {
+        transform: translateX(-40%);
+      }
+      @media all and (max-width: 590px) {
+        transform: translateX(-60%);
+      }
+    }
+    div.container-typed {
+      max-width: 500px;
+    }
+    span.typedjs {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    span.typed-cursor {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 1.5em;
+      width: 100%;
+      position: absolute;
+      color: white;
+      text-align: center;
+      &.upandgo-tagline {
+        margin-top: 20px;
+        top: 50%;
+      }
+      &.recent-work {
+        font-weight: bold;
+        top: 10%;
+      }
+    }
+
+    img.main-logo {
+      width: 270px;
+      display: block;
+      position: absolute;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      top: 40%;
+    }
+
+    div.banner-home-button {
+      font-size: 1.2em;
+      position: absolute;
+      width: 100%;
+      top: 70%;
+      text-align: center;
+      @media all and (max-width: 590px) {
+        margin-top: 30px;
+      }
+    }
+  }
+}
 
 //------------------------------------------------
 // LAYOUT: FOOTER

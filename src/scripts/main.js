@@ -4,6 +4,8 @@ require('./form.api.js');
 var Headroom = require('./headroom.min.js');
 var $ = require('jquery');
 
+var Typed = require('typed.js');
+
 $('html').removeClass('no-js');
 
 // takes a canvas element, image, and pixelation value, and
@@ -234,6 +236,8 @@ $(document).ready(function() {
   //customize twitter feed
   hideTwitterBoxElements();
 
+  // do typing effect
+  startTyping();
 });
 
 //customize twitter feed
@@ -267,4 +271,15 @@ function hideTwitterBoxElements() {
       hideTwitterBoxElements();
     }
   }, 1500);
+}
+
+function startTyping() {
+  var typed = new Typed('.typedjs', {
+    strings: ['It doesn\'t mean anything^1500', 'if it doesn\'t have heart^1500'],
+    startDelay: 0,
+    typeSpeed: 50,
+    backSpeed: 0,
+    fadeOut: true,
+    loop: true
+  });
 }
