@@ -31,7 +31,7 @@ Right out of the gate, the platform loads with lightning speed. Thanks to optimi
 
 ## AFTER
 
-<img src="/assets/img/blog/The_Christian_Century___Thinking_Critically__Living_Faithfully_.jpg" class="center-element">
+<img src="/assets/img/blog/The_Christian_Century___Thinking_Critically__Living_Faithfully.jpg" class="center-element">
 
 We also redesigned Christian Century’s layout from the ground up. The front page alone features nine possible layouts for content: “featured,” “listed,” or “small” views for content that either have an image, have no image, or have a reviewed work. Users can now view book covers or article images as retina-display optimized images at up to twice the resolution of standard monitors. This means that Christian Century’s crisp, font-driven interface looks sharp and consistent, regardless of where users read it.
 
