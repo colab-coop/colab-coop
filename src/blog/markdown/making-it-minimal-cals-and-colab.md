@@ -2,7 +2,7 @@
 title: "Making it Minimal: CALS and CoLab"
 summary: "CALS approached CoLab with a need to upgrade one of the primary themes used for the front-end display of departmental information."
 date: 2017-07-31
-authors: [doug]
+authors: [doug,jeremy]
 readfullarticle: making-it-minimal-cals-and-colab
 ---
 
