@@ -1,6 +1,6 @@
 ---
 title: "Site Launched: Say Hello to thenextsystem.org"
-summary: "Meet the newly redesignd website for The Next System. Gorgeous? You bet."
+summary: "Meet the newly redesigned The Next System, a bold, beautiful, and accessible website for extensive writing on the global economy."
 date: 2017-09-21
 authors: [ralph]
 readfullarticle: site-launched-say-hello-to-thenextsystem
