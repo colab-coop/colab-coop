@@ -10,7 +10,7 @@ readfullarticle: life-on-the-road-technomadism-and-distributed-working
 
 <img src="/assets/img/blog/IMG_1848.jpg" class="center-element"></a>
 
-For many in the tech industry, the benefits of working remotely and with distributed teams often seem to remain theoretical. Without the burden of needing to report to a physical office space, one could work from the comforts of just about anywhere—whether one prefers a buzzing metropolis or the serene countryside. In the real world, though, despite such opportunities many simply choose to stay put, preferring practicality over wonder or stability over adventure.
+For many in the tech industry, the benefits of working remotely and with distributed teams often seem to remain theoretical. Without the burden of needing to report to a physical office space, one *could* work from the comforts of just about anywhere—whether one prefers a buzzing metropolis or the serene countryside. In the real world, though, despite such opportunities many simply choose to stay put, preferring practicality over wonder or stability over adventure.
 
 But for a number of CoLabrs, the possibilities of technomadism—lifestyles of technologically connected nomadic mobility—have been anything but hypothetical. What’s more, with its team members spread out over four continents, CoLab is no stranger to geographically distributed work. Since its founding in 2010, the tech coop has brought on board team members from New York to Oakland to Montreal to Taipei to Jakarta to Izola, Slovenia, to Chandigarh, India. One of CoLab’s values has been to support its workers’ decisions to live in unconventional ways including “life on the road.”
 
