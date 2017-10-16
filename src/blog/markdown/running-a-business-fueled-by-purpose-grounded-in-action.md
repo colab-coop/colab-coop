@@ -8,6 +8,8 @@ readfullarticle: running-a-business-fueled-by-purpose-grounded-in-action
 
 # Running a Business Fueled by Purpose, Grounded in Action
 
+<img src="/assets/img/blog/bikeralphrylan.jpg" class="center-element">
+
 CoLab was founded to counter a societal tendency to encourage self-serving participation in “zero sum game” economics and relationships. After spending time as an entrepreneur in Silicon Valley and working in venture capital it became abundantly clear to me that most entrepreneurs and funders and the systems within which they work are collectively oriented towards personal benefit and extraction of value from the labor of others. Often entrepreneurs are wrapped up in a cloak of personal hubris leaving them with symptoms of “egocitis” characterized by impatience, talking down to peers, defensiveness at challenge, and a close-minded approach overall to acknowledging one’s own weaknesses and vulnerabilities.
 
 CoLab then was founded as an effort to put organizational systems in place—economic collaborative structures—that counter the vanity and selfish motivations perpetuated by much of the Internet Technology economy. 
