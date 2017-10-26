@@ -1,6 +1,6 @@
 ---
 title: "Running a Business Fueled by Purpose, Grounded in Action"
-thumbnail: "/assets/img/blog/bikeralphrylan.jpg"
+thumbnail: "https://colab.coop/assets/img/blog/bikeralphrylan.jpg"
 summary: "Changing the world through sharing and collaboration, one business at a time."
 date: 2017-10-16
 authors: [rylan]

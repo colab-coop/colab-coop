@@ -13,7 +13,7 @@
   <!-- Schema.org data -->
   <meta itemprop="name" content="{{title}}">
   <meta itemprop="description" content="{{summary}}">
-  <meta itemprop="image" content="//colab.coop/assets/img/colab-logo-social-share.png">
+  <meta itemprop="image" content="https://colab.coop/assets/img/colab-logo-social-share.png">
 
   <!-- Twitter Card data -->
   <meta name="twitter:title" content="{{title}}">
@@ -30,7 +30,7 @@
   <meta property="og:description" content="{{summary}}" />
   <meta property="og:image" content="{{{thumbnail}}}" />
   <meta property="og:site_name" content="CoLab" />
-  <meta property="article:publisher" content="//www.facebook.com/colab.coop" />
+  <meta property="article:publisher" content="https://www.facebook.com/colab.coop" />
 
   <script type="text/javascript">
 
