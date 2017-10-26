@@ -273,9 +273,17 @@ function hideTwitterBoxElements() {
   }, 1500);
 }
 
+var strings = '';
+
+if ( window.navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i) ) {
+  strings = ['It doesn\'t mean anything, if it doesn\'t have heart.^1500']
+} else {
+  strings = ['if it doesn\'t have heart.^1500', 'It doesn\'t mean anything,^1500']
+}
+
 function startTyping() {
   var typed = new Typed('.typedjs', {
-    strings: ['if it doesn\'t have heart.^1500', 'It doesn\'t mean anything,^1500'],
+    strings: strings,
     startDelay: 0,
     typeSpeed: 50,
     backSpeed: 0,
