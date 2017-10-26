@@ -1,5 +1,6 @@
 ---
 title: "CoLab Unveils Vermont Law School’s New Drupal 8 Rebuild"
+thumbnail: "https://colab.coop/assets/img/blog/vermont-law.png"
 summary: "A speedier build for a bigger impact."
 date: 2017-10-12
 authors: [margy]
