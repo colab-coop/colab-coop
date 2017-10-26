@@ -1,5 +1,6 @@
 ---
 title: "Furnish Sustainably with mebl"
+thumbnail: "https://colab.coop/assets/img/blog/mebl1.JPG"
 summary: "Beautiful, eco-friendly furniture is finally here."
 date: 2017-10-13
 authors: [gabrielle]
