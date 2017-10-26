@@ -132,7 +132,8 @@ gulp.task('blog-posts-html', function () {
             title: file.frontMatter.title,
             base: config.baseURL,
             include: file.frontMatter.readfullarticle,
-            summary: file.frontMatter.summary
+            summary: file.frontMatter.summary,
+            thumbnail: file.frontMatter.thumbnail
           }));
       cb(null, file);
     }))

@@ -28,7 +28,7 @@
   <meta property="og:title" content="{{title}}" />
   <meta property="og:url" content="//colab.coop/blog/{{include}}" />
   <meta property="og:description" content="{{summary}}" />
-  <meta property="og:image" content="//colab.coop/assets/img/colab-logo-social-share.png" />
+  <meta property="og:image" content="{{{thumbnail}}}" />
   <meta property="og:site_name" content="CoLab" />
   <meta property="article:publisher" content="//www.facebook.com/colab.coop" />
 
