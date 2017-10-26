@@ -17,16 +17,16 @@
 
   <!-- Twitter Card data -->
   <meta name="twitter:title" content="{{title}}">
-  <meta name="twitter:url" content="//colab.coop/blog/{{include}}">
+  <meta name="twitter:url" content="https://colab.coop/blog/{{include}}">
   <meta name="twitter:description" content="{{summary}}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@colabcoop">
   <meta name="twitter:creator" content="@colabcoop">
-  <meta name="twitter:image" content="//colab.coop/assets/img/colab-logo-social-share-twitter.png">
+  <meta name="twitter:image" content="https://colab.coop/assets/img/colab-logo-social-share-twitter.png">
 
   <!-- Open Graph data -->
   <meta property="og:title" content="{{title}}" />
-  <meta property="og:url" content="//colab.coop/blog/{{include}}" />
+  <meta property="og:url" content="https://colab.coop/blog/{{include}}" />
   <meta property="og:description" content="{{summary}}" />
   <meta property="og:image" content="{{{thumbnail}}}" />
   <meta property="og:site_name" content="CoLab" />
