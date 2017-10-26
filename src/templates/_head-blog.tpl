@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="{{title}}">
   <meta name="twitter:url" content="https://colab.coop/blog/{{include}}">
   <meta name="twitter:description" content="{{summary}}">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@colabcoop">
   <meta name="twitter:creator" content="@colabcoop">
   <meta name="twitter:image" content="https://colab.coop/assets/img/colab-logo-social-share-twitter.png">
