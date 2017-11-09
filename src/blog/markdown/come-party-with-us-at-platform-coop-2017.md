@@ -18,7 +18,9 @@ Learn more about the event and [get your tickets](https://www.eventbrite.com/e/p
 This event is co-sponsored by the [Platform Cooperative Consortium](https://platform.coop/about/consortium).
  
 > **What**: Platform Coop Afterparty
+
 > **Where**: [Civic Hall](https://civichall.org/events/platform-coop-2017-technology-afterparty/), 118 W 22nd St 12th FL, New York 10011
+
 > **When**: November 11th, 2017
  
 Image by Jeff Warren and Caroline Woolard, made to visualize the Solidarity Economy in a neighborhood. [You can order a print to benefit NAACP or SPLC here](http://unterbahn.com/solidarity/).
