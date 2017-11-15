@@ -285,16 +285,13 @@ gulp.task('rss-items', function () {
     // use the frontmatter to populate a blog post list
     .pipe(es.map(function (file, cb) {
       var xml;
-      if (file.frontMatter.category !== 'drupal') {
-        cb();
-      } else {
-        xml = mustache.render(rssxml, {
-          item: file.frontMatter,
-          // link: 'https://colab.coop/blog' + '/' + file.frontMatter.readfullarticle + '.html'
-        });
-        file.contents = new Buffer(xml);
-        cb(null, file);
-      }
+
+      xml = mustache.render(rssxml, {
+        item: file.frontMatter,
+        // link: 'https://colab.coop/blog' + '/' + file.frontMatter.readfullarticle + '.html'
+      });
+      file.contents = new Buffer(xml);
+      cb(null, file);
     }))
     // sort the list newest-first
     .pipe(sort(function (a, b) {
