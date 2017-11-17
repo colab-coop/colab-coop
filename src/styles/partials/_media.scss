@@ -215,7 +215,7 @@
     }
 
     .logo-svg {
-      polygon, path {
+      polygon, path, text {
         fill: #fff;
       }
     }
@@ -252,7 +252,7 @@
     padding: $base-spacing-lg 0 $base-spacing 0;
     .logo-svg {
   		height: 52px;
-      width: 200px;
+      width: 230px;
     }
   }
 
