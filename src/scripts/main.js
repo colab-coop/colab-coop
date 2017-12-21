@@ -282,6 +282,10 @@ if ( window.navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera
 }
 
 function startTyping() {
+  if (!$('.typedjs').length) {
+    return;
+  }
+
   var typed = new Typed('.typedjs', {
     strings: strings,
     startDelay: 0,

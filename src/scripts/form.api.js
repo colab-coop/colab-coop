@@ -9,7 +9,7 @@ var $ = require('jquery');
 var API_URL = 'forms.colab.coop';
 //var API_URL = 'localhost:8113';
 
-$(document).ready(function(){
+$(document).ready(function () {
 
 	$(document).on('submit', '.form-api', function(e) {
 		e.preventDefault();
@@ -135,29 +135,39 @@ $(document).ready(function(){
 		} // End if(validated)
 	});
 
-	$('main').on('click', '.form-selector li', function() {
-		if (!$(this).hasClass('selected')) {
+  function loadForm (form) {
+    var liel = $('*[data-value="' + form + '"]');
 
-			var pos = $(this).position();
-			var ppos = $(this).parent().position();
+		if (!liel.hasClass('selected')) {
+
+			var pos = liel.position();
+			var ppos = liel.parent().position();
 			var ptop = $('.form-select-text').css('paddingTop').replace('px','');
 			var move = (pos.top - ppos.top) - ptop;
 
 			$('.form-select-text').animate({top:  move + 'px'}, 400, 'swing');
 
-			$(this).addClass('selected').siblings('.selected').removeClass('selected');
+			liel.addClass('selected').siblings('.selected').removeClass('selected');
 
-			var value = $(this).data('value');
 			var url = document.URL.replace('http:', '');
-			if (value != 'default') {
-				url = url + value + '/';
+			if (form != 'default') {
+				url = url + form + '/';
 			}
-			$('.form-wrapper').load(url + ' .form-wrapper', function(response, status) {
+
+			$('.form-wrapper').load(url + ' .form-wrapper', function (response, status) {
 				if (status == 'error') {
 					$(this).html('<div id="error"><div id="errorMsg">Sorry, this form could not be found. Please select another.</div></div>');
 				}
 			});
 
 		}
+	}
+
+	$('main').on('click', '.form-selector li', function handleClick (e) {
+	  var form = $(this).data('value');
+    loadForm(form);
 	});
+
+  // default to project-check-in
+  loadForm('project-check-in')
 });
