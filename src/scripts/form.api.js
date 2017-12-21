@@ -138,7 +138,7 @@ $(document).ready(function () {
   function loadForm (form) {
     var liel = $('*[data-value="' + form + '"]');
 
-		if (!liel.hasClass('selected')) {
+		if (liel.length !== 0 && !liel.hasClass('selected')) {
 
 			var pos = liel.position();
 			var ppos = liel.parent().position();
