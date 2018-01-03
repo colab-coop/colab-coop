@@ -1,5 +1,5 @@
 ---
-title: "Come Party with Us at Platform Coop 2017"
+title: "Party with Us at Platform Coop 2017"
 thumbnail: "https://colab.coop/assets/img/blog/platformcoop2017.jpg"
 summary: "Let’s turn the best #platformcoop ideas into action."
 date: 2017-11-09
@@ -7,7 +7,7 @@ authors: [danny]
 readfullarticle: come-party-with-us-at-platform-coop-2017
 ---
 
-# Come Party with Us at #platformcoop 2017
+# Party with Us at #platformcoop 2017
 
 <img src="/assets/img/blog/platformcoop2017.jpg" class="center-element">
 
