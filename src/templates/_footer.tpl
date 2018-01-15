@@ -45,11 +45,6 @@
 					    <use xlink:href="/assets/img/ico-social.svg#ico-twitter"></use>
 					  </svg>
 					</a>
-					<a href="//plus.google.com/+ColabCooperative">
-					  <svg viewBox="0 0 20 20" class="ico-social">
-					    <use xlink:href="/assets/img/ico-social.svg#ico-gplus"></use>
-					  </svg>
-					</a>
 					<a href="//github.com/colab-coop/">
 					  <svg viewBox="0 0 20 20" class="ico-social">
 					    <use xlink:href="/assets/img/ico-social.svg#ico-github"></use>
