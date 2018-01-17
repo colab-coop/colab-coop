@@ -1,7 +1,7 @@
 ---
-title: "RSVP for the People's Open Forum on Tech, Co-ops, & more"
-thumbnail: "https://colab.coop/assets/img/blog/platformcoopgathering.jpg"
-summary: "After the #platformcoop afterparty is… another party!"
+title: "After the #platformcoop afterparty is… another party!"
+thumbnail: "https://colab.coop/assets/img/blog/afterpartyafterparty.jpg"
+summary: "RSVP for the People's Open Forum on Tech, Co-ops, & more"
 date: 2018-01-16
 authors: [danny]
 readfullarticle: after-the-platformcoop-afterparty-is-another-party
@@ -9,7 +9,7 @@ readfullarticle: after-the-platformcoop-afterparty-is-another-party
 
 # After the #platformcoop afterparty is… another party!
 
-<img src="/assets/img/blog/platformcoopgathering.jpg" class="center-element">
+<img src="/assets/img/blog/afterpartyafterparty.jpg" class="center-element">
 
 Most days, the promise of democracy on the internet feels far away. But with 300 people gathering in NYC this past November, CoLab decided we should host an afterparty to start collaborations - the first of many!
 
@@ -22,11 +22,4 @@ Now, wo keep the momentum going, we’re hosting an open forum online, 4pm Easte
 <div class="spacing--sm"></div>
 </section>
 
-One more thing! Do you want more space for discussion and link-sharing? People are reorganizing a Slack channel for #platformcoop. [Click here to get an auto-invite](https://ioo.coop/connect)!
-
-(Bonus: in addition to Slack, you can also join an email list, a couple Facebook groups, and [social.coop](https://social.coop) - an instance of the open source and federated Twitter alternative Mastadon!)
-
-
-
-
-
+One more thing! Do you want more space for discussion and link-sharing? People are reorganizing a Slack channel for #platformcoop. [Click here to get an auto-invite](https://ioo.coop/connect)! Bonus: in addition to Slack, you can also join an email list, a couple Facebook groups, and a co-op node on Mastadon, the open source and federated Twitter alternative!
