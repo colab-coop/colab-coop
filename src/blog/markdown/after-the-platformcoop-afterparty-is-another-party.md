@@ -22,4 +22,4 @@ Now, wo keep the momentum going, we’re hosting an open forum online, 4pm Easte
 <div class="spacing--sm"></div>
 </section>
 
-One more thing! Do you want more space for discussion and link-sharing? People are reorganizing a Slack channel for #platformcoop. [Click here to get an auto-invite !](https://ioo.coop/connect) Bonus: in addition to Slack, you can also join an email list, a couple Facebook groups, and a co-op node on Mastadon, the open source and federated Twitter alternative!
+One more thing! Do you want more space for discussion and link-sharing? People are reorganizing a Slack channel for #platformcoop. [Click here to get an auto-invite!](https://ioo.coop/connect) Bonus: in addition to Slack, you can also join an email list, a couple Facebook groups, and a co-op node on Mastadon, the open source and federated Twitter alternative!
