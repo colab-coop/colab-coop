@@ -10,7 +10,7 @@ readfullarticle: internationalwomensday-build-the-co-op-run-the-world
 # #InternationalWomensDay: Build the Co-op, Run the World
 
 <img src="/assets/img/blog/colabheartbeat8march.jpg" class="center-element">
-Photo by [@pagepant](https://twitter.com/pagepant/status/971811737656729601), illustration by [slenhardt.com](http://www.slenhardt.com/)
+<small>Photo by [@pagepant](https://twitter.com/pagepant/status/971811737656729601), illustration by [slenhardt.com](http://www.slenhardt.com/)</small>
 
 Some days feel different than others. Today is International Women’s Day, a celebration of achievements - and in many places, a strike for equality. To do our part, we’re exploring what this means for our industry. I invite you to see how these ideas move you, too.
 
@@ -18,6 +18,7 @@ Years ago, before having two children of my own, I earned a degree in human deve
 
 Here are some women from our past and present we’d like to recognize for helping us grow:
 
+* Shout out to [Jessica Peery](https://www.facebook.com/jessica.i.peery), mother, artist, future saint and partner of Rylan Peery in Taksu Media. The agency that was converted into the cooperative that is now CoLab.
 * Shout out to [Maria LeMay Bey](https://www.facebook.com/teasso/about?lst=578114351%3A594875848%3A1520542458) who was our original co-founder and left the tech world to pursue gardening in Detroit and to spend more time being a mother.
 * Shout out to [Jenn Schilck](https://www.linkedin.com/in/jennschlick/) who led our front-end development and is now digital project director at the [MIT Energy Initiative](https://energy.mit.edu/).
 * Shout out to [Sim Hurse](https://www.linkedin.com/in/simonne-hurse-7278bb85/) for helping us build strong strategic partners and is now hosting a [tech community for women in NYC](http://www.techfest-club.com/).
