@@ -32,7 +32,7 @@ Looking forward, here are a few ideas we’re starting to consider:
 
 If you do, or have, or will identify as a woman, we see you. It is women who lift us up, and we see you doing it. 
 
-This is radical work that goes far, far beyond the workplace. And if you’re working on initiatives like these in any organization, let’s get connected! Please email me at mckenzie@colab.coop to share your stories.
+This is radical work that goes far, far beyond the workplace. And if you’re working on initiatives like these in any organization, let’s get connected! Please email me at <a href="mailto:mckenzie@colab.coop">mckenzie@colab.coop</a> to share your stories.
 
 Thanks for all that you do,</br>
 McKenzie Jones</br>
