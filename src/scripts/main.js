@@ -169,63 +169,6 @@ $(document).ready(function() {
   // initialise
   thisheadroom.init();
 
-  //thumbnails which pixelate on hover
-  $('.img-pixelate-hover').load(function () {
-    if ($(this).length !== 0) {
-      $(this).each(function (x, i) {
-        var img = new window.Image();
-        img.src = i.src;
-
-        var canvas = document.getElementById(i.dataset.canvasid);
-
-        // the containing div
-        var pDiv = i.parentElement.parentElement;
-
-        // current pixelation value
-        var level = 0;
-
-        // current interval id
-        var iid;
-
-        // animate pixelate on mouseover
-        pDiv.addEventListener('mouseover', function () {
-          if (iid) {
-            window.clearInterval(iid);
-          }
-
-          iid = window.setInterval(function () {
-            if (level > 44) {
-              window.clearInterval(iid);
-            } else {
-              pixelate(canvas, img, level);
-              level++;
-            }
-          }, 10);
-        });
-
-        // animate depixelate on mouseout
-        pDiv.addEventListener('mouseout', function () {
-          if (iid) {
-            window.clearInterval(iid);
-          }
-
-          iid = window.setInterval(function () {
-            if (level < 1) {
-              window.clearInterval(iid);
-            } else {
-              pixelate(canvas, img, level);
-              level--;
-            }
-          }, 10);
-        });
-
-        // set initial pixelation (none)
-        pixelate(canvas, img, 0);
-
-      });
-    }
-  });
-
   $('#load-more').on('click', function(e) {
     e.preventDefault();
     $('.blog-list-block:hidden').slice(0, 5).fadeIn();
