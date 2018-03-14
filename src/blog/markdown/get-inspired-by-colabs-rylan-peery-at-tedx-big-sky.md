@@ -1,6 +1,6 @@
 ---
 title: "Get inspired by CoLab’s Rylan Peery at TEDx Big Sky"
-thumbnail: "https://colab.coop/assets/img/blog/bitcoin.jpg"
+thumbnail: "https://colab.coop/assets/img/blog/tedxrylan.jpg"
 summary: "Discover the journey which led to the creation of our co-op."
 date: 2018-03-14
 authors: [doug]
