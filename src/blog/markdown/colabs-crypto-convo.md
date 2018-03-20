@@ -1,16 +1,15 @@
 ---
 title: "CoLab’s Crypto-Convo"
-thumbnail: "https://colab.coop/assets/img/blog/bitcoin.jpg"
+thumbnail: "https://colab.coop/assets/img/blog/crypto-convo-cover.jpg"
 summary: "What Do We Think about Culture, Politics, and Cryptocurrency?"
-date: 2018-03-13
+date: 2018-03-20
 authors: [doug]
 readfullarticle: colabs-crypto-convo
 ---
 
 # CoLab’s Crypto-Convo
 
-<img src="/assets/img/blog/bitcoin.jpg" class="center-element">
-<small>Image credit: <a href="https://www.flickr.com/photos/namecoin/23347391866/in/photolist-Bz8uc5-DG9PaY-21MbazE-21Q3wtv-ZJxU93-ZtAMXv-21M2sgd-ZtkSD4-21M7h6d-21JZ74j-GTr19F-ZJowm3-GTpjta-21PYtiv-ZJB9NY-21M8LEA-Ztksm6-GTpM6t-DG4e4w-21PPUwe-DG6xbE-21Q63Qt-ZDPYNc-AyZwiA-21M9AEd-ZJqzAf-ZJqkRm-XKsQeZ-ZJxS1f-GTmhhx-ZJATb5-ZtpRn8-21Q5ZTg-GT7KxT-GTotTz-DG2jBQ-ZtB4Dk-BbNe1E-ZJB6Gh-GToAYr-GTdvgV-BbKta7-21JK5w9-ZJzeh1-ZJDgXo-BdYn9k-21K23bL-Be238D-21JKrhh-B32SN8" target="_blank" rel="noopener noreferrer">Namecoin</a></small>
+<img src="/assets/img/blog/crypto-convo-cover.jpg" class="center-element">
 
 As a worker-owned collective with collaborators in more than a dozen countries, CoLab embraces diverse perspectives around technology. As a subject that figures frequently in CoLab’s many internal discussions, cryptocurrency relates not only to current developments in technology, but also to the ways we think about economics, culture, and politics.
 
