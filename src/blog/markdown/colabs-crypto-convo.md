@@ -12,7 +12,7 @@ readfullarticle: colabs-crypto-convo
 <img src="/assets/img/blog/crypto-convo-cover.jpg" class="center-element">
 <small>Photo of the “Credit Card Reliquary Vase, 1991” at the Cooper Hewitt Museum</small>
 
-As a worker-owned collective with collaborators in more than a dozen countries, CoLab embraces diverse perspectives around technology. As a subject that figures frequently in CoLab’s many internal discussions, cryptocurrency relates not only to current developments in technology, but also to the ways we think about economics, culture, and politics.
+As a worker-owned collective with collaborators in more than a dozen countries, CoLab embraces diverse perspectives around technology. But cryptocurrency is a special case of technological development, as it is shaping how we about culture and and politics, too.
 
 Last month, Ethan, David, Tomaž, and myself, Doug, took time to for a chat about CoLab’s interest in cryptocurrency technology. By the end of the conversation, we realized that we’re still in the process of figuring out where we stand on many important issues. What follows is an abridged account of one of CoLab’s many recent conversations around cryptocurrency: CoLab’s crypto-convo.
 
