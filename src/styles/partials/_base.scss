@@ -1003,6 +1003,12 @@ body.home {
     .col-33-flt {
       width: auto;
     }
+    .col-66-flt {
+      // the email field should be 100% if on mobile
+      @media screen and (max-width: 547px) {
+        width: 100%;
+      }
+    }
   }
 }
 
