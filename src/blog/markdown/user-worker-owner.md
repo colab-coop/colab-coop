@@ -22,10 +22,9 @@ Our goal is to imagine a tech industry working towards non-exploitative, joyful,
 **Come be part of our gathering on May 2, 5-8pm at VSCO (1500 Broadway, Oakland)**
 
 Join people from <a href="http://techworkerscoalition.org/" target="_blank" rel="noopener noreferrer">Tech Workers Coalition</a>, <a href="http://reflexdesigncollective.com/" target="_blank" rel="noopener noreferrer">Reflex Design Collective</a>, <a href="http://colab.coop/" target="_blank" rel="noopener noreferrer">CoLab Cooperative</a>, and other groups to explore tech and equity:
-
 * 4:30pm - Doors open, and snacks
 * 5:00pm - Welcome and opening remarks
-* 5:15pm - Talks on cooperative alternatives by digital labor researcher Niloufar Salehi, co-op scholar Nathan Schneider, and employee ownership specialist Camille Kerr.
+* 5:15pm - Talks on cooperative alternatives by digital labor researcher Niloufar Salehi, co-op scholar Nathan Schneider, and employee ownership specialist Camille Kerr
 * 6:00pm - Pitches for simultaneous workshops and group discussions
 * 6:15pm - Featured workshop on how democratic governance works, by Reflex Design Collective partner Julia Kong and Harmonize founder Simon Mont
 * 7:30pm - Ice cream social and peer connections
