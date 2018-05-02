@@ -22,15 +22,23 @@ Our goal is to imagine a tech industry working towards non-exploitative, joyful,
 **Come be part of our gathering on May 2, 5-8pm at VSCO (1500 Broadway, Oakland)**
 
 Join people from <a href="http://techworkerscoalition.org/" target="_blank" rel="noopener noreferrer">Tech Workers Coalition</a>, <a href="http://reflexdesigncollective.com/" target="_blank" rel="noopener noreferrer">Reflex Design Collective</a>, <a href="http://colab.coop/" target="_blank" rel="noopener noreferrer">CoLab Cooperative</a>, and other groups to explore tech and equity:
-* 4:30pm - Doors open, and snacks
-* 5:00pm - Welcome and opening remarks
-* 5:15pm - Talks on cooperative alternatives by digital labor researcher Niloufar Salehi, co-op scholar Nathan Schneider, and employee ownership specialist Camille Kerr
-* 6:00pm - Pitches for simultaneous workshops and group discussions
-* 6:15pm - Featured workshop on how democratic governance works, by Reflex Design Collective partner Julia Kong and Harmonize founder Simon Mont
-* 7:30pm - Ice cream social and peer connections
-* 7:50pm - Reflections from workshops and closing remarks
+* 4:30pm - Doors open
+* 5:00pm - Welcome and opening remarks by CoLab coworker <a href="http://colab.coop/team/danny" target="_blank" rel="noopener noreferrer">Danny Spitzberg</a>
+* 5:15pm - Talks on cooperative alternatives by digital labor researcher <a href="http://stanford.edu/~niloufar/" target="_blank" rel="noopener noreferrer">Niloufar Salehi</a>, co-op scholar <a href="https://nathanschneider.info/" target="_blank" rel="noopener noreferrer">Nathan Schneider</a>, and employee ownership specialist <a href="http://harmonize.work/" target="_blank" rel="noopener noreferrer">Camille Kerr</a>
+* 6:00pm - Pizza from Arizmendi and kombucha from Lev’s
+* 6:15pm - Pitches for simultaneous workshops and group discussions
+* 6:30pm - Featured workshop, on how democratic governance works, by <a href="https://www.reflexdesigncollective.com/our-team/" target="_blank" rel="noopener noreferrer">Harmonize</a> founder Simon Mont and Reflex Design Collective co-founder Pierce Gordon
+* 7:30pm - Reflections from workshops, peer connections
+* 7:50pm - Ice cream and closing remarks
 
-Tickets are $15, light food and drinks provided. RSVP to attend in-person <a href="https://www.eventbrite.com/e/users-workers-owners-bringing-democracy-to-work-tickets-45365886588" target="_blank" rel="noopener noreferrer">here</a>, or sign up for the livestream <a href="https://www.eventbrite.com/e/users-workers-owners-livestream-tickets-45664400451" target="_blank" rel="noopener noreferrer">here</a>. Nobody turned away for lack of funds. To request free tickets, or to help sponsor the event, email <a href="mailto:danny@colab.coop">danny@colab.coop</a>.
+RSVP to join us <a href="https://www.eventbrite.com/e/users-workers-owners-bringing-democracy-to-work-tickets-45365886588" target="_blank" rel="noopener noreferrer">here</a>. Tickets are $15, light food and drinks provided. Nobody turned away for lack of funds. To request free tickets, or to help sponsor the event, email <a href="mailto:danny@colab.coop">danny@colab.coop</a>. Far away? Sign up for the livestream <a href="https://www.eventbrite.com/e/users-workers-owners-livestream-tickets-45664400451" target="_blank" rel="noopener noreferrer">here</a>. 
+
+Want to share this event? Send invites on <a href="https://www.facebook.com/events/194629377813541/" target="_blank" rel="noopener noreferrer">Facebook</a>, or share <a href="https://twitter.com/CoLabCoOp/status/991109539658219520" target="_blank" rel="noopener noreferrer">this tweet</a> >(u)___ 
+
+
+
+
+
 
 
 
