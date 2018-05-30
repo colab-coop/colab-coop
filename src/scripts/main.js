@@ -40,6 +40,86 @@ function pixelate(canvas, img, value) {
 
 $(document).ready(function() {
 
+	if (window.localStorage.getItem('colab-coop-gdpr-accept') === 'true') {
+		startTracking();
+	} else if (window.localStorage.getItem('colab-coop-gdpr-accept') !== 'false') {
+		// GDPR banner
+		var banner = document.createElement('div');
+		banner.classList.add('gdpr-banner');
+		var text = document.createElement('div');
+		text.classList.add('gdpr-banner__text');
+		text.innerHTML = 'Hello! CoLab collects data to personalize your experience on our website. By continuing to use this site, you consent to our policy.';
+		var acceptButton = document.createElement('button');
+		acceptButton.classList.add('gdpr-banner__accept');
+		acceptButton.innerHTML = 'Accept';
+		var declineButton = document.createElement('button');
+		declineButton.classList.add('gdpr-banner__decline');
+		declineButton.innerHTML = 'Decline';
+		banner.appendChild(text);
+		banner.appendChild(acceptButton);
+		banner.appendChild(declineButton);
+		document.body.appendChild(banner);
+
+		acceptButton.addEventListener('click', function handleAccept () {
+			banner.classList.add('hide');
+			window.localStorage.setItem('colab-coop-gdpr-accept', 'true')
+			startTracking();
+		});
+
+		declineButton.addEventListener('click', function handleDecline () {
+			banner.classList.add('hide');
+			window.localStorage.setItem('colab-coop-gdpr-accept', 'false')
+		});
+	}
+
+  function startTracking () {
+
+    // Google Analytics
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24419918-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    // CrazyEgg
+    setTimeout(function(){var a=document.createElement("script");
+    var b=document.getElementsByTagName("script")[0];
+    a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0050/3821.js?"+Math.floor(new Date().getTime()/3600000);
+    a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+
+		// Twitter
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+		// Disqus
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = 'colabcoop'; // required: replace example with your forum shortname
+
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function() {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+
+		// Google Tag Manager
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-T6DZM3');
+
+		// Blog post twitter
+		var twit = document.createElement('script')
+		twit.setAttribute('src', '//platform.twitter.com/widgets.js')
+		var bptc = document.querySelector('.blog-post-twitter-container')
+		bptc.appendChild(twit)
+  }
+
+
   // setting up pixelation on scroll
 
   var imgPixelate = $('#js-pixelate-scroll');

@@ -26,25 +26,4 @@
   <meta property="og:image" content="//colab.coop/assets/img/colab-logo-social-share.png" />
   <meta property="og:site_name" content="CoLab" />
   <meta property="article:publisher" content="//www.facebook.com/colab.coop" />
-
-  <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-24419918-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-  </script>
-
-  <script type="text/javascript">
-  setTimeout(function(){var a=document.createElement("script");
-  var b=document.getElementsByTagName("script")[0];
-  a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0050/3821.js?"+Math.floor(new Date().getTime()/3600000);
-  a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-  </script>
 </head>
