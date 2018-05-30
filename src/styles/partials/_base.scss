@@ -1338,6 +1338,7 @@ body.home {
   font-weight: bold;
   font-size: 0.8em;
   display: flex;
+  flex-wrap: wrap;
 
   &.hide {
     display: none;
@@ -1352,9 +1353,18 @@ body.home {
     }
   }
 
+  &__text {
+    max-width: 650px;
+  }
+
   &__accept, &__decline, &__text {
     padding: 15px;
     margin: 10px;
+    @media all and (max-width: 590px) {
+      padding: 0;
+      margin: 5px;
+      line-height: 1.3em;
+    }
   }
 
 }
