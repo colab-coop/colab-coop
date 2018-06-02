@@ -1339,14 +1339,17 @@ body.home {
   font-size: 0.8em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   &.hide {
     display: none;
   }
 
   &__accept, &__decline {
+    padding: 5px 15px 5px 15px;
     background-color: unset;
-    border: 1px solid white;
+    border: 1.5px solid white;
+    border-radius: 2px;
     &:hover {
       background-color: white;
       color: black;
@@ -1354,16 +1357,17 @@ body.home {
   }
 
   &__text {
-    max-width: 650px;
+    max-width: 760px;
+    line-height: 18px;
   }
 
   &__accept, &__decline, &__text {
-    padding: 15px;
     margin: 10px;
     @media all and (max-width: 590px) {
-      padding: 0;
-      margin: 5px;
-      line-height: 1.3em;
+      padding: 6px;
+      margin: 8px;
+      line-height: 18px;
+      font-size: 0.7em;
     }
   }
 

@@ -49,6 +49,7 @@ $(document).ready(function() {
 		var text = document.createElement('div');
 		text.classList.add('gdpr-banner__text');
 		text.innerHTML = 'Hello! CoLab collects data to personalize your experience on our website. By continuing to use this site, you consent to our policy.';
+    var buttonDiv = document.createElement('div');
 		var acceptButton = document.createElement('button');
 		acceptButton.classList.add('gdpr-banner__accept');
 		acceptButton.innerHTML = 'Accept';
@@ -56,8 +57,9 @@ $(document).ready(function() {
 		declineButton.classList.add('gdpr-banner__decline');
 		declineButton.innerHTML = 'Decline';
 		banner.appendChild(text);
-		banner.appendChild(acceptButton);
-		banner.appendChild(declineButton);
+		buttonDiv.appendChild(acceptButton);
+		buttonDiv.appendChild(declineButton);
+    banner.appendChild(buttonDiv);
 		document.body.appendChild(banner);
 
 		acceptButton.addEventListener('click', function handleAccept () {
@@ -116,7 +118,9 @@ $(document).ready(function() {
 		var twit = document.createElement('script')
 		twit.setAttribute('src', '//platform.twitter.com/widgets.js')
 		var bptc = document.querySelector('.blog-post-twitter-container')
-		bptc.appendChild(twit)
+    if (bptc) {
+      bptc.appendChild(twit)
+    }
   }
 
 
