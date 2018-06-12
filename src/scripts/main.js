@@ -48,7 +48,7 @@ $(document).ready(function() {
 		banner.classList.add('gdpr-banner');
 		var text = document.createElement('div');
 		text.classList.add('gdpr-banner__text');
-		text.innerHTML = 'Hello! CoLab collects data to personalize your experience on our website. By continuing to use this site, you consent to our policy.';
+		text.innerHTML = 'Hello! CoLab collects data to personalize your experience on our website. Do you consent to our use of tracking to understand your browsing behavior?';
     var buttonDiv = document.createElement('div');
 		var acceptButton = document.createElement('button');
 		acceptButton.classList.add('gdpr-banner__accept');
