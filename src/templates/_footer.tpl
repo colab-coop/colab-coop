@@ -20,14 +20,7 @@
 			</div>
 		</div> <!-- /footer-info -->
 
-	    <div class="footer-content">
-	    	<div class="grid-parent">
-		    	<div class="footer-hash">
-            <div class="twitter-container">
-              <a class="twitter-timeline" href="https://twitter.com/CoLabCoOp" data-theme="dark" data-chrome="noheader nofooter noborders transparent" data-tweet-limit="1" width="900" data-widget-id="539634487433261056">Tweets by @CoLabCoOp</a>
-            </div>
-		    	</div>
-	    	</div> <!-- /grid-parent -->
+    <div class="footer-content">
 
 			<div class="grid-parent bottom-footer">
 				<div class="footer-address">

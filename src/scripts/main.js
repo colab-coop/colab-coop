@@ -40,88 +40,31 @@ function pixelate(canvas, img, value) {
 
 $(document).ready(function() {
 
-	if (window.localStorage.getItem('colab-coop-gdpr-accept') === 'true') {
-		startTracking();
-	} else if (window.localStorage.getItem('colab-coop-gdpr-accept') !== 'false') {
-		// GDPR banner
+	if (window.localStorage.getItem('colab-coop-notrack-notified') === 'true') {
+		return;
+	} else {
+		// No-track notification banner
 		var banner = document.createElement('div');
-		banner.classList.add('gdpr-banner');
+		banner.classList.add('notrack-banner');
 		var text = document.createElement('div');
-		text.classList.add('gdpr-banner__text');
-		text.innerHTML = 'Hello! CoLab collects data to personalize your experience on our website. Do you consent to our use of tracking to understand your browsing behavior?';
+		text.classList.add('notrack-banner__text');
+		text.innerHTML = 'Our website does not track you at all. Have a great day!';
     var buttonDiv = document.createElement('div');
 		var acceptButton = document.createElement('button');
-		acceptButton.classList.add('gdpr-banner__accept');
-		acceptButton.innerHTML = 'Accept';
-		var declineButton = document.createElement('button');
-		declineButton.classList.add('gdpr-banner__decline');
-		declineButton.innerHTML = 'Decline';
+		acceptButton.classList.add('notrack-banner__accept');
+		acceptButton.innerHTML = 'OK! <span class="icon-decorative-pixel"></span>';
 		banner.appendChild(text);
 		buttonDiv.appendChild(acceptButton);
-		buttonDiv.appendChild(declineButton);
     banner.appendChild(buttonDiv);
 		document.body.appendChild(banner);
 
 		acceptButton.addEventListener('click', function handleAccept () {
 			banner.classList.add('hide');
-			window.localStorage.setItem('colab-coop-gdpr-accept', 'true')
-			startTracking();
-		});
-
-		declineButton.addEventListener('click', function handleDecline () {
-			banner.classList.add('hide');
-			window.localStorage.setItem('colab-coop-gdpr-accept', 'false')
+			window.localStorage.setItem('colab-coop-notrack-notified', 'true');
 		});
 	}
 
-  function startTracking () {
 
-    // Google Analytics
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-24419918-2']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-    // CrazyEgg
-    setTimeout(function(){var a=document.createElement("script");
-    var b=document.getElementsByTagName("script")[0];
-    a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0050/3821.js?"+Math.floor(new Date().getTime()/3600000);
-    a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-
-		// Twitter
-		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-
-		// Disqus
-		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-		var disqus_shortname = 'colabcoop'; // required: replace example with your forum shortname
-
-		/* * * DON'T EDIT BELOW THIS LINE * * */
-		(function() {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		})();
-
-		// Google Tag Manager
-		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-T6DZM3');
-
-		// Blog post twitter
-		var twit = document.createElement('script')
-		twit.setAttribute('src', '//platform.twitter.com/widgets.js')
-		var bptc = document.querySelector('.blog-post-twitter-container')
-    if (bptc) {
-      bptc.appendChild(twit)
-    }
-  }
 
 
   // setting up pixelation on scroll
@@ -207,7 +150,7 @@ $(document).ready(function() {
   });
 
   //slider
-  var test = $("#slider-testimonial").owlCarousel({
+  $("#slider-testimonial").owlCarousel({
     autoPlay: true,
     loop: true,
     navigation : true,
@@ -260,52 +203,18 @@ $(document).ready(function() {
 
   $('.blog-list-block').slice(0, 5).show();
 
-  //customize twitter feed
-  hideTwitterBoxElements();
-
   // do typing effect
   startTyping();
 });
 
-//customize twitter feed
-var hideTwitterAttempts = 0;
-function hideTwitterBoxElements() {
-  window.setTimeout( function() {
-    if ( $('[id*=twitter]').length ) {
-      $('[id*=twitter]').each( function(){
-        var ibody = $(this).contents().find( 'body' );
 
-        if ( ibody.find( '.timeline .stream .h-feed li.tweet' ).length ) {
-
-        ibody.find( '.timeline .stream .h-feed li.tweet' ).css( 'padding-left', '68px' );
-
-        ibody.find( '.header .avatar' ).css( 'left', '-67px' );
-
-        ibody.find( '.timeline .stream .h-feed li.tweet .p-name' ).css( 'color', '#fff' );
-        ibody.find( '.timeline .stream .h-feed li.tweet .p-name' ).css( 'font-family', 'Muli, Helvetica, sans-serif' );
-        ibody.find( '.timeline .stream .h-feed li.tweet .p-name' ).css( 'font-size', '16px' );
-
-        ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'color', '#fff' );
-        ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'font-family', 'Muli, Helvetica, sans-serif' );
-        ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'font-size', '16px' );
-        ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'line-height', '1.6' );
-        ibody.find( '.timeline .stream .h-feed li.tweet .e-entry-title' ).css( 'margin-top', '10px' );
-        }
-      });
-    }
-    hideTwitterAttempts++;
-    if ( hideTwitterAttempts < 3 ) {
-      hideTwitterBoxElements();
-    }
-  }, 1500);
-}
 
 var strings = '';
 
 if ( window.navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i) ) {
-  strings = ['It doesn\'t mean anything, if it doesn\'t have heart.^1500']
+  strings = ['It doesn\'t mean anything, if it doesn\'t have heart.^1500'];
 } else {
-  strings = ['if it doesn\'t have heart.^1500', 'It doesn\'t mean anything,^1500']
+  strings = ['if it doesn\'t have heart.^1500', 'It doesn\'t mean anything,^1500'];
 }
 
 function startTyping() {
