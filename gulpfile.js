@@ -79,10 +79,24 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
       var html = mustache.render(postlist, {
         post: file.frontMatter,
         date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
-        authors: file.frontMatter.authors.map(function(a){return {
-          lowercase: a,
-          capital: capitalize(a)
-        };})
+        authors: file.frontMatter.authors.map(function(a){
+          try {
+            // Check if the author exists in the team directory (meaning, an active CoLabr)
+            fs.accessSync('./src/html/team/' + a + '.html', fs.constants.F_OK);
+            return {
+              lowercase: a,
+              pic: a,
+              capital: capitalize(a)
+            };
+          } catch (err) {
+            // If fs doesn't see the author, assume inactive (so don't provide link)
+            return {
+              lowercase: '',
+              pic: a,
+              capital: capitalize(a)
+            };
+          }
+        })
       });
       file.contents = new Buffer(html);
       cb(null, file);
