@@ -40,7 +40,7 @@ function pixelate(canvas, img, value) {
 
 $(document).ready(function() {
 
-	if (!window.localStorage.getItem('colab-coop-notrack-notified') === 'true') {
+	if (!(window.localStorage.getItem('colab-coop-notrack-notified') === 'true')) {
     // No-track notification banner
 		var banner = document.createElement('div');
 		banner.classList.add('notrack-banner');

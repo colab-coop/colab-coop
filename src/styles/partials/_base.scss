@@ -1340,6 +1340,7 @@ body.home {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  z-index: 4;
 
   &.hide {
     display: none;
@@ -1369,6 +1370,12 @@ body.home {
       margin: 8px;
       line-height: 18px;
       font-size: 0.7em;
+    }
+  }
+
+  @media all and (max-width: 590px) {
+    &__accept span:after {
+      transform: scale(0.7) translate(-5px, 2px);
     }
   }
 
