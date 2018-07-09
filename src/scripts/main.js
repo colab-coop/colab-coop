@@ -40,10 +40,8 @@ function pixelate(canvas, img, value) {
 
 $(document).ready(function() {
 
-	if (window.localStorage.getItem('colab-coop-notrack-notified') === 'true') {
-		return;
-	} else {
-		// No-track notification banner
+	if (!window.localStorage.getItem('colab-coop-notrack-notified') === 'true') {
+    // No-track notification banner
 		var banner = document.createElement('div');
 		banner.classList.add('notrack-banner');
 		var text = document.createElement('div');
@@ -63,9 +61,6 @@ $(document).ready(function() {
 			window.localStorage.setItem('colab-coop-notrack-notified', 'true');
 		});
 	}
-
-
-
 
   // setting up pixelation on scroll
 
