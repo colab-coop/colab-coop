@@ -82,7 +82,7 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
         authors: file.frontMatter.authors.map(function(a){
           try {
             // Check if the author exists in the team directory (meaning, an active CoLabr)
-            fs.accessSync('./src/html/team/' + a + '.html', fs.constants.F_OK);
+            fs.accessSync('./src/html/team/' + a + '.html', fs.F_OK);
             return {
               lowercase: a,
               pic: a,
