@@ -13,7 +13,7 @@ readfullarticle: get-10000-for-your-coop-and-a-new-upandgo
 
 Up&Go is a platform for professional home cleanings in NYC. After two years of developing this tool and seeing it work for its members, it gives us hope that technology can work better for people who use it, own it, and govern it as a cooperative. Now, we’re excited to roll out a faster, better, cleaner booking experience. Check out the new <a href="http://upandgo.coop/" target="_blank" rel="noopener noreferrer">upandgo.coop</a>. And if have someone you ❤ in NYC who needs a cleaning, <a href="https://www.upandgo.coop/gift_certificates/new" target="_blank" rel="noopener">get them a gift certificate</a>!
 
-Cleaning co-ops provide <a href="https://www.nynmedia.com/news/how-to-hire-a-housekeeper-with-a-clean-conscience" target="_blank" rel="noopener">higher pay</a> than other companies, and because their members are invested in their work, they provide reliable, consistent, and high-quality services, too. In NYC, the market for home cleaning is valued at $273m, but co-ops doing only $1.5m in business. How might we shift this balance in favor of co-ops?
+Cleaning co-ops provide <a href="https://www.nynmedia.com/news/how-to-hire-a-housekeeper-with-a-clean-conscience" target="_blank" rel="noopener">higher pay</a> than other companies, and because their members are invested in their work, they provide reliable, consistent, and high-quality services, too. In NYC, the market for home cleaning is valued at $273m, but co-ops are doing only $1.5m in business. How might we shift this balance in favor of co-ops?
 
 Starting this Fall, a new accelerator is investing in this movement.
 
@@ -22,5 +22,3 @@ Start.coop is launching a 10-week program to help co-ops scale in their industry
 We’re excited to be partnering with Start.coop to offer technology strategy and services. But we're most excited to see a unique program to support people organizing to meet vital needs, like cleaning services, and scale their efforts to expand within industry.
 
 Applications are now open! <a href="https://start.coop/" target="_blank" rel="noopener">Apply now at Start.coop</a>
-
-<img src="/assets/img/blog/smartcoop.png" class="center-element">
