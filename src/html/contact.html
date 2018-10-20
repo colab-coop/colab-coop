@@ -44,34 +44,8 @@ published: true
       </section>
     </div> <!-- /container--text -->
 
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var myLatLng = new google.maps.LatLng(42.439365, -76.497549)
-        var mapOptions = {
-          center: new google.maps.LatLng(42.439365, -76.497549),
-          zoom: 15,
-          scrollwheel: false,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-          styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#eeeeee"}]},{"featureType":"water","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]}]
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-
-        var iconBase = '/assets/img/';
-          var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          icon: iconBase + 'google-maps-marker-large.svg'
-        });
-
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
     <section>
-      <div class="address-map-block">
-        <div id="map-canvas"></div>
-      </div> <!-- /address-map-block -->
+      <img class="world-map" src="/assets/img/downtown-ithaca.png" alt="Downtown Ithaca, NY">
     </section>
   </main>
 
