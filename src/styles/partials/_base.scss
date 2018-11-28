@@ -1385,10 +1385,30 @@ body.home {
 }
 
 //------------------------------------------------
-// Static World Map
+// Static Maps
+
+.map-container {
+  overflow: hidden;
+}
+
+.map {
+  display: block;
+  margin: 0 auto;
+}
+
+.map-small {
+  display: none;
+}
+
+@media all and (max-width: 600px) {
+  .ithaca-map {
+    display: none;
+  }
+  .map-small {
+    display: block;
+  }
+}
 
 .world-map {
   height: 400px;
-  display: block;
-  margin: 0 auto;
 }
