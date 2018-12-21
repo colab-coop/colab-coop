@@ -20,10 +20,12 @@
   <meta name="twitter:site" content="@colabcoop">
   <meta name="twitter:creator" content="@colabcoop">
   <meta name="twitter:image" content="//colab.coop/assets/img/colab-logo-social-share-twitter.png">
+  <meta name="twitter:description" content="We co-create simple, purpose-driven web technology for a better world">
 
   <!-- Open Graph data -->
   <meta property="og:title" content="{{title}}" />
   <meta property="og:image" content="//colab.coop/assets/img/colab-logo-social-share.png" />
+  <meta property="og:description" content="We co-create simple, purpose-driven web technology for a better world" />
   <meta property="og:site_name" content="CoLab" />
   <meta property="article:publisher" content="//www.facebook.com/colab.coop" />
 </head>
