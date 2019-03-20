@@ -99,6 +99,11 @@ ul {
   padding: 0;
 }
 
+ul ul {
+  margin-left: .4em;
+  padding-left: $grid-padding;
+}
+
 .ul-default, %ul-default {
   list-style-type: none;
   list-style-position: outside;

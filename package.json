@@ -4,10 +4,8 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "poll": "./poll.sh",
-    "watch": "./watch.sh",
-    "serve": "browser-sync start --config bs-config.js",
-    "dev": "npm run poll & npm run serve"
+    "serve": "node_modules/http-server/bin/http-server -c-1",
+    "build": "node_modules/gulp/bin/gulp.js"
   },
   "dependencies": {
     "browser-sync": "^1.5.7",
