@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{title}} | CoLab Coop</title>
+  <meta name="title" content="Digital Agency. Worker Owned. CoLab Cooperative">
+  <meta name="description" content="Building online platforms since 2010. Specializing in co-design, open platforms and ethical tech. Partners include Up&Go, a platform coop and Seventh Generation, a social enterprise and b-corporation. Let’s create a better future!">
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
   <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-precomposed.png">
   <link rel="stylesheet" type="text/css" href="/assets/css/global.css">
