@@ -6,9 +6,12 @@ authors: [rylan, ethan]
 readfullarticle: colab-earth-dream-with-us
 ---
 
+<img src="/assets/img/blog/colab-world.jpg" alt="CoLab Earth">
+
 # CoLab Earth
 
 ## Building a Solidarity Economy, Together
+
 
 [With joy we share with you our research with The Democracy Collaborative (TDC)](https://thenextsystem.org/learn/stories/patterns-cooperative-networks-and-associations) on scalable network models for cooperative development and international solidarity - our offering to the International Solidarity economy on International Workers' Day.
 
