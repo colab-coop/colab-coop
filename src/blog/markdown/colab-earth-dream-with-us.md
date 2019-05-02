@@ -12,27 +12,27 @@ readfullarticle: colab-earth-dream-with-us
 
 [With joy we share with you our research with The Democracy Collaborative (TDC)](https://thenextsystem.org/learn/stories/patterns-cooperative-networks-and-associations) on scalable network models for cooperative development and international solidarity - our offering to the International Solidarity economy on International Workers' Day.
 
-Currently CoLab Members are engaging in internal discussions around how the CoLab community might evolve to embrace more distributed network models of organization and operations to better support international worker solidarity, diversity, and equity while also strengthening the resilience and sustainability of the current CoLab community as a whole.  Through internal process work, CoLab has come to recognize that we have work to do to strengthen equality, diversity, and equity in our own community.  Our research into models to better support economic solidarity is a first step on a long road towards this goal.  
+Currently CoLab Members are engaging in internal discussions around how the CoLab community might evolve to embrace more distributed network models of organization and operations to better support international worker solidarity, diversity, and equity while also strengthening the resilience and sustainability of the current CoLab community as a whole.  Through internal process work, CoLab has come to recognize that we have work to do to strengthen equality, diversity, and equity in our own community.  Our research into models to better support economic solidarity is a first step on a long road towards this goal.
 
-Some questions we are asking of the co-operative movement?
+Some questions we are asking of the co-operative movement:
 
 What models for operations and governance at CoLab could better support equity, solidarity, inclusivity, and diversity across nations, regions, cultures and class?
 
-How does a transnational worker co-operative function as a sustainable, productive, harmonious whole given our distributed nature and decentralization?   
+How does a transnational worker co-operative function as a sustainable, productive, harmonious whole given our distributed nature and decentralization?
 
 Some backstory, CoLab was born of transnational diversity, with intercultural collaboration a part of its organizational DNA. In growing we have prioritized heart-centered and inclusive cooperation, welcoming committed and aligned collaborators into the membership as they become woven into our team. Our earliest-joining member-owners collaborated remotely from India with Western counterparts and clients.  Shortly thereafter, we welcomed our first member-owner from the EU, then one based between the US and Indonesia.
 
-Today, with member-owners on three continents, and collaborators from the Bay Area to Australia, CoLab operates in an extremely complex cultural, operational, and regulatory context. We face the governance challenges common to growing coops, combined with the operational challenges of distributed teams, the cultural challenges of building inclusive and equitable international organizations, and the compliance requirements of legal frameworks ranging from US state law to international commerce rules.  
+Today, with member-owners on three continents, and collaborators from the Bay Area to Australia, CoLab operates in an extremely complex cultural, operational, and regulatory context. We face the governance challenges common to growing coops, combined with the operational challenges of distributed teams, the cultural challenges of building inclusive and equitable international organizations, and the compliance requirements of legal frameworks ranging from US state law to international commerce rules.
 
 To date, we have navigated the issues associated with global collaboration and equity through a 'learn by doing' approach, weaving together the many philosophical and cultural perspectives each member brings to develop solutions through non-hierarchical democratic consensus. We’ve seen these challenges as important learning points toward a practice of transformative international cooperativism that can foster global solidarity. Now, the time has come for CoLab to fundamentally rethink our international structure, and develop an organizational form that builds on our diversity, reflects our values, and supports us in realizing our mission through cooperative work.
 
 To do this, CoLab has partnered with our long-term movement cooperators at the Democracy Collaborative (TDC) to help us think through the structural possibilities to regional and, ultimately, global cooperation.  Following TDC’s extensive research, and in-depth stakeholder interviews, together we have crafted a report that gives an overview of the many models for scalable democratic organizations that might inform our new approach to global cooperativism. Each model has its trade offs, providing affordances that support some aspects of collaboration as well as potential challenges in others. It is the work of the CoLab membership to envision how these models might be adapted for our ‘transnational tech worker co-operative’ case in support of our strategic objectives:
 
 * Providing an infrastructure that can support the evolution of a global, distributed network of cooperators.
-* Addressing the operational and governance challenges of being an international worker-owned co-operative.  
+* Addressing the operational and governance challenges of being an international worker-owned co-operative.
 * Establishing a shared cultural bedrock for a deep alignment and solidarity between collaborators in our many regions.
 * Developing a model for transnational collaboration in the world of work, supporting others by sharing our learnings, resources, and challenges.
-* Contributing measurably towards the regeneration of the earth and equity within our communities.  
+* Contributing measurably towards the regeneration of the earth and equity within our communities.
 
 In an era of increasing telepresence, accessible data networks, and distributed collaboration, we have found that our structural and legal frameworks must evolve to better support new patterns of collaboration where in person congregation is not the default mode of participation.  Co-operative organizational agreements are fundamental to our ability to both sustain our work together and grow our impact at a local and global scale.  As such, we seek to both learn from the experiments of others and to share our own efforts to make global collaboration more effective.  Our hope is that by sharing our process of grappling with these questions, we can evolve together with others around the world to better  to cooperate across boundaries.
 
@@ -52,14 +52,14 @@ Worker co-operatives likeCoLab Cooperative and partner organizations like the [I
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7QChrb89IoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Are you interested in learning more?
-Asking questions, sharing your interest and/or enthusiasm for such an initiative?  
+Asking questions, sharing your interest and/or enthusiasm for such an initiative?
 Challenging, probing?
 
 We have a webinar scheduled to discuss these ideas, rooted in the principle that We are Stronger, Together.
 
 [PLEASE JOIN OUR COLLABORATION LIST](https://mailchi.mp/colab/ica) to be informed of opportunities to continue this dialog on how we can grow our solidarity movement and economy, together.
 
-*What CoLab as a community choses to do is very much a story still being written.  
+*What CoLab as a community choses to do is very much a story still being written.
 
 [Please join our network](https://mailchi.mp/colab/ica),
 If you’d like to hire us to support your organization’s mission, [please contact us here](https://colab.coop/contact/).
