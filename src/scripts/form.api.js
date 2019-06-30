@@ -135,39 +135,4 @@ $(document).ready(function () {
 		} // End if(validated)
 	});
 
-  function loadForm (form) {
-    var liel = $('*[data-value="' + form + '"]');
-
-		if (liel.length !== 0 && !liel.hasClass('selected')) {
-
-			var pos = liel.position();
-			var ppos = liel.parent().position();
-			var ptop = $('.form-select-text').css('paddingTop').replace('px','');
-			var move = (pos.top - ppos.top) - ptop;
-
-			$('.form-select-text').animate({top:  move + 'px'}, 400, 'swing');
-
-			liel.addClass('selected').siblings('.selected').removeClass('selected');
-
-			var url = document.URL.replace('http:', '');
-			if (form != 'default') {
-				url = url + form + '/';
-			}
-
-			$('.form-wrapper').load(url + ' .form-wrapper', function (response, status) {
-				if (status == 'error') {
-					$(this).html('<div id="error"><div id="errorMsg">Sorry, this form could not be found. Please select another.</div></div>');
-				}
-			});
-
-		}
-	}
-
-	$('main').on('click', '.form-selector li', function handleClick (e) {
-	  var form = $(this).data('value');
-    loadForm(form);
-	});
-
-  // default to project-check-in
-  loadForm('project-check-in')
 });
