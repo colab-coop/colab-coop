@@ -74,7 +74,6 @@
   		<a href="/about">About</a>
   		<a href="/values">Values</a>
   		<a href="/work">Work</a>
-  		<a href="/team">Team</a>
   		<a href="/blog">Blog</a>
   		<a href="/contact">Contact</a>
   	</div>
