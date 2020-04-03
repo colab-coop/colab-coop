@@ -16,6 +16,5 @@ Please consider donating food or volunteering your time to a local food distribu
 
 For more info:
 
-* [CoLab Cooperative](https://colab.coop/)
 * [Boulder Food Rescue](http://boulderfoodrescue.org/)
 * [Food Rescue Alliance](http://foodrescuealliance.org/)
