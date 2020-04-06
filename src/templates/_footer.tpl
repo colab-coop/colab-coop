@@ -24,7 +24,7 @@
 
 			<div class="grid-parent bottom-footer">
 				<div class="footer-address">
-					<span class="icon-dot"><a href="http://colabhive.com/"><img src="/assets/img/hive-logo.svg" alt="CoLab Hive"></a> Based in Ithaca, NY </span><span>Working Worldwide</span>
+					<span class="icon-dot"> Based in Ithaca, NY </span><span>Working Worldwide</span>
 				</div>
 				<div class="footer-social">
 					<a href="//www.facebook.com/colab.coop">
