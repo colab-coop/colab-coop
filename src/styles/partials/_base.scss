@@ -98,6 +98,59 @@ hr {
   margin: 40px 0;
 }
 
+// Currently only using this on drupa-9, but maybe later, used elsewhere?
+.container-table {
+  border: 1px solid black;
+
+  table {
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    td, th {
+      padding: 1rem;
+      font-size: 0.9rem;
+      border: 1px solid lightgray;
+      line-height: 1.2rem;
+      &.empty {
+        background-color: rgba(196, 196, 196, 0.17);
+      }
+      &.highlight {
+        background-color: rgba(219, 68, 69, 0.07);
+      }
+    }
+  }
+}
+
+details {
+  padding: 1.2rem;
+  background-color: #ededed;
+  border: 1px solid #b2b2b2;
+  h3 {
+    margin: 0;
+  }
+  p {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  svg {
+    margin-top: 0.5rem;
+    float: right;
+    fill: #db4445;
+    stroke: #db4445;
+    stroke-width: 1;
+  }
+  &[open] {
+    summary {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
 //------------------------------------------------
 //------------------------------------------------
 //------------------------------------------------
