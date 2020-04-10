@@ -130,7 +130,11 @@ details {
   background-color: #ededed;
   border: 1px solid #b2b2b2;
   summary {
-    list-style-image: none;
+    list-style: none;
+    padding-left: 0;
+    &::-webkit-details-marker {
+      display:none;
+    }
   }
   h3 {
     margin: 0;
