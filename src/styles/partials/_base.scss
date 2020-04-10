@@ -76,7 +76,9 @@ a {
       }
     }
   }
-
+  &.biglink {
+    font-size: 26px;
+  }
 }
 
 img {
@@ -127,6 +129,7 @@ details {
   padding: 1.2rem;
   background-color: #ededed;
   border: 1px solid #b2b2b2;
+  list-style-image: none;
   h3 {
     margin: 0;
   }
