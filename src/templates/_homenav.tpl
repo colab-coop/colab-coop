@@ -73,9 +73,10 @@
   	<div class="nav-menu">
   		<a href="/about">About</a>
   		<a href="/values">Values</a>
+			<a href="/services">Services</a>
   		<a href="/work">Work</a>
   		<a href="/blog">Blog</a>
-  		<a href="/contact">Contact</a>
+  		<a href="/contact/" class="button--brand-outline color-red" style="line-height: 1.5rem; min-width: 135px; margin-left: 20px; padding-bottom: 4px;">SAY HELLO</a>
   	</div>
 	</div>
 </nav>
