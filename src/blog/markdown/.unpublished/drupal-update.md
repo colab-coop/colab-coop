@@ -1,6 +1,6 @@
 ---
 title: "Drupal 9 is coming this summer, and we’ve got your back!"
-summary: Drupal 9 is coming this summer, and we’ve got your back!
+summary: Drupal 9 is coming this summer.  We have an established process for Drupal migrations, including users, documents, images, nodes, workflows, roles, permissions, and redirects. We’re ready to help.
 date: 2020-04-16
 authors: [stephanie]
 readfullarticle: drupal-update
