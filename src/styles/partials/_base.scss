@@ -380,6 +380,12 @@ details {
   z-index: -1;
   &.skewed-alt {
     top: 30px;
+    @media all and (max-width: 800px) {
+      height: 83%;
+    }
+    @media all and (max-width: 550px) {
+      height: 87%;
+    }
   }
 }
 
@@ -396,6 +402,13 @@ details {
   img {
     min-width: 95px;
     margin-right: 3rem;
+  }
+  @media all and (max-width: 550px) {
+    flex-direction: column;
+    img {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
   }
 }
 
