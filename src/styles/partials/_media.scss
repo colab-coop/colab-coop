@@ -224,6 +224,11 @@
 /* end nav styles for pages with hero image */
 
   .home, .project, .team-profile {
+    .animated.headroom--top {
+      a.button--brand-outline.color-red {
+        border-color: #e8e8e8;
+      }
+    }
     .animated.headroom--not-top.slideDown {
       background-color: #fff;
 
