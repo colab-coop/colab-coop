@@ -1,8 +1,8 @@
 ---
 title: "Drupal 9 is coming this summer, and we’ve got your back!"
 summary: Drupal 9 is coming this summer, and we’ve got your back!
-date: 2020-04-15
-authors: [vu]
+date: 2020-04-16
+authors: [stephanie]
 readfullarticle: drupal-update
 ---
 
@@ -25,6 +25,10 @@ We have re-implemented many Drupal 7 sites in Drupal 8, with a dedicated Drupal 
 
 As soon as Drupal 9 is released (scheduled for June 3, 2020), we’ll test the tools for upgrading from Drupal 8, document the best process, and be ready to help you with your Drupal 8-to-9 upgrade.
 
-Need more information on upgrades? Check out our website.
+Need more information on upgrades? [Check out our Drupal 9 page](/drupal-9).
 
-If you’d like to talk through the upgrade path with one of our developers, or want to know what an upgrade may involve for you site, book a [free] info session.
+If you’d like to talk through the upgrade path with one of our developers, or want to know what an upgrade may involve for you site,
+
+<div class="center-text spacing--mid-xx">
+  <a href="mailto:stephanie.guico@colab.coop" class="button--brand-outline color-red">Book a free session</a>
+</div>
