@@ -104,6 +104,7 @@ hr {
 section.half-and-half {
   display: flex;
   flex-direction: row;
+  padding-bottom: 0;
   img {
     width: 50%;
   }
