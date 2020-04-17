@@ -137,10 +137,10 @@ div.grid {
     box-shadow: 6px 10px 18px rgba(0, 0, 0, 0.05);
     transition: transform 0.5s;
     &.special-card {
-      background-color: #DFEBF0;
+      background-color: #fff;
       a span {
         &:hover {
-          color: blue;
+          color: #d8131f;
         }
       }
       &:hover, &:focus {
