@@ -151,7 +151,7 @@ $(document).ready(function() {
     navigation : true,
     navigationText : false,
     pagination : false,
-    slideSpeed : 300,
+    slideSpeed : 1100,
     singleItem:true
   });
 
