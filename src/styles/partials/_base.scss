@@ -1400,11 +1400,11 @@ body.home {
     top: 15%;
     display: block;
     width: 100%;
+    color: black;
   }
 
   .owl-prev, .owl-next {
     position: absolute;
-    color: black;
 
     &:before {
       font-size: 40px;
