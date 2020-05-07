@@ -46,7 +46,7 @@ $(document).ready(function() {
 		banner.classList.add('notrack-banner');
 		var text = document.createElement('div');
 		text.classList.add('notrack-banner__text');
-		text.innerHTML = 'To get critical information about the behavior of our visitors, we use Simple Analytics. This analytics software gives us insight about our visitors only in general, but not about individuals by itself, as it does not track visitors and does not store any personal identifiable information';
+		text.innerHTML = 'To get critical information about the behavior of our visitors, we use Simple Analytics. This analytics software gives us insight about our visitors only in general, but not about individuals by itself, as it does not track visitors and does not store any personal identifiable information.';
     var buttonDiv = document.createElement('div');
 		var acceptButton = document.createElement('button');
 		acceptButton.classList.add('notrack-banner__accept');
