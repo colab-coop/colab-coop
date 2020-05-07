@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/global.css">
   <link rel="stylesheet" href="/assets/fonts/font-awesome-4.6.1/css/font-awesome.min.css">
   <script src="/assets/js/bundle.js"></script>
+  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
   <!-- Schema.org data -->
   <meta itemprop="name" content="{{title}}">
