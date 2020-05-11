@@ -16,13 +16,10 @@ Here are a couple of the pointers we found ourselves sharing most often:
 
 ## When preparing for a meeting, check in with yourself as a meeting host:
 
-1. Facilitate to your limits: fall back on doing what you’re good at, and making yourself responsible for one task at a time. For what remains…
-
-  1.1. … resist the urge to Do More: now is a good time to downsize on the bells and whistles of cumbersome tools we’ve integrated in in-person meeting facilitation. With remote work, less can be more.
-
-  1.2. … buddy up, and share the labour. Remote meeting tasks include chat moderation, tech support, timing, cueing up tools and presentations, note taking and engaging in the verbal exchange with participants. This work requires many hands.
-
-  1.3. … plan your tools ahead of time, test them out and keep your tools simple. Tech requires different types of facilitation and participation agility.
+* Facilitate to your limits: fall back on doing what you’re good at, and making yourself responsible for one task at a time. For what remains…
+  * … resist the urge to Do More: now is a good time to downsize on the bells and whistles of cumbersome tools we’ve integrated in in-person meeting facilitation. With remote work, less can be more.
+  * … buddy up, and share the labour. Remote meeting tasks include chat moderation, tech support, timing, cueing up tools and presentations, note taking and engaging in the verbal exchange with participants. This work requires many hands.
+  * … plan your tools ahead of time, test them out and keep your tools simple. Tech requires different types of facilitation and participation agility.
 
 ## Ground yourself in the now and what is
 
@@ -38,10 +35,10 @@ Barriers are material things that block passage to something. In this case ‘so
 
 TIPS :
 
-* Do a tech audit ahead of the meeting, to ensure that the platform you are intending to use, and how you are intending to use it, works for how people can access the meeting place. The audit can include interpretation needs, video v. dial in attendance, usability, compatibility with hardware and security parameters.
-* Implement a centralised team calendar or availability channel (by email or on Slack) and model a culture where team members are comfortable with presenting their general availability and day to day changes as we juggle multiple at-home responsibilities. These tools reduce the amount of time spent figuring out when to meet across time zones and around individuals’ schedules.
-* Offer a time off-agenda and immediately before the meeting to introduce new users to the platform you will be using. If the meeting starts at 1pm Eastern, open the line at 12:45 (with fun music to set a relaxed mood!). Spend 10 minutes helping people get acquainted with the virtual space and its functions, as well as the secondary tools you’ll be using throughout the meeting.
-* Disclose if a meeting, or any elements of it, are being recorded (and why) in the meeting invite. If the disclosure is met with pushback, honour that pushback.
+1. Do a tech audit ahead of the meeting, to ensure that the platform you are intending to use, and how you are intending to use it, works for how people can access the meeting place. The audit can include interpretation needs, video v. dial in attendance, usability, compatibility with hardware and security parameters.
+2. Implement a centralised team calendar or availability channel (by email or on Slack) and model a culture where team members are comfortable with presenting their general availability and day to day changes as we juggle multiple at-home responsibilities. These tools reduce the amount of time spent figuring out when to meet across time zones and around individuals’ schedules.
+3. Offer a time off-agenda and immediately before the meeting to introduce new users to the platform you will be using. If the meeting starts at 1pm Eastern, open the line at 12:45 (with fun music to set a relaxed mood!). Spend 10 minutes helping people get acquainted with the virtual space and its functions, as well as the secondary tools you’ll be using throughout the meeting.
+4. Disclose if a meeting, or any elements of it, are being recorded (and why) in the meeting invite. If the disclosure is met with pushback, honour that pushback.
 
 ## People, their circumstances, and their boundaries don’t need to become barriers
 
@@ -52,17 +49,12 @@ TIPS :
 1. Checking in at the beginning of a meeting is a good way to see where each team member is at today, what is on their minds and how they can be present over the course of your time together (and how that may change). Opening this time for transparency, however, requires that the information shared be received in an open and judgment-free way.
 2. Adapt your meeting’s accessibility and engagement protocol based on what data the tech audit and check in provided you with, and go over this after check ins. This includes:
 
-  1.1. How and when participants are invited to ask questions or engage in discussion
-
-  1.2. How to add yourself to a speaker’s list
-
-  1.3. What is the sound default (all muted, and unmute yourself is a good default)
-
-  1.4. Who is the facilitation team, what are their roles and how can participants engage with them
-
-  1.5. How might the agenda have shifted given the info in check ins
-
-  1.6. As you move down the agenda, voice alternatives to engagement for the variable ways people may be accessing the meeting.
+  * How and when participants are invited to ask questions or engage in discussion
+  * How to add yourself to a speaker’s list
+  * What is the sound default (all muted, and unmute yourself is a good default)
+  * Who is the facilitation team, what are their roles and how can participants engage with them
+  * How might the agenda have shifted given the info in check ins
+  * As you move down the agenda, voice alternatives to engagement for the variable ways people may be accessing the meeting.
 3. Seeing your colleague is nice, but not necessary. They know best what allows them to engage in a meeting and maintain their professional persona, and it is still possible to meet effectively within those named boundaries.
 4. People absorb information in multiple ways (visual, auditory, social and physical being popular shorthand). Find creative ways to enable these throughout the meeting, while keeping in mind bandwidth, accessibility needs, and your own capacity limits as a facilitator. Pairing a power point with spoken content is a good way to tackle two, others include exercises and debate during problem solving rounds.
 5. Last minute regrets ? Check your [RASCI matrix](https://www.eltis.org/it/glossary/rasci-matrix) and, depending on the capacity the person expresses having to stay engaged in the intention of the meeting, see how you can implement asynchronous work.
