@@ -16,7 +16,7 @@ Here are a couple of the pointers we found ourselves sharing most often:
 
 ## When preparing for a meeting, check in with yourself as a meeting host:
 
-* Facilitate to your limits: fall back on doing what you’re good at, and making yourself responsible for one task at a time. For what remains…
+* Facilitate to your limits: fall back on doing what you’re good at, and make yourself responsible for one task at a time. For what remains…
   * … resist the urge to Do More: now is a good time to downsize on the bells and whistles of cumbersome tools we’ve integrated in in-person meeting facilitation. With remote work, less can be more.
   * … buddy up, and share the labour. Remote meeting tasks include chat moderation, tech support, timing, cueing up tools and presentations, note taking and engaging in the verbal exchange with participants. This work requires many hands.
   * … plan your tools ahead of time, test them out and keep your tools simple. Tech requires different types of facilitation and participation agility.
