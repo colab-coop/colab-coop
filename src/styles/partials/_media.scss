@@ -6,7 +6,6 @@
   .nav-menu {
     padding: $base-spacing $base-spacing-sm;
     background: $gray-darkest;
-    position: fixed;
     top: 55px;
     bottom: 0;
     height: 100%;
@@ -202,21 +201,11 @@
   .home, .project, .team-profile {
     padding-top: 0;
 
-    .nav {
-      background: none;
-    }
-
     .nav-menu-trigger, .nav-menu a {
       color: #fff;
 
       &:hover {
         opacity: 0.8;
-      }
-    }
-
-    .logo-svg {
-      polygon, path, text {
-        fill: #fff;
       }
     }
 }

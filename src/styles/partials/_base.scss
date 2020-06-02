@@ -18,7 +18,6 @@ body {
   font-size: $body-font-size;
   line-height: $body-line-height;
   text-rendering: optimizeLegibility;
-  padding-top: 80px;
 }
 
 p, ul, ol, table {
@@ -663,9 +662,8 @@ details {
 // LAYOUT: HEADER
 
 .nav {
-  background: #fff;
+  background: #222;
   text-align: center;
-  position: fixed;
   overflow: hidden;
   right: 0;
   left: 0;
@@ -676,6 +674,7 @@ details {
 
   .logo {
     float: left;
+    margin-top: 20px;
   }
 
   .logo-svg {
@@ -683,14 +682,6 @@ details {
     width: 135px;
   }
 }
-
-/* nav styles for pages with hero image */
-
-.home, .project, .team-profile {
-  padding-top: 56px; //i.e. header height + 1px on mobile
-}
-
-/* end nav styles for pages with hero image */
 
 
 /* nav menu icon on small screens */
@@ -700,7 +691,6 @@ details {
   @extend %text--smaller;
   text-align: right;
   cursor: pointer;
-  position: fixed;
   top: 13px;
   right: 20px;
 
