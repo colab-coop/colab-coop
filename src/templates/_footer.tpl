@@ -1,25 +1,5 @@
 <footer class="footer">
 	<div class="container">
-
-		<div class="footer-info grid-parent">
-			<div> <!-- add class="footer-connect" if jobs are available and see team.html -->
-				<h2 class="h2">HIRE US</h2>
-				<div>We're easy to talk to.</div>
-
-				<div class="spacing--sm"></div>
-
-				<a href="/contact/" class="button--brand-outline">Tell us about your project</a>
-			</div>
-
-			<div class="footer-connect" style="display:none"> <!-- see HIRE US div above if jobs available, style="display:none" if not ... and see team.html -->
-				<h2 class="h2">JOIN US</h2>
-				<div>Love what you do? So do we.</div>
-
-				<div class="spacing--sm"></div>
-				<a href="/jobs/" class="button--brand-outline">See our job openings</a>
-			</div>
-		</div> <!-- /footer-info -->
-
     <div class="footer-content">
 
 			<div class="grid-parent bottom-footer">

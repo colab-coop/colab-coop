@@ -807,8 +807,8 @@ canvas.centered-canvas {
 
 div.red-banner-overlay {
   height: 456px;
-  opacity: 0.93;
-  background-color: #F24249;
+  opacity: 0.87;
+  background-color: #020202;
   position: absolute;
   top: 0;
   width: 100%;
@@ -977,7 +977,8 @@ body.home {
 /* hero pixelating image on scroll */
 
 .img-pixelate-scroll {
-  display: none;
+  display: block;
+  margin: auto;
 }
 
 /* end hero pixelating image on scroll */

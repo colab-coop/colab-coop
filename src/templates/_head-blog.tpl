@@ -8,7 +8,6 @@
   <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-precomposed.png">
   <link rel="stylesheet" type="text/css" href="/assets/css/global.css">
   <link rel="stylesheet" href="/assets/fonts/font-awesome-4.6.1/css/font-awesome.min.css">
-  <script src="/assets/js/bundle.js"></script>
 
   <!-- Schema.org data -->
   <meta itemprop="name" content="{{title}}">
