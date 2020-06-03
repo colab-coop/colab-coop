@@ -81,6 +81,24 @@ gulp.task('styles', ['fonts'], function() {
     .pipe(gulp.dest(destination + '/assets/css'));
 });
 
+// browserify
+gulp.task('browserify', ['jshint'], function () {
+  return browserify('./src/scripts/main.js')
+    .bundle()
+
+    // Stops Gulp from crashing on JS code error
+    // https://truongtx.me/2014/07/15/handle-errors-while-using-gulp-watch/
+    .on('error', function(err){
+      console.log(err.message);
+      this.end();
+    })
+
+    //Pass desired output filename to vinyl-source-stream
+    .pipe(source('bundle.js'))
+    // Start piping stream to tasks!
+    .pipe(gulp.dest(destination + '/assets/js'));
+});
+
 // jshint
 gulp.task('jshint', function() {
   return gulp.src('src/scripts/**/*.js')
@@ -117,13 +135,13 @@ gulp.task('images', function() {
 });
 
 gulp.task('clean', function(cb) {
-  del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/img'], {force:true}, cb);
+  del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/prototype', '!'+destination+'/editor'], {force:true}, cb);
 });
 
 // default build task
 gulp.task('default', ['clean'], function() {
   // clean first, then these
-  gulp.start('html','styles', 'images');
+  gulp.start('html', 'styles', 'scripts', 'images');
 });
 
 // watch
@@ -133,6 +151,7 @@ gulp.task('watch', ['default'], function() {
   gulp.watch('src/html/**/*.html', ['html']);
   gulp.watch('src/styles/**/*.scss', ['styles']);
   gulp.watch('src/fonts/**/*.*', ['fonts']);
+  gulp.watch('src/scripts/**/*.js', ['scripts']);
   gulp.watch('src/images/**/*', ['images']);
 });
 

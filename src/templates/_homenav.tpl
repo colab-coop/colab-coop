@@ -71,6 +71,7 @@
 
     <div class="nav-menu">
       <a href="/about">About</a>
+      <a href="/contact/" class="button--brand-outline color-red" style="line-height: 1.5rem; min-width: 135px; margin-left: 20px; padding-bottom: 4px;">Contact</a>
     </div>
   </div>
 </nav>
