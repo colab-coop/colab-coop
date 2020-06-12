@@ -4,7 +4,7 @@ require('./form.api.js');
 var Headroom = require('./headroom.min.js');
 var $ = require('jquery');
 
-var Typed = require('typed.js');
+// var Typed = require('typed.js');
 
 $('html').removeClass('no-js');
 
@@ -199,11 +199,12 @@ $(document).ready(function() {
   $('.blog-list-block').slice(0, 5).show();
 
   // do typing effect
-  startTyping();
+  // startTyping();
 });
 
 
 
+/*
 var strings = '';
 
 if ( window.navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i) ) {
@@ -226,3 +227,4 @@ function startTyping() {
     loop: true
   });
 }
+*/

@@ -816,6 +816,13 @@ div.red-banner-overlay {
 
 body.home {
   section.panel-full {
+    div.container div.panel-fullwidth-content a {
+      color: white;
+      font-size: 26px;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
     img.upandgo-home {
       min-width: 1500px;
       @media all and (max-width: 1200px) {
