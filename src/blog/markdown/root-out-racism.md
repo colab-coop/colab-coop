@@ -26,7 +26,7 @@ At CoLab we are committed to doing the work to root out racism in our own lives 
 
 As <a href="https://scottwoodsmakeslists.wordpress.com/2014/01/03/5-things-no-one-is-actually-saying-about-ani-difranco-or-plantations/">Scott Wood notes</a>, “There is no anti-racist certification class. It’s a set of socioeconomic traps and cultural values that are fired up every time we interact with the world. #It is a thing you have to keep scooping out of the boat of your life to keep from drowning in it.#”
 
-To continue scooping the water of racism out of our respective boats is to do our best to live up to our nation’s highest ideals. As Barack Obama notes, “If we want our criminal justice system, and American society at large, to operate on a higher ethical code, then we have to model that code ourselves.” Taking action in both protest and politics where we are able. Doing what we can to <a href="https://www.racialequitytools.org/resourcefiles/kivel3.pdf">be strong allies</a> 
+To continue scooping the water of racism out of our respective boats is to do our best to live up to our nation’s highest ideals. As Barack Obama notes, “If we want our criminal justice system, and American society at large, to operate on a higher ethical code, then we have to model that code ourselves.” Taking action in both protest and politics where we are able. Doing what we can to <a href="https://www.racialequitytools.org/resourcefiles/kivel3.pdf">be strong allies</a>. 
 
 As part of our efforts to uplift voices of color and those actively working for social and economic justice, we’d like to highlight some of our past and present partners. Please support them in ways that you are able:
 
@@ -46,6 +46,8 @@ As part of our efforts to uplift voices of color and those actively working for 
   <img src="/assets/img/blog/bemore.png">
 </a>
 </div>
+
+<br>
 
 Lastly, we have donated to <a href="https://blacklivesmatter.com/">Black Lives Matter</a> to support their on the ground work protesting racial injustice and police brutality. If you have the means, please consider donating your time or money to BLM, nationally or through a local chapter, and supporting BIPOC-owned businesses. 
 
