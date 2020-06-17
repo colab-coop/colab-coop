@@ -292,17 +292,24 @@ a.button--brand-outline.text--gray-medium, .button--brand-outline.text--gray-med
 
 //red buttons with border
 a.button--brand-outline.color-red, .button--brand-outline.color-red {
-  background-color: transparent;
+  background-color: $red;
   background-size: 17px 17px;
   background-position: 50% center;
   background-repeat: no-repeat;
   border-color: $red;
-  color: $red;
+  color: #fff;
+  &.navbtn {
+    background: none;
+    color: $red;
+  }
 
   &:hover {
     background-image: none;
-    background-color: $red;
-    color: #fff;
+    background-color: $darkred;
+    &.navbtn {
+      background-color: $red;
+      color: #fff;
+    }
   }
 }
 
