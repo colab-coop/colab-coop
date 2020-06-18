@@ -306,8 +306,10 @@ a.button--brand-outline.color-red, .button--brand-outline.color-red {
   &:hover {
     background-image: none;
     background-color: $darkred;
+    border-color: $darkred;
     &.navbtn {
       background-color: $red;
+      border-color: $red;
       color: #fff;
     }
   }
