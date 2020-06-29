@@ -6,9 +6,13 @@ authors: [ethan]
 readfullarticle: remote-collaboration-smells
 ---
 
-# Smelly Collaboration
+<img src="/assets/img/blog/collaboration-smells.png", class="center-element" alt="collaboration smells">
 
-## How Developers Smell
+# Remote Collaboration "Smells"
+
+## 1. Smelly Collaboration
+
+### How Developers Smell
 
 Non-developers might not think much about it, but collaboratively writing software is all about smell. Not smell as in “I’ve been stuck in the house for the past week on quarantine and should probably change my socks” or “I think I remember that delicious sensation from the spice shop down the street.” I’m talking about smells like “That’s a whiff of something familiar, I can’t quite place it, but usually that faint trace in the air means that there’s a problem I’ve dealt with before.”
 
@@ -16,13 +20,13 @@ In the early 90s, agile software development pioneers Kent Beck, Martin Fowler a
 
 Identifying and acting on code smells is an essential skill in collaborative software development. Code smells are the symptom of accrued technical debt that needs to be paid off, the evidence that a developer may not fully understand the technology or domain model, the emergent indications of strain that require a rethinking of a system’s underlying architecture, or even canaries in the coal mine that the fundamental premises of the application’s core purpose and features may be off.
 
-## Collaboration Smells
+### Collaboration Smells
 
 But the idea of “smells” applies to any complex system. Using smell is a tool for finding and fixing issues with any collaborative system that we can only see one facet at a time. Smells are heuristics that let us talk about dynamic, nonlinear systems in a way that is both actionable and shared. They enable us to handle the unknown together and shape the fog of collaboration into something workable and clearly structured.
 
 At CoLab we use smells throughout our collaborative work: in our meetings, our methodologies, our reviews, our retrospectives, everywhere. Smells connect the bumps in the road of our collaboration to tangible strategies for working better together.
 
-# Virtual Meeting Smells and what to do about them
+## 2. Virtual Meeting Smells and What To Do About Them
 
 Here are some meeting smells and some facilitation practices to ward them off:
 
@@ -47,18 +51,18 @@ Here are some meeting smells and some facilitation practices to ward them off:
  * No later than 2/3rds of the way through the meeting, stop the general discussion and go back through the problems and ideas that have been noted and create action items with a DRI (directly responsible individual) for each (and if possible, deadlines)
 * **Waiting for your turn to speak**: It’s so tempting to hold onto that idea we have, the responses we’ll expect, the effect it will have. We think about it and think about it and then it’s our turn to talk, and aahhh.. what sweet release. However we’ve now undermined the entire point of the meeting: communication. In being so focused on what we want to say, we’ve not really been listening to what others are saying. And if they’ve been doing the same thing, then the whole meeting could have been everyone just talking to a wall.
 
-# Teamwork Smells... and what to do about them
+## 3. Teamwork Smells... and What To Do About Them
 
 * Unresponsiveness
 * **No Clear DRI**: Unless there is a known Directly Responsible Individual to take charge of an actionable item, it very likely won’t get done. One of the dangers of scaling enhanced collaborative environments is the feeling that “someone else will take care of that.” And the more people there are, the greater the danger of this! So always assign a DRI to a task.
 * **Lack of energy**: We’ve all felt the exhilaration of being “in the zone” with your team, getting things done left and right, seeing success after productive success. Naturally, we’ve all also seen the opposite. Nothing seems to be working, things seem hopeless or stuck or moving at a snail’s pace. There’s no sure-fire way to prevent these lulls, but generally all it takes to pull out of it is at least one or two people to get hyped. That energy can be infectious.
 
-# Personal Care Smells... and what to do about them
+## 4. Personal Care Smells... and What To Do About Them
 
 * **Overwhelmed**: It’s easy to feel overwhelmed in a remote-work situation. Without people around you, it’s easy to get distracted and lose track of things. This leads to feeling lost about what to do next. As with any case of being overwhelmed, the best thing to do is to just get started on one task. If that task itself seems overwhelming, just get started on one small aspect of that task, say 5-minutes worth. The satisfaction of getting at least something done should help build momentum.
 * **Anxiety**: Related to being overwhelmed is feeling anxious about the future. At CoLab, we have a culture of meditation (a variety of approaches), and we highly recommend it as a solution for anxiety. It is a proven method of reducing stress and calming the mind. Give it a shot!
 
-# Appendix: A Glossary of Remote Collaboration Techniques
+## Appendix: A Glossary of Remote Collaboration Techniques
 
 * **“Pass the Conch”** for Virtual Rounds: each person calls the next to go
  * Idea: try to call on someone who talks less frequently or is from a demographic that is often under-represented (e.g. make sure that the women in your group aren’t all chosen last).
