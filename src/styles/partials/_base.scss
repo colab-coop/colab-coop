@@ -1440,19 +1440,32 @@ body.home {
   }
 }
 
-.featured-home {
-  @extend %spacing--sm;
+div.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+  row-gap: 1rem;
 
-  > a  {
-    img {
-      margin-right: $base-spacing-lg;
-    }
+  div.featured-home {
+    @extend %spacing--sm;
+    > a  {
+      display: flex;
+      img {
+        height: 94px;
+        width: 94px;
+        margin-right: $base-spacing-lg;
+      }
 
-    span {
-      display: block;
+      span {
+        display: block;
+      }
     }
   }
+  @media all and (max-width: 720px) {
+    grid-template-columns: 1fr;
+  }
 }
+
 
 //------------------------------------------------
 // Tooltips
