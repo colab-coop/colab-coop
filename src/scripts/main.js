@@ -4,9 +4,9 @@ require('./form.api.js');
 var Headroom = require('./headroom.min.js');
 var $ = require('jquery');
 
-// var Typed = require('typed.js');
 
 $('html').removeClass('no-js');
+
 
 // takes a canvas element, image, and pixelation value, and
 // paints the pixelated image on the canvas element
@@ -40,39 +40,33 @@ function pixelate(canvas, img, value) {
 
 $(document).ready(function() {
 
-	if (!(window.localStorage.getItem('colab-coop-notrack-notified') === 'true')) {
-    // No-track notification banner
-		var banner = document.createElement('div');
-		banner.classList.add('notrack-banner');
-		var text = document.createElement('div');
-		text.classList.add('notrack-banner__text');
-		text.innerHTML = 'To get critical information about the behavior of our visitors, we use Simple Analytics. This analytics software gives us insight about our visitors only in general, but not about individuals by itself, as it does not track visitors and does not store any personal identifiable information.';
-    var buttonDiv = document.createElement('div');
-		var acceptButton = document.createElement('button');
-		acceptButton.classList.add('notrack-banner__accept');
-		acceptButton.innerHTML = 'OK! <span class="icon-decorative-pixel"></span>';
-		banner.appendChild(text);
-		buttonDiv.appendChild(acceptButton);
-    banner.appendChild(buttonDiv);
-		document.body.appendChild(banner);
+  // No-track notification banner
+  if (!(window.localStorage.getItem('colab-coop-notrack-notified') === 'true')) {
+    var banner = document.createElement('div');
+    banner.classList.add('notrack-banner');
+    var text = document.createElement('div');
+    text.classList.add('notrack-banner__text');
+    text.innerHTML = 'To get critical information about the behavior of our visitors, we use Simple Analytics. This analytics software gives us insight about our visitors only in general, but not about individuals by itself, as it does not track visitors and does not store any personal identifiable information.';
+var buttonDiv = document.createElement('div');
+    var acceptButton = document.createElement('button');
+    acceptButton.classList.add('notrack-banner__accept');
+    acceptButton.innerHTML = 'OK! <span class="icon-decorative-pixel"></span>';
+    banner.appendChild(text);
+    buttonDiv.appendChild(acceptButton);
+banner.appendChild(buttonDiv);
+    document.body.appendChild(banner);
 
-		acceptButton.addEventListener('click', function handleAccept () {
-			banner.classList.add('hide');
-			window.localStorage.setItem('colab-coop-notrack-notified', 'true');
-		});
-	}
+    acceptButton.addEventListener('click', function handleAccept () {
+      banner.classList.add('hide');
+      window.localStorage.setItem('colab-coop-notrack-notified', 'true');
+    });
+  }
 
   // setting up pixelation on scroll
-
   var imgPixelate = $('#js-pixelate-scroll');
-
   if (imgPixelate.length > 0) {
-
     var img = new window.Image();
-    //value = factor.value;
-
     var jsPixelateCanvas = document.getElementById('jsPixelateCanvas');
-
     img.onload = function() {
       pixelate(jsPixelateCanvas, img, 0);
     };
@@ -177,7 +171,6 @@ $(document).ready(function() {
   // grab an element
   var myElement = document.querySelector(".nav");
   // construct an instance of Headroom, passing the element
-
   var thisheadroom  = new Headroom(myElement, {
     "offset": 10,
     "tolerance": 5,
@@ -198,33 +191,32 @@ $(document).ready(function() {
 
   $('.blog-list-block').slice(0, 5).show();
 
-  // do typing effect
-  // startTyping();
+  // randomize the team list
+  randomizeList('.team-block > ul')
+
 });
 
-
-
-/*
-var strings = '';
-
-if ( window.navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i) ) {
-  strings = ['It doesn\'t mean anything, if it doesn\'t have heart.^1500'];
-} else {
-  strings = ['if it doesn\'t have heart.^1500', 'It doesn\'t mean anything,^1500'];
-}
-
-function startTyping() {
-  if (!$('.typedjs').length) {
-    return;
+function randomizeItems(items) {
+  var cached = items.slice(0), temp, i = cached.length, rand;
+  while(--i) {
+      rand = Math.floor(i * Math.random());
+      temp = cached[rand];
+      cached[rand] = cached[i];
+      cached[i] = temp;
   }
 
-  var typed = new Typed('.typedjs', {
-    strings: strings,
-    startDelay: 0,
-    typeSpeed: 50,
-    backSpeed: 0,
-    fadeOut: true,
-    loop: true
-  });
+  return cached;
 }
-*/
+
+function randomizeList(query) {
+  var list = document.querySelector(query);
+  var nodes = list.children, i = 0;
+  nodes = Array.prototype.slice.call(nodes);
+  nodes = randomizeItems(nodes);
+  while(i < nodes.length) {
+      list.appendChild(nodes[i]);
+      ++i;
+  }
+  list.style.display="block";
+}
+
