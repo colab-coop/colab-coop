@@ -191,8 +191,12 @@ banner.appendChild(buttonDiv);
 
   $('.blog-list-block').slice(0, 5).show();
 
-  // randomize the team list
-  randomizeList('.team-block > ul')
+  // randomize the members list
+  randomizeList('.members-block > ul')
+  // randomize the eu list
+  randomizeList('.eu-block > ul')
+  // randomize the friends list
+  randomizeList('.friends-block > ul')
 
 });
 
