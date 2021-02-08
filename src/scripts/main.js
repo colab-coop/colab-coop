@@ -140,13 +140,12 @@ banner.appendChild(buttonDiv);
 
   //slider
   $("#slider-testimonial").owlCarousel({
-    autoPlay: true,
+    autoPlay: 20000,
     loop: true,
-    navigation : true,
-    navigationText : false,
-    pagination : false,
-    slideSpeed : 5100,
-    singleItem:true
+    navigation: true,
+    navigationText: false,
+    pagination: false,
+    singleItem: true
   });
 
   //tabs
