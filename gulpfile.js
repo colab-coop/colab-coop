@@ -22,7 +22,7 @@ var mustache = require('mustache');
 var fs = require('fs');
 var sort = require('sort-stream');
 var moment = require('moment');
-var config = require('./config').config;
+var config = require('./config.js').config;
 
 var destination = config.buildDest;
 
