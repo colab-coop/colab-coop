@@ -1,6 +1,7 @@
-gitignore/
+build/
+node_modules/
+package-lock.json4
 npm-debug.log
-node_modules
 .sass-cache
 dist
 gulperr.log
