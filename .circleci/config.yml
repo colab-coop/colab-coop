@@ -16,7 +16,7 @@ jobs:
       - setup_remote_docker
       - run:
           name: Deploy staging Colab.coop site
-          command: echo coopctl deploy
+          command: coopctl deploy
 
 workflows:
    deploy:
