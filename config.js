@@ -1,4 +1,4 @@
 exports.config = {
-  buildDest: './build/',
+  buildDest: '/app/build/',
   baseURL: 'http://colab.coop'
 };

@@ -8,10 +8,7 @@ RUN gem install compass --pre
 
 RUN npm install && npm run build
 
-FROM ubuntu:focal
-
-RUN apt-get update
-RUN apt-get install nginx -y
+FROM nginx:alpine
 
 COPY --from=build /app/build /var/www/html
 
