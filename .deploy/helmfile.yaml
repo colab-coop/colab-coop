@@ -11,5 +11,7 @@ releases:
       - host: stage.colab.coop
       - image:
           tag: {{ requiredEnv "DOCKER_TAG" }}
-          port: 80 
-
+          port: 80
+      - imageCredentials:
+          username: {{ requiredEnv "DOCKER_USER" }}
+          password: {{ requiredEnv "DOCKER_PASSWORD" }}
