@@ -5,6 +5,4 @@ node_modules
 dist
 gulperr.log
 pollerr.log
-config.js
 *~
-
