@@ -1,6 +1,6 @@
 build/
 node_modules/
-package-lock.json4
+package-lock.json
 npm-debug.log
 .sass-cache
 dist
