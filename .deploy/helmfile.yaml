@@ -9,4 +9,7 @@ releases:
     version: 0.3.0
     values:
       - host: stage.colab.coop
-      - image: {{ requiredEnv "DOCKER_TAG" }}
+      - image:
+          tag: {{ requiredEnv "DOCKER_TAG" }}
+          port: 80 
+
