@@ -4,10 +4,12 @@ repositories:
 
 environments:
   production:
-  - hosts:
+    values:
+    - hosts:
       - site.coopernetes.colab.coop
   staging:
-  - hosts:
+    values:
+    - hosts:
       - stage.colab.coop
       - www.stage.colab.coop
 
