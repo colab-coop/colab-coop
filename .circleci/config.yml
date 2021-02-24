@@ -9,20 +9,20 @@ executors:
           password: $DOCKER_PASSWORD
 
 jobs:
-  production:
+  prod:
     executor: coopctl
     environment:
-      HELMFILE_ENVIRONMENT: production
+      HELMFILE_ENVIRONMENT: prod
     steps:
       - checkout
       - setup_remote_docker
       - run:
           name: Deploy staging Colab.coop site
           command: coopctl deploy
-  staging:
+  stage:
     executor: coopctl
     environment:
-      HELMFILE_ENVIRONMENT: staging
+      HELMFILE_ENVIRONMENT: stage
     steps:
       - checkout
       - setup_remote_docker
@@ -33,12 +33,12 @@ jobs:
 workflows:
    deploy:
      jobs:
-       - production:
+       - prod:
            context: coopernetes-production
            filters:
              branches:
                only: develop
-       - staging:
+       - stage:
            context: coopernetes-staging
            filters:
              branches:

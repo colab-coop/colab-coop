@@ -3,15 +3,8 @@ repositories:
   url: https://colab-coop.github.io/coopernetes/charts
 
 environments:
-  production:
-    values:
-    - hosts:
-      - site.coopernetes.colab.coop
-  staging:
-    values:
-    - hosts:
-      - stage.colab.coop
-      - www.stage.colab.coop
+  prod:
+  stage:
 
 releases:
   - name: basic-http-server
@@ -19,9 +12,10 @@ releases:
     chart: colab/basic-http-server
     version: 0.4.1
     values:
+      - ./values/{{ .Environment.Name }}.yaml.gotmpl
       - image:
-          tag: {{ requiredEnv "DOCKER_TAG" }}
+          tag: TAG
           port: 80
       - imageCredentials:
-          username: {{ requiredEnv "DOCKER_USER" }}
-          password: {{ requiredEnv "DOCKER_PASSWORD" }}
+          username: USER
+          password: PASS
