@@ -5,8 +5,7 @@ repositories:
 environments:
   production:
   - hosts:
-      - colab.coop
-      - www.colab.coop
+      - site.coopernetes.colab.coop
   staging:
   - hosts:
       - stage.colab.coop
