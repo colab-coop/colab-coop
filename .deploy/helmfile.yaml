@@ -2,15 +2,22 @@ repositories:
 - name: colab
   url: https://colab-coop.github.io/coopernetes/charts
 
+environments:
+  production:
+  - hosts:
+      - colab.coop
+      - www.colab.coop
+  staging:
+  - hosts:
+      - stage.colab.coop
+      - www.stage.colab.coop
+
 releases:
   - name: basic-http-server
     namespace: colab-site
     chart: colab/basic-http-server
     version: 0.4.1
     values:
-      - hosts:
-          - stage.colab.coop
-          - www.stage.colab.coop
       - image:
           tag: {{ requiredEnv "DOCKER_TAG" }}
           port: 80
