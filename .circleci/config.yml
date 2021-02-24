@@ -37,7 +37,7 @@ workflows:
            context: coopernetes-production
            filters:
              branches:
-               only: develop
+               only: master
        - stage:
            context: coopernetes-staging
            filters:
