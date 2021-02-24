@@ -6,7 +6,7 @@ releases:
   - name: basic-http-server
     namespace: colab-site
     chart: colab/basic-http-server
-    version: 0.4.0
+    version: 0.4.1
     values:
       - hosts:
           - stage.colab.coop
