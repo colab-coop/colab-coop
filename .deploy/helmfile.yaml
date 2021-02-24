@@ -6,9 +6,11 @@ releases:
   - name: basic-http-server
     namespace: colab-site
     chart: colab/basic-http-server
-    version: 0.3.0
+    version: 0.4.0
     values:
-      - host: stage.colab.coop
+      - hosts:
+          - stage.colab.coop
+          - www.stage.colab.coop
       - image:
           tag: {{ requiredEnv "DOCKER_TAG" }}
           port: 80
