@@ -12,3 +12,5 @@ readfullarticle: moz-fest-workshop
 
 Data trusts, if designed inclusively, offer the possibility for communities to decide how their data is gathered and used, and to ensure that the AI systems that impact their lives are trained on data that is relevant to, and representative of, them. We are hosting a session with [Benetech](https://benetech.org/) and [Inclusive Design Research Centre](https://idrc.ocadu.ca/) that will explore new models of collective and inclusive data governance. Participants will work in groups to share the unique perspectives, interests, and community engagements that they bring to the issue of data governance.
 
+[+ Add To Calendar](https://schedule.mozillafestival.org/session/G9ZXVQ-1)
+
