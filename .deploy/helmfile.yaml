@@ -14,8 +14,8 @@ releases:
     values:
       - ./values/{{ .Environment.Name }}.yaml.gotmpl
       - image:
-          tag: TAG
+          tag: {{ requiredEnv "DOCKER_TAG" }}
           port: 80
       - imageCredentials:
-          username: USER
-          password: PASS
+          username: {{ requiredEnv "DOCKER_USER" }}
+          password: {{ requiredEnv "DOCKER_PASSWORD" }}
