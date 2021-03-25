@@ -213,13 +213,15 @@ function randomizeItems(items) {
 
 function randomizeList(query) {
   var list = document.querySelector(query);
-  var nodes = list.children, i = 0;
-  nodes = Array.prototype.slice.call(nodes);
-  nodes = randomizeItems(nodes);
-  while(i < nodes.length) {
-      list.appendChild(nodes[i]);
-      ++i;
+  if (list) {
+    var nodes = list.children, i = 0;
+    nodes = Array.prototype.slice.call(nodes);
+    nodes = randomizeItems(nodes);
+    while(i < nodes.length) {
+        list.appendChild(nodes[i]);
+        ++i;
+    }
+    list.style.display="block";
   }
-  list.style.display="block";
 }
 
