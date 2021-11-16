@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "serve": "node_modules/http-server/bin/http-server -c-1 ../www",
+    "serve": "node_modules/http-server/bin/http-server -c-1 /app/build/",
     "build": "node_modules/gulp/bin/gulp.js"
   },
   "dependencies": {
