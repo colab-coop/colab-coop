@@ -3,7 +3,7 @@ version: 2.1
 executors:
   coopctl:
     docker:
-      - image: colabcoop/coopernetes-deploy:0.8.0
+      - image: colabcoop/coopernetzner-deploy:0.1.0
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
@@ -27,6 +27,16 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
+          name: Deploy staging 2 Colab.coop site
+          command: coopctl deploy
+  stage2:
+    executor: coopctl
+    environment:
+      HELMFILE_ENVIRONMENT: stage
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
           name: Deploy staging Colab.coop site
           command: coopctl deploy
 
@@ -43,3 +53,8 @@ workflows:
            filters:
              branches:
                only: develop
+       - stage2:
+           context: coopernetes-staging
+           filters:
+             branches:
+               only: testing
