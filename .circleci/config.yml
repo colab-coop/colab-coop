@@ -54,7 +54,7 @@ workflows:
              branches:
                only: develop
        - stage2:
-           context: coopernetes-staging
+           context: coopernetzner-staging
            filters:
              branches:
                only: testing
