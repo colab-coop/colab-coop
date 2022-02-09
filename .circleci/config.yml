@@ -3,7 +3,7 @@ version: 2.1
 executors:
   coopctl:
     docker:
-      - image: colabcoop/coopernetzner-deploy:0.1.1
+      - image: colabcoop/coopernetzner-deploy:0.1.2
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
@@ -27,7 +27,7 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
-          name: Deploy staging 2 Colab.coop site
+          name: Deploy staging Colab.coop site
           command: coopctl deploy
   stage2:
     executor: coopctl
@@ -37,7 +37,7 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
-          name: Deploy staging Colab.coop site
+          name: Deploy staging 2 Colab.coop site
           command: coopctl deploy
 
 workflows:
