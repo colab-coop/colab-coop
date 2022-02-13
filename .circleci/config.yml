@@ -3,7 +3,7 @@ version: 2.1
 executors:
   coopctl:
     docker:
-      - image: colabcoop/coopernetzner-deploy:0.1.6
+      - image: colabcoop/coopernetzner-deploy:0.1.7
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
