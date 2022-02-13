@@ -12,10 +12,5 @@ releases:
     chart: colab/http-server
     version: 0.0.4
     values:
+      - ./values/env.yaml.gotmpl
       - ./values/{{ .Environment.Name }}.yaml.gotmpl
-      - image:
-          tag: "{{ requiredEnv "DOCKER_TAG" }}"
-          port: 80
-      - imageCredentials:
-          username: "{{ requiredEnv "DOCKER_USER" }}"
-          password: "{{ requiredEnv "DOCKER_PASSWORD" }}"
