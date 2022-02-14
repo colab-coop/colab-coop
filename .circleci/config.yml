@@ -3,7 +3,7 @@ version: 2.1
 executors:
   coopctl:
     docker:
-      - image: colabcoop/deploy:0.0.11
+      - image: colabcoop/deploy:0.0.12
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
