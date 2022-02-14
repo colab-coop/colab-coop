@@ -8,7 +8,7 @@ releases:
   - name: http-server
     namespace: colab-site
     chart: colab/http-server
-    version: 0.0.6
+    version: 0.0.5
     secrets: colab-site
     values:
       - ./values/env.yaml.gotmpl
