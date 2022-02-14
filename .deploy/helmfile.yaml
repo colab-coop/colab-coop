@@ -1,16 +1,15 @@
 repositories:
-- name: colab
-  url: https://colab-coop.github.io/helm-charts/charts
-
+  - name: colab
+    url: https://colab-coop.github.io/helm-charts/charts
 environments:
   prod:
   stage:
-
 releases:
   - name: http-server
     namespace: colab-site
     chart: colab/http-server
-    version: 0.0.4
+    version: 0.0.5
+    secrets: colab-site
     values:
       - ./values/env.yaml.gotmpl
-      - ./values/{{ .Environment.Name }}.yaml.gotmpl
+      - ./values/{{.Environment.Name}}.yaml.gotmpl
