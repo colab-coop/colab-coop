@@ -3,6 +3,9 @@ hosts:
 disk:
   size: 10Gi
   mountPath: /opt/data
+backup:
+  schedule: "0 * * * *"
+  ttl: "720h"
 image:
   env:
     SOME_ENV: some-value
