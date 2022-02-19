@@ -5,7 +5,7 @@ environments:
   prod:
   stage:
 releases:
-  - name: http-server
+  - name: colab-site
     namespace: colab-site
     chart: colab/http-server
     version: 0.0.8
