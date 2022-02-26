@@ -1,15 +1,25 @@
 repositories:
   - name: colab
     url: https://colab-coop.github.io/helm-charts/charts
+  - name: bitnami
+    url: https://charts.bitnami.com/bitnami
 environments:
   prod:
   stage:
 releases:
   - name: colab-site
-    namespace: colab-site
+    namespace: colab
     chart: colab/http-server
     version: 0.0.10
-    secrets: colab-site
     values:
       - ./values/env.yaml.gotmpl
       - ./values/{{.Environment.Name}}.yaml.gotmpl
+  - name: colab-db
+    namespace: colab
+    chart: bitnami/mysql
+    version: 8.8.25
+    secrets:
+      vault: colab-db
+      path: auth
+    values:
+      - ./values/db.yaml.gotmpl

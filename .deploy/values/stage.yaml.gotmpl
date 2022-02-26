@@ -1,11 +1,5 @@
 hosts:
-- colab.coopernetzner.staging.colab.coop
-disk:
-  size: 10Gi
-  mountPath: /opt/data
+  - colab.kube.stage.colab.coop
 backup:
   schedule: "0 * * * *"
   ttl: "720h"
-image:
-  env:
-    SOME_ENV: some-value

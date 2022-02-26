@@ -3,7 +3,7 @@ version: 2.1
 executors:
   coopctl:
     docker:
-      - image: colabcoop/deploy:0.0.12
+      - image: colabcoop/deploy:0.0.21
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
@@ -54,7 +54,7 @@ workflows:
              branches:
                only: develop
        - stage2:
-           context: coopernetzner-staging
+           context: colab-kube-staging
            filters:
              branches:
                only: testing
