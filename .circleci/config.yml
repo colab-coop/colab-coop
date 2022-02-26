@@ -12,7 +12,7 @@ jobs:
   prod:
     executor: coopctl
     environment:
-      HELMFILE_ENVIRONMENT: prod
+      HELMFILE_ENVIRONMENT: production
     steps:
       - checkout
       - setup_remote_docker
@@ -22,7 +22,7 @@ jobs:
   stage:
     executor: coopctl
     environment:
-      HELMFILE_ENVIRONMENT: stage
+      HELMFILE_ENVIRONMENT: staging
     steps:
       - checkout
       - setup_remote_docker
@@ -32,7 +32,7 @@ jobs:
   stage2:
     executor: coopctl
     environment:
-      HELMFILE_ENVIRONMENT: stage
+      HELMFILE_ENVIRONMENT: staging
     steps:
       - checkout
       - setup_remote_docker

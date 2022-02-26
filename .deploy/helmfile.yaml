@@ -4,8 +4,9 @@ repositories:
   - name: bitnami
     url: https://charts.bitnami.com/bitnami
 environments:
-  prod:
-  stage:
+  production:
+  staging:
+  development:
 releases:
   - name: colab-site
     namespace: colab
