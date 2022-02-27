@@ -20,7 +20,7 @@ releases:
     chart: bitnami/mysql
     version: 8.8.25
     secrets:
-      vault: colab-db
-      path: auth
+      - vault: colab-db
+        path: auth
     values:
       - ./values/db.yaml.gotmpl
