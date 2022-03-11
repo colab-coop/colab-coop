@@ -2,7 +2,7 @@
 title: "Introducing CoLab-Kube, our alternative for hosted cloud servers"
 summary: CoLab has been incrementally improving our DevOps systems for our clients for over a year by creating an accessible and more affordable dedicated server and computational cluster.
 date: 2022-03-09
-authors: [ralph]
+authors: [jonathan]
 readfullarticle: introducing-colab-kube
 ---
 
