@@ -3,7 +3,7 @@ version: 2.1
 executors:
   coopctl:
     docker:
-      - image: colabcoop/deploy:0.0.29
+      - image: colabcoop/deploy:0.0.31
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
@@ -15,7 +15,9 @@ jobs:
       HELMFILE_ENVIRONMENT: production
     steps:
       - checkout
-      - setup_remote_docker
+      - setup_remote_docker:
+          version: 20.10.6
+          docker_layer_caching: true
       - run: coopctl deploy
   staging:
     executor: coopctl
@@ -23,19 +25,21 @@ jobs:
       HELMFILE_ENVIRONMENT: staging
     steps:
       - checkout
-      - setup_remote_docker
+      - setup_remote_docker:
+          version: 20.10.6
+          docker_layer_caching: true
       - run: coopctl deploy
 
 workflows:
-   deploy:
-     jobs:
-       - production:
-           context: colab-kube-production
-           filters:
-             branches:
-               only: production
-       - staging:
-           context: colab-kube-staging
-           filters:
-             branches:
-               only: staging
+  deploy:
+    jobs:
+      - production:
+          context: colab-kube-production
+          filters:
+            branches:
+              only: production
+      - staging:
+          context: colab-kube-staging
+          filters:
+            branches:
+              only: staging
