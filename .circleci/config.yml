@@ -3,7 +3,7 @@ version: 2.1
 executors:
   coopctl:
     docker:
-      - image: colabcoop/deploy:0.0.31
+      - image: colabcoop/deploy:0.0.33
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
@@ -18,7 +18,9 @@ jobs:
       - setup_remote_docker:
           version: 20.10.6
           docker_layer_caching: true
-      - run: coopctl deploy
+      - run:
+          name: Deploy to Production Cluster
+          command: coopctl deploy
   staging:
     executor: coopctl
     environment:
@@ -28,18 +30,20 @@ jobs:
       - setup_remote_docker:
           version: 20.10.6
           docker_layer_caching: true
-      - run: coopctl deploy
+      - run:
+          name: Deploy to Staging Cluster
+          command: coopctl deploy
 
 workflows:
   deploy:
     jobs:
       - production:
-          context: colab-kube-production
+          context: colab-kube-production-v1
           filters:
             branches:
               only: production
       - staging:
-          context: colab-kube-staging
+          context: colab-kube-staging-v1
           filters:
             branches:
               only: staging
