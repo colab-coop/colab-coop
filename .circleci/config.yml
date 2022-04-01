@@ -3,7 +3,7 @@ version: 2.1
 executors:
   coopctl:
     docker:
-      - image: colabcoop/deploy:0.0.33
+      - image: colabcoop/deploy:0.0.35
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
@@ -20,6 +20,7 @@ jobs:
           docker_layer_caching: true
       - run:
           name: Deploy to Production Cluster
+          no_output_timeout: 30m
           command: coopctl deploy
   staging:
     executor: coopctl
@@ -32,6 +33,7 @@ jobs:
           docker_layer_caching: true
       - run:
           name: Deploy to Staging Cluster
+          no_output_timeout: 30m
           command: coopctl deploy
 
 workflows:
