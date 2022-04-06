@@ -15,4 +15,6 @@ releases:
   - name: colab-bucket
     namespace: colab-site
     chart: colab/colab-bucket
-    version: 0.0.2
+    version: 0.0.4
+    values:
+      - ./values/bucket.yaml.gotmpl
