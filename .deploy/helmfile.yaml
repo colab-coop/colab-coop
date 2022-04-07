@@ -12,3 +12,9 @@ releases:
     values:
       - ./values/env.yaml.gotmpl
       - ./values/{{.Environment.Name}}.yaml.gotmpl
+  - name: colab-bucket
+    namespace: colab-site
+    chart: colab/colab-bucket
+    version: 0.0.26
+    values:
+      - ./values/bucket.yaml.gotmpl
