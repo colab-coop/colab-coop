@@ -16,4 +16,4 @@ COPY . /app
 
 RUN npm install && npm run build
 
-ENTRYPOINT /app/.deploy/entrypoint.sh
+ENTRYPOINT /app/.deploy/site-app/entrypoint.sh
