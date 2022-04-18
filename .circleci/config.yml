@@ -2,7 +2,7 @@ version: 2.1
 executors:
   operator:
     docker:
-      - image: colabcoop/operator:0.0.130
+      - image: colabcoop/operator:0.0.131
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
