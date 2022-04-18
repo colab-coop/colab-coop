@@ -2,7 +2,7 @@ version: 2.1
 executors:
   operator:
     docker:
-      - image: colabcoop/operator:0.0.95
+      - image: colabcoop/operator:0.0.96
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
@@ -11,6 +11,9 @@ jobs:
     executor: operator
     steps:
       - checkout
+      - setup_remote_docker:
+          version: 20.10.6
+          docker_layer_caching: true
       - run:
           name: Deploy to CoLab Kube Production
           command: deploy
@@ -19,6 +22,9 @@ jobs:
     executor: operator
     steps:
       - checkout
+      - setup_remote_docker:
+          version: 20.10.6
+          docker_layer_caching: true
       - run:
           name: Deploy to CoLab Kube Staging
           command: deploy
