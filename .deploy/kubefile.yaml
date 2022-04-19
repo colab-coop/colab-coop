@@ -2,4 +2,4 @@ namespace: colab-site
 deployments:
   - name: site-app
     chart: colab/container
-    class: micro
+    class: small
