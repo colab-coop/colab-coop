@@ -1,4 +1,1 @@
-path: /
-image:
-  port: 8080
 name: "CoLab Site"
