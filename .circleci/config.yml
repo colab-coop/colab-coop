@@ -1,11 +1,13 @@
 version: 2.1
+
 executors:
   operator:
     docker:
-      - image: colabcoop/operator:0.0.172
+      - image: colabcoop/operator:0.0.180
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
+
 jobs:
   production:
     executor: operator
@@ -29,6 +31,7 @@ jobs:
           name: Deploy to CoLab Kube Staging
           command: deploy
           no_output_timeout: 30m
+
 workflows:
   deploy:
     jobs:
