@@ -3,7 +3,7 @@ version: 2.1
 executors:
   operator:
     docker:
-      - image: colabcoop/operator:0.0.180
+      - image: colabcoop/operator:0.0.184
         auth:
           username: $DOCKER_USER
           password: $DOCKER_PASSWORD
@@ -36,12 +36,12 @@ workflows:
   deploy:
     jobs:
       - production:
-          context: colab-kube-production-v1
+          context: colab-kube-production-v2
           filters:
             branches:
               only: production
       - staging:
-          context: colab-kube-staging-v1
+          context: colab-kube-staging-v2
           filters:
             branches:
               only: staging
