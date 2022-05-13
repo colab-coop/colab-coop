@@ -1,5 +1,5 @@
 hosts:
-  - colab.kube.stage.colab.coop
+  - stage.colab.coop
 auth:
   - username: colab
     password: colab
