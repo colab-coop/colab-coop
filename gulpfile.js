@@ -242,6 +242,12 @@ gulp.task('scripts', ['browserify'], function() {
     .pipe(gulp.dest(destination + '/assets/js'));
 });
 
+// pdfs
+gulp.task('pdfs', function() {
+  return gulp.src(['src/pdfs/**/*.pdf'])
+    .pipe(gulp.dest(destination + '/assets/pdf'));
+});
+
 // images
 gulp.task('images', function() {
   return gulp.src(['src/images/**/*.PNG','src/images/**/*.png', 'src/images/**/*.JPG','src/images/**/*.jpg', 'src/images/**/*.SVG','src/images/**/*.svg', 'src/images/**/*.GIF','src/images/**/*.gif', 'src/images/**/*.ICO','src/images/**/*.ico'])
@@ -319,13 +325,13 @@ gulp.task('rss-items', function () {
 });
 
 gulp.task('clean', function(cb) {
-  del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/prototype', '!'+destination+'/editor'], {force:true}, cb);
+  del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/assets/pdf', destination + '/prototype', '!' + destination + '/editor'], {force:true}, cb);
 });
 
 // default build task
 gulp.task('default', ['clean'], function() {
   // clean first, then these
-  gulp.start('html', 'xml', 'rss', 'styles', 'scripts', 'images');
+  gulp.start('html', 'xml', 'rss', 'styles', 'scripts', 'images', 'pdfs');
 });
 
 // watch
@@ -341,4 +347,3 @@ gulp.task('watch', ['default'], function() {
   gulp.watch('src/images/**/*', ['images']);
 });
 
-// test
