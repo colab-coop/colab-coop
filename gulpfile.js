@@ -181,7 +181,7 @@ gulp.task('html', ['blog'], function () {
     // rename the destination path for the file (avoiding .html)
     // unless it is index.html in which case just ignore it
     .pipe(rename(function (path) {
-      if (path.basename !== 'index') {
+      if (path.basename !== 'index' && path.basename !== 'atlassian-domain-verification') {
         path.dirname = path.dirname + '/' + path.basename;
         path.basename = "index";
         path.extname = ".html";
