@@ -347,3 +347,9 @@ gulp.task('watch', ['default'], function() {
   gulp.watch('src/images/**/*', ['images']);
 });
 
+gulp.task('copy-html', function() {
+  return gulp.src('./src/html/atlassian-domain-verification.html')
+    .pipe(gulp.dest('./app'));
+});
+
+// test
