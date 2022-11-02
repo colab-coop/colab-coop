@@ -21,6 +21,6 @@ We are also making this transition as a matter of ethics because for far too lon
 We love making systems and tools that align with our cooperative values and provide a high-end, efficient, reliable IT infrastructure alternative for our clients and cooperative partners. Please stay tuned for more information and discussion around our reasoning and process. If you feel that your organization will benefit from a dedicated server and computational cluster systems technology, please connect with us at [friends@colab.coop](mailto:friends@colab.coop?subject=Interest%20in%20CoLab-Kube%20hosting).
 
 <div class="center-text spacing--mid-xx">
-  <a href="https://go.oncehub.com/McKenzieJones" class="button--brand-outline color-red">CONNECT WITH US</a>
+  <a href="https://go.oncehub.com/SalesTeamPage-E5PLJNWHXM" class="button--brand-outline color-red">CONNECT WITH US</a>
 </div>
 
