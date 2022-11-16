@@ -46,7 +46,7 @@ readfullarticle: 6-tips-for-writing-rfps
   Clear requirements might sound like a no-brainer. But there is more than meets the eye in clearly outlining goals and requirements. Number one is that you want to make sure requirements are realistic. You need to account for the things that are important, but remember there is fast, cheap and good but you can only pick two!
 </p>
 
-<!-- INSERT IMAGE HERE-->
+<img src="/assets/img/blog/fast-cheap-good.png" class="center-element" />
 
 <h2 class="center-text text--uppercase">2. DO: Be Aware of (and plan for) the Unknowns</h2>
 
