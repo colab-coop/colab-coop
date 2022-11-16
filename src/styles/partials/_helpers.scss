@@ -461,3 +461,11 @@ a.button--brand-outline.color-red, .button--brand-outline.color-red {
 .img-rounded {
   border-radius: 100%;
 }
+
+//------------------------------------------------
+// Blog authors
+
+.blog-list-meta > span, .blog-post-meta > span {
+  white-space: nowrap;
+}
+
