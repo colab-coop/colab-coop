@@ -1,12 +1,12 @@
 ---
-title: "Google Analytics 4 Migration Guide"
+title: "Important Changes to Google Analytics Happening Now"
 summary: Everything you need to know about Google's major Analytics Update
 date: 2022-11-15
 authors: [david.a, brandon]
-readfullarticle: google-analytics-4-migration-guide
+readfullarticle: important-changes-to-google-analytics-happening-now
 ---
 
-<h1 class="heading-primary">Google Analytics 4 Migration Guide</h1>
+<h1 class="heading-primary">Important Changes to Google Analytics Happening Now</h1>
 <b>Everything you need to know about Google's major Analytics Update</b>
 <i>by Brandon Vehrs, CoLab Cooperative Analytics and Search Engine Optimization Specialist and David Abramson, CoLab Project Manager</i>
 
