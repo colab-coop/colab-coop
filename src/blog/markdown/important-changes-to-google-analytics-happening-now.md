@@ -14,7 +14,44 @@ readfullarticle: important-changes-to-google-analytics-happening-now
 
 <h2 class="center-text text--uppercase">Overview</h2>
 
-<p>Google has released an exciting update to its widely used analytics platform. Unlike previous changes to the Google Analytics framework, Google Analytics 4 (GA4) is in effect a completely different platform with a completely different data model. It calls for a different event architecture and new code to be added to websites and other applications.</p>
+<p>Google has released a major update to its widely used analytics platform. Unlike previous changes to the Google Analytics framework, Google Analytics 4 (GA4) is in effect a completely different platform with a completely different data model. It calls for a different event architecture and new code to be added to websites and other applications.</p>
+
+<h2 class="center-text text--uppercase">Updating your Analytics configuration.</h2>
+<i>Here's what you need to know</i>
+
+<div class="spacing--mid"></div>
+
+<h3>Goodbye Universal Analytics, Hello GA4!</h3>
+
+<p>
+  <b>By July 2023, Universal Google Analytics (the version you are likely using) will stop recording data entirely.</b> Although no definite announcement has yet been made, it has also been implied that historical Universal GA data will not be available for viewing indefinitely.
+</p>
+
+<p>
+  <b>We highly recommend that all Google Analytics users migrate to GA4 as soon as possible</b> to allow for uninterrupted data collection as well as like-for-like year-on-year comparisons for this transitional period leading up to July 2023.
+</p>
+
+<p>
+  For most sites, we are recommending running GA4 and Universal Google Analytics side by side from this point in time until July 2023, to allow for the least interruptions in data flow and longest possible run of data in GA4.
+</p>
+
+<h2 class="center-text text--uppercase">Disclaimer</h2>
+
+<p>
+  We’d like to be clear that we aren’t writing this guide as evangelists of Google Analytics and stop well short of offering our recommendation of their service to readers. Google Analytics has its strengths, particularly in the robustness of its data, dashboards, and reports but also has many drawbacks, including concerns about user privacy and more recently, requirements associated with opt-in for cookies.
+</p>
+
+<p>
+  We do not use Google Analytics for the colab.coop site, and instead use privacy-first <a href="https://www.simpleanalytics.com/">Simple Analytics</a>, which we feel, despite the more limited data, is more in line with our values, protects user’s data, and still meets our need for tracking the most important metrics for our site. We have also worked with <a href="https://matomo.org/matomo-analytics-the-google-analytics-alternative-that-protects-your-data-variation/">Matamo</a> and have no complaints (plus it’s open source!)
+</p>
+
+<p>
+  All this said, we recognize that over 50% of website owners use Google Analytics and will need to take action should they want to continue using the Google Analytics platform so in that spirit, we offer this. One of the biggest strengths of Google Analytics is that it’s free. It also integrates nicely with other Google tools and services, such as Adwords. Most of our clients opt for Google Analytics, and we make no judgments on using it and understand the positive reasons for doing so. 
+</p>
+
+<p>
+  If you have been considering a switch, now is a great time to explore alternatives. If you’d like to do some discovery on analytics migration with us, <a href="https://colab.coop/contact/">feel free to reach out</a>.
+</p>
 
 <h2 class="center-text text--uppercase">Highlights</h2>
 
@@ -40,25 +77,6 @@ readfullarticle: important-changes-to-google-analytics-happening-now
     GA4 has far greater data visualizations capabilities.
   </li>
 </ul>
-
-<h2 class="center-text text--uppercase">Updating your Analytics configuration.</h2>
-<i>Here's what you need to know</i>
-
-<div class="spacing--mid"></div>
-
-<h3>Goodbye Universal Analytics, Hello GA4!</h3>
-
-<p>
-  By July 2023, Universal Google Analytics (the version you are likely using) will stop recording data entirely. Although no definite announcement has yet been made, it has also been implied that historical Universal GA data will not be available for viewing indefinitely.
-</p>
-
-<p>
-  <b>We highly recommend that all Google Analytics users migrate to GA4 as soon as possible</b> to allow for uninterrupted data collection as well as like-for-like year-on-year comparisons for this transitional period leading up to July 2023.
-</p>
-
-<p>
-  For most sites, we are recommending running GA4 and Universal Google Analytics side by side from this point in time until July 2023, to allow for the least interruptions in data flow and longest possible run of data in GA4.
-</p>
 
 <h2 class="center-text text--uppercase">How Do I Navigate this Switch</h2>
 
