@@ -42,7 +42,7 @@ readfullarticle: important-changes-to-google-analytics-happening-now
 </p>
 
 <p>
-  We do not use Google Analytics for the colab.coop site, and instead use privacy-first <a href="https://www.simpleanalytics.com/">Simple Analytics</a>, which we feel, despite the more limited data, is more in line with our values, protects user’s data, and still meets our need for tracking the most important metrics for our site. We have also worked with <a href="https://matomo.org/matomo-analytics-the-google-analytics-alternative-that-protects-your-data-variation/">Matamo</a> and have no complaints (plus it’s open source!)
+  We do not use Google Analytics for the colab.coop site, and instead use privacy-first <a target="_blank" href="https://www.simpleanalytics.com/">Simple Analytics</a>, which we feel, despite the more limited data, is more in line with our values, protects user’s data, and still meets our need for tracking the most important metrics for our site. We have also worked with <a target="_blank" href="https://matomo.org/matomo-analytics-the-google-analytics-alternative-that-protects-your-data-variation/">Matamo</a> and have no complaints (plus it’s open source!)
 </p>
 
 <p>
@@ -50,7 +50,7 @@ readfullarticle: important-changes-to-google-analytics-happening-now
 </p>
 
 <p>
-  If you have been considering a switch, now is a great time to explore alternatives. If you’d like to do some discovery on analytics migration with us, <a href="https://colab.coop/contact/">feel free to reach out</a>.
+  If you have been considering a switch, now is a great time to explore alternatives. If you’d like to do some discovery on analytics migration with us, <a href="/ga4-contact">feel free to reach out</a>.
 </p>
 
 <h2 class="center-text text--uppercase">Highlights</h2>
@@ -81,7 +81,7 @@ readfullarticle: important-changes-to-google-analytics-happening-now
 <h2 class="center-text text--uppercase">How Do I Navigate this Switch</h2>
 
 <p>
-  Both GA3 and GA4 can, and ideally should be, set up through <a href="https://tagmanager.google.com/">Google Tag Manager</a> (GTM).
+  Both GA3 and GA4 can, and ideally should be, set up through <a target="_blank" href="https://tagmanager.google.com/">Google Tag Manager</a> (GTM).
 </p>
 
 <p>
@@ -95,21 +95,21 @@ readfullarticle: important-changes-to-google-analytics-happening-now
 <h2 class="center-text text--uppercase">Need Help with your Google Analytics Migration?</h2>
 
 <p>
-  If you want support from CoLab’s Analytics Specialist to do the setup and make sure everything is running correctly, or need any kind of custom analytics integration or custom analytics event migration, don’t hesitate to <a href="/contact">contact us or schedule a time for review</a>.
+  If you want support from CoLab’s Analytics Specialist to do the setup and make sure everything is running correctly, or need any kind of custom analytics integration or custom analytics event migration, don’t hesitate to <a href="/ga4-contact">contact us or schedule a time for review</a>.
 </p>
 
 <p>
-  If you have someone on your staff who handles Google Tag Manager, we can share some resources (such as <a href="https://support.google.com/analytics/answer/10089681?hl=en">this guide from Google</a>) for them to start the process.
+  If you have someone on your staff who handles Google Tag Manager, we can share some resources (such as <a target="_blank" href="https://support.google.com/analytics/answer/10089681?hl=en">this guide from Google</a>) for them to start the process.
 </p>
 
 <div class="center-text spacing--sm-xx">
-  <a href="https://go.oncehub.com/SalesTeamPage-E5PLJNWHXM" class="button--brand-outline color-red">Book a Time</a>
+  <a target="_blank" href="https://go.oncehub.com/SalesTeamPage-E5PLJNWHXM" class="button--brand-outline color-red">Book a Time</a>
 </div>
 
 <div class="spacing--mid"></div>
 
 <p>
-  And as always, feel free to <a href="/contact">reach out</a> if you have any questions or have any kind of technology needs. That’s what we're here for!
+  And as always, feel free to <a href="/ga4-contact">reach out</a> if you have any questions or have any kind of technology needs. That’s what we're here for!
 </p>
 
 <p>
@@ -121,7 +121,7 @@ readfullarticle: important-changes-to-google-analytics-happening-now
 </p>
 
 <div class="center-text spacing--mid-xx">
-  <a href="/contact" class="button--brand-outline color-red">Request CoLab Website Support Info</a>
+  <a href="/ga4-contact" class="button--brand-outline color-red">Request CoLab Website Support Info</a>
 </div>
 
 <div class="spacing--mid"></div>
