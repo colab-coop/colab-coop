@@ -1,7 +1,0 @@
-namespace: colab-site
-deployments:
-  - name: site-app
-    chart: colab/container
-    class: micro
-  - name: site-backup
-    chart: colab/backup
