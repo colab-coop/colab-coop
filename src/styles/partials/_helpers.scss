@@ -1,0 +1,471 @@
+//------------------------------------------------
+// Clearing
+.clear {
+  clear: both;
+}
+
+.clearfix, %clearfix {
+  &:after {
+		content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin clearfix {
+	&:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+//------------------------------------------------
+// Floats
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+//------------------------------------------------
+// Grid
+.grid-parent, %grid-parent {
+  margin-left: -$grid-padding;
+  margin-right: -$grid-padding;
+  @include clearfix;
+}
+
+@mixin grid-parent {
+  margin-left: -$grid-padding;
+	margin-right: -$grid-padding;
+	@include clearfix;
+}
+
+.grid-child, %grid-child {
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
+@mixin grid-child {
+  padding-left: $grid-padding;
+	padding-right: $grid-padding;
+}
+
+.col-33-flt, %col-33-flt {
+  width: 33.33%;
+  float: left;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
+@mixin col-33-flt {
+  width: 33%;
+  float: left;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
+.col-50-flt, %col-50-flt {
+  width: 50%;
+  float: left;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
+@mixin col-50-flt {
+  width: 50%;
+	float: left;
+	padding-left: $grid-padding;
+	padding-right: $grid-padding;
+}
+
+.col-66-flt, %col-66-flt {
+  width: 66.66%;
+  float: left;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
+@mixin col-66-flt {
+  width: 66%;
+  float: left;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
+//------------------------------------------------
+//Alignment: Middle
+.vertical-inline-middle, %vertical-inline-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+//------------------------------------------------
+// Text Helpers
+
+.text--align-left {
+  text-align: left;
+}
+
+.text--align-center {
+  text-align: center;
+}
+
+.text--align-right {
+  text-align: right;
+}
+
+.lubalin {
+  font-family: 'LubalinGraphStd-Book';
+}
+
+.lubalin-bold {
+  font-family: 'LubalinGraphStd-Demi';
+}
+
+//------------------------------------------------
+// Center
+.center-text, %center-text {
+  text-align: center;
+}
+
+.center-element, %center-element {
+  display: block;
+  margin: 0 auto;
+}
+
+.vertical-center, %vertical-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin vertical-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.dead-center, %dead-center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin dead-center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+//------------------------------------------------
+// Spacing Divs
+.spacing--sm-x, %spacing--sm-x {
+  padding: 6px 0;
+  width: 100%;
+}
+
+.spacing--sm, %spacing--sm {
+  padding: 12px 0;
+  width: 100%;
+}
+
+.spacing--mid, %spacing--mid {
+  padding: 15px 0;
+  width: 100%;
+}
+
+.spacing--mid-x, %spacing--mid-x {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.spacing--mid-xx, %spacing--mid-xx {
+  padding: 25px 0;
+  width: 100%;
+}
+
+.spacing--lg, %spacing--lg {
+  padding: 40px 0;
+  width: 100%;
+}
+
+.spacing--lg-x, %spacing--lg-x {
+  padding: 50px 0;
+  width: 100%;
+}
+
+.spacing--lg-xx, %spacing--lg-xx {
+  padding: 60px 0;
+  width: 100%;
+}
+
+// ------------------------------------------------
+// Margins
+
+.margin-top, %margin-top {
+  margin-top: $base-spacing * 4;
+}
+
+.margin-right, %margin-right {
+  margin-right: $base-spacing * 4;
+}
+
+.margin-bottom, %margin-bottom {
+  margin-bottom: $base-spacing * 4;
+}
+
+.margin-left, %margin-left {
+  margin-left: $base-spacing * 4;
+}
+
+.margin-top-base { /* this is not ok */
+  margin-top: $base-spacing;
+}
+
+.margin-right-base-lg { /* this is also not ok */
+  margin-right: $base-spacing-lg;
+}
+
+// ------------------------------------------------
+// Borders
+
+.border-all {
+  border: 2px solid $border-default-light;
+}
+
+// ------------------------------------------------
+// Buttons
+
+.button, %button {
+  text-align: center;
+  display: inline-block;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.button--brand-outline {
+  @extend %button;
+	text-transform: uppercase;
+  padding: 15px;
+  line-height: 1;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  min-width: 180px;
+
+  &:hover {
+    background: #fff;
+    border-color: #fff;
+    color: $gray-darkest;
+    transition: all 0.2s linear;
+  }
+}
+
+a.button--brand-outline, .button--brand-outline {
+  color: #fff;
+}
+
+//grey buttons with border
+a.button--brand-outline.text--gray-medium, .button--brand-outline.text--gray-medium {
+  color: $gray-medium;
+}
+
+//red buttons with border
+a.button--brand-outline.color-red, .button--brand-outline.color-red {
+  background-color: $red;
+  background-size: 17px 17px;
+  background-position: 50% center;
+  background-repeat: no-repeat;
+  border-color: $red;
+  color: #fff;
+  &.navbtn {
+    background: none;
+    color: $red;
+  }
+
+  &:hover {
+    background-image: none;
+    background-color: $darkred;
+    border-color: $darkred;
+    &.navbtn {
+      background-color: $red;
+      border-color: $red;
+      color: #fff;
+    }
+  }
+}
+
+//------------------------------------------------
+// Colors
+.color-white {
+  color: #fff;
+}
+
+.color-white-bg {
+  background-color: #fff;
+}
+
+.color-red {
+  color: $red;
+}
+
+.color-red-bg {
+  background-color: $red;
+}
+
+.color-graymedium {
+  color: $gray-medium;
+}
+
+.color-graylight-bg {
+  background-color: $gray-light;
+}
+
+.link-white, .link-white:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+//------------------------------------------------
+// Borders: Rainbow
+.border-rainbow, %border-rainbow {
+  width: 100%;
+  height: 2px;
+  margin-top: $base-spacing-sm;
+  background: linear-gradient(to right, #D6D6D6 46%, #ED313D 46%, #ED313D 47.5%, #27B0E5 47.5%, #27B0E5 49%, #FEDC00 49%, #FEDC00 50.5%, #F9A61C 50.5%, #F9A61C 52%, #8CC541 52%, #8CC541 53.5%, #D6D6D6 54%, #D6D6D6 55%);
+}
+
+@mixin border-rainbow {
+  width: 100%;
+	height: 2px;
+	margin-top: $base-spacing-sm;
+	background: linear-gradient(to right, #D6D6D6 46%, #ED313D 46%, #ED313D 47.5%, #27B0E5 47.5%, #27B0E5 49%, #FEDC00 49%, #FEDC00 50.5%, #F9A61C 50.5%, #F9A61C 52%, #8CC541 52%, #8CC541 53.5%, #D6D6D6 54%, #D6D6D6 55%);
+}
+
+
+//------------------------------------------------
+// Icon Dot: Decorative vertically centered dot
+.icon-dot {
+  &:after {
+		content: ".";
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 $base-spacing-sm;
+    position: relative;
+    top: -$base-spacing-sm;
+  }
+}
+
+//------------------------------------------------
+// Callout
+.callout {
+  padding: $base-spacing-mid;
+  background: $gray-light;
+  @extend %center-text;
+}
+
+
+//------------------------------------------------
+// Containers for main layout
+
+.container {
+  max-width: 1010px;
+}
+
+.container--text {
+  max-width: 710px;
+}
+
+.container--mid {
+  max-width: 460px;
+}
+
+.container--sm {
+  max-width: 320px;
+}
+
+.container, .container--text, .container--mid, .container--sm {
+  margin: 0 auto;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+}
+
+
+
+
+//------------------------------------------------
+// Tabs
+
+.tabs {
+  list-style: none;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  @extend %clearfix;
+  @extend %grid-parent;
+
+  li {
+    @extend %grid-child;
+    overflow: hidden;
+    position: relative;
+    @extend %center-text;
+
+    a {
+      color: $gray-medium;
+      display: block;
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: $gray-darkest;
+        transition: all 0.2s linear;
+      }
+    }
+
+    a:hover, &.active-tab a {
+      color: $gray-darkest;
+    }
+  }
+}
+
+.tab-container {
+  overflow: hidden;
+  @extend %grid-parent;
+}
+
+.tab-content {
+  @extend %grid-child;
+}
+
+//------------------------------------------------
+// Images
+
+.img-rounded {
+  border-radius: 100%;
+}
+
+//------------------------------------------------
+// Blog authors
+
+.blog-list-meta > span, .blog-post-meta > span {
+  white-space: nowrap;
+}
+

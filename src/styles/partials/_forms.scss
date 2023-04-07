@@ -1,0 +1,189 @@
+//------------------------------------------------
+// Forms
+
+// No-js form styles
+.no-js {
+	form.form-api {
+		& > div {
+			display:none;
+		}
+		&:before {
+			content: 'This form requires Javascript. \A Please turn Javascript on in your browser.';
+			color: $gray-dark;
+			background-color: $gray-light;
+			box-shaddow:active 2px 2px 1px 2px $gray-lighter;
+			display: block;
+			text-align: center;
+			margin:30px 40px;
+			padding: 75px 0;
+			white-space: pre;
+		}
+	}
+
+	.form-select-wrapper {
+		display: none;
+	}
+}
+
+input[type="submit"], button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+textarea, select, input[type="text"], input[type="url"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"] {
+	border: 2px solid transparent;
+	border-radius: 3px;
+  padding: 12px;
+	transition: all .5s;
+
+  &:focus {
+		border-color: $red;
+    outline: 0;
+  }
+}
+
+label {
+  padding-bottom: $base-spacing-mid;
+  display: block;
+}
+
+.form-field-wrap {
+	padding-top: $base-spacing-mid;
+	padding-bottom: $base-spacing-mid;
+
+	> .h2 {
+		margin-bottom: 30px;
+	}
+}
+
+.form-field-desc {
+	line-height: 1.4;
+	padding-bottom: $base-spacing-lg * 1.5;
+}
+
+.form-field-section {
+	margin-bottom: $base-spacing-lg;
+}
+
+.form-base {
+  textarea, input[type="text"], input[type="url"], input[type="tel"], input[type="email"], input[type="number"], input[type="password"] {
+		&.error, &.error-empty{
+			box-shadow: 0 0 2px 1px red;
+		}
+  }
+
+  textarea, select, input {
+  	display: block;
+  	width: 100%;
+  }
+
+  div.subscribe-email-field {
+    width: 66.66%;
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  @media screen and (max-width: 480px) {
+    div.subscribe-email-field {
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  input[type="submit"], button {
+  	display: inline-block;
+    min-width: 140px;
+		&.busy{
+			color: transparent !important;
+      background-color: $red;
+			background-image: url("/assets/img/submit-spinner.gif");
+		}
+  }
+
+  input[type="submit"], input[type="radio"], input[type="checkbox"] {
+  	width: auto;
+  }
+
+  .checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;
+  }
+
+  .checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .checkbox-custom-label, .radio-custom-label {
+    position: relative;
+    padding: 0;
+  }
+
+  .checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #eee;
+    @extend %vertical-inline-middle;
+    width: 18px;
+    height: 18px;
+    padding: 2px;
+    margin-right: $base-spacing;
+    text-align: center;
+  }
+
+	.checkbox-custom:checked {
+		+ .checkbox-custom-label:before {
+			// Red Box style (default)
+			background: $red;
+		}
+		&.checkmark-style{
+			+ .checkbox-custom-label:before {
+				// Checkmark style
+				content: "\2713";
+				color: $red;
+				font-size: 38px;
+				line-height: 23px;
+				background: #fff;
+			}
+		}
+	}
+
+  .radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+  }
+
+  .radio-custom:checked + .radio-custom-label:before {
+    box-shadow: inset 0px 0px 0px 5px $red;
+    border-color: $red;
+  }
+}
+
+.required-label {
+	&:after {
+		content: "*";
+		padding-left: $base-spacing-sm;
+		color: $gray-medium;
+	}
+}
+
+#success, #error {
+	padding: $base-spacing-sm;
+	color: $gray-medium;
+	@extend %text--small;
+	background: $gray-light;
+	margin: $base-spacing-lg 0 0 0;
+}
+
+#errorMsg{
+	color: $red;
+	white-space: pre;
+}

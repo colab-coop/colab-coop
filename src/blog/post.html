@@ -1,0 +1,74 @@
+@@include('../../templates/_head-blog.tpl')
+
+<body class="blog-post">
+  <main>
+  @@include('../../templates/_homenav.tpl')
+
+    <div class="container--text">
+      <a href="/blog" class="text--gray-medium text--small text--uppercase">‹ Back to the blog</a>
+
+        <div class="styling-markdown blog-post-info">
+          {{{rendered}}}
+        </div>
+
+        <div class="blog-post-meta-block">
+          <div class="blog-post-meta">
+            By
+            {{#authors}}
+              <span>
+                <a href="/team/{{.}}" class="link--no-border"><img src="/assets/img/team/{{.}}.jpg" alt="" class="blog-post-img-credit"></a>
+                <a href="/team/{{.}}" class="text--capitalize">{{.}}</a>
+              </span>
+            {{/authors}}
+          </div>
+        <div class="spacing--sm"></div>
+      <div>{{date}}</div>
+    </div>
+
+    <br>
+
+    <div class="blog-list-block">
+
+      <div class="grid-child float-left">
+        Get occasional updates on our projects, events, and more:
+      </div>
+
+      <form action="//colab.us6.list-manage.com/subscribe/post?u=afa75b242ad65e5dc2f2a34a4&amp;id=1487e73bed" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-base form-contact" target="_blank" novalidate="">
+
+        <div class="col-66-flt">
+          <div class="form-field-wrap">
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email address">
+          </div>
+        </div>
+        <div class="col-33-flt">
+          <div class="form-field-wrap center-text">
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button--brand-outline color-red">
+          </div>
+        </div>
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_afa75b242ad65e5dc2f2a34a4_1487e73bed" tabindex="-1" value=""></div>
+      </form>
+    </div>
+
+    <div class="blog-post-social">
+      <span class='st_sharethis_large' displayText='ShareThis'></span>
+      <span class='st_facebook_large' displayText='Facebook'></span>
+      <span class='st_twitter_large' displayText='Tweet'></span>
+      <span class='st_linkedin_large' displayText='LinkedIn'></span>
+      <span class='st_email_large' displayText='Email'></span>
+    </div>
+
+    @@include('../../templates/_disqus.tpl')
+
+  </div>
+</main>
+
+@@include('../../templates/_footer.tpl')
+
+<div class="blog-post-twitter-container"></div>
+
+@@include('../../templates/_tail.tpl')
+

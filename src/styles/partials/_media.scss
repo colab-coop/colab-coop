@@ -1,0 +1,316 @@
+@media screen and (max-width: 799px) {
+  .nav {
+    overflow: visible;
+  }
+
+  .nav-menu {
+    padding: $base-spacing $base-spacing-sm;
+    background: $gray-darkest;
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: $nav-menu-width;
+    right: -$nav-menu-width;
+    transition: all 0.2s ease-in;
+    top: 55px;
+  }
+
+  .panel-fullwidth-content {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  .tabs {
+    li {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  .banner-home-button, .panel-home .heading-primary {
+    text-align: left;
+  }
+
+  .banner-home-button {
+    margin-top: $base-spacing-lg * 2;
+  }
+
+  .panel-home {
+    .heading-primary {
+      max-width: 500px;
+    }
+  }
+
+  .recent-work-block {
+    > a {
+      display: inline-block;
+
+      img {
+        max-width: none;
+      }
+    }
+  }
+
+  .featured-home {
+    > a  {
+      span {
+        display: inline-block;
+      }
+    }
+  }
+  .team-each {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .project-info-50 {
+    @include col-50-flt;
+  }
+
+  .panel-content-section {
+    @include col-50-flt;
+  }
+
+  .form-api {
+    .grid-parent {
+      > .form-field-wrap {
+        @include col-50-flt;
+      }
+    }
+  }
+
+	.form-select-text {
+		float: left;
+		padding: 20px 0 0 10px;
+		position: relative;
+	}
+
+
+  .address-colab {
+    font-size: $body-font-size;
+  }
+
+  .services-list-each {
+    width: 33.33%;
+    float: left;
+  }
+
+  .jobs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .job-each {
+    display: flex;
+    align-items: stretch;
+    flex: 0 1 33.33%;
+  }
+
+}
+
+@media screen and (min-width: 700px) {
+  .grid-each {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    @include grid-child;
+  }
+
+  .work-additional {
+    width: 50%;
+    float: left;
+  }
+
+  .team-profile-intro-block {
+    float: right;
+    width: 70%;
+  }
+
+  .team-profile-meta, .team-profile-bio {
+    float: left;
+  }
+
+  .team-profile-meta {
+    width: 30%;
+    position: relative;
+    top: -160px;
+  }
+
+  .team-profile-bio {
+    width: 70%;
+    padding-left: 38px;
+  }
+
+  .footer-connect {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    padding-top: 140px;
+  }
+
+/* nav styles for sticky scroll header */
+
+  .main-offcanvas {
+    right: 0;
+  }
+
+  .animated {
+    animation-duration: .4s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animated.slideDown {
+    animation-name: slideDown;
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  .animated.slideUp {
+    animation-name: slideUp;
+  }
+
+/* nav styles for pages with hero image */
+
+  .home, .project, .team-profile {
+    padding-top: 0;
+
+    .nav {
+      background: none;
+    }
+
+    .nav-menu-trigger, .nav-menu a {
+      color: #fff;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .logo-svg {
+      polygon, path, text {
+        fill: #fff;
+      }
+    }
+}
+
+/* end nav styles for pages with hero image */
+
+  .home, .project, .team-profile {
+    .animated.headroom--top {
+      a.button--brand-outline.color-red {
+        border-color: #e8e8e8;
+	color: #e8e8e8;
+      }
+    }
+    .animated.headroom--not-top.slideDown {
+      background-color: #fff;
+
+      .logo-svg polygon {
+        fill: $red;
+      }
+
+      .logo-svg path, text {
+        fill: $gray-medium;
+      }
+
+      .nav-menu-trigger, .nav-menu a {
+        color: inherit;
+
+        &:hover, &.nav-active {
+          color: $red;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+/* end nav styles for sticky scroll header */
+
+  .nav {
+    padding: $base-spacing-lg 0 $base-spacing 0;
+    .logo-svg {
+  		height: 52px;
+      width: 230px;
+    }
+  }
+
+  .nav-menu-trigger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+    margin-top: $base-spacing-sm;
+    a {
+  		display: inline-block;
+      color: $gray-darkest;
+      @include text--small;
+    }
+  }
+
+  .team-each {
+    width: 33.33%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .grid-each {
+    width: 33.33%;
+    @include grid-child;
+  }
+
+  .team-profile-heading {
+    float: left;
+  }
+
+  .team-profile-badges {
+    float: right;
+  }
+
+  .slider-testimonial {
+    .item {
+      padding: 0 $base-spacing;
+    }
+    .owl-prev {
+      left: -100px;
+    }
+
+    .owl-next {
+      right: -100px;
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .team-each {
+    width: 25%;
+  }
+}
