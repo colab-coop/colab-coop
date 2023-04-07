@@ -1,6 +1,0 @@
-<item>
-<title>{{item.title}}</title>
-<link>https://colab.coop/blog/{{item.readfullarticle}}</link>
-<guid>https://colab.coop/blog/{{item.readfullarticle}}</guid>
-<description>{{item.summary}}</description>
-</item>

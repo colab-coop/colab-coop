@@ -1,10 +1,6 @@
-build/
-node_modules/
-package-lock.json
-npm-debug.log
-.sass-cache
-dist
-gulperr.log
-pollerr.log
-*~
-.DS_Store
+web/wp-content/
+web/gd-config.php
+web/wp-config.php
+web/mwp_db/
+web/wp-content/mu-plugins/gd-system-plugin/
+web/wp-content/mu-plugins/gd-system-plugin.php

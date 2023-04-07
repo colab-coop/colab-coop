@@ -1,5 +1,0 @@
-{
-  "undef": true,
-  "unused": true,
-  "predef": [ "$", "window", "require", "document" ]
-}
