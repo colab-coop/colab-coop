@@ -32,6 +32,7 @@ RUN printf "\n" | pecl install apcu
 RUN docker-php-ext-enable apcu
 
 COPY $KUBE_DIR/nginx.conf /etc/nginx/nginx.conf
+COPY $KUBE_DIR/php.ini /usr/local/etc/php/conf.d/kube.php.ini
 COPY $KUBE_DIR/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 RUN mkdir $APP_DIR
