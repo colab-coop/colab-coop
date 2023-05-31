@@ -4,7 +4,7 @@ ENV APP_DIR /app
 ENV KUBE_DIR .kube/app
 
 RUN apt-get update
-RUN apt-get install -y ruby-full nginx git unzip supervisor rsync nano wget curl s3cmd
+RUN apt-get install -y ruby-full nginx git unzip supervisor rsync nano wget curl
 
 COPY $KUBE_DIR/nginx.conf /etc/nginx/nginx.conf
 COPY $KUBE_DIR/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
