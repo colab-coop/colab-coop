@@ -1,74 +1,89 @@
-var gulp = require('gulp');
-var sass = require('gulp-ruby-sass');
-var autoprefixer = require('gulp-autoprefixer');
-var minifycss = require('gulp-minify-css');
-var jshint = require('gulp-jshint');
-var uglify = require('gulp-uglify');
-var imagemin = require('gulp-imagemin');
-var rename = require('gulp-rename');
-var del = require('del');
-var stripDebug = require('gulp-strip-debug');
-var args = require('yargs').argv;
-var gulpif = require('gulp-if');
-var gzip = require('gulp-gzip');
-var fileInclude = require('gulp-file-include');
-var markdown = require('gulp-markdown');
-var source = require('vinyl-source-stream');
-var browserify = require('browserify');
-var frontMatter = require('gulp-front-matter');
-var concat = require('gulp-concat');
-var es = require('event-stream');
-var mustache = require('mustache');
-var fs = require('fs');
-var sort = require('sort-stream');
-var moment = require('moment');
-var config = require('./config.js').config;
+const gulp = require('gulp');
+const { series, parallel, src, dest } = require('gulp');
+const sass = require('gulp-ruby-sass');
+const autoprefixer = require('gulp-autoprefixer');
+const minifycss = require('gulp-minify-css');
+const jshint = require('gulp-jshint');
+const uglify = require('gulp-uglify');
+const imagemin = require('gulp-imagemin');
+const rename = require('gulp-rename');
+const del = require('del');
+const stripDebug = require('gulp-strip-debug');
+const args = require('yargs').argv;
+const gulpif = require('gulp-if');
+const gzip = require('gulp-gzip');
+const fileInclude = require('gulp-file-include');
+const markdown = require('gulp-markdown');
+const source = require('vinyl-source-stream');
+const browserify = require('browserify');
+const frontMatter = require('gulp-front-matter');
+const concat = require('gulp-concat');
+const es = require('event-stream');
+const mustache = require('mustache');
+const fs = require('fs');
+const sort = require('sort-stream');
+const moment = require('moment');
+const config = require('./config.js').config;
 
-var destination = config.buildDest;
+const destination = config.buildDest;
 
 // command line params
 // for instance: $ gulp --type production
-var isProduction = args.type === 'production';
+const isProduction = args.type === 'production';
 
-// blog page pipeline
-gulp.task('blog', ['blog-posts-list'], function () {
-  // taking the blog post list from the 'blog-posts-list' step
-  // and including it into the blog.html template
-  return gulp.src('src/blog/blog.html')
+// fill out the blog post templates
+function blogPostsHTMLTask() {
+  const post = String(fs.readFileSync('src/blog/post.html'));
+  let dir = '';
+  return src('src/blog/markdown/**/*.md')
+    // extract frontmatter from markdown, append to file attributes
+    .pipe(frontMatter({
+      property: 'frontMatter',
+      remove: true
+    }))
+    // render the partial
+    .pipe(markdown())
+    // insert frontmatter and partial as mustache vars into post template
     .pipe(es.map(function (file, cb) {
-      // first inject the build destination so include knows where to go
-      var html = mustache.render(
-        String(file.contents), {
-          buildDest: config.buildDest
-        });
-      file.contents = new Buffer(html);
+      const html = mustache.render(post, {
+        buildDest: config.buildDest,
+        include: file.frontMatter.readfullarticle,
+        date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
+        authors: file.frontMatter.authors,
+        rendered: file.contents
+      });
+      file.contents = new Buffer.from(html);
       cb(null, file);
     }))
-    // then actually include the headers, navs, blogposts, footer and tail
+    // include stuff
     .pipe(fileInclude())
-    // then set the title
+    // insert handlebars values from frontmatter into head template
     .pipe(es.map(function (file, cb) {
-      var html = mustache.render(
-        String(file.contents), {
-          title: 'Blog'
-        });
-      file.contents = new Buffer(html);
+      file.contents = new Buffer.from(
+        mustache.render(
+          String(file.contents), {
+            title: file.frontMatter.title,
+            base: config.baseURL,
+            include: file.frontMatter.readfullarticle,
+            summary: file.frontMatter.summary,
+            thumbnail: file.frontMatter.thumbnail
+          }));
       cb(null, file);
     }))
-    // now we have /blog tada
-    .pipe(rename('blog/index.html'))
-    .pipe(gulp.dest(destination));
-});
-
-function capitalize (string) {
-  return string[0].toUpperCase() + string.substr(1);
+    // rename the destination path for the file (avoiding .html)
+    .pipe(rename(function (path) {
+      path.dirname = path.dirname + '/' + path.basename;
+      path.basename = "index";
+      path.extname = ".html";
+    }))
+    .pipe(dest(destination + '/blog'));
 }
 
 // blog post list for blog page
-gulp.task('blog-posts-list', ['blog-posts-html'], function () {
-  var postlist = String(fs.readFileSync('src/blog/blogposts.html'));
+function blogPostsListTask() {
+  const postlist = String(fs.readFileSync('src/blog/blogposts.html'));
 
-  return gulp.src('src/blog/markdown/**/*.md')
+  return src('src/blog/markdown/**/*.md')
     // extract the frontmatter from the .md add to file attributes
     .pipe(frontMatter({
       property: 'frontMatter',
@@ -76,7 +91,7 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
     }))
     // use the frontmatter to populate a blog post list
     .pipe(es.map(function (file, cb) {
-      var html = mustache.render(postlist, {
+      const html = mustache.render(postlist, {
         post: file.frontMatter,
         date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
         authors: file.frontMatter.authors.map(function(a){
@@ -98,7 +113,7 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
           }
         })
       });
-      file.contents = new Buffer(html);
+      file.contents = new Buffer.from(html);
       cb(null, file);
     }))
     // sort the list newest-first
@@ -109,72 +124,58 @@ gulp.task('blog-posts-list', ['blog-posts-html'], function () {
     }))
     // concat the list into a single html
     .pipe(concat('blogposts.html'))
-    .pipe(gulp.dest(destination));
-});
+    .pipe(dest(destination));
+}
 
-// fill out the blog post templates
-gulp.task('blog-posts-html', function () {
-  var post = String(fs.readFileSync('src/blog/post.html'));
-  var dir = '';
-  return gulp.src('src/blog/markdown/**/*.md')
-    // extract frontmatter from markdown, append to file attributes
-    .pipe(frontMatter({
-      property: 'frontMatter',
-      remove: true
-    }))
-    // render the partial
-    .pipe(markdown())
-    // insert frontmatter and partial as mustache vars into post template
+// blog page pipeline
+function blogTask() {
+  // taking the blog post list from the 'blog-posts-list' step
+  // and including it into the blog.html template
+  return src('src/blog/blog.html')
     .pipe(es.map(function (file, cb) {
-      var html = mustache.render(post, {
-        buildDest: config.buildDest,
-        include: file.frontMatter.readfullarticle,
-        date: moment(file.frontMatter.date).format('MMMM D, YYYY'),
-        authors: file.frontMatter.authors,
-        rendered: file.contents
-      });
-      file.contents = new Buffer(html);
+      // first inject the build destination so include knows where to go
+      const html = mustache.render(
+        String(file.contents), {
+          buildDest: config.buildDest
+        });
+      file.contents = new Buffer.from(html);
       cb(null, file);
     }))
-    // include stuff
+    // then actually include the headers, navs, blogposts, footer and tail
     .pipe(fileInclude())
-    // insert handlebars values from frontmatter into head template
+    // then set the title
     .pipe(es.map(function (file, cb) {
-      file.contents = new Buffer(
-        mustache.render(
-          String(file.contents), {
-            title: file.frontMatter.title,
-            base: config.baseURL,
-            include: file.frontMatter.readfullarticle,
-            summary: file.frontMatter.summary,
-            thumbnail: file.frontMatter.thumbnail
-          }));
+      const html = mustache.render(
+        String(file.contents), {
+          title: 'Blog'
+        });
+      file.contents = new Buffer.from(html);
       cb(null, file);
     }))
-    // rename the destination path for the file (avoiding .html)
-    .pipe(rename(function (path) {
-      path.dirname = path.dirname + '/' + path.basename;
-      path.basename = "index";
-      path.extname = ".html";
-    }))
-    .pipe(gulp.dest(destination + '/blog'));
-});
+    // now we have /blog tada
+    .pipe(rename('blog/index.html'))
+    .pipe(dest(destination));
+}
+
+function capitalize (string) {
+  return string[0].toUpperCase() + string.substr(1);
+}
 
 // html
-gulp.task('html', ['blog'], function () {
-  var dir = '';
-  return gulp.src('src/html/**/*.html')
+function htmlTask() {
+  let dir = '';
+  return src('src/html/**/*.html')
     .pipe(frontMatter({
       property: 'frontMatter',
       remove: true
     }))
     .pipe(fileInclude())
     .pipe(es.map(function (file, cb) {
-      var html = mustache.render(
+      const html = mustache.render(
         String(file.contents), {
           title: file.frontMatter.title
         });
-      file.contents = new Buffer(html);
+      file.contents = new Buffer.from(html);
       cb(null, file);
     }))
     .pipe(gulpif(isProduction, gzip()))
@@ -187,28 +188,40 @@ gulp.task('html', ['blog'], function () {
         path.extname = ".html";
       }
     }))
-    .pipe(gulp.dest(destination));
-});
+    .pipe(dest(destination));
+}
 
 // copy some fonts over
-gulp.task('fonts', function () {
-  gulp.src('src/fonts/**/*.*', { base: './src/fonts/' })
-    .pipe(gulp.dest(destination + '/assets/fonts'));
-});
+function fontsTask() {
+  return src('src/fonts/**/*.*', { base: './src/fonts/' })
+    .pipe(dest(destination + '/assets/fonts'));
+}
 
 // sass
-gulp.task('styles', ['fonts'], function() {
-  return gulp.src('src/styles/**/*.scss')
-    .pipe(sass({ style: 'expanded', container: './tmp' }))
+function sassTask() {
+  return sass('src/styles/**/*.scss', { style: 'expanded', container: './tmp' })
+    .pipe(dest(destination + '/assets/css'))
+}
+
+// styles
+function stylesTask() {
+  return src('/assets/css/**/*.css')
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(gulpif(isProduction, rename({suffix: '.min'})))
     .pipe(gulpif(isProduction, minifycss()))
     .pipe(gulpif(isProduction, gzip()))
-    .pipe(gulp.dest(destination + '/assets/css'));
-});
+    .pipe(dest(destination + '/assets/css'));
+}
+
+// jshint
+function jshintTask() {
+  return src('src/scripts/**/*.js')
+    .pipe(jshint('.jshintrc'))
+    .pipe(jshint.reporter('default'));
+}
 
 // browserify
-gulp.task('browserify', ['jshint'], function () {
+function browserifyTask() {
   return browserify('./src/scripts/main.js')
     .bundle()
 
@@ -222,35 +235,28 @@ gulp.task('browserify', ['jshint'], function () {
     //Pass desired output filename to vinyl-source-stream
     .pipe(source('bundle.js'))
     // Start piping stream to tasks!
-    .pipe(gulp.dest(destination + '/assets/js'));
-});
-
-// jshint
-gulp.task('jshint', function() {
-  return gulp.src('src/scripts/**/*.js')
-    .pipe(jshint('.jshintrc'))
-    .pipe(jshint.reporter('default'));
-});
+    .pipe(dest(destination + '/assets/js'));
+}
 
 // js
-gulp.task('scripts', ['browserify'], function() {
-  return gulp.src(destination + '/assets/js/bundle.js')
+function scriptsTask() {
+  return src(destination + '/assets/js/bundle.js')
     .pipe(gulpif(isProduction, rename({suffix: '.min'})))
     .pipe(gulpif(isProduction, uglify()))
     .pipe(gulpif(isProduction, stripDebug()))
     .pipe(gulpif(isProduction, gzip()))
-    .pipe(gulp.dest(destination + '/assets/js'));
-});
+    .pipe(dest(destination + '/assets/js'));
+}
 
 // pdfs
-gulp.task('pdfs', function() {
-  return gulp.src(['src/pdfs/**/*.pdf'])
-    .pipe(gulp.dest(destination + '/assets/pdf'));
-});
+function pdfsTask() {
+  return src(['src/pdfs/**/*.pdf'])
+    .pipe(dest(destination + '/assets/pdf'));
+}
 
 // images
-gulp.task('images', function() {
-  return gulp.src(['src/images/**/*.PNG','src/images/**/*.png', 'src/images/**/*.JPG','src/images/**/*.jpg', 'src/images/**/*.SVG','src/images/**/*.svg', 'src/images/**/*.GIF','src/images/**/*.gif', 'src/images/**/*.ICO','src/images/**/*.ico'])
+function imagesTask() {
+  return src(['src/images/**/*.PNG','src/images/**/*.png', 'src/images/**/*.JPG','src/images/**/*.jpg', 'src/images/**/*.SVG','src/images/**/*.svg', 'src/images/**/*.GIF','src/images/**/*.gif', 'src/images/**/*.ICO','src/images/**/*.ico'])
     .pipe(
       gulpif(
         isProduction,
@@ -263,40 +269,20 @@ gulp.task('images', function() {
         )
       )
     )
-    .pipe(gulp.dest(destination + '/assets/img'));
-});
+    .pipe(dest(destination + '/assets/img'));
+}
 
 // copy xml
-gulp.task('xml', function () {
-  gulp.src('src/**/*.xml')
-    .pipe(gulp.dest(destination));
-});
-
-// The RSS feed
-gulp.task('rss', ['rss-items'], function () {
-  // taking the rss items list from the 'rss-items' step
-  // and including it into the rss.xml template
-  return gulp.src('src/rss/rss.xml')
-    .pipe(es.map(function (file, cb) {
-      // first inject the build destination so include knows where to go
-      var xml = mustache.render(
-        String(file.contents), {
-          buildDest: config.buildDest
-        });
-      file.contents = new Buffer(xml);
-      cb(null, file);
-    }))
-    // then actually include the items
-    .pipe(fileInclude())
-    // now we have /rss.xml tada
-    .pipe(gulp.dest(destination));
-});
+function xmlTask()  {
+  return src('src/**/*.xml')
+    .pipe(dest(destination));
+}
 
 // RSS Feed (individual items)
-gulp.task('rss-items', function () {
-  var rssxml = String(fs.readFileSync('src/rss/rss-items.xml'));
+function rssItemsTask() {
+  const rssxml = String(fs.readFileSync('src/rss/rss-items.xml'));
 
-  return gulp.src('src/blog/markdown/**/*.md')
+  return src('src/blog/markdown/**/*.md')
     // extract the frontmatter from the .md add to file attributes
     .pipe(frontMatter({
       property: 'frontMatter',
@@ -304,13 +290,13 @@ gulp.task('rss-items', function () {
     }))
     // use the frontmatter to populate a blog post list
     .pipe(es.map(function (file, cb) {
-      var xml;
+      let xml;
 
       xml = mustache.render(rssxml, {
         item: file.frontMatter,
         // link: 'https://colab.coop/blog' + '/' + file.frontMatter.readfullarticle + '.html'
       });
-      file.contents = new Buffer(xml);
+      file.contents = new Buffer.from(xml);
       cb(null, file);
     }))
     // sort the list newest-first
@@ -321,35 +307,32 @@ gulp.task('rss-items', function () {
     }))
     // concat the list into a single xml
     .pipe(concat('rss-items.xml'))
-    .pipe(gulp.dest(destination));
-});
+    .pipe(dest(destination));
+}
 
-gulp.task('clean', function(cb) {
-  del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/assets/pdf', destination + '/prototype', '!' + destination + '/editor'], {force:true}, cb);
-});
+// The RSS feed
+function rssTask() {
+  // taking the rss items list from the 'rss-items' step
+  // and including it into the rss.xml template
+  return src('src/rss/rss.xml')
+    .pipe(es.map(function (file, cb) {
+      // first inject the build destination so include knows where to go
+      const xml = mustache.render(
+        String(file.contents), {
+          buildDest: config.buildDest
+        });
+      file.contents = new Buffer.from(xml);
+      cb(null, file);
+    }))
+    // then actually include the items
+    .pipe(fileInclude())
+    // now we have /rss.xml tada
+    .pipe(dest(destination));
+}
 
-// default build task
-gulp.task('default', ['clean'], function() {
-  // clean first, then these
-  gulp.start('html', 'xml', 'rss', 'styles', 'scripts', 'images', 'pdfs');
-});
+function cleanTask(cb) {
+  del([destination + '/*', destination + '/assets/css', destination + '/assets/fonts', destination + '/assets/js', destination + '/assets/img', destination + '/assets/pdf', destination + '/prototype', '!' + destination + '/editor'], {force:true});
+  cb();
+}
 
-// watch
-gulp.task('watch', ['default'], function() {
-  // if anything changes, rebuild
-  gulp.watch('src/markdown/**/*.md', ['html']);
-  gulp.watch('src/templates/**/*.tpl', ['html']);
-  gulp.watch('src/html/**/*.html', ['html']);
-  gulp.watch('src/blog/**/*.md', ['html']);
-  gulp.watch('src/styles/**/*.scss', ['styles']);
-  gulp.watch('src/fonts/**/*.*', ['fonts']);
-  gulp.watch('src/scripts/**/*.js', ['scripts']);
-  gulp.watch('src/images/**/*', ['images']);
-});
-
-gulp.task('copy-html', function() {
-  return gulp.src('./src/html/atlassian-domain-verification.html')
-    .pipe(gulp.dest('./app'));
-});
-
-// test
+exports.default = parallel(series(blogPostsHTMLTask, blogPostsListTask, blogTask, htmlTask), xmlTask, series(rssItemsTask, rssTask), series(fontsTask, sassTask, stylesTask), series(jshintTask, browserifyTask, scriptsTask), imagesTask, pdfsTask);
