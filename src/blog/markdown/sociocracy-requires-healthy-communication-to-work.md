@@ -12,8 +12,6 @@ readfullarticle: sociocracy-requires-healthy-communication-to-work
 
 As a worker-owned cooperative, it should come as no surprise that CoLab has a history of experimenting with [Sociocracy](//en.wikipedia.org/wiki/Sociocracy). We used aspects of Sociocracy (rounds) before we even knew what Sociocracy was. Once we learned about it, we have attempted to use the parts that make sense in our context. We cannot claim to have implemented it fully or correctly, but many of us feel Sociocracy has been instrumental in maintaining our cultural and organizational cohesion.
 
-This guide is for anyone getting ready to write or put out an RFP, but especially for those of you who are seeking a collaborative partner to lead implementation of new technology, offer strategic guidance, or provide technical assistance.
-
 Sociocracy's main feature, in my humble opinion, is principle 1: “Consent governs policy decision making.” From this core pillar you can go in many different directions, so long as everyone in the group agrees to it. In fact, the rest of the principles (circles, double-linking, elections) can be either consented to or not. If you can come up with a better organization method than circles, sub-circles, double-linking, lead, secretary, etc., then you are free to attempt it, so long as everyone agrees to it. 
 
 I have used Sociocracy in several different contexts (both within and outside of CoLab) to positive effect. In these efforts, I have come to understand that Sociocracy alone is not sufficient. There is one critical ingredient that determines whether or not Sociocracy will work: healthy communication.
