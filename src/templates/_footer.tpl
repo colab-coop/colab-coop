@@ -9,6 +9,11 @@
         <a href="/contact/" class="button--brand-outline">Tell us about your project</a>
       </div>
 
+      <div>
+        <div class="spacing--sm"></div>
+        <a href="/accessibility" class="button--brand-outline">See our Accessibility Statement</a>
+      </div>
+
       <div style="display: none;"> <!-- see HIRE US div above if jobs available, style="display:none" if not ... and see about.html -->
         <h2 class="h2">JOIN US</h2>
         <div>Love what you do? So do we.</div>
