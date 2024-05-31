@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:22.2.0
 
 ENV APP_DIR /app
 ENV KUBE_DIR .kube/app
