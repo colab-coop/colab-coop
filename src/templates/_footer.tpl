@@ -2,14 +2,14 @@
   <div class="container">
     <div class="footer-info grid-parent">
 
-      <div class="footer-connect"> <!-- add class="footer-connect" if jobs are available and see about.html -->
+      <div> <!-- add class="footer-connect" if jobs are available and see about.html -->
         <h2 class="h2">HIRE US</h2>
         <div>We're easy to talk to.</div>
         <div class="spacing--sm"></div>
         <a href="/contact/" class="button--brand-outline">Tell us about your project</a>
       </div>
 
-      <div> <!-- see HIRE US div above if jobs available, style="display:none" if not ... and see about.html -->
+      <div style="display:none"> <!-- see HIRE US div above if jobs available, style="display:none" if not ... and see about.html -->
         <h2 class="h2">JOIN US</h2>
         <div>Love what you do? So do we.</div>
         <div class="spacing--sm"></div>
