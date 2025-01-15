@@ -192,10 +192,10 @@ banner.appendChild(buttonDiv);
 
   // randomize the members list
   randomizeList('.members-block > ul')
-  // randomize the eu list
-  randomizeList('.eu-block > ul')
+  // randomize the contractors list
+  randomizeList('.contractors-block > ul')
   // randomize the friends list
-  randomizeList('.friends-block > ul')
+  randomizeList('.alumni-block > ul')
 
 });
 
